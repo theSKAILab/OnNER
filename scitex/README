@@ -1,0 +1,23 @@
+HOW TO USE SCITEX:
+
+Step 0. Be on a Linux machine. Or a Linux VM.
+
+Step 1. Download CelloGraph from the CelloGraph github
+            Download as a zip file, then unzip it to some folder ("folderX"). Unzipping creates a subfolder CelloGraph-main.
+
+Step 2. Download grobid from the grobid github: https://github.com/kermitt2/grobid
+            Download as a zip file, unzip it, then put it in the same folder ("folderX" from step 1).
+
+Step 3. Take whatever pdfs you want translated, and put them into the CelloGraph-main/scitex/scitexIn folder
+
+Step 4. Run CelloGraph-main/scitex/main.py from "folderX".
+
+Step 5. The output should be .tei.xml files present in CelloGraph-main/scitex/scitexOut
+            (if you want the input or output folders to be different, feel free to change scitex/main.py)
+
+
+HOW TO READ THE CODE
+
+main.py runs grobid on the input folder, then runs pdfalto on each pdf in the input folder, then runs scitex on the grobid and pdfalto outputs.
+
+grobidAltoStuff/scitex.py is the file that contains the main scitex functions.
