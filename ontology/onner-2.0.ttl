@@ -102,11 +102,7 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://purl.obolibrary.org/obo#BFO_0000054
 <http://purl.obolibrary.org/obo#BFO_0000054> rdf:type owl:ObjectProperty ;
                                              owl:inverseOf <http://purl.obolibrary.org/obo#BFO_0000055> ;
-                                             rdfs:domain [ rdf:type owl:Class ;
-                                                           owl:unionOf ( onner:NER_LabelerRole
-                                                                         onner:PublicationAuthorRole
-                                                                       )
-                                                         ] ;
+                                             rdfs:domain <http://purl.obolibrary.org/obo#BFO_0000017> ;
                                              rdfs:range <http://purl.obolibrary.org/obo#BFO_0000015> ;
                                              rdfs:label "realized in"@en .
 
@@ -114,11 +110,7 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://purl.obolibrary.org/obo#BFO_0000055
 <http://purl.obolibrary.org/obo#BFO_0000055> rdf:type owl:ObjectProperty ;
                                              rdfs:domain <http://purl.obolibrary.org/obo#BFO_0000015> ;
-                                             rdfs:range [ rdf:type owl:Class ;
-                                                          owl:unionOf ( onner:NER_LabelerRole
-                                                                        onner:PublicationAuthorRole
-                                                                      )
-                                                        ] ;
+                                             rdfs:range <http://purl.obolibrary.org/obo#BFO_0000017> ;
                                              rdfs:label "realizes"@en .
 
 
@@ -136,23 +128,11 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://purl.obolibrary.org/obo#RO_0002234
 <http://purl.obolibrary.org/obo#RO_0002234> rdf:type owl:ObjectProperty ;
                                             owl:inverseOf <http://purl.obolibrary.org/obo#RO_0002353> ;
-                                            rdfs:domain <http://purl.obolibrary.org/obo#BFO_0000015> ;
-                                            rdfs:range [ rdf:type owl:Class ;
-                                                         owl:unionOf ( onner:LabeledTermStatus
-                                                                       onner:ScholarlyPublication
-                                                                     )
-                                                       ] ;
                                             rdfs:label "has output"@en .
 
 
 ###  http://purl.obolibrary.org/obo#RO_0002353
 <http://purl.obolibrary.org/obo#RO_0002353> rdf:type owl:ObjectProperty ;
-                                            rdfs:domain [ rdf:type owl:Class ;
-                                                          owl:unionOf ( onner:LabeledTermStatus
-                                                                        onner:ScholarlyPublication
-                                                                      )
-                                                        ] ;
-                                            rdfs:range <http://purl.obolibrary.org/obo#BFO_0000015> ;
                                             rdfs:label "output of"@en .
 
 
@@ -398,8 +378,6 @@ onner:hasLabeledTermStatus rdf:type owl:ObjectProperty ;
 onner:hasPublicationAuthorRole rdf:type owl:ObjectProperty ;
                                rdfs:subPropertyOf <http://purl.obolibrary.org/obo#RO_0000087> ;
                                owl:inverseOf onner:roleOfPublicationAuthor ;
-                               rdf:type owl:AsymmetricProperty ,
-                                        owl:IrreflexiveProperty ;
                                rdfs:domain onner:Person ;
                                rdfs:range onner:PublicationAuthorRole ;
                                rdfs:label "has publication author role"@en .
@@ -409,8 +387,6 @@ onner:hasPublicationAuthorRole rdf:type owl:ObjectProperty ;
 onner:has_NER_LabelerRole rdf:type owl:ObjectProperty ;
                           rdfs:subPropertyOf <http://purl.obolibrary.org/obo#RO_0000087> ;
                           owl:inverseOf onner:roleOf_NER_Labeler ;
-                          rdf:type owl:AsymmetricProperty ,
-                                   owl:IrreflexiveProperty ;
                           rdfs:domain [ rdf:type owl:Class ;
                                         owl:unionOf ( onner:NER_System
                                                       onner:Person
