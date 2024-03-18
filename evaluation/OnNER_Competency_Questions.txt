@@ -1,0 +1,50 @@
+
+1. Which paragraphs within the publications feature both nanoparticle shape and permeability mentioned in the same paragraph?
+
+SELECT ?paragraph ?publication WHERE {
+    ?publication onner:containsDocumentPart ?paragraphID .
+    
+    ?paragraphID rdf:type onner:Paragraph ;
+                 onner:paragraphText ?paragraph ;
+                 onner:directlyContainsLabeledTerm ?ne1 , ?ne2 .
+    
+    ?ne1 onner:labeledTermText 'nanoparticle shape'^^xsd:string .
+    ?ne2 onner:labeledTermText 'permeability'^^xsd:string .
+}
+
+
+
+2. Provide me the most recent publications that contain the term "bacterial cellulose" or "BC nanofibers" at least three times.
+
+3. Provide me all the paragraphs from publications in 2017 or later that mention some terms labeled as “application”.
+
+4. What terms have new classification labels over the system-classified labels suggested by human labelers?
+
+5. Which "chemicals" are mentioned in conjunction with "permeability"? In which publications and paragraphs?
+
+6. Provide me the title and abstract of the top five papers which have the highest number of terms labeled as "property" in paragraphs that mention "cellulose" published in 2018 or later.
+
+7. Have any of the labeled terms been classified by NER system with two different classification labels?
+
+8. Give me a list of terms labeled as "property" from a particular publication (or all publications by a particular author) with their frequencies, starting with the highest frequency.
+
+9. Provide me the paragraphs where the term "tensile strength" labeled as "property" appears with the term "cellulose" in the same paragraph.
+
+10. Is the term "cellulose" labeled anywhere as "property"? (This question will help to find a specific term that is misclassified.)
+
+11. Retrieve all paragraphs from publications where "cellulose" is labeled as a “material” alongside any other labeled term containing "cellulose".
+
+12. What are the labeled terms that contain "cellulose" as a part of that term.
+
+13. Provide me the title and abstract of the top five papers which have the highest number of terms labeled as ‘property’ in paragraphs that mention “cellulose” published in 2018 or later.
+
+14. What are all the terms labeled as ‘material’ in the “results” section of the paper X.
+
+15. What are the labeled terms that have been rejected on a particular day? For example, on March 17, 2024.
+
+16. What is the ratio of rejected terms compared to confirmed terms?
+
+
+
+
+
