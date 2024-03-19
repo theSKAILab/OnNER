@@ -11109,38 +11109,38 @@ onner:hasLabeledTermLabel data:Label_2 .
 #========================= SECTION DIVIDER =========================#
 
 data:Label_1 rdf:type onner:Label ;
-onner:fromLabelingSchema data:Dev_Schema ;
+onner:fromLabelingSchema data:Labeling_Schema ;
 onner:labelText 'CHEMICAL'^^xsd:string .
 
 data:Label_8 rdf:type onner:Label ;
-onner:fromLabelingSchema data:Dev_Schema ;
+onner:fromLabelingSchema data:Labeling_Schema ;
 onner:labelText 'ABBREVIATION'^^xsd:string .
 
 data:Label_2 rdf:type onner:Label ;
-onner:fromLabelingSchema data:Dev_Schema ;
+onner:fromLabelingSchema data:Labeling_Schema ;
 onner:labelText 'MATERIAL'^^xsd:string .
 
 data:Label_6 rdf:type onner:Label ;
-onner:fromLabelingSchema data:Dev_Schema ;
+onner:fromLabelingSchema data:Labeling_Schema ;
 onner:labelText 'PROPERTY'^^xsd:string .
 
 data:Label_3 rdf:type onner:Label ;
-onner:fromLabelingSchema data:Dev_Schema ;
+onner:fromLabelingSchema data:Labeling_Schema ;
 onner:labelText 'MATERIAL_STRUCTURE'^^xsd:string .
 
 data:Label_5 rdf:type onner:Label ;
-onner:fromLabelingSchema data:Dev_Schema ;
+onner:fromLabelingSchema data:Labeling_Schema ;
 onner:labelText 'PROCESS_OR_TECHNIQUE'^^xsd:string .
 
 data:Label_4 rdf:type onner:Label ;
-onner:fromLabelingSchema data:Dev_Schema ;
+onner:fromLabelingSchema data:Labeling_Schema ;
 onner:labelText 'APPLICATION'^^xsd:string .
 
 data:Label_7 rdf:type onner:Label ;
-onner:fromLabelingSchema data:Dev_Schema ;
+onner:fromLabelingSchema data:Labeling_Schema ;
 onner:labelText 'MEASUREMENT'^^xsd:string .
 
-data:Dev_Schema rdf:type onner:LabelingSchema ;
+data:Labeling_Schema rdf:type onner:LabelingSchema ;
 onner:schemaName 'CelloGraph'^^xsd:string .
 
 data:Cellulosic_NER_Model rdf:type onner:NER_System ;
