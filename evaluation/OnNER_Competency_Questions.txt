@@ -2,18 +2,20 @@
 1. Which "chemicals" are mentioned in conjunction with "permeability"? In which publications and paragraphs?
 
 SELECT ?chemical ?paragraph ?publication WHERE {
-    ?publication onner:containsDocumentPart ?paragraphID .
+    ?pubublicationId rdf:type onner:ScholarlyPublication ;
+					 onner:publicationTitle ?publication ;
+					 onner:containsDocumentPart ?paragraphId .
     
-    ?paragraphID rdf:type onner:Paragraph ;
-                 onner:paragraphText ?paragraph ;
-                 onner:directlyContainsLabeledTerm ?ne1 , ?ne2 .
+    ?paragraphId rdf:type onner:Paragraph ;
+				 onner:paragraphText ?paragraph ;
+				 onner:directlyContainsLabeledTerm ?termId1 , ?termId2 .
     
-    ?ne1 onner:labeledTermText 'permeability'^^xsd:string .
+    ?termId1 onner:labeledTermText 'permeability'^^xsd:string .
     
-    ?ne2 onner:labeledTermText ?chemical ;
-         onner:hasLabeledTermStatus ?ne2Status .
-    ?ne2Status onner:hasLabeledTermLabel ?label2 .
-    ?label2 onner:labelText 'CHEMICAL'^^xsd:string . 
+    ?termId2 onner:labeledTermText ?chemical ;
+			 onner:hasLabeledTermStatus ?status2 .
+    ?status2 onner:hasLabeledTermLabel ?labelId2 .
+    ?labelId2 onner:labelText 'CHEMICAL'^^xsd:string . 
 }
 
 
@@ -21,143 +23,181 @@ SELECT ?chemical ?paragraph ?publication WHERE {
 2. Which "chemicals" are mentioned in conjunction with "permeability" labeled as "property"? In which publications and paragraphs?
 
 SELECT ?chemical ?paragraph ?publication WHERE {
-    ?publication onner:containsDocumentPart ?paragraphID .
+    ?pubublicationId rdf:type onner:ScholarlyPublication ;
+					 onner:publicationTitle ?publication ;
+					 onner:containsDocumentPart ?paragraphId .
     
-    ?paragraphID rdf:type onner:Paragraph ;
-                 onner:paragraphText ?paragraph ;
-                 onner:directlyContainsLabeledTerm ?ne1 , ?ne2 .
+    ?paragraphId rdf:type onner:Paragraph ;
+				 onner:paragraphText ?paragraph ;
+				 onner:directlyContainsLabeledTerm ?termId1 , ?termId2 .
     
-    ?ne1 onner:labeledTermText 'permeability'^^xsd:string ;
-         onner:hasLabeledTermStatus ?ne1Status .
-    ?ne1Status onner:hasLabeledTermLabel ?label1 .
-    ?label1 onner:labelText 'PROPERTY'^^xsd:string . 
+    ?termId1 onner:labeledTermText 'permeability'^^xsd:string ;
+			 onner:hasLabeledTermStatus ?status1 .
+    ?status1 onner:hasLabeledTermLabel ?labelId1 .
+    ?labelId1 onner:labelText 'PROPERTY'^^xsd:string . 
     
-    ?ne2 onner:labeledTermText ?chemical ;
-         onner:hasLabeledTermStatus ?ne2Status .
-    ?ne2Status onner:hasLabeledTermLabel ?label2 .
-    ?label2 onner:labelText 'CHEMICAL'^^xsd:string . 
+    ?termId2 onner:labeledTermText ?chemical ;
+			 onner:hasLabeledTermStatus ?status2 .
+    ?status2 onner:hasLabeledTermLabel ?labelId2 .
+    ?labelId2 onner:labelText 'CHEMICAL'^^xsd:string . 
 }
 
 
 
 3. What are the most recent publications that mention at least three times one of "bacterial cellulose" or "BC nanofibers"?
 
-SELECT * WHERE {    
-    ?publication onner:containsDocumentPart ?paragraphID .
+SELECT ?publication ?date ?doi WHERE {    
+    ?pubublicationId rdf:type onner:ScholarlyPublication ;
+					 onner:publicationTitle ?publication ;
+					 onner:publicationDate ?date ;
+					 onner:doi ?doi ;
+					 onner:containsDocumentPart ?paragraphId .
     
-    ?paragraphID rdf:type onner:Paragraph ;
-                 onner:directlyContainsLabeledTerm ?ne .
+    ?paragraphId rdf:type onner:Paragraph ;
+				 onner:directlyContainsLabeledTerm ?termId .
     
-    ?ne rdf:type onner:LabeledTerm ;
-                 onner:labeledTermText ?term .
+    ?termId rdf:type onner:LabeledTerm ;
+			onner:labeledTermText ?term .
     
     FILTER(?term = "bacterial cellulose" || ?term = "BC nanofibers")
 }
-#GROUP BY ?publication
-#HAVING (COUNT(?term) >= 3)
+GROUP BY ?publication ?date ?doi
+HAVING (COUNT(?term) >= 3)
 
 
 
 4. Retrieve all paragraphs from publications since 2017 that include named entities labeled as "application" in conjunction with the property "tensile strength".
 
-SELECT DISTINCT ?publicationID ?paragraphID ?paragraph WHERE {
-    ?publicationID onner:containsDocumentPart ?paragraphID .
-        
-    ?paragraphID rdf:type onner:Paragraph ;
-                 onner:paragraphText ?paragraph ;
-                 onner:directlyContainsLabeledTerm ?ne1 , ?ne2 .
-
-    ?ne1 onner:hasLabeledTermStatus ?ne1Status .
-    ?ne1Status onner:hasLabeledTermLabel ?labelID .
-    ?labelID rdf:type onner:Label ;
-             onner:labelText 'APPLICATION'^^xsd:string .
+SELECT DISTINCT ?term ?paragraph ?publication WHERE {
+    ?publicationId rdf:type onner:ScholarlyPublication ;
+                   onner:publicationTitle ?publication ;
+                   onner:publicationDate ?date ;
+                   onner:containsDocumentPart ?paragraphId .
     
-    ?ne2 onner:labeledTermText 'tensile strength'^^xsd:string .
+    ?paragraphId rdf:type onner:Paragraph ;
+                 onner:paragraphText ?paragraph ;
+                 onner:directlyContainsLabeledTerm ?termId1 , ?termId2 .
 
-#    ?publicationID onner:publicationDate ?publicationDate .
-#    BIND(YEAR(?publicationDate) AS ?publicationYear)
-#    FILTER(?publicationYear >= 2017)
+    ?termId1 onner:labeledTermText ?term ;
+         	 onner:hasLabeledTermStatus ?status1 .
+    ?status1 onner:hasLabeledTermLabel ?labelId .
+    ?labelId rdf:type onner:Label ;
+        	 onner:labelText 'APPLICATION'^^xsd:string .
+    
+    ?termId2 onner:labeledTermText 'tensile strength'^^xsd:string .
+    
+    BIND(YEAR(?date) AS ?year)
+    FILTER(?year >= 2017)
 }
 
 
 
 5. What named entities have been assigned classification labels by an NER System that have been corrected by human labelers?
 
+SELECT ?term ?latestLabel ?previousLabel WHERE {
+    ?termId rdf:type onner:LabeledTerm ;
+            onner:labeledTermText ?term ;
+            onner:hasLabeledTermStatus ?latestStatus .
+    ?latestStatus rdf:type onner:SuggestedStatus ;
+                  onner:statusAssignmentDate ?latestDate ;
+                  onner:hasLabeledTermLabel ?latestLabelId .
+    ?latestLabelId onner:labelText ?latestLabel .
+    
+    {
+        SELECT ?termId (MAX(?date) AS ?maxDate) WHERE {
+            ?termId rdf:type onner:LabeledTerm ;
+                    onner:hasLabeledTermStatus ?status .
+            ?status onner:statusAssignmentDate ?date .
+        }
+        GROUP BY ?termId
+        HAVING (COUNT(?status) > 1)
+    }
+    
+    FILTER (?latestDate = ?maxDate)
+    
+    OPTIONAL {
+        ?termId onner:hasLabeledTermStatus ?previousStatus .
+        ?previousStatus onner:statusAssignmentDate ?previousDate ;
+                        onner:hasLabeledTermLabel ?previousLabelId .
+    	?previousLabelId onner:labelText ?previousLabel .
+        FILTER (?previousDate < ?latestDate)
+    }
+}
+
 
 
 6. Which paragraphs within the publications feature both "nanoparticle shape" and "permeability" mentioned in the same paragraph?
 
-SELECT ?paragraph ?publication WHERE {
-    ?publication onner:containsDocumentPart ?paragraphID .
+SELECT DISTINCT ?paragraph ?publication WHERE {
+    ?publicationId rdf:type onner:ScholarlyPublication ;
+                   onner:publicationTitle ?publication ;
+                   onner:containsDocumentPart ?paragraphId .
     
-    ?paragraphID rdf:type onner:Paragraph ;
+    ?paragraphId rdf:type onner:Paragraph ;
                  onner:paragraphText ?paragraph ;
-                 onner:directlyContainsLabeledTerm ?ne1 , ?ne2 .
+                 onner:directlyContainsLabeledTerm ?term1 , ?term2 .
     
-    ?ne1 onner:labeledTermText 'nanoparticle shape'^^xsd:string .
-    ?ne2 onner:labeledTermText 'permeability'^^xsd:string .
+    ?term1 onner:labeledTermText 'nanoparticle shape'^^xsd:string .
+    ?term2 onner:labeledTermText 'permeability'^^xsd:string .
 }
 
 
 
 7. Give me a list of terms labeled as "property" from a particular publication (or all publications by a particular author) with their frequencies, starting with the highest frequency.
 
-SELECT ?labeledTermText (COUNT(?labeledTermText) AS ?labeledTermTextFrequency)
-WHERE {
-    ?publicationID rdf:type onner:ScholarlyPublication ;
+SELECT ?term (COUNT(?term) AS ?termCount) WHERE {
+    ?publicationId rdf:type onner:ScholarlyPublication ;
                    onner:publicationTitle 'How the shape of fillers affects the barrier properties of polymer/non-porous particles nanocomposites: A review'^^xsd:string .
     
-    ?labeledTermID rdf:type onner:LabeledTerm ;
-                   onner:labeledTermText ?labeledTermText ;
-                   onner:hasLabeledTermStatus ?labeledTermStatus .
+    ?termID rdf:type onner:LabeledTerm ;
+            onner:labeledTermText ?term ;
+            onner:hasLabeledTermStatus ?status .
     
-    ?labeledTermStatus onner:hasLabeledTermLabel ?labelID .
+    ?status onner:hasLabeledTermLabel ?labelId .
     
-    ?labelID rdf:type onner:Label ;
+    ?labelId rdf:type onner:Label ;
              onner:labelText 'PROPERTY'^^xsd:string .
 }
-GROUP BY ?labeledTermText
-ORDER BY DESC(?labeledTermTextFrequency)
+GROUP BY ?term
+ORDER BY DESC(?termCount)
 
 
 
-8. What are the labeled terms that contain "cellulose" as a part of that term.
+8. Retrieve all paragraphs from publications containing labeled terms that include the word "cellulose".
 
-SELECT ?labeledTermID ?paragraphID ?labeledTermText ?paragraphText
-WHERE {
-    ?paragraphID rdf:type onner:Paragraph ;
-                 onner:paragraphText ?paragraphText ;
-                 onner:directlyContainsLabeledTerm ?labeledTermID .
+SELECT ?term ?paragraph ?publication WHERE {
+    ?publicationId rdf:type onner:ScholarlyPublication ;
+                   onner:publicationTitle ?publication ;
+                   onner:containsDocumentPart ?paragraphId .
     
-	?labeledTermID rdf:type onner:LabeledTerm ;
-                   onner:labeledTermText ?labeledTermText ;
-                   onner:hasLabeledTermStatus ?labeledTermStatus .
+    ?paragraphId rdf:type onner:Paragraph ;
+                 onner:paragraphText ?paragraph ;
+                 onner:directlyContainsLabeledTerm ?termId .
     
-    ?labeledTermStatus onner:hasLabeledTermLabel ?labelID .
+    ?termId onner:labeledTermText ?term .
     
-    ?labelID rdf:type onner:Label ;
-             onner:labelText ?labelText .
-    
-    FILTER(CONTAINS(?labeledTermText, 'cellulose') && ?labeledTermText != 'cellulose')
+    FILTER(CONTAINS(?term, 'cellulose') && ?term != 'cellulose')
 }
 
 
 
-9. Is the term "cellulose" labeled anywhere as "property"?
+9. Is the labeled term "cellulose" labeled anywhere as "property"?
 
-SELECT ?labeledTermID ?paragraphID ?paragraphText
+SELECT ?termId ?paragraph ?publication
 WHERE {
-    ?paragraphID rdf:type onner:Paragraph ;
-                 onner:paragraphText ?paragraphText ;
-                 onner:directlyContainsLabeledTerm ?labeledTermID .
+    ?publicationId rdf:type onner:ScholarlyPublication ;
+                   onner:publicationTitle ?publication ;
+                   onner:containsDocumentPart ?paragraphId .
+    
+    ?paragraphId rdf:type onner:Paragraph ;
+                 onner:paragraphText ?paragraph ;
+                 onner:directlyContainsLabeledTerm ?termId .
 
-    ?labeledTermID rdf:type onner:LabeledTerm ;
-                   onner:labeledTermText 'cellulose'^^xsd:string ;
-                   onner:hasLabeledTermStatus ?labeledTermStatus .
-    
-    ?labeledTermStatus onner:hasLabeledTermLabel ?labelID .
-    
-    ?labelID rdf:type onner:Label ;
+    ?termId rdf:type onner:LabeledTerm ;
+            onner:labeledTermText 'cellulose'^^xsd:string ;
+            onner:hasLabeledTermStatus ?status .
+    ?status onner:hasLabeledTermLabel ?labelId .
+    ?labelId rdf:type onner:Label ;
              onner:labelText 'PROPERTY'^^xsd:string .
 }
 
@@ -165,60 +205,87 @@ WHERE {
 
 10. Have any of the labeled terms been classified by NER system with two different classification labels?
 
-SELECT DISTINCT ?ne ?label1 ?label2
-WHERE {
-  ?ne rdf:type onner:LabeledTerm ;
-      onner:hasLabeledTermStatus ?neStatus1, ?neStatus2 .
+SELECT ?paragraph ?term ?label1 ?label2 WHERE {
+    ?publicationId rdf:type onner:ScholarlyPublication ;
+                   onner:publicationTitle ?publication ;
+                   onner:containsDocumentPart ?paragraphId .
     
-  ?neStatus1 onner:hasLabeledTermLabel ?label1 .
+    ?paragraphId rdf:type onner:Paragraph ;
+                 onner:paragraphText ?paragraph ;
+                 onner:directlyContainsLabeledTerm ?termId .
     
-  ?neStatus2 onner:hasLabeledTermLabel ?label2 .
-    
-  FILTER(?label1 != ?label2)
+    ?termId rdf:type onner:LabeledTerm ;
+          	onner:labeledTermText ?term ;
+          	onner:hasLabeledTermStatus ?status1, ?status2 .
+
+    ?status1 onner:statusAssignedBy ?labeler1 ;
+             onner:hasLabeledTermLabel ?labelId1 .
+    ?labeler1 rdf:type onner:NER_System .
+    ?labelId1 onner:labelText ?label1 .
+
+    ?status2 onner:statusAssignedBy ?labeler2 ;
+             onner:hasLabeledTermLabel ?labelId2 .
+    ?labeler2 rdf:type onner:NER_System .
+    ?labelId2 onner:labelText ?label2 .
+
+    FILTER(?labelId1 != ?labelId2)
+    FILTER(STR(?labelId1) < STR(?labelId2))
 }
 
 
 
-11. Retrieve all paragraphs from publications where "cellulose" is labeled as a "material" alongside any other labeled term containing "cellulose".
+11. Provide me the title and abstract of the top five papers which have the highest number of terms labeled as "property" in paragraphs that mention "cellulose" published in 2018 or later.
 
-SELECT ?paragraphID ?labeledTermID2 ?labeledTermText2 ?labelText2 ?paragraphText
-WHERE { 
+SELECT ?publicationTitle
+WHERE {
+    ?publicationID rdf:type onner:ScientificPublication ;
+                   onner:title ?publicationTitle ;
+                   onner:publicationDate ?publicationDate .  
+                    
+    ?labeledTermID rdf:type onner:LabeledTerm ;
+                   onner:labeledTermText ?labeledTermText ;
+                   onner:hasStatus ?labeledTermStatus .
+    
+    ?labeledTermStatus onner:hasLabel ?labelID .
+    
+    ?labelID rdf:type onner:Label ;
+             onner:labelText ?labelText .
+    
+    BIND(YEAR(?publicationDate) AS ?publicationYear)
+    FILTER(?publicationYear >= 2018)
+    VALUES ?labelText {'ENTITY'}
+}
+GROUP BY ?publicationTitle
+ORDER BY DESC(COUNT(?labeledTermText))
+LIMIT 5
+
+
+12. Provide me the paragraphs where the term "tensile strength" labeled as "property" appears with the term "cellulose" in the same paragraph.
+
+SELECT ?paragraphID ?paragraphText
+WHERE {
     ?paragraphID rdf:type onner:Paragraph ;
                  onner:paragraphText ?paragraphText ;
                  onner:directlyContainsLabeledTerm ?labeledTermID1 ;
                  onner:directlyContainsLabeledTerm ?labeledTermID2 .
-    
-	?labeledTermID1 rdf:type onner:LabeledTerm ;
-                    onner:labeledTermText 'cellulose'^^xsd:string ;
+
+    ?labeledTermID1 rdf:type onner:LabeledTerm ;
+                    onner:labeledTermText 'tensile strength'^^xsd:string ;
                     onner:hasLabeledTermStatus ?labeledTermStatus1 .
     
     ?labeledTermID2 rdf:type onner:LabeledTerm ;
-                    onner:labeledTermText ?labeledTermText2 .
-                                                       
+                   onner:labeledTermText 'cellulose'^^xsd:string .
+    
     ?labeledTermStatus1 onner:hasLabeledTermLabel ?labelID1 .
     
-    ?labeledTermStatus2 onner:hasLabeledTermLabel ?labelID2 .
-    
     ?labelID1 rdf:type onner:Label ;
-              onner:labelText 'MATERIAL'^^xsd:string .
-    
-    ?labelID2 rdf:type onner:Label ;
-              onner:labelText ?labelText2 .
-    
-    FILTER(CONTAINS(?labeledTermText2, 'cellulose') && ?labeledTermText2 != 'cellulose')
+              onner:labelText 'PROPERTY'^^xsd:string .
 }
 
 
+13. What are all the terms labeled as ‘material’ in the “results” section of the paper X.
 
-12. Provide me the title and abstract of the top five papers which have the highest number of terms labeled as "property" in paragraphs that mention "cellulose" published in 2018 or later.
+14. What are the labeled terms that have been rejected on a particular day? For example, on March 17, 2024.
 
-13. Provide me the paragraphs where the term "tensile strength" labeled as "property" appears with the term "cellulose" in the same paragraph.
-
-14. Provide me the title and abstract of the top five papers which have the highest number of terms labeled as ‘property’ in paragraphs that mention “cellulose” published in 2018 or later.
-
-15. What are all the terms labeled as ‘material’ in the “results” section of the paper X.
-
-16. What are the labeled terms that have been rejected on a particular day? For example, on March 17, 2024.
-
-17. What is the ratio of rejected terms compared to confirmed terms?
+15. What is the ratio of rejected terms compared to confirmed terms?
 
