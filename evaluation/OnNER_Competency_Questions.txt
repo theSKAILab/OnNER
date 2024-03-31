@@ -234,58 +234,60 @@ SELECT ?paragraph ?term ?label1 ?label2 WHERE {
 
 
 
-11. Provide me the title and abstract of the top five papers which have the highest number of terms labeled as "property" in paragraphs that mention "cellulose" published in 2018 or later.
+11. Provide five publications with the highest number of terms labeled as 'property' in paragraphs that mention 'cellulose', published in 2017 or later.
 
-SELECT ?publicationTitle
-WHERE {
-    ?publicationID rdf:type onner:ScientificPublication ;
-                   onner:title ?publicationTitle ;
-                   onner:publicationDate ?publicationDate .  
-                    
-    ?labeledTermID rdf:type onner:LabeledTerm ;
-                   onner:labeledTermText ?labeledTermText ;
-                   onner:hasStatus ?labeledTermStatus .
+SELECT ?publication ?paragraph WHERE {
+    ?publicationId rdf:type onner:ScholarlyPublication ;
+                   onner:publicationTitle ?publication ;
+                   onner:publicationDate ?date .
     
-    ?labeledTermStatus onner:hasLabel ?labelID .
-    
-    ?labelID rdf:type onner:Label ;
-             onner:labelText ?labelText .
-    
-    BIND(YEAR(?publicationDate) AS ?publicationYear)
-    FILTER(?publicationYear >= 2018)
-    VALUES ?labelText {'ENTITY'}
-}
-GROUP BY ?publicationTitle
-ORDER BY DESC(COUNT(?labeledTermText))
-LIMIT 5
+    {
+        SELECT ?publicationId ?paragraph (COUNT(?termId1) AS ?termCount) WHERE {
+        ?publicationId rdf:type onner:ScholarlyPublication ;
+                       onner:containsDocumentPart ?paragraphId .
+
+        ?paragraphId rdf:type onner:Paragraph ;
+                     onner:paragraphText ?paragraph ;
+                     onner:directlyContainsLabeledTerm ?termId1 , ?termId2 .
+
+        ?termId1 onner:hasLabeledTermStatus ?status1 .
+        ?status1 onner:hasLabeledTermLabel ?labelId1 .
+        ?labelId1 onner:labelText 'PROPERTY'^^xsd:string .
+
+        ?termId2 onner:labeledTermText 'cellulose'^^xsd:string .
+        }
+        GROUP BY ?publicationId ?paragraph
+        ORDER BY DESC(COUNT(?termId1))
+        LIMIT 1
+    }
+    BIND(YEAR(?date) AS ?year)
+    FILTER(?year >= 2017)
+} LIMIT 5
 
 
 12. Provide me the paragraphs where the term "tensile strength" labeled as "property" appears with the term "cellulose" in the same paragraph.
 
-SELECT ?paragraphID ?paragraphText
-WHERE {
-    ?paragraphID rdf:type onner:Paragraph ;
-                 onner:paragraphText ?paragraphText ;
-                 onner:directlyContainsLabeledTerm ?labeledTermID1 ;
-                 onner:directlyContainsLabeledTerm ?labeledTermID2 .
+SELECT DISTINCT ?paragraph ?publication WHERE {
+    ?publicationId rdf:type onner:ScholarlyPublication ;
+                   onner:publicationTitle ?publication ;
+                   onner:containsDocumentPart ?paragraphId .
+    
+    ?paragraphId rdf:type onner:Paragraph ;
+                 onner:paragraphText ?paragraph ;
+                 onner:directlyContainsLabeledTerm ?termId1 , ?termId2 .
 
-    ?labeledTermID1 rdf:type onner:LabeledTerm ;
-                    onner:labeledTermText 'tensile strength'^^xsd:string ;
-                    onner:hasLabeledTermStatus ?labeledTermStatus1 .
+    ?termId1 rdf:type onner:LabeledTerm ;
+             onner:labeledTermText 'tensile strength'^^xsd:string ;
+             onner:hasLabeledTermStatus ?status1 .
+    ?status1 onner:hasLabeledTermLabel ?labelId1 .
+    ?labelId1 onner:labelText 'PROPERTY'^^xsd:string .
     
-    ?labeledTermID2 rdf:type onner:LabeledTerm ;
-                   onner:labeledTermText 'cellulose'^^xsd:string .
-    
-    ?labeledTermStatus1 onner:hasLabeledTermLabel ?labelID1 .
-    
-    ?labelID1 rdf:type onner:Label ;
-              onner:labelText 'PROPERTY'^^xsd:string .
+    ?termId2 onner:labeledTermText 'cellulose'^^xsd:string .  
 }
+
 
 
 13. What are all the terms labeled as ‘material’ in the “results” section of the paper X.
 
-14. What are the labeled terms that have been rejected on a particular day? For example, on March 17, 2024.
-
-15. What is the ratio of rejected terms compared to confirmed terms?
+14. What is the distribution ratio of confirmed, rejected, and suggested statuses for the labeled terms in paper X?
 
