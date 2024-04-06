@@ -1,4 +1,4 @@
-@prefix : <http://spatialai.org/cellograph/ontology/onner/v2.0#> .
+@prefix : <http://spatialai.org/cellograph/ontology/onner/v1.0#> .
 @prefix po: <http://purl.org/spar/po#> .
 @prefix bfo: <http://purl.obolibrary.org/obo/bfo.owl#> .
 @prefix deo: <http://purl.org/spar/deo#> .
@@ -12,24 +12,20 @@
 @prefix doco: <http://purl.org/spar/doco#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix fabio: <http://purl.org/spar/fabio#> .
-@prefix onner: <http://spatialai.org/cellograph/ontology/onner/v2.0#> .
+@prefix onner: <http://spatialai.org/cellograph/ontology/onner/v1.0#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@base <http://spatialai.org/cellograph/ontology/onner/v2.0#> .
+@base <http://spatialai.org/cellograph/ontology/onner/v1.0#> .
 
-<http://spatialai.org/cellograph/ontology/onner/v2.0#> rdf:type owl:Ontology ;
-                                                        owl:versionIRI <http://www.spatialai.org/onner/v2.0/> ;
-                                                        dcterms:created "2022-07-11"^^xsd:Date ;
-                                                        dcterms:creator <http://orcid.org/0000-0002-5331-5052> ,
-                                                                        "Torsten Hahmann"@en-us ;
-                                                        dcterms:description "The ontology module for representing the content and meta-information of Scientific Publications (mostly print publications) as relevant for the CelloGraph project."@en-us ;
-                                                        dcterms:issued "2023-01-27"^^xsd:date ;
-                                                        dcterms:modified "2023-02-09"^^xsd:Date ;
-                                                        dcterms:publisher <http://spatialai.org/> ;
-                                                        dcterms:rights "Copyright 2022-2023 UMaine, SKAI Lab."@en-us ;
-                                                        dcterms:source "https://github.com/thahmann/OnNER/ontology/onner-2.0.ttl"^^<xsd:anyURI> ;
-                                                        dcterms:title "OnNER: An Ontology for Named Entity Representation"@en ;
-                                                        rdfs:label "OnNER: The Ontology for Named Entity Representation"@en-us ;
-                                                        owl:versionInfo "2.0"@en-us .
+<http://spatialai.org/cellograph/ontology/onner/v1.0#> rdf:type owl:Ontology ;
+                                                        owl:versionIRI <https://github.com/thahmann/OnNER/> ;
+                                                        dcterms:created "2023-02-05"^^xsd:Date ;
+                                                        dcterms:creator "Torsten Hahmann (http://orcid.org/0000-0002-5331-5052)"@en ,
+                                                                        "Umayer Reza (https://orcid.org/0000-0003-4013-3513)"@en ;
+                                                        dcterms:description "OnNER is designed to capture and represent named entities — terms identified and labeled using named entity recognition (NER) methods — along with relevant semantic context, such as their location within a document, from scholarly publications. The ontology is aligned with Basic Formal Ontology (BFO) and Information Artifact Ontology (IAO), and it also incorporates relevant high-level concepts from Relation Ontology (RO), Ontology for Biomedical Investigations (OBI), and NCBI organismal classification (NCBITaxon)."@en ;
+                                                        dcterms:publisher "Spatial Knowledge and Artificial Intelligence (SKAI) Lab, University of Maine"@en ;
+                                                        dcterms:rights "This work is distributed under a Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/)."@en ;
+                                                        dcterms:title "Ontology for Named Entity Representation in Scholarly Publications (OnNER)"@en ;
+                                                        owl:versionInfo "1.0"@en .
 
 #################################################################
 #    Annotation properties
@@ -170,7 +166,7 @@ po:isContainedBy rdf:type owl:ObjectProperty ;
                  rdfs:label "is contained by"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#assignerOfStatus
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#assignerOfStatus
 onner:assignerOfStatus rdf:type owl:ObjectProperty ;
                        owl:inverseOf onner:statusAssignedBy ;
                        rdfs:domain [ rdf:type owl:Class ;
@@ -186,7 +182,7 @@ onner:assignerOfStatus rdf:type owl:ObjectProperty ;
                        rdfs:label "assigner of status"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#authorOfPublication
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#authorOfPublication
 onner:authorOfPublication rdf:type owl:ObjectProperty ;
                           owl:inverseOf onner:publicationAuthoredBy ;
                           rdfs:domain onner:Person ;
@@ -198,7 +194,7 @@ onner:authorOfPublication rdf:type owl:ObjectProperty ;
                           rdfs:label "author of publication"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#bibliographicEntryContainedBy
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#bibliographicEntryContainedBy
 onner:bibliographicEntryContainedBy rdf:type owl:ObjectProperty ;
                                     rdfs:subPropertyOf onner:documentPartContainedBy ;
                                     owl:inverseOf onner:containsBibliographicEntry ;
@@ -207,7 +203,7 @@ onner:bibliographicEntryContainedBy rdf:type owl:ObjectProperty ;
                                     rdfs:label "bibliographic entry contained by"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#bibliographicEntryReferencesScholarlyPublication
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#bibliographicEntryReferencesScholarlyPublication
 onner:bibliographicEntryReferencesScholarlyPublication rdf:type owl:ObjectProperty ;
                                                        rdfs:subPropertyOf onner:references ;
                                                        owl:inverseOf onner:scholarlyPublicationReferencedByBibliographicEntry ;
@@ -216,7 +212,7 @@ onner:bibliographicEntryReferencesScholarlyPublication rdf:type owl:ObjectProper
                                                        rdfs:label "bibliographic entry references scholarly publication"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#citedBy
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#citedBy
 onner:citedBy rdf:type owl:ObjectProperty ;
               rdfs:subPropertyOf cito:isCitedBy ;
               owl:inverseOf onner:cites ;
@@ -227,7 +223,7 @@ onner:citedBy rdf:type owl:ObjectProperty ;
               rdfs:label "cited by"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#cites
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#cites
 onner:cites rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf cito:cites ;
             rdf:type owl:AsymmetricProperty ,
@@ -237,20 +233,20 @@ onner:cites rdf:type owl:ObjectProperty ;
             rdfs:label "cites"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#containedBy
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#containedBy
 onner:containedBy rdf:type owl:ObjectProperty ;
                   rdfs:subPropertyOf po:isContainedBy ;
                   owl:inverseOf onner:contains ;
                   rdfs:label "contained by"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#contains
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#contains
 onner:contains rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf po:contains ;
                rdfs:label "contains"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#containsBibliographicEntry
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#containsBibliographicEntry
 onner:containsBibliographicEntry rdf:type owl:ObjectProperty ;
                                  rdfs:subPropertyOf onner:containsDocumentPart ;
                                  rdfs:domain onner:Bibliography ;
@@ -258,7 +254,7 @@ onner:containsBibliographicEntry rdf:type owl:ObjectProperty ;
                                  rdfs:label "contains bibliographic entry"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#containsDocumentPart
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#containsDocumentPart
 onner:containsDocumentPart rdf:type owl:ObjectProperty ;
                            rdfs:subPropertyOf onner:contains ;
                            owl:inverseOf onner:documentPartContainedBy ;
@@ -272,7 +268,7 @@ onner:containsDocumentPart rdf:type owl:ObjectProperty ;
                            rdfs:label "contains document part"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#directlyContainsDocumentPart
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#directlyContainsDocumentPart
 onner:directlyContainsDocumentPart rdf:type owl:ObjectProperty ;
                                    rdfs:subPropertyOf onner:containsDocumentPart ;
                                    owl:inverseOf onner:documentPartDirectlyContainedBy ;
@@ -285,7 +281,7 @@ onner:directlyContainsDocumentPart rdf:type owl:ObjectProperty ;
                                    rdfs:label "directly contains document part"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#directlyContainsLabeledTerm
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#directlyContainsLabeledTerm
 onner:directlyContainsLabeledTerm rdf:type owl:ObjectProperty ;
                                   rdfs:subPropertyOf onner:directlyContainsDocumentPart ;
                                   owl:inverseOf onner:labeledTermDirectlyContainedBy ;
@@ -294,7 +290,7 @@ onner:directlyContainsLabeledTerm rdf:type owl:ObjectProperty ;
                                   rdfs:label "directly contains labeled term"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#documentPartContainedBy
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#documentPartContainedBy
 onner:documentPartContainedBy rdf:type owl:ObjectProperty ;
                               rdfs:subPropertyOf onner:containedBy ;
                               rdf:type owl:TransitiveProperty ;
@@ -307,7 +303,7 @@ onner:documentPartContainedBy rdf:type owl:ObjectProperty ;
                               rdfs:label "document part contained by"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#documentPartDirectlyContainedBy
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#documentPartDirectlyContainedBy
 onner:documentPartDirectlyContainedBy rdf:type owl:ObjectProperty ;
                                       rdfs:subPropertyOf onner:documentPartContainedBy ;
                                       rdfs:domain onner:DocumentPart ;
@@ -319,7 +315,7 @@ onner:documentPartDirectlyContainedBy rdf:type owl:ObjectProperty ;
                                       rdfs:label "document part directly contained by"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#floatingDocumentPartReferencedByTextFragment
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#floatingDocumentPartReferencedByTextFragment
 onner:floatingDocumentPartReferencedByTextFragment rdf:type owl:ObjectProperty ;
                                                    rdfs:subPropertyOf onner:referencedBy ;
                                                    owl:inverseOf onner:textFragmentReferencesFloatingDocumentPart ;
@@ -328,7 +324,7 @@ onner:floatingDocumentPartReferencedByTextFragment rdf:type owl:ObjectProperty ;
                                                    rdfs:label "floating document part referenced by text fragment"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#fromLabelingSchema
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#fromLabelingSchema
 onner:fromLabelingSchema rdf:type owl:ObjectProperty ,
                                   owl:AsymmetricProperty ,
                                   owl:IrreflexiveProperty ;
@@ -337,7 +333,7 @@ onner:fromLabelingSchema rdf:type owl:ObjectProperty ,
                          rdfs:label "from labeling schema"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#hasAffiliation
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#hasAffiliation
 onner:hasAffiliation rdf:type owl:ObjectProperty ,
                               owl:AsymmetricProperty ,
                               owl:IrreflexiveProperty ;
@@ -346,7 +342,7 @@ onner:hasAffiliation rdf:type owl:ObjectProperty ,
                      rdfs:label "has affiliation"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#hasCaption
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#hasCaption
 onner:hasCaption rdf:type owl:ObjectProperty ,
                           owl:AsymmetricProperty ,
                           owl:IrreflexiveProperty ;
@@ -355,7 +351,7 @@ onner:hasCaption rdf:type owl:ObjectProperty ,
                  rdfs:label "has caption"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#hasLabeledTermLabel
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#hasLabeledTermLabel
 onner:hasLabeledTermLabel rdf:type owl:ObjectProperty ,
                                    owl:AsymmetricProperty ,
                                    owl:IrreflexiveProperty ;
@@ -364,7 +360,7 @@ onner:hasLabeledTermLabel rdf:type owl:ObjectProperty ,
                           rdfs:label "has labeled term label"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#hasLabeledTermStatus
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#hasLabeledTermStatus
 onner:hasLabeledTermStatus rdf:type owl:ObjectProperty ;
                            owl:inverseOf onner:statusOfLabeledTerm ;
                            rdf:type owl:AsymmetricProperty ,
@@ -374,7 +370,7 @@ onner:hasLabeledTermStatus rdf:type owl:ObjectProperty ;
                            rdfs:label "has labeled term status"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#hasPublicationAuthorRole
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#hasPublicationAuthorRole
 onner:hasPublicationAuthorRole rdf:type owl:ObjectProperty ;
                                rdfs:subPropertyOf <http://purl.obolibrary.org/obo#RO_0000087> ;
                                owl:inverseOf onner:roleOfPublicationAuthor ;
@@ -383,7 +379,7 @@ onner:hasPublicationAuthorRole rdf:type owl:ObjectProperty ;
                                rdfs:label "has publication author role"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#has_NER_LabelerRole
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#has_NER_LabelerRole
 onner:has_NER_LabelerRole rdf:type owl:ObjectProperty ;
                           rdfs:subPropertyOf <http://purl.obolibrary.org/obo#RO_0000087> ;
                           owl:inverseOf onner:roleOf_NER_Labeler ;
@@ -396,7 +392,7 @@ onner:has_NER_LabelerRole rdf:type owl:ObjectProperty ;
                           rdfs:label "has NER labeler role"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#labeledTermDirectlyContainedBy
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#labeledTermDirectlyContainedBy
 onner:labeledTermDirectlyContainedBy rdf:type owl:ObjectProperty ;
                                      rdfs:subPropertyOf onner:documentPartDirectlyContainedBy ;
                                      rdfs:domain onner:LabeledTerm ;
@@ -404,7 +400,7 @@ onner:labeledTermDirectlyContainedBy rdf:type owl:ObjectProperty ;
                                      rdfs:label "labeled term directly contained by"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#nextDocumentPart
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#nextDocumentPart
 onner:nextDocumentPart rdf:type owl:ObjectProperty ,
                                 owl:AsymmetricProperty ,
                                 owl:IrreflexiveProperty ;
@@ -413,7 +409,7 @@ onner:nextDocumentPart rdf:type owl:ObjectProperty ,
                        rdfs:label "next document part"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#publicationAuthoredBy
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#publicationAuthoredBy
 onner:publicationAuthoredBy rdf:type owl:ObjectProperty ;
                             rdfs:domain onner:ScholarlyPublication ;
                             rdfs:range onner:Person ;
@@ -424,7 +420,7 @@ onner:publicationAuthoredBy rdf:type owl:ObjectProperty ;
                             rdfs:label "publication authored by"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#referencedBy
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#referencedBy
 onner:referencedBy rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf biro:isReferencedBy ;
                    owl:inverseOf onner:references ;
@@ -435,7 +431,7 @@ onner:referencedBy rdf:type owl:ObjectProperty ;
                    rdfs:label "referenced by"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#references
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#references
 onner:references rdf:type owl:ObjectProperty ;
                  rdfs:subPropertyOf biro:references ;
                  rdf:type owl:AsymmetricProperty ,
@@ -443,7 +439,7 @@ onner:references rdf:type owl:ObjectProperty ;
                  rdfs:label "references"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#roleOfPublicationAuthor
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#roleOfPublicationAuthor
 onner:roleOfPublicationAuthor rdf:type owl:ObjectProperty ;
                               rdfs:subPropertyOf <http://purl.obolibrary.org/obo#RO_0000081> ;
                               rdf:type owl:AsymmetricProperty ,
@@ -453,7 +449,7 @@ onner:roleOfPublicationAuthor rdf:type owl:ObjectProperty ;
                               rdfs:label "role of publication author"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#roleOf_NER_Labeler
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#roleOf_NER_Labeler
 onner:roleOf_NER_Labeler rdf:type owl:ObjectProperty ;
                          rdfs:subPropertyOf <http://purl.obolibrary.org/obo#RO_0000081> ;
                          rdf:type owl:AsymmetricProperty ,
@@ -467,7 +463,7 @@ onner:roleOf_NER_Labeler rdf:type owl:ObjectProperty ;
                          rdfs:label "role of NER labeler"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#scholarlyPublicationReferencedByBibliographicEntry
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#scholarlyPublicationReferencedByBibliographicEntry
 onner:scholarlyPublicationReferencedByBibliographicEntry rdf:type owl:ObjectProperty ;
                                                          rdfs:subPropertyOf onner:referencedBy ;
                                                          rdfs:domain onner:ScholarlyPublication ;
@@ -475,7 +471,7 @@ onner:scholarlyPublicationReferencedByBibliographicEntry rdf:type owl:ObjectProp
                                                          rdfs:label "scholarly publication referenced by bibliographic entry"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#statusAssignedBy
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#statusAssignedBy
 onner:statusAssignedBy rdf:type owl:ObjectProperty ;
                        rdfs:domain onner:LabeledTermStatus ;
                        rdfs:range [ rdf:type owl:Class ;
@@ -490,7 +486,7 @@ onner:statusAssignedBy rdf:type owl:ObjectProperty ;
                        rdfs:label "status assigned by"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#statusOfLabeledTerm
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#statusOfLabeledTerm
 onner:statusOfLabeledTerm rdf:type owl:ObjectProperty ,
                                    owl:AsymmetricProperty ,
                                    owl:IrreflexiveProperty ;
@@ -499,7 +495,7 @@ onner:statusOfLabeledTerm rdf:type owl:ObjectProperty ,
                           rdfs:label "status of labeled term"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#systemBelongsTo
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#systemBelongsTo
 onner:systemBelongsTo rdf:type owl:ObjectProperty ,
                                owl:AsymmetricProperty ,
                                owl:IrreflexiveProperty ;
@@ -507,7 +503,7 @@ onner:systemBelongsTo rdf:type owl:ObjectProperty ,
                       rdfs:label "system belongs to"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#textFragmentReferencesFloatingDocumentPart
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#textFragmentReferencesFloatingDocumentPart
 onner:textFragmentReferencesFloatingDocumentPart rdf:type owl:ObjectProperty ;
                                                  rdfs:subPropertyOf onner:references ;
                                                  rdfs:domain onner:TextFragment ;
@@ -519,7 +515,7 @@ onner:textFragmentReferencesFloatingDocumentPart rdf:type owl:ObjectProperty ;
 #    Data properties
 #################################################################
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#captionText
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#captionText
 onner:captionText rdf:type owl:DatatypeProperty ;
                   rdfs:domain [ rdf:type owl:Class ;
                                 owl:unionOf ( onner:Figure
@@ -531,63 +527,63 @@ onner:captionText rdf:type owl:DatatypeProperty ;
                   rdfs:label "caption text"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#doi
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#doi
 onner:doi rdf:type owl:DatatypeProperty ;
           rdfs:domain onner:ScholarlyPublication ;
           rdfs:range xsd:string ;
           rdfs:label "doi"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#figureNumber
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#figureNumber
 onner:figureNumber rdf:type owl:DatatypeProperty ;
                    rdfs:domain onner:Figure ;
                    rdfs:range xsd:nonNegativeInteger ;
                    rdfs:label "figure number"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#homoSapiensName
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#homoSapiensName
 onner:homoSapiensName rdf:type owl:DatatypeProperty ;
                       rdfs:domain <http://purl.obolibrary.org/obo#NCBITaxon_9606> ;
                       rdfs:range xsd:string ;
                       rdfs:label "homo sapiens name"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#keyword
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#keyword
 onner:keyword rdf:type owl:DatatypeProperty ;
               rdfs:domain onner:Keywords ;
               rdfs:range xsd:string ;
               rdfs:label "keyword"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#labelText
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#labelText
 onner:labelText rdf:type owl:DatatypeProperty ;
                 rdfs:domain onner:Label ;
                 rdfs:range xsd:string ;
                 rdfs:label "label text"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#labeledTermText
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#labeledTermText
 onner:labeledTermText rdf:type owl:DatatypeProperty ;
                       rdfs:domain onner:LabeledTerm ;
                       rdfs:range xsd:string ;
                       rdfs:label "labeled term text"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#length
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#length
 onner:length rdf:type owl:DatatypeProperty ;
              rdfs:domain onner:LabeledTerm ;
              rdfs:range xsd:nonNegativeInteger ;
              rdfs:label "length"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#listingNumber
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#listingNumber
 onner:listingNumber rdf:type owl:DatatypeProperty ;
                     rdfs:domain onner:Listing ;
                     rdfs:range xsd:nonNegativeInteger ;
                     rdfs:label "listing number"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#offset
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#offset
 onner:offset rdf:type owl:DatatypeProperty ;
              rdfs:domain onner:LabeledTerm ;
              rdfs:range xsd:nonNegativeInteger ;
@@ -595,98 +591,98 @@ onner:offset rdf:type owl:DatatypeProperty ;
              <http://www.w3.org/2004/02/skos/core#definition> "Starting positions of named entities within paragraphs."@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#organizationAddress
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#organizationAddress
 onner:organizationAddress rdf:type owl:DatatypeProperty ;
                           rdfs:domain onner:Organization ;
                           rdfs:range xsd:string ;
                           rdfs:label "organization address"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#organizationName
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#organizationName
 onner:organizationName rdf:type owl:DatatypeProperty ;
                        rdfs:domain onner:Organization ;
                        rdfs:range xsd:string ;
                        rdfs:label "organization name"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#paragraphText
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#paragraphText
 onner:paragraphText rdf:type owl:DatatypeProperty ;
                     rdfs:domain onner:Paragraph ;
                     rdfs:range xsd:string ;
                     rdfs:label "paragraph text"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#personName
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#personName
 onner:personName rdf:type owl:DatatypeProperty ;
                  rdfs:domain onner:Person ;
                  rdfs:range xsd:string ;
                  rdfs:label "person name"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#positionInParentDocumentPart
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#positionInParentDocumentPart
 onner:positionInParentDocumentPart rdf:type owl:DatatypeProperty ;
                                    rdfs:domain onner:Paragraph ;
                                    rdfs:range xsd:nonNegativeInteger ;
                                    rdfs:label "position in parent document part"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#publicationDate
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#publicationDate
 onner:publicationDate rdf:type owl:DatatypeProperty ;
                       rdfs:domain onner:ScholarlyPublication ;
                       rdfs:range xsd:dateTime ;
                       rdfs:label "publication date"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#publicationTitle
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#publicationTitle
 onner:publicationTitle rdf:type owl:DatatypeProperty ;
                        rdfs:domain onner:ScholarlyPublication ;
                        rdfs:range xsd:string ;
                        rdfs:label "publication title"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#publicationVenue
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#publicationVenue
 onner:publicationVenue rdf:type owl:DatatypeProperty ;
                        rdfs:domain onner:ScholarlyPublication ;
                        rdfs:range xsd:string ;
                        rdfs:label "publication venue"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#schemaName
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#schemaName
 onner:schemaName rdf:type owl:DatatypeProperty ;
                  rdfs:domain onner:LabelingSchema ;
                  rdfs:range xsd:string ;
                  rdfs:label "schema name"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#sectionNumber
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#sectionNumber
 onner:sectionNumber rdf:type owl:DatatypeProperty ;
                     rdfs:domain onner:Section ;
                     rdfs:range xsd:string ;
                     rdfs:label "section number"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#sectionTitle
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#sectionTitle
 onner:sectionTitle rdf:type owl:DatatypeProperty ;
                    rdfs:domain onner:Section ;
                    rdfs:range xsd:string ;
                    rdfs:label "section title"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#statusAssignmentDate
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#statusAssignmentDate
 onner:statusAssignmentDate rdf:type owl:DatatypeProperty ;
                            rdfs:domain onner:LabeledTermStatus ;
                            rdfs:range xsd:dateTime ;
                            rdfs:label "status assignment date"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#systemVersion
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#systemVersion
 onner:systemVersion rdf:type owl:DatatypeProperty ;
                     rdfs:domain onner:NER_System ;
                     rdfs:range xsd:string ;
                     rdfs:label "system version"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#tableNumber
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#tableNumber
 onner:tableNumber rdf:type owl:DatatypeProperty ;
                   rdfs:domain onner:Table ;
                   rdfs:range xsd:nonNegativeInteger ;
@@ -900,7 +896,7 @@ fabio:Expression rdf:type owl:Class ;
                  <http://www.w3.org/2004/02/skos/core#definition> "A subclass of FRBR expression, restricted to expressions of fabio:Works. For your latest research paper, the preprint submitted to the publisher, and the final published version to which the publisher assigned a unique digital object identifier, are both expressions of the same work."@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#Abstract
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#Abstract
 onner:Abstract rdf:type owl:Class ;
                rdfs:subClassOf <http://purl.obolibrary.org/obo#IAO_0000315> ,
                                doco:Abstract ,
@@ -908,7 +904,7 @@ onner:Abstract rdf:type owl:Class ;
                rdfs:label "Abstract"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#AtomicLabeledTerm
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#AtomicLabeledTerm
 onner:AtomicLabeledTerm rdf:type owl:Class ;
                         owl:equivalentClass [ owl:intersectionOf ( onner:LabeledTerm
                                                                    [ rdf:type owl:Restriction ;
@@ -923,7 +919,7 @@ onner:AtomicLabeledTerm rdf:type owl:Class ;
                         rdfs:label "Atomic Labeled Term"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#BibliographicEntry
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#BibliographicEntry
 onner:BibliographicEntry rdf:type owl:Class ;
                          rdfs:subClassOf biro:BibliographicRecord ,
                                          onner:DocumentPart ,
@@ -934,7 +930,7 @@ onner:BibliographicEntry rdf:type owl:Class ;
                          rdfs:label "Bibliographic Entry"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#Bibliography
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#Bibliography
 onner:Bibliography rdf:type owl:Class ;
                    rdfs:subClassOf biro:BibliographicCollection ,
                                    onner:DocumentPart ,
@@ -945,13 +941,13 @@ onner:Bibliography rdf:type owl:Class ;
                    rdfs:label "Bibliography"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#CandidateStatus
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#CandidateStatus
 onner:CandidateStatus rdf:type owl:Class ;
                       rdfs:subClassOf onner:LabeledTermStatus ;
                       rdfs:label "Candidate Status"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#Caption
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#Caption
 onner:Caption rdf:type owl:Class ;
               rdfs:subClassOf deo:Caption ,
                               onner:TextFragment ,
@@ -966,7 +962,7 @@ onner:Caption rdf:type owl:Class ;
               rdfs:label "Caption"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#CompoundLabeledTerm
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#CompoundLabeledTerm
 onner:CompoundLabeledTerm rdf:type owl:Class ;
                           owl:equivalentClass [ owl:intersectionOf ( onner:LabeledTerm
                                                                      [ rdf:type owl:Restriction ;
@@ -980,13 +976,13 @@ onner:CompoundLabeledTerm rdf:type owl:Class ;
                           rdfs:label "Compound Labeled Term"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#ConfirmedStatus
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#ConfirmedStatus
 onner:ConfirmedStatus rdf:type owl:Class ;
                       rdfs:subClassOf onner:LabeledTermStatus ;
                       rdfs:label "Confirmed Status"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#DocumentPart
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#DocumentPart
 onner:DocumentPart rdf:type owl:Class ;
                    rdfs:subClassOf <http://purl.obolibrary.org/obo#IAO_0000314> ,
                                    [ rdf:type owl:Restriction ;
@@ -997,20 +993,20 @@ onner:DocumentPart rdf:type owl:Class ;
                    <http://www.w3.org/2004/02/skos/core#definition> "Structural components of scholarly publications that assist in locating named entities."@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#EndOfDocument
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#EndOfDocument
 onner:EndOfDocument rdf:type owl:Class ;
                     rdfs:subClassOf onner:OrderedDocumentPart ;
                     rdfs:label "End of Document"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#Figure
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#Figure
 onner:Figure rdf:type owl:Class ;
              rdfs:subClassOf doco:Figure ,
                              onner:FloatingDocumentPart ;
              rdfs:label "Figure"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#FloatingDocumentPart
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#FloatingDocumentPart
 onner:FloatingDocumentPart rdf:type owl:Class ;
                            rdfs:subClassOf onner:DocumentPart ;
                            owl:disjointUnionOf ( onner:Figure
@@ -1020,7 +1016,7 @@ onner:FloatingDocumentPart rdf:type owl:Class ;
                            rdfs:label "Floating Document Part"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#Formula
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#Formula
 onner:Formula rdf:type owl:Class ;
               rdfs:subClassOf doco:Formula ,
                               onner:TextFragment ,
@@ -1035,7 +1031,7 @@ onner:Formula rdf:type owl:Class ;
               rdfs:label "Formula"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#Keywords
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#Keywords
 onner:Keywords rdf:type owl:Class ;
                owl:equivalentClass [ owl:intersectionOf ( onner:TextFragment
                                                           [ rdf:type owl:Restriction ;
@@ -1058,7 +1054,7 @@ onner:Keywords rdf:type owl:Class ;
                <http://www.w3.org/2004/02/skos/core#definition> "A special fragment of text that typically appears with the abstract and may contain one or more labeled terms."@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#Label
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#Label
 onner:Label rdf:type owl:Class ;
             rdfs:subClassOf <http://purl.obolibrary.org/obo#IAO_0000030> ,
                             [ rdf:type owl:Restriction ;
@@ -1068,7 +1064,7 @@ onner:Label rdf:type owl:Class ;
             rdfs:label "Label"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#LabeledTerm
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#LabeledTerm
 onner:LabeledTerm rdf:type owl:Class ;
                   owl:equivalentClass [ owl:intersectionOf ( onner:TextFragment
                                                              [ rdf:type owl:Restriction ;
@@ -1094,38 +1090,38 @@ onner:LabeledTerm rdf:type owl:Class ;
                   <http://www.w3.org/2004/02/skos/core#definition> "A labeled term is a word or group of words anywhere within a scholarly publication that has been identified and classified as a named entity."@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#LabeledTermStatus
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#LabeledTermStatus
 onner:LabeledTermStatus rdf:type owl:Class ;
                         rdfs:subClassOf <http://purl.obolibrary.org/obo#BFO_0000145> ;
                         rdfs:comment "Each term in the ontology is linked with a status to indicate its current state within the system."@en ;
                         rdfs:label "Labeled Term Status"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#LabelingSchema
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#LabelingSchema
 onner:LabelingSchema rdf:type owl:Class ;
                      rdfs:subClassOf <http://purl.obolibrary.org/obo#IAO_0000030> ;
                      rdfs:label "Labeling Schema"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#Listing
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#Listing
 onner:Listing rdf:type owl:Class ;
               rdfs:subClassOf onner:FloatingDocumentPart ;
               rdfs:label "Listing"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#NER_LabelerRole
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#NER_LabelerRole
 onner:NER_LabelerRole rdf:type owl:Class ;
                       rdfs:subClassOf <http://purl.obolibrary.org/obo#IAO_0021031> ;
                       rdfs:label "NER Labeler Role"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#NER_System
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#NER_System
 onner:NER_System rdf:type owl:Class ;
                  rdfs:subClassOf <http://purl.obolibrary.org/obo#RO_0002577> ;
                  rdfs:label "NER System"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#OrderedDocumentPart
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#OrderedDocumentPart
 onner:OrderedDocumentPart rdf:type owl:Class ;
                           rdfs:subClassOf onner:DocumentPart ;
                           owl:disjointUnionOf ( onner:Paragraph
@@ -1134,13 +1130,13 @@ onner:OrderedDocumentPart rdf:type owl:Class ;
                           rdfs:label "Ordered Document Part"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#Organization
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#Organization
 onner:Organization rdf:type owl:Class ;
                    rdfs:subClassOf <http://purl.obolibrary.org/obo#OBI_0000245> ;
                    rdfs:label "Organization"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#Paragraph
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#Paragraph
 onner:Paragraph rdf:type owl:Class ;
                 rdfs:subClassOf doco:Paragraph ,
                                 onner:OrderedDocumentPart ,
@@ -1157,25 +1153,25 @@ onner:Paragraph rdf:type owl:Class ;
                 rdfs:label "Paragraph"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#Person
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#Person
 onner:Person rdf:type owl:Class ;
              rdfs:subClassOf <http://purl.obolibrary.org/obo#NCBITaxon_9606> ;
              rdfs:label "Person"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#PublicationAuthorRole
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#PublicationAuthorRole
 onner:PublicationAuthorRole rdf:type owl:Class ;
                             rdfs:subClassOf <http://purl.obolibrary.org/obo#IAO_0000442> ;
                             rdfs:label "Publication Author Role"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#RejectedStatus
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#RejectedStatus
 onner:RejectedStatus rdf:type owl:Class ;
                      rdfs:subClassOf onner:LabeledTermStatus ;
                      rdfs:label "Rejected Status"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#ScholarlyPublication
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#ScholarlyPublication
 onner:ScholarlyPublication rdf:type owl:Class ;
                            rdfs:subClassOf <http://purl.obolibrary.org/obo#IAO_0000310> ,
                                            fabio:Expression ,
@@ -1191,7 +1187,7 @@ onner:ScholarlyPublication rdf:type owl:Class ;
                            <http://www.w3.org/2004/02/skos/core#definition> "A special type of document that presents original research or academic findings."@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#Section
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#Section
 onner:Section rdf:type owl:Class ;
               rdfs:subClassOf doco:Section ,
                               onner:OrderedDocumentPart ;
@@ -1199,20 +1195,20 @@ onner:Section rdf:type owl:Class ;
               rdfs:label "Section"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#SuggestedStatus
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#SuggestedStatus
 onner:SuggestedStatus rdf:type owl:Class ;
                       rdfs:subClassOf onner:LabeledTermStatus ;
                       rdfs:label "Suggested Status"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#Table
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#Table
 onner:Table rdf:type owl:Class ;
             rdfs:subClassOf doco:Table ,
                             onner:FloatingDocumentPart ;
             rdfs:label "Table"@en .
 
 
-###  http://spatialai.org/cellograph/ontology/onner/v2.0#TextFragment
+###  http://spatialai.org/cellograph/ontology/onner/v1.0#TextFragment
 onner:TextFragment rdf:type owl:Class ;
                    rdfs:subClassOf doco:TextChunk ,
                                    onner:DocumentPart ;
