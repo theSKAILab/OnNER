@@ -901,7 +901,8 @@ onner:Abstract rdf:type owl:Class ;
                rdfs:subClassOf <http://purl.obolibrary.org/obo#IAO_0000315> ,
                                doco:Abstract ,
                                onner:DocumentPart ;
-               rdfs:label "Abstract"@en .
+               rdfs:label "Abstract"@en ;
+               <http://www.w3.org/2004/02/skos/core#definition> "An abstract often looks like a section found within a publication; however, it is structured differently, lacking the capacity for subsections. Despite commonly being positioned at the beginning of a document, the abstract diverges from the usual flow of the document's text."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#AtomicLabeledTerm
@@ -916,7 +917,8 @@ onner:AtomicLabeledTerm rdf:type owl:Class ;
                                             ] ;
                         rdfs:subClassOf onner:LabeledTerm ;
                         owl:disjointWith onner:CompoundLabeledTerm ;
-                        rdfs:label "Atomic Labeled Term"@en .
+                        rdfs:label "Atomic Labeled Term"@en ;
+                        <http://www.w3.org/2004/02/skos/core#definition> "A named entity consisting of one or more words identified by a single classification label."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#BibliographicEntry
@@ -927,7 +929,8 @@ onner:BibliographicEntry rdf:type owl:Class ;
                                            owl:onProperty onner:references ;
                                            owl:someValuesFrom onner:ScholarlyPublication
                                          ] ;
-                         rdfs:label "Bibliographic Entry"@en .
+                         rdfs:label "Bibliographic Entry"@en ;
+                         <http://www.w3.org/2004/02/skos/core#definition> "A bibliographic entry provides the complete details of the cited work. These entries are typically compiled into a single bibliography, which is located at the end of a document."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#Bibliography
@@ -938,7 +941,8 @@ onner:Bibliography rdf:type owl:Class ;
                                      owl:onProperty onner:containsDocumentPart ;
                                      owl:allValuesFrom onner:BibliographicEntry
                                    ] ;
-                   rdfs:label "Bibliography"@en .
+                   rdfs:label "Bibliography"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "A bibliography consists of bibliographic entries, often mirroring a section found in a publication. However, it is not structured as such because it cannot include subsections. Despite typically appearing at the end of a document, the bibliography is positioned outside the regular flow of the document's text."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#CandidateStatus
@@ -959,7 +963,8 @@ onner:Caption rdf:type owl:Class ;
                                 owl:onProperty onner:textFragmentReferencesFloatingDocumentPart ;
                                 owl:allValuesFrom onner:FloatingDocumentPart
                               ] ;
-              rdfs:label "Caption"@en .
+              rdfs:label "Caption"@en ;
+              <http://www.w3.org/2004/02/skos/core#definition> "A caption distinguishes itself from a paragraph by being a component of a floating document part, such as a table or figure, where it provides a description of the respective element."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#CompoundLabeledTerm
@@ -973,7 +978,8 @@ onner:CompoundLabeledTerm rdf:type owl:Class ;
                                                 rdf:type owl:Class
                                               ] ;
                           rdfs:subClassOf onner:LabeledTerm ;
-                          rdfs:label "Compound Labeled Term"@en .
+                          rdfs:label "Compound Labeled Term"@en ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "A named entity consisting of one or more words identified by a single classification label, with different parts of the named entity identified with distinct classification labels."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#ConfirmedStatus
@@ -1003,7 +1009,8 @@ onner:EndOfDocument rdf:type owl:Class ;
 onner:Figure rdf:type owl:Class ;
              rdfs:subClassOf doco:Figure ,
                              onner:FloatingDocumentPart ;
-             rdfs:label "Figure"@en .
+             rdfs:label "Figure"@en ;
+             <http://www.w3.org/2004/02/skos/core#definition> "A figure, as a floating document element, has the flexibility to be positioned anywhere within a publication."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#FloatingDocumentPart
@@ -1013,7 +1020,8 @@ onner:FloatingDocumentPart rdf:type owl:Class ;
                                                  onner:Listing
                                                  onner:Table
                                                ) ;
-                           rdfs:label "Floating Document Part"@en .
+                           rdfs:label "Floating Document Part"@en ;
+                           <http://www.w3.org/2004/02/skos/core#definition> "Document parts that can be positioned anywhere within a publication without relying on their sequential order for semantic significance."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#Formula
@@ -1028,7 +1036,8 @@ onner:Formula rdf:type owl:Class ;
                                 owl:onProperty onner:textFragmentReferencesFloatingDocumentPart ;
                                 owl:allValuesFrom onner:FloatingDocumentPart
                               ] ;
-              rdfs:label "Formula"@en .
+              rdfs:label "Formula"@en ;
+              <http://www.w3.org/2004/02/skos/core#definition> "A formula is a specialized piece of text representing mathematical expressions, chemical formulas, etc., and can appear within either a paragraph or a caption."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#Keywords
@@ -1087,7 +1096,7 @@ onner:LabeledTerm rdf:type owl:Class ;
                                         onner:CompoundLabeledTerm
                                       ) ;
                   rdfs:label "Labeled Term"@en ;
-                  <http://www.w3.org/2004/02/skos/core#definition> "A labeled term is a word or group of words anywhere within a scholarly publication that has been identified and classified as a named entity."@en .
+                  <http://www.w3.org/2004/02/skos/core#definition> "A word or group of words within a scholarly publication that has been identified and classified as a named entity."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#LabeledTermStatus
@@ -1106,7 +1115,8 @@ onner:LabelingSchema rdf:type owl:Class ;
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#Listing
 onner:Listing rdf:type owl:Class ;
               rdfs:subClassOf onner:FloatingDocumentPart ;
-              rdfs:label "Listing"@en .
+              rdfs:label "Listing"@en ;
+              <http://www.w3.org/2004/02/skos/core#definition> "A listing, as a floating document element, has the flexibility to be positioned anywhere within a publication."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#NER_LabelerRole
@@ -1127,7 +1137,8 @@ onner:OrderedDocumentPart rdf:type owl:Class ;
                           owl:disjointUnionOf ( onner:Paragraph
                                                 onner:Section
                                               ) ;
-                          rdfs:label "Ordered Document Part"@en .
+                          rdfs:label "Ordered Document Part"@en ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "Document parts that rely on their sequential order within a publication for semantic significance."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#Organization
@@ -1150,7 +1161,8 @@ onner:Paragraph rdf:type owl:Class ;
                                   owl:allValuesFrom onner:FloatingDocumentPart
                                 ] ;
                 owl:disjointWith onner:Section ;
-                rdfs:label "Paragraph"@en .
+                rdfs:label "Paragraph"@en ;
+                <http://www.w3.org/2004/02/skos/core#definition> "A paragraph typically consists of one or more sentences, with its beginning indicating the start of a new line."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#Person
@@ -1184,15 +1196,15 @@ onner:ScholarlyPublication rdf:type owl:Class ;
                                              owl:allValuesFrom onner:DocumentPart
                                            ] ;
                            rdfs:label "Scholarly Publication"@en ;
-                           <http://www.w3.org/2004/02/skos/core#definition> "A special type of document that presents original research or academic findings."@en .
+                           <http://www.w3.org/2004/02/skos/core#definition> "A unique document format that showcases original research or academic discoveries."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#Section
 onner:Section rdf:type owl:Class ;
               rdfs:subClassOf doco:Section ,
                               onner:OrderedDocumentPart ;
-              rdfs:comment "..."@en ;
-              rdfs:label "Section"@en .
+              rdfs:label "Section"@en ;
+              <http://www.w3.org/2004/02/skos/core#definition> "A section is a primary element for organizing the main text within publications, capable of being nested and accommodating various other document parts like paragraphs and formulas."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#SuggestedStatus
@@ -1205,7 +1217,8 @@ onner:SuggestedStatus rdf:type owl:Class ;
 onner:Table rdf:type owl:Class ;
             rdfs:subClassOf doco:Table ,
                             onner:FloatingDocumentPart ;
-            rdfs:label "Table"@en .
+            rdfs:label "Table"@en ;
+            <http://www.w3.org/2004/02/skos/core#definition> "A table, as a floating document element, has the flexibility to be positioned anywhere within a publication."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#TextFragment
@@ -1218,7 +1231,8 @@ onner:TextFragment rdf:type owl:Class ;
                                          onner:LabeledTerm
                                          onner:Paragraph
                                        ) ;
-                   rdfs:label "Text Fragment"@en .
+                   rdfs:label "Text Fragment"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "Each text fragment identifies smaller, semantically meaningful pieces of text, such as keywords, paragraphs, and labeled terms, within a publication."@en .
 
 
 #################################################################
@@ -1262,4 +1276,4 @@ onner:TextFragment rdf:type owl:Class ;
 ] .
 
 
-###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
