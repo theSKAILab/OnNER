@@ -183,7 +183,8 @@ onner:assignerOfStatus rdf:type owl:ObjectProperty ;
                                                 <http://purl.obolibrary.org/obo#BFO_0000054>
                                                 <http://purl.obolibrary.org/obo#RO_0002234>
                                               ) ;
-                       rdfs:label "assigner of status"@en .
+                       rdfs:label "assigner of status"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "The relationship between an entity (e.g., a person or an NER system) privileged with a NER labeler role and a status of a labeled term (also known as a named entity)."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#authorOfPublication
@@ -195,7 +196,8 @@ onner:authorOfPublication rdf:type owl:ObjectProperty ;
                                                    <http://purl.obolibrary.org/obo#BFO_0000054>
                                                    <http://purl.obolibrary.org/obo#RO_0002234>
                                                  ) ;
-                          rdfs:label "author of publication"@en .
+                          rdfs:label "author of publication"@en ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a person who holds a publication author role and a document (e.g., a scholarly publication) that a person has written."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#bibliographicEntryContainedBy
@@ -204,7 +206,8 @@ onner:bibliographicEntryContainedBy rdf:type owl:ObjectProperty ;
                                     owl:inverseOf onner:containsBibliographicEntry ;
                                     rdfs:domain onner:BibliographicEntry ;
                                     rdfs:range onner:Bibliography ;
-                                    rdfs:label "bibliographic entry contained by"@en .
+                                    rdfs:label "bibliographic entry contained by"@en ;
+                                    <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web and a container entity (e.g., a bibliography)."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#bibliographicEntryReferencesScholarlyPublication
@@ -213,7 +216,8 @@ onner:bibliographicEntryReferencesScholarlyPublication rdf:type owl:ObjectProper
                                                        owl:inverseOf onner:scholarlyPublicationReferencedByBibliographicEntry ;
                                                        rdfs:domain onner:BibliographicEntry ;
                                                        rdfs:range onner:ScholarlyPublication ;
-                                                       rdfs:label "bibliographic entry references scholarly publication"@en .
+                                                       rdfs:label "bibliographic entry references scholarly publication"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web and a document (e.g., a scholarly publication)."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#citedBy
@@ -224,7 +228,8 @@ onner:citedBy rdf:type owl:ObjectProperty ;
                        owl:IrreflexiveProperty ;
               rdfs:domain onner:BibliographicEntry ;
               rdfs:range onner:TextFragment ;
-              rdfs:label "cited by"@en .
+              rdfs:label "cited by"@en ;
+              <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web and a text fragment citing someone else's work."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#cites
@@ -234,7 +239,8 @@ onner:cites rdf:type owl:ObjectProperty ;
                      owl:IrreflexiveProperty ;
             rdfs:domain onner:TextFragment ;
             rdfs:range onner:BibliographicEntry ;
-            rdfs:label "cites"@en .
+            rdfs:label "cites"@en ;
+            <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a text fragment citing someone else's work and a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#containedBy
@@ -255,7 +261,8 @@ onner:containsBibliographicEntry rdf:type owl:ObjectProperty ;
                                  rdfs:subPropertyOf onner:containsDocumentPart ;
                                  rdfs:domain onner:Bibliography ;
                                  rdfs:range onner:BibliographicEntry ;
-                                 rdfs:label "contains bibliographic entry"@en .
+                                 rdfs:label "contains bibliographic entry"@en ;
+                                 <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a container entity (e.g., a bibliography) and a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#containsDocumentPart
@@ -269,7 +276,8 @@ onner:containsDocumentPart rdf:type owl:ObjectProperty ;
                                                      )
                                        ] ;
                            rdfs:range onner:DocumentPart ;
-                           rdfs:label "contains document part"@en .
+                           rdfs:label "contains document part"@en ;
+                           <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a container entity (e.g., a document or a scholarly publication) and a contained entity (e.g., a document part), regardless of its direct or indirect containment."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#directlyContainsDocumentPart
@@ -282,7 +290,8 @@ onner:directlyContainsDocumentPart rdf:type owl:ObjectProperty ;
                                                              )
                                                ] ;
                                    rdfs:range onner:DocumentPart ;
-                                   rdfs:label "directly contains document part"@en .
+                                   rdfs:label "directly contains document part"@en ;
+                                   <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a container entity (e.g., a document or a scholarly publication) and a directly contained entity (e.g., a document part)."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#directlyContainsLabeledTerm
@@ -291,7 +300,8 @@ onner:directlyContainsLabeledTerm rdf:type owl:ObjectProperty ;
                                   owl:inverseOf onner:labeledTermDirectlyContainedBy ;
                                   rdfs:domain onner:TextFragment ;
                                   rdfs:range onner:LabeledTerm ;
-                                  rdfs:label "directly contains labeled term"@en .
+                                  rdfs:label "directly contains labeled term"@en ;
+                                  <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a container entity (e.g., a text fragment) and a directly contained labeled term (also known as a named entity)."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#documentPartContainedBy
@@ -304,7 +314,8 @@ onner:documentPartContainedBy rdf:type owl:ObjectProperty ;
                                                          onner:ScholarlyPublication
                                                        )
                                          ] ;
-                              rdfs:label "document part contained by"@en .
+                              rdfs:label "document part contained by"@en ;
+                              <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a contained entity (e.g., a document part), regardless of its direct or indirect containment and a container entity (e.g., a document or a scholarly publication)."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#documentPartDirectlyContainedBy
@@ -316,7 +327,8 @@ onner:documentPartDirectlyContainedBy rdf:type owl:ObjectProperty ;
                                                                  onner:ScholarlyPublication
                                                                )
                                                  ] ;
-                                      rdfs:label "document part directly contained by"@en .
+                                      rdfs:label "document part directly contained by"@en ;
+                                      <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a directly contained entity (e.g., a document part) and a container entity (e.g., a document or a scholarly publication)."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#floatingDocumentPartReferencedByTextFragment
@@ -325,7 +337,8 @@ onner:floatingDocumentPartReferencedByTextFragment rdf:type owl:ObjectProperty ;
                                                    owl:inverseOf onner:textFragmentReferencesFloatingDocumentPart ;
                                                    rdfs:domain onner:FloatingDocumentPart ;
                                                    rdfs:range onner:TextFragment ;
-                                                   rdfs:label "floating document part referenced by text fragment"@en .
+                                                   rdfs:label "floating document part referenced by text fragment"@en ;
+                                                   <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a floating document element (e.g., a figure, a table, or a listing) and a text fragment (e.g., a paragraph, a caption, or a formula)."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#fromLabelingSchema
@@ -334,7 +347,8 @@ onner:fromLabelingSchema rdf:type owl:ObjectProperty ,
                                   owl:IrreflexiveProperty ;
                          rdfs:domain onner:Label ;
                          rdfs:range onner:LabelingSchema ;
-                         rdfs:label "from labeling schema"@en .
+                         rdfs:label "from labeling schema"@en ;
+                         <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a classification category (e.g., a label) of a labeled term (also known as a named entity) and a domain-specific schema where a classification category belongs to (e.g., a labeling schema)."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#hasAffiliation
@@ -343,7 +357,8 @@ onner:hasAffiliation rdf:type owl:ObjectProperty ,
                               owl:IrreflexiveProperty ;
                      rdfs:domain onner:Person ;
                      rdfs:range onner:Organization ;
-                     rdfs:label "has affiliation"@en .
+                     rdfs:label "has affiliation"@en ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a person and an organization where a person is affiliated with."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#hasCaption
@@ -352,7 +367,8 @@ onner:hasCaption rdf:type owl:ObjectProperty ,
                           owl:IrreflexiveProperty ;
                  rdfs:domain onner:FloatingDocumentPart ;
                  rdfs:range onner:Caption ;
-                 rdfs:label "has caption"@en .
+                 rdfs:label "has caption"@en ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a floating document element (e.g., a figure, a table, or a listing) and a accompanying text fragment (e.g., a caption) which describes a floating document element."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#hasLabeledTermLabel
@@ -361,7 +377,8 @@ onner:hasLabeledTermLabel rdf:type owl:ObjectProperty ,
                                    owl:IrreflexiveProperty ;
                           rdfs:domain onner:LabeledTermStatus ;
                           rdfs:range onner:Label ;
-                          rdfs:label "has labeled term label"@en .
+                          rdfs:label "has labeled term label"@en ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a status of a labeled term (also known as a named entity) and a classification category (e.g., a label) of a labeled term."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#hasLabeledTermStatus
@@ -371,7 +388,8 @@ onner:hasLabeledTermStatus rdf:type owl:ObjectProperty ;
                                     owl:IrreflexiveProperty ;
                            rdfs:domain onner:LabeledTerm ;
                            rdfs:range onner:LabeledTermStatus ;
-                           rdfs:label "has labeled term status"@en .
+                           rdfs:label "has labeled term status"@en ;
+                           <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a labeled term (also known as a named entity) and a status of a labeled term."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#hasPublicationAuthorRole
@@ -380,7 +398,8 @@ onner:hasPublicationAuthorRole rdf:type owl:ObjectProperty ;
                                owl:inverseOf onner:roleOfPublicationAuthor ;
                                rdfs:domain onner:Person ;
                                rdfs:range onner:PublicationAuthorRole ;
-                               rdfs:label "has publication author role"@en .
+                               rdfs:label "has publication author role"@en ;
+                               <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a person and a role (e.g., a publication author role) that identifies a person as an author of a publication."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#has_NER_LabelerRole
@@ -393,7 +412,8 @@ onner:has_NER_LabelerRole rdf:type owl:ObjectProperty ;
                                                     )
                                       ] ;
                           rdfs:range onner:NER_LabelerRole ;
-                          rdfs:label "has NER labeler role"@en .
+                          rdfs:label "has NER labeler role"@en ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "The relationship between an NER labeler (e.g., a person or an NER system) and a role (e.g., NER labeler role) that grants the privilege of NER labeling to a labeler."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#labeledTermDirectlyContainedBy
@@ -401,7 +421,8 @@ onner:labeledTermDirectlyContainedBy rdf:type owl:ObjectProperty ;
                                      rdfs:subPropertyOf onner:documentPartDirectlyContainedBy ;
                                      rdfs:domain onner:LabeledTerm ;
                                      rdfs:range onner:TextFragment ;
-                                     rdfs:label "labeled term directly contained by"@en .
+                                     rdfs:label "labeled term directly contained by"@en ;
+                                     <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a directly contained labeled term (also known as a named entity) and a container entity (e.g., a text fragment)."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#nextDocumentPart
@@ -410,7 +431,8 @@ onner:nextDocumentPart rdf:type owl:ObjectProperty ,
                                 owl:IrreflexiveProperty ;
                        rdfs:domain onner:OrderedDocumentPart ;
                        rdfs:range onner:OrderedDocumentPart ;
-                       rdfs:label "next document part"@en .
+                       rdfs:label "next document part"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "The relationship of one ordered document element (e.g., a section or a paragraph) with another ordered document element."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#publicationAuthoredBy
@@ -421,7 +443,8 @@ onner:publicationAuthoredBy rdf:type owl:ObjectProperty ;
                                                      <http://purl.obolibrary.org/obo#BFO_0000055>
                                                      onner:roleOfPublicationAuthor
                                                    ) ;
-                            rdfs:label "publication authored by"@en .
+                            rdfs:label "publication authored by"@en ;
+                            <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a document (e.g., a scholarly publication) that a person has written and a person who holds a publication author role."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#referencedBy
@@ -430,8 +453,6 @@ onner:referencedBy rdf:type owl:ObjectProperty ;
                    owl:inverseOf onner:references ;
                    rdf:type owl:AsymmetricProperty ,
                             owl:IrreflexiveProperty ;
-                   rdfs:domain onner:ScholarlyPublication ;
-                   rdfs:range onner:BibliographicEntry ;
                    rdfs:label "referenced by"@en .
 
 
@@ -450,7 +471,8 @@ onner:roleOfPublicationAuthor rdf:type owl:ObjectProperty ;
                                        owl:IrreflexiveProperty ;
                               rdfs:domain onner:PublicationAuthorRole ;
                               rdfs:range onner:Person ;
-                              rdfs:label "role of publication author"@en .
+                              rdfs:label "role of publication author"@en ;
+                              <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a role (e.g., a publication author role) that identifies a person as an author of a publication and a person."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#roleOf_NER_Labeler
@@ -464,7 +486,8 @@ onner:roleOf_NER_Labeler rdf:type owl:ObjectProperty ;
                                                     onner:Person
                                                   )
                                     ] ;
-                         rdfs:label "role of NER labeler"@en .
+                         rdfs:label "role of NER labeler"@en ;
+                         <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a role (e.g., NER labeler role) that grants the privilege of NER labeling to a labeler and an NER labeler (e.g., a person or an NER system)."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#scholarlyPublicationReferencedByBibliographicEntry
@@ -472,7 +495,8 @@ onner:scholarlyPublicationReferencedByBibliographicEntry rdf:type owl:ObjectProp
                                                          rdfs:subPropertyOf onner:referencedBy ;
                                                          rdfs:domain onner:ScholarlyPublication ;
                                                          rdfs:range onner:BibliographicEntry ;
-                                                         rdfs:label "scholarly publication referenced by bibliographic entry"@en .
+                                                         rdfs:label "scholarly publication referenced by bibliographic entry"@en ;
+                                                         <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a document (e.g., a scholarly publication) and a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#statusAssignedBy
@@ -487,7 +511,8 @@ onner:statusAssignedBy rdf:type owl:ObjectProperty ;
                                                 <http://purl.obolibrary.org/obo#BFO_0000055>
                                                 onner:roleOf_NER_Labeler
                                               ) ;
-                       rdfs:label "status assigned by"@en .
+                       rdfs:label "status assigned by"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a status of a labeled term (also known as a named entity) and an entity (e.g., a person or an NER system) privileged with a NER labeler role."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#statusOfLabeledTerm
@@ -496,7 +521,8 @@ onner:statusOfLabeledTerm rdf:type owl:ObjectProperty ,
                                    owl:IrreflexiveProperty ;
                           rdfs:domain onner:LabeledTermStatus ;
                           rdfs:range onner:LabeledTerm ;
-                          rdfs:label "status of labeled term"@en .
+                          rdfs:label "status of labeled term"@en ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a status of a labeled term (also known as a named entity) and a labeled term."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#systemBelongsTo
@@ -504,7 +530,8 @@ onner:systemBelongsTo rdf:type owl:ObjectProperty ,
                                owl:AsymmetricProperty ,
                                owl:IrreflexiveProperty ;
                       rdfs:domain onner:NER_System ;
-                      rdfs:label "system belongs to"@en .
+                      rdfs:label "system belongs to"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a system (e.g., NER system) and its designated owner or operator."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#textFragmentReferencesFloatingDocumentPart
@@ -512,7 +539,8 @@ onner:textFragmentReferencesFloatingDocumentPart rdf:type owl:ObjectProperty ;
                                                  rdfs:subPropertyOf onner:references ;
                                                  rdfs:domain onner:TextFragment ;
                                                  rdfs:range onner:FloatingDocumentPart ;
-                                                 rdfs:label "text fragment references floating document part"@en .
+                                                 rdfs:label "text fragment references floating document part"@en ;
+                                                 <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a text fragment (e.g., a paragraph, a caption, or a formula) and a floating document element (e.g., a figure, a table, or a listing)."@en .
 
 
 #################################################################
@@ -906,7 +934,7 @@ onner:Abstract rdf:type owl:Class ;
                                doco:Abstract ,
                                onner:DocumentPart ;
                rdfs:label "Abstract"@en ;
-               <http://www.w3.org/2004/02/skos/core#definition> "An abstract often looks like a section found within a publication; however, it is structured differently, lacking the capacity for subsections. Despite commonly being positioned at the beginning of a document, the abstract diverges from the usual flow of the document's text."@en .
+               <http://www.w3.org/2004/02/skos/core#definition> "A brief overview of a scholarly publication typically positioned at the beginning of a document, diverging from the usual flow of the document's text."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#AtomicLabeledTerm
