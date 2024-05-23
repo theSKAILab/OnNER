@@ -75,6 +75,10 @@ owl:minCardinality rdf:type owl:AnnotationProperty .
 <http://www.w3.org/2004/02/skos/core#definition> rdf:type owl:AnnotationProperty .
 
 
+###  http://www.w3.org/2004/02/skos/core#example
+<http://www.w3.org/2004/02/skos/core#example> rdf:type owl:AnnotationProperty .
+
+
 #################################################################
 #    Datatypes
 #################################################################
@@ -930,7 +934,7 @@ onner:BibliographicEntry rdf:type owl:Class ;
                                            owl:someValuesFrom onner:ScholarlyPublication
                                          ] ;
                          rdfs:label "Bibliographic Entry"@en ;
-                         <http://www.w3.org/2004/02/skos/core#definition> "A bibliographic entry provides the complete details of the cited work. These entries are typically compiled into a single bibliography, which is located at the end of a document."@en .
+                         <http://www.w3.org/2004/02/skos/core#definition> "The complete details of the cited work compiled into a single bibliography, which is located at the end of a document."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#Bibliography
@@ -948,7 +952,8 @@ onner:Bibliography rdf:type owl:Class ;
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#CandidateStatus
 onner:CandidateStatus rdf:type owl:Class ;
                       rdfs:subClassOf onner:LabeledTermStatus ;
-                      rdfs:label "Candidate Status"@en .
+                      rdfs:label "Candidate Status"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "A status indicating that the corresponding term has not yet been reviewed by domain experts to determine its inclusion in the domain ontology."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#Caption
@@ -979,13 +984,15 @@ onner:CompoundLabeledTerm rdf:type owl:Class ;
                                               ] ;
                           rdfs:subClassOf onner:LabeledTerm ;
                           rdfs:label "Compound Labeled Term"@en ;
-                          <http://www.w3.org/2004/02/skos/core#definition> "A named entity consisting of one or more words identified by a single classification label, with different parts of the named entity identified with distinct classification labels."@en .
+                          <http://www.w3.org/2004/02/skos/core#definition> "A named entity consisting of one or more words identified by a single classification label, with different parts of the named entity identified with distinct classification labels."@en ;
+                          <http://www.w3.org/2004/02/skos/core#example> "The term \"nanoparticle shape\" (classified as \"material\") could be seen as a nested named entity consisting of \"nanoparticle\" (classified as \"structure\") and \"shape\" (classified as \"property\"), both of which are individual named entities."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#ConfirmedStatus
 onner:ConfirmedStatus rdf:type owl:Class ;
                       rdfs:subClassOf onner:LabeledTermStatus ;
-                      rdfs:label "Confirmed Status"@en .
+                      rdfs:label "Confirmed Status"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "A status indicating that the corresponding term has been reviewed by domain experts and determined its inclusion in the domain ontology."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#DocumentPart
@@ -1002,7 +1009,8 @@ onner:DocumentPart rdf:type owl:Class ;
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#EndOfDocument
 onner:EndOfDocument rdf:type owl:Class ;
                     rdfs:subClassOf onner:OrderedDocumentPart ;
-                    rdfs:label "End of Document"@en .
+                    rdfs:label "End of Document"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "The \"End of Document\" denotes the explicit conclusion of the main text."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#Figure
@@ -1037,7 +1045,8 @@ onner:Formula rdf:type owl:Class ;
                                 owl:allValuesFrom onner:FloatingDocumentPart
                               ] ;
               rdfs:label "Formula"@en ;
-              <http://www.w3.org/2004/02/skos/core#definition> "A formula is a specialized piece of text representing mathematical expressions, chemical formulas, etc., and can appear within either a paragraph or a caption."@en .
+              <http://www.w3.org/2004/02/skos/core#definition> "A specialized piece of text representing mathematical expressions, chemical formulas, etc., and can appear within either a paragraph or a caption."@en ;
+              <http://www.w3.org/2004/02/skos/core#example> "The chemical formula of sodium hydroxide and sodium chloride are NaOH and NaCl respectively."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#Keywords
@@ -1070,7 +1079,9 @@ onner:Label rdf:type owl:Class ;
                               owl:onProperty onner:fromLabelingSchema ;
                               owl:allValuesFrom onner:LabelingSchema
                             ] ;
-            rdfs:label "Label"@en .
+            rdfs:label "Label"@en ;
+            <http://www.w3.org/2004/02/skos/core#definition> "A label refers to a concept assigned to a named entity to classify it within a particular context."@en ;
+            <http://www.w3.org/2004/02/skos/core#example> "Within the cellulose domain, the term \"nanoparticle shape\" is classified with the label \"Property\"."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#LabeledTerm
@@ -1102,14 +1113,16 @@ onner:LabeledTerm rdf:type owl:Class ;
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#LabeledTermStatus
 onner:LabeledTermStatus rdf:type owl:Class ;
                         rdfs:subClassOf <http://purl.obolibrary.org/obo#BFO_0000145> ;
-                        rdfs:comment "Each term in the ontology is linked with a status to indicate its current state within the system."@en ;
+                        rdfs:comment "A status is associated with each term in the ontology to signify its current state within the system."@en ;
                         rdfs:label "Labeled Term Status"@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#LabelingSchema
 onner:LabelingSchema rdf:type owl:Class ;
                      rdfs:subClassOf <http://purl.obolibrary.org/obo#IAO_0000030> ;
-                     rdfs:label "Labeling Schema"@en .
+                     rdfs:label "Labeling Schema"@en ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "A labeling schema consists of a unique set of labels customized for a particular domain or purpose."@en ;
+                     <http://www.w3.org/2004/02/skos/core#example> "The \"Material,\" \"Property,\" and \"Process\" labels are part of the CelloGraph schema, designed specifically for the cellulose domain."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#Listing
@@ -1122,13 +1135,15 @@ onner:Listing rdf:type owl:Class ;
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#NER_LabelerRole
 onner:NER_LabelerRole rdf:type owl:Class ;
                       rdfs:subClassOf <http://purl.obolibrary.org/obo#IAO_0021031> ;
-                      rdfs:label "NER Labeler Role"@en .
+                      rdfs:label "NER Labeler Role"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "An essential role to identify and classify named entities within text."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#NER_System
 onner:NER_System rdf:type owl:Class ;
                  rdfs:subClassOf <http://purl.obolibrary.org/obo#RO_0002577> ;
-                 rdfs:label "NER System"@en .
+                 rdfs:label "NER System"@en ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "A system that automates the process of identifying and categorizing named entities within text."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#OrderedDocumentPart
@@ -1144,7 +1159,8 @@ onner:OrderedDocumentPart rdf:type owl:Class ;
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#Organization
 onner:Organization rdf:type owl:Class ;
                    rdfs:subClassOf <http://purl.obolibrary.org/obo#OBI_0000245> ;
-                   rdfs:label "Organization"@en .
+                   rdfs:label "Organization"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "A structured entity formed by a group of individuals or legal entities with a common purpose."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#Paragraph
@@ -1168,19 +1184,22 @@ onner:Paragraph rdf:type owl:Class ;
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#Person
 onner:Person rdf:type owl:Class ;
              rdfs:subClassOf <http://purl.obolibrary.org/obo#NCBITaxon_9606> ;
-             rdfs:label "Person"@en .
+             rdfs:label "Person"@en ;
+             <http://www.w3.org/2004/02/skos/core#definition> "An individual human being."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#PublicationAuthorRole
 onner:PublicationAuthorRole rdf:type owl:Class ;
                             rdfs:subClassOf <http://purl.obolibrary.org/obo#IAO_0000442> ;
-                            rdfs:label "Publication Author Role"@en .
+                            rdfs:label "Publication Author Role"@en ;
+                            <http://www.w3.org/2004/02/skos/core#definition> "An essential role to act as an author."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#RejectedStatus
 onner:RejectedStatus rdf:type owl:Class ;
                      rdfs:subClassOf onner:LabeledTermStatus ;
-                     rdfs:label "Rejected Status"@en .
+                     rdfs:label "Rejected Status"@en ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "A status indicating that the corresponding term has been reviewed by domain experts and deemed ineligible for inclusion in the domain ontology."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#ScholarlyPublication
@@ -1210,7 +1229,8 @@ onner:Section rdf:type owl:Class ;
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#SuggestedStatus
 onner:SuggestedStatus rdf:type owl:Class ;
                       rdfs:subClassOf onner:LabeledTermStatus ;
-                      rdfs:label "Suggested Status"@en .
+                      rdfs:label "Suggested Status"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "A status indicating that the corresponding term has been reviewed by domain experts and proposed either a different label or a revised span, particularly if the term comprises multiple words."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#Table
