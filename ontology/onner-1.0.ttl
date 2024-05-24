@@ -578,63 +578,64 @@ onner:captionText rdf:type owl:DatatypeProperty ;
                                             )
                               ] ;
                   rdfs:range xsd:string ;
-                  rdfs:label "caption text"@en .
+                  rdfs:label "caption text"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "A text segment of a caption."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#doi
 onner:doi rdf:type owl:DatatypeProperty ;
           rdfs:domain onner:ScholarlyPublication ;
           rdfs:range xsd:string ;
-          rdfs:label "doi"@en .
+          rdfs:label "doi"@en ;
+          <http://www.w3.org/2004/02/skos/core#definition> "A unique identification of an online document."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#figureNumber
 onner:figureNumber rdf:type owl:DatatypeProperty ;
                    rdfs:domain onner:Figure ;
                    rdfs:range xsd:nonNegativeInteger ;
-                   rdfs:label "figure number"@en .
-
-
-###  http://spatialai.org/cellograph/ontology/onner/v1.0#homoSapiensName
-onner:homoSapiensName rdf:type owl:DatatypeProperty ;
-                      rdfs:domain <http://purl.obolibrary.org/obo#NCBITaxon_9606> ;
-                      rdfs:range xsd:string ;
-                      rdfs:label "homo sapiens name"@en .
+                   rdfs:label "figure number"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "A unique identification number of a figure within a document."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#keyword
 onner:keyword rdf:type owl:DatatypeProperty ;
               rdfs:domain onner:Keywords ;
               rdfs:range xsd:string ;
-              rdfs:label "keyword"@en .
+              rdfs:label "keyword"@en ;
+              <http://www.w3.org/2004/02/skos/core#definition> "A text segment of a keyword."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#labelText
 onner:labelText rdf:type owl:DatatypeProperty ;
                 rdfs:domain onner:Label ;
                 rdfs:range xsd:string ;
-                rdfs:label "label text"@en .
+                rdfs:label "label text"@en ;
+                <http://www.w3.org/2004/02/skos/core#definition> "A text segment of a label."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#labeledTermText
 onner:labeledTermText rdf:type owl:DatatypeProperty ;
                       rdfs:domain onner:LabeledTerm ;
                       rdfs:range xsd:string ;
-                      rdfs:label "labeled term text"@en .
+                      rdfs:label "labeled term text"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "A text segment of a labeled term."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#length
 onner:length rdf:type owl:DatatypeProperty ;
              rdfs:domain onner:LabeledTerm ;
              rdfs:range xsd:nonNegativeInteger ;
-             rdfs:label "length"@en .
+             rdfs:label "length"@en ;
+             <http://www.w3.org/2004/02/skos/core#definition> "The number of characters in a labeled term."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#listingNumber
 onner:listingNumber rdf:type owl:DatatypeProperty ;
                     rdfs:domain onner:Listing ;
                     rdfs:range xsd:nonNegativeInteger ;
-                    rdfs:label "listing number"@en .
+                    rdfs:label "listing number"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "A unique identification number of a listing within a document."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#offset
@@ -642,105 +643,119 @@ onner:offset rdf:type owl:DatatypeProperty ;
              rdfs:domain onner:LabeledTerm ;
              rdfs:range xsd:nonNegativeInteger ;
              rdfs:label "offset"@en ;
-             <http://www.w3.org/2004/02/skos/core#definition> "Starting positions of named entities within paragraphs."@en .
+             <http://www.w3.org/2004/02/skos/core#definition> "The starting position of a labeled term (also known as a named entity) within a paragraph."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#organizationAddress
 onner:organizationAddress rdf:type owl:DatatypeProperty ;
                           rdfs:domain onner:Organization ;
                           rdfs:range xsd:string ;
-                          rdfs:label "organization address"@en .
+                          rdfs:label "organization address"@en ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "A place where an organization is physically located."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#organizationName
 onner:organizationName rdf:type owl:DatatypeProperty ;
                        rdfs:domain onner:Organization ;
                        rdfs:range xsd:string ;
-                       rdfs:label "organization name"@en .
+                       rdfs:label "organization name"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "A name by which an organization is formally known and identified."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#paragraphText
 onner:paragraphText rdf:type owl:DatatypeProperty ;
                     rdfs:domain onner:Paragraph ;
                     rdfs:range xsd:string ;
-                    rdfs:label "paragraph text"@en .
+                    rdfs:label "paragraph text"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "A content of a paragraph."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#personName
 onner:personName rdf:type owl:DatatypeProperty ;
                  rdfs:domain onner:Person ;
                  rdfs:range xsd:string ;
-                 rdfs:label "person name"@en .
+                 rdfs:label "person name"@en ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "A name by which a person is formally known and identified."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#positionInParentDocumentPart
 onner:positionInParentDocumentPart rdf:type owl:DatatypeProperty ;
                                    rdfs:domain onner:Paragraph ;
                                    rdfs:range xsd:nonNegativeInteger ;
-                                   rdfs:label "position in parent document part"@en .
+                                   rdfs:label "position in parent document part"@en ;
+                                   <http://www.w3.org/2004/02/skos/core#definition> "A unique number that refers to the hierarchical position of a document part within its parent document part."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#publicationDate
 onner:publicationDate rdf:type owl:DatatypeProperty ;
                       rdfs:domain onner:ScholarlyPublication ;
                       rdfs:range xsd:dateTime ;
-                      rdfs:label "publication date"@en .
+                      rdfs:label "publication date"@en ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "A date when a particular publication was made publicly available or officially released to the audience."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#publicationTitle
 onner:publicationTitle rdf:type owl:DatatypeProperty ;
                        rdfs:domain onner:ScholarlyPublication ;
                        rdfs:range xsd:string ;
-                       rdfs:label "publication title"@en .
+                       rdfs:label "publication title"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "The title of a publication."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#publicationVenue
 onner:publicationVenue rdf:type owl:DatatypeProperty ;
                        rdfs:domain onner:ScholarlyPublication ;
                        rdfs:range xsd:string ;
-                       rdfs:label "publication venue"@en .
+                       rdfs:label "publication venue"@en ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "The venue of a publication."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#schemaName
 onner:schemaName rdf:type owl:DatatypeProperty ;
                  rdfs:domain onner:LabelingSchema ;
                  rdfs:range xsd:string ;
-                 rdfs:label "schema name"@en .
+                 rdfs:label "schema name"@en ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "The corresponding text for a schema name."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#sectionNumber
 onner:sectionNumber rdf:type owl:DatatypeProperty ;
                     rdfs:domain onner:Section ;
                     rdfs:range xsd:string ;
-                    rdfs:label "section number"@en .
+                    rdfs:label "section number"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "The position of a section whithin a publication."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#sectionTitle
 onner:sectionTitle rdf:type owl:DatatypeProperty ;
                    rdfs:domain onner:Section ;
                    rdfs:range xsd:string ;
-                   rdfs:label "section title"@en .
+                   rdfs:label "section title"@en ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "A header of a section."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#statusAssignmentDate
 onner:statusAssignmentDate rdf:type owl:DatatypeProperty ;
                            rdfs:domain onner:LabeledTermStatus ;
                            rdfs:range xsd:dateTime ;
-                           rdfs:label "status assignment date"@en .
+                           rdfs:label "status assignment date"@en ;
+                           <http://www.w3.org/2004/02/skos/core#definition> "The specific date and time when a particular status is officially assigned to a labeled term (also known as a named entity)."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#systemVersion
 onner:systemVersion rdf:type owl:DatatypeProperty ;
                     rdfs:domain onner:NER_System ;
                     rdfs:range xsd:string ;
-                    rdfs:label "system version"@en .
+                    rdfs:label "system version"@en ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "The version number of the NER system used for named entity recognition."@en .
 
 
 ###  http://spatialai.org/cellograph/ontology/onner/v1.0#tableNumber
 onner:tableNumber rdf:type owl:DatatypeProperty ;
                   rdfs:domain onner:Table ;
                   rdfs:range xsd:nonNegativeInteger ;
-                  rdfs:label "table number"@en .
+                  rdfs:label "table number"@en ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "A unique identification number of a table within a document."@en .
 
 
 #################################################################
