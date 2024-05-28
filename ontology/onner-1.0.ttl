@@ -1,4 +1,4 @@
-@prefix : <http://spatialai.org/onner/v1.0#> .
+@prefix : <http://purl.org/spatialai/onner/v1/onner-full#> .
 @prefix po: <http://purl.org/spar/po#> .
 @prefix bfo: <http://purl.obolibrary.org/obo/bfo.owl#> .
 @prefix deo: <http://purl.org/spar/deo#> .
@@ -12,18 +12,18 @@
 @prefix doco: <http://purl.org/spar/doco#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix fabio: <http://purl.org/spar/fabio#> .
-@prefix onner: <http://spatialai.org/onner/v1.0#> .
+@prefix onner: <http://purl.org/spatialai/onner/v1/onner-full#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@base <http://spatialai.org/onner/v1.0#> .
+@base <http://purl.org/spatialai/onner/v1/onner-full#> .
 
-<http://spatialai.org/onner/v1.0#> rdf:type owl:Ontology ;
+<http://purl.org/spatialai/onner/v1/onner-full#> rdf:type owl:Ontology ;
                                                         owl:versionIRI <https://github.com/thahmann/OnNER/> ;
                                                         dcterms:created "2023-02-05"^^xsd:Date ;
                                                         dcterms:creator "Torsten Hahmann - http://orcid.org/0000-0002-5331-5052"@en ,
                                                                         "Umayer Reza - https://orcid.org/0000-0003-4013-3513"@en ,
                                                                         "Xuelian Zhang - https://orcid.org/0000-0002-0708-4070"@en ;
                                                         dcterms:description "OnNER is designed to capture and represent named entities — terms identified and labeled using named entity recognition (NER) methods — along with relevant semantic context, such as their location within a document, from scholarly publications. The ontology is aligned with Basic Formal Ontology (BFO) and Information Artifact Ontology (IAO), and it also incorporates relevant high-level concepts from Relation Ontology (RO), Ontology for Biomedical Investigations (OBI), and NCBI organismal classification (NCBITaxon)."@en ;
-                                                        dcterms:identifier "http://spatialai.org/onner/v1.0"@en ;
+                                                        dcterms:identifier "http://purl.org/spatialai/onner/v1/onner-full"@en ;
                                                         dcterms:issued "2024-05-24"^^xsd:Date ;
                                                         dcterms:license "This work is distributed under a Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/)."@en ;
                                                         dcterms:publisher "Spatial Knowledge and Artificial Intelligence (SKAI) Lab, University of Maine"@en ;
@@ -192,7 +192,7 @@ po:isContainedBy rdf:type owl:ObjectProperty ;
                  rdfs:label "is contained by"@en .
 
 
-###  http://spatialai.org/onner/v1.0#assignerOfStatus
+###  http://purl.org/spatialai/onner/v1/onner-full#assignerOfStatus
 onner:assignerOfStatus rdf:type owl:ObjectProperty ;
                        owl:inverseOf onner:statusAssignedBy ;
                        rdfs:domain [ rdf:type owl:Class ;
@@ -209,7 +209,7 @@ onner:assignerOfStatus rdf:type owl:ObjectProperty ;
                        <http://www.w3.org/2004/02/skos/core#definition> "The relationship between an entity (e.g., a person or an NER system) privileged with a NER labeler role and a status of a labeled term (also known as a named entity)."@en .
 
 
-###  http://spatialai.org/onner/v1.0#authorOfPublication
+###  http://purl.org/spatialai/onner/v1/onner-full#authorOfPublication
 onner:authorOfPublication rdf:type owl:ObjectProperty ;
                           owl:inverseOf onner:publicationAuthoredBy ;
                           rdfs:domain onner:Person ;
@@ -222,7 +222,7 @@ onner:authorOfPublication rdf:type owl:ObjectProperty ;
                           <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a person who holds a publication author role and a document (e.g., a scholarly publication) that a person has written."@en .
 
 
-###  http://spatialai.org/onner/v1.0#bibliographicEntryContainedBy
+###  http://purl.org/spatialai/onner/v1/onner-full#bibliographicEntryContainedBy
 onner:bibliographicEntryContainedBy rdf:type owl:ObjectProperty ;
                                     rdfs:subPropertyOf onner:documentPartContainedBy ;
                                     owl:inverseOf onner:containsBibliographicEntry ;
@@ -232,7 +232,7 @@ onner:bibliographicEntryContainedBy rdf:type owl:ObjectProperty ;
                                     <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web and a container entity (e.g., a bibliography)."@en .
 
 
-###  http://spatialai.org/onner/v1.0#bibliographicEntryReferencesScholarlyPublication
+###  http://purl.org/spatialai/onner/v1/onner-full#bibliographicEntryReferencesScholarlyPublication
 onner:bibliographicEntryReferencesScholarlyPublication rdf:type owl:ObjectProperty ;
                                                        rdfs:subPropertyOf onner:references ;
                                                        owl:inverseOf onner:scholarlyPublicationReferencedByBibliographicEntry ;
@@ -242,7 +242,7 @@ onner:bibliographicEntryReferencesScholarlyPublication rdf:type owl:ObjectProper
                                                        <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web and a document (e.g., a scholarly publication)."@en .
 
 
-###  http://spatialai.org/onner/v1.0#citedBy
+###  http://purl.org/spatialai/onner/v1/onner-full#citedBy
 onner:citedBy rdf:type owl:ObjectProperty ;
               rdfs:subPropertyOf cito:isCitedBy ;
               owl:inverseOf onner:cites ;
@@ -254,7 +254,7 @@ onner:citedBy rdf:type owl:ObjectProperty ;
               <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web and a text fragment citing someone else's work."@en .
 
 
-###  http://spatialai.org/onner/v1.0#cites
+###  http://purl.org/spatialai/onner/v1/onner-full#cites
 onner:cites rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf cito:cites ;
             rdf:type owl:AsymmetricProperty ,
@@ -265,20 +265,20 @@ onner:cites rdf:type owl:ObjectProperty ;
             <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a text fragment citing someone else's work and a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web."@en .
 
 
-###  http://spatialai.org/onner/v1.0#containedBy
+###  http://purl.org/spatialai/onner/v1/onner-full#containedBy
 onner:containedBy rdf:type owl:ObjectProperty ;
                   rdfs:subPropertyOf po:isContainedBy ;
                   owl:inverseOf onner:contains ;
                   rdfs:label "contained by"@en .
 
 
-###  http://spatialai.org/onner/v1.0#contains
+###  http://purl.org/spatialai/onner/v1/onner-full#contains
 onner:contains rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf po:contains ;
                rdfs:label "contains"@en .
 
 
-###  http://spatialai.org/onner/v1.0#containsBibliographicEntry
+###  http://purl.org/spatialai/onner/v1/onner-full#containsBibliographicEntry
 onner:containsBibliographicEntry rdf:type owl:ObjectProperty ;
                                  rdfs:subPropertyOf onner:containsDocumentPart ;
                                  rdfs:domain onner:Bibliography ;
@@ -287,7 +287,7 @@ onner:containsBibliographicEntry rdf:type owl:ObjectProperty ;
                                  <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a container entity (e.g., a bibliography) and a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web."@en .
 
 
-###  http://spatialai.org/onner/v1.0#containsDocumentPart
+###  http://purl.org/spatialai/onner/v1/onner-full#containsDocumentPart
 onner:containsDocumentPart rdf:type owl:ObjectProperty ;
                            rdfs:subPropertyOf onner:contains ;
                            owl:inverseOf onner:documentPartContainedBy ;
@@ -302,7 +302,7 @@ onner:containsDocumentPart rdf:type owl:ObjectProperty ;
                            <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a container entity (e.g., a document or a scholarly publication) and a contained entity (e.g., a document part), regardless of its direct or indirect containment."@en .
 
 
-###  http://spatialai.org/onner/v1.0#directlyContainsDocumentPart
+###  http://purl.org/spatialai/onner/v1/onner-full#directlyContainsDocumentPart
 onner:directlyContainsDocumentPart rdf:type owl:ObjectProperty ;
                                    rdfs:subPropertyOf onner:containsDocumentPart ;
                                    owl:inverseOf onner:documentPartDirectlyContainedBy ;
@@ -316,7 +316,7 @@ onner:directlyContainsDocumentPart rdf:type owl:ObjectProperty ;
                                    <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a container entity (e.g., a document or a scholarly publication) and a directly contained entity (e.g., a document part)."@en .
 
 
-###  http://spatialai.org/onner/v1.0#directlyContainsLabeledTerm
+###  http://purl.org/spatialai/onner/v1/onner-full#directlyContainsLabeledTerm
 onner:directlyContainsLabeledTerm rdf:type owl:ObjectProperty ;
                                   rdfs:subPropertyOf onner:directlyContainsDocumentPart ;
                                   owl:inverseOf onner:labeledTermDirectlyContainedBy ;
@@ -326,7 +326,7 @@ onner:directlyContainsLabeledTerm rdf:type owl:ObjectProperty ;
                                   <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a container entity (e.g., a text fragment) and a directly contained labeled term (also known as a named entity)."@en .
 
 
-###  http://spatialai.org/onner/v1.0#documentPartContainedBy
+###  http://purl.org/spatialai/onner/v1/onner-full#documentPartContainedBy
 onner:documentPartContainedBy rdf:type owl:ObjectProperty ;
                               rdfs:subPropertyOf onner:containedBy ;
                               rdf:type owl:TransitiveProperty ;
@@ -340,7 +340,7 @@ onner:documentPartContainedBy rdf:type owl:ObjectProperty ;
                               <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a contained entity (e.g., a document part), regardless of its direct or indirect containment and a container entity (e.g., a document or a scholarly publication)."@en .
 
 
-###  http://spatialai.org/onner/v1.0#documentPartDirectlyContainedBy
+###  http://purl.org/spatialai/onner/v1/onner-full#documentPartDirectlyContainedBy
 onner:documentPartDirectlyContainedBy rdf:type owl:ObjectProperty ;
                                       rdfs:subPropertyOf onner:documentPartContainedBy ;
                                       rdfs:domain onner:DocumentPart ;
@@ -353,7 +353,7 @@ onner:documentPartDirectlyContainedBy rdf:type owl:ObjectProperty ;
                                       <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a directly contained entity (e.g., a document part) and a container entity (e.g., a document or a scholarly publication)."@en .
 
 
-###  http://spatialai.org/onner/v1.0#floatingDocumentPartReferencedByTextFragment
+###  http://purl.org/spatialai/onner/v1/onner-full#floatingDocumentPartReferencedByTextFragment
 onner:floatingDocumentPartReferencedByTextFragment rdf:type owl:ObjectProperty ;
                                                    rdfs:subPropertyOf onner:referencedBy ;
                                                    owl:inverseOf onner:textFragmentReferencesFloatingDocumentPart ;
@@ -363,7 +363,7 @@ onner:floatingDocumentPartReferencedByTextFragment rdf:type owl:ObjectProperty ;
                                                    <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a floating document element (e.g., a figure, a table, or a listing) and a text fragment (e.g., a paragraph, a caption, or a formula)."@en .
 
 
-###  http://spatialai.org/onner/v1.0#fromLabelingSchema
+###  http://purl.org/spatialai/onner/v1/onner-full#fromLabelingSchema
 onner:fromLabelingSchema rdf:type owl:ObjectProperty ,
                                   owl:AsymmetricProperty ,
                                   owl:IrreflexiveProperty ;
@@ -373,7 +373,7 @@ onner:fromLabelingSchema rdf:type owl:ObjectProperty ,
                          <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a classification category (e.g., a label) of a labeled term (also known as a named entity) and a domain-specific schema where a classification category belongs to (e.g., a labeling schema)."@en .
 
 
-###  http://spatialai.org/onner/v1.0#hasAffiliation
+###  http://purl.org/spatialai/onner/v1/onner-full#hasAffiliation
 onner:hasAffiliation rdf:type owl:ObjectProperty ,
                               owl:AsymmetricProperty ,
                               owl:IrreflexiveProperty ;
@@ -383,7 +383,7 @@ onner:hasAffiliation rdf:type owl:ObjectProperty ,
                      <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a person and an organization where a person is affiliated with."@en .
 
 
-###  http://spatialai.org/onner/v1.0#hasCaption
+###  http://purl.org/spatialai/onner/v1/onner-full#hasCaption
 onner:hasCaption rdf:type owl:ObjectProperty ,
                           owl:AsymmetricProperty ,
                           owl:IrreflexiveProperty ;
@@ -393,7 +393,7 @@ onner:hasCaption rdf:type owl:ObjectProperty ,
                  <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a floating document element (e.g., a figure, a table, or a listing) and a accompanying text fragment (e.g., a caption) which describes a floating document element."@en .
 
 
-###  http://spatialai.org/onner/v1.0#hasLabeledTermLabel
+###  http://purl.org/spatialai/onner/v1/onner-full#hasLabeledTermLabel
 onner:hasLabeledTermLabel rdf:type owl:ObjectProperty ,
                                    owl:AsymmetricProperty ,
                                    owl:IrreflexiveProperty ;
@@ -403,7 +403,7 @@ onner:hasLabeledTermLabel rdf:type owl:ObjectProperty ,
                           <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a status of a labeled term (also known as a named entity) and a classification category (e.g., a label) of a labeled term."@en .
 
 
-###  http://spatialai.org/onner/v1.0#hasLabeledTermStatus
+###  http://purl.org/spatialai/onner/v1/onner-full#hasLabeledTermStatus
 onner:hasLabeledTermStatus rdf:type owl:ObjectProperty ;
                            owl:inverseOf onner:statusOfLabeledTerm ;
                            rdf:type owl:AsymmetricProperty ,
@@ -414,7 +414,7 @@ onner:hasLabeledTermStatus rdf:type owl:ObjectProperty ;
                            <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a labeled term (also known as a named entity) and a status of a labeled term."@en .
 
 
-###  http://spatialai.org/onner/v1.0#hasPublicationAuthorRole
+###  http://purl.org/spatialai/onner/v1/onner-full#hasPublicationAuthorRole
 onner:hasPublicationAuthorRole rdf:type owl:ObjectProperty ;
                                rdfs:subPropertyOf <http://purl.obolibrary.org/obo#RO_0000087> ;
                                owl:inverseOf onner:roleOfPublicationAuthor ;
@@ -424,7 +424,7 @@ onner:hasPublicationAuthorRole rdf:type owl:ObjectProperty ;
                                <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a person and a role (e.g., a publication author role) that identifies a person as an author of a publication."@en .
 
 
-###  http://spatialai.org/onner/v1.0#has_NER_LabelerRole
+###  http://purl.org/spatialai/onner/v1/onner-full#has_NER_LabelerRole
 onner:has_NER_LabelerRole rdf:type owl:ObjectProperty ;
                           rdfs:subPropertyOf <http://purl.obolibrary.org/obo#RO_0000087> ;
                           owl:inverseOf onner:roleOf_NER_Labeler ;
@@ -438,7 +438,7 @@ onner:has_NER_LabelerRole rdf:type owl:ObjectProperty ;
                           <http://www.w3.org/2004/02/skos/core#definition> "The relationship between an NER labeler (e.g., a person or an NER system) and a role (e.g., NER labeler role) that grants the privilege of NER labeling to a labeler."@en .
 
 
-###  http://spatialai.org/onner/v1.0#labeledTermDirectlyContainedBy
+###  http://purl.org/spatialai/onner/v1/onner-full#labeledTermDirectlyContainedBy
 onner:labeledTermDirectlyContainedBy rdf:type owl:ObjectProperty ;
                                      rdfs:subPropertyOf onner:documentPartDirectlyContainedBy ;
                                      rdfs:domain onner:LabeledTerm ;
@@ -447,7 +447,7 @@ onner:labeledTermDirectlyContainedBy rdf:type owl:ObjectProperty ;
                                      <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a directly contained labeled term (also known as a named entity) and a container entity (e.g., a text fragment)."@en .
 
 
-###  http://spatialai.org/onner/v1.0#nextDocumentPart
+###  http://purl.org/spatialai/onner/v1/onner-full#nextDocumentPart
 onner:nextDocumentPart rdf:type owl:ObjectProperty ,
                                 owl:AsymmetricProperty ,
                                 owl:IrreflexiveProperty ;
@@ -457,7 +457,7 @@ onner:nextDocumentPart rdf:type owl:ObjectProperty ,
                        <http://www.w3.org/2004/02/skos/core#definition> "The relationship of one ordered document element (e.g., a section or a paragraph) with another ordered document element."@en .
 
 
-###  http://spatialai.org/onner/v1.0#publicationAuthoredBy
+###  http://purl.org/spatialai/onner/v1/onner-full#publicationAuthoredBy
 onner:publicationAuthoredBy rdf:type owl:ObjectProperty ;
                             rdfs:domain onner:ScholarlyPublication ;
                             rdfs:range onner:Person ;
@@ -469,7 +469,7 @@ onner:publicationAuthoredBy rdf:type owl:ObjectProperty ;
                             <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a document (e.g., a scholarly publication) that a person has written and a person who holds a publication author role."@en .
 
 
-###  http://spatialai.org/onner/v1.0#referencedBy
+###  http://purl.org/spatialai/onner/v1/onner-full#referencedBy
 onner:referencedBy rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf biro:isReferencedBy ;
                    owl:inverseOf onner:references ;
@@ -478,7 +478,7 @@ onner:referencedBy rdf:type owl:ObjectProperty ;
                    rdfs:label "referenced by"@en .
 
 
-###  http://spatialai.org/onner/v1.0#references
+###  http://purl.org/spatialai/onner/v1/onner-full#references
 onner:references rdf:type owl:ObjectProperty ;
                  rdfs:subPropertyOf biro:references ;
                  rdf:type owl:AsymmetricProperty ,
@@ -486,7 +486,7 @@ onner:references rdf:type owl:ObjectProperty ;
                  rdfs:label "references"@en .
 
 
-###  http://spatialai.org/onner/v1.0#roleOfPublicationAuthor
+###  http://purl.org/spatialai/onner/v1/onner-full#roleOfPublicationAuthor
 onner:roleOfPublicationAuthor rdf:type owl:ObjectProperty ;
                               rdfs:subPropertyOf <http://purl.obolibrary.org/obo#RO_0000081> ;
                               rdf:type owl:AsymmetricProperty ,
@@ -497,7 +497,7 @@ onner:roleOfPublicationAuthor rdf:type owl:ObjectProperty ;
                               <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a role (e.g., a publication author role) that identifies a person as an author of a publication and a person."@en .
 
 
-###  http://spatialai.org/onner/v1.0#roleOf_NER_Labeler
+###  http://purl.org/spatialai/onner/v1/onner-full#roleOf_NER_Labeler
 onner:roleOf_NER_Labeler rdf:type owl:ObjectProperty ;
                          rdfs:subPropertyOf <http://purl.obolibrary.org/obo#RO_0000081> ;
                          rdf:type owl:AsymmetricProperty ,
@@ -512,7 +512,7 @@ onner:roleOf_NER_Labeler rdf:type owl:ObjectProperty ;
                          <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a role (e.g., NER labeler role) that grants the privilege of NER labeling to a labeler and an NER labeler (e.g., a person or an NER system)."@en .
 
 
-###  http://spatialai.org/onner/v1.0#scholarlyPublicationReferencedByBibliographicEntry
+###  http://purl.org/spatialai/onner/v1/onner-full#scholarlyPublicationReferencedByBibliographicEntry
 onner:scholarlyPublicationReferencedByBibliographicEntry rdf:type owl:ObjectProperty ;
                                                          rdfs:subPropertyOf onner:referencedBy ;
                                                          rdfs:domain onner:ScholarlyPublication ;
@@ -521,7 +521,7 @@ onner:scholarlyPublicationReferencedByBibliographicEntry rdf:type owl:ObjectProp
                                                          <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a document (e.g., a scholarly publication) and a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web."@en .
 
 
-###  http://spatialai.org/onner/v1.0#statusAssignedBy
+###  http://purl.org/spatialai/onner/v1/onner-full#statusAssignedBy
 onner:statusAssignedBy rdf:type owl:ObjectProperty ;
                        rdfs:domain onner:LabeledTermStatus ;
                        rdfs:range [ rdf:type owl:Class ;
@@ -537,7 +537,7 @@ onner:statusAssignedBy rdf:type owl:ObjectProperty ;
                        <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a status of a labeled term (also known as a named entity) and an entity (e.g., a person or an NER system) privileged with a NER labeler role."@en .
 
 
-###  http://spatialai.org/onner/v1.0#statusOfLabeledTerm
+###  http://purl.org/spatialai/onner/v1/onner-full#statusOfLabeledTerm
 onner:statusOfLabeledTerm rdf:type owl:ObjectProperty ,
                                    owl:AsymmetricProperty ,
                                    owl:IrreflexiveProperty ;
@@ -547,7 +547,7 @@ onner:statusOfLabeledTerm rdf:type owl:ObjectProperty ,
                           <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a status of a labeled term (also known as a named entity) and a labeled term."@en .
 
 
-###  http://spatialai.org/onner/v1.0#systemBelongsTo
+###  http://purl.org/spatialai/onner/v1/onner-full#systemBelongsTo
 onner:systemBelongsTo rdf:type owl:ObjectProperty ,
                                owl:AsymmetricProperty ,
                                owl:IrreflexiveProperty ;
@@ -556,7 +556,7 @@ onner:systemBelongsTo rdf:type owl:ObjectProperty ,
                       <http://www.w3.org/2004/02/skos/core#definition> "The relationship between a system (e.g., NER system) and its designated owner or operator."@en .
 
 
-###  http://spatialai.org/onner/v1.0#textFragmentReferencesFloatingDocumentPart
+###  http://purl.org/spatialai/onner/v1/onner-full#textFragmentReferencesFloatingDocumentPart
 onner:textFragmentReferencesFloatingDocumentPart rdf:type owl:ObjectProperty ;
                                                  rdfs:subPropertyOf onner:references ;
                                                  rdfs:domain onner:TextFragment ;
@@ -569,7 +569,7 @@ onner:textFragmentReferencesFloatingDocumentPart rdf:type owl:ObjectProperty ;
 #    Data properties
 #################################################################
 
-###  http://spatialai.org/onner/v1.0#captionText
+###  http://purl.org/spatialai/onner/v1/onner-full#captionText
 onner:captionText rdf:type owl:DatatypeProperty ;
                   rdfs:domain [ rdf:type owl:Class ;
                                 owl:unionOf ( onner:Figure
@@ -582,7 +582,7 @@ onner:captionText rdf:type owl:DatatypeProperty ;
                   <http://www.w3.org/2004/02/skos/core#definition> "A text segment of a caption."@en .
 
 
-###  http://spatialai.org/onner/v1.0#doi
+###  http://purl.org/spatialai/onner/v1/onner-full#doi
 onner:doi rdf:type owl:DatatypeProperty ;
           rdfs:domain onner:ScholarlyPublication ;
           rdfs:range xsd:string ;
@@ -590,7 +590,7 @@ onner:doi rdf:type owl:DatatypeProperty ;
           <http://www.w3.org/2004/02/skos/core#definition> "A unique identification of an online document."@en .
 
 
-###  http://spatialai.org/onner/v1.0#figureNumber
+###  http://purl.org/spatialai/onner/v1/onner-full#figureNumber
 onner:figureNumber rdf:type owl:DatatypeProperty ;
                    rdfs:domain onner:Figure ;
                    rdfs:range xsd:nonNegativeInteger ;
@@ -598,7 +598,7 @@ onner:figureNumber rdf:type owl:DatatypeProperty ;
                    <http://www.w3.org/2004/02/skos/core#definition> "A unique identification number of a figure within a document."@en .
 
 
-###  http://spatialai.org/onner/v1.0#keyword
+###  http://purl.org/spatialai/onner/v1/onner-full#keyword
 onner:keyword rdf:type owl:DatatypeProperty ;
               rdfs:domain onner:Keywords ;
               rdfs:range xsd:string ;
@@ -606,7 +606,7 @@ onner:keyword rdf:type owl:DatatypeProperty ;
               <http://www.w3.org/2004/02/skos/core#definition> "A text segment of a keyword."@en .
 
 
-###  http://spatialai.org/onner/v1.0#labelText
+###  http://purl.org/spatialai/onner/v1/onner-full#labelText
 onner:labelText rdf:type owl:DatatypeProperty ;
                 rdfs:domain onner:Label ;
                 rdfs:range xsd:string ;
@@ -614,7 +614,7 @@ onner:labelText rdf:type owl:DatatypeProperty ;
                 <http://www.w3.org/2004/02/skos/core#definition> "A text segment of a label."@en .
 
 
-###  http://spatialai.org/onner/v1.0#labeledTermText
+###  http://purl.org/spatialai/onner/v1/onner-full#labeledTermText
 onner:labeledTermText rdf:type owl:DatatypeProperty ;
                       rdfs:domain onner:LabeledTerm ;
                       rdfs:range xsd:string ;
@@ -622,7 +622,7 @@ onner:labeledTermText rdf:type owl:DatatypeProperty ;
                       <http://www.w3.org/2004/02/skos/core#definition> "A text segment of a labeled term."@en .
 
 
-###  http://spatialai.org/onner/v1.0#length
+###  http://purl.org/spatialai/onner/v1/onner-full#length
 onner:length rdf:type owl:DatatypeProperty ;
              rdfs:domain onner:LabeledTerm ;
              rdfs:range xsd:nonNegativeInteger ;
@@ -630,7 +630,7 @@ onner:length rdf:type owl:DatatypeProperty ;
              <http://www.w3.org/2004/02/skos/core#definition> "The number of characters present in a labeled term."@en .
 
 
-###  http://spatialai.org/onner/v1.0#listingNumber
+###  http://purl.org/spatialai/onner/v1/onner-full#listingNumber
 onner:listingNumber rdf:type owl:DatatypeProperty ;
                     rdfs:domain onner:Listing ;
                     rdfs:range xsd:nonNegativeInteger ;
@@ -638,7 +638,7 @@ onner:listingNumber rdf:type owl:DatatypeProperty ;
                     <http://www.w3.org/2004/02/skos/core#definition> "A unique identification number of a listing within a document."@en .
 
 
-###  http://spatialai.org/onner/v1.0#offset
+###  http://purl.org/spatialai/onner/v1/onner-full#offset
 onner:offset rdf:type owl:DatatypeProperty ;
              rdfs:domain onner:LabeledTerm ;
              rdfs:range xsd:nonNegativeInteger ;
@@ -646,7 +646,7 @@ onner:offset rdf:type owl:DatatypeProperty ;
              <http://www.w3.org/2004/02/skos/core#definition> "The starting position of a labeled term (also known as a named entity) within a paragraph."@en .
 
 
-###  http://spatialai.org/onner/v1.0#organizationAddress
+###  http://purl.org/spatialai/onner/v1/onner-full#organizationAddress
 onner:organizationAddress rdf:type owl:DatatypeProperty ;
                           rdfs:domain onner:Organization ;
                           rdfs:range xsd:string ;
@@ -654,7 +654,7 @@ onner:organizationAddress rdf:type owl:DatatypeProperty ;
                           <http://www.w3.org/2004/02/skos/core#definition> "A place where an organization is physically located."@en .
 
 
-###  http://spatialai.org/onner/v1.0#organizationName
+###  http://purl.org/spatialai/onner/v1/onner-full#organizationName
 onner:organizationName rdf:type owl:DatatypeProperty ;
                        rdfs:domain onner:Organization ;
                        rdfs:range xsd:string ;
@@ -662,7 +662,7 @@ onner:organizationName rdf:type owl:DatatypeProperty ;
                        <http://www.w3.org/2004/02/skos/core#definition> "A name by which an organization is formally known and identified."@en .
 
 
-###  http://spatialai.org/onner/v1.0#paragraphText
+###  http://purl.org/spatialai/onner/v1/onner-full#paragraphText
 onner:paragraphText rdf:type owl:DatatypeProperty ;
                     rdfs:domain onner:Paragraph ;
                     rdfs:range xsd:string ;
@@ -670,7 +670,7 @@ onner:paragraphText rdf:type owl:DatatypeProperty ;
                     <http://www.w3.org/2004/02/skos/core#definition> "A text segment of a paragraph."@en .
 
 
-###  http://spatialai.org/onner/v1.0#personName
+###  http://purl.org/spatialai/onner/v1/onner-full#personName
 onner:personName rdf:type owl:DatatypeProperty ;
                  rdfs:domain onner:Person ;
                  rdfs:range xsd:string ;
@@ -678,7 +678,7 @@ onner:personName rdf:type owl:DatatypeProperty ;
                  <http://www.w3.org/2004/02/skos/core#definition> "A name by which a person is formally known and identified."@en .
 
 
-###  http://spatialai.org/onner/v1.0#positionInParentDocumentPart
+###  http://purl.org/spatialai/onner/v1/onner-full#positionInParentDocumentPart
 onner:positionInParentDocumentPart rdf:type owl:DatatypeProperty ;
                                    rdfs:domain onner:Paragraph ;
                                    rdfs:range xsd:nonNegativeInteger ;
@@ -686,7 +686,7 @@ onner:positionInParentDocumentPart rdf:type owl:DatatypeProperty ;
                                    <http://www.w3.org/2004/02/skos/core#definition> "A unique number that refers to the hierarchical position of a document part within its parent document part."@en .
 
 
-###  http://spatialai.org/onner/v1.0#publicationDate
+###  http://purl.org/spatialai/onner/v1/onner-full#publicationDate
 onner:publicationDate rdf:type owl:DatatypeProperty ;
                       rdfs:domain onner:ScholarlyPublication ;
                       rdfs:range xsd:dateTime ;
@@ -694,7 +694,7 @@ onner:publicationDate rdf:type owl:DatatypeProperty ;
                       <http://www.w3.org/2004/02/skos/core#definition> "A date when a publication was made publicly available or officially released to the audience."@en .
 
 
-###  http://spatialai.org/onner/v1.0#publicationTitle
+###  http://purl.org/spatialai/onner/v1/onner-full#publicationTitle
 onner:publicationTitle rdf:type owl:DatatypeProperty ;
                        rdfs:domain onner:ScholarlyPublication ;
                        rdfs:range xsd:string ;
@@ -702,7 +702,7 @@ onner:publicationTitle rdf:type owl:DatatypeProperty ;
                        <http://www.w3.org/2004/02/skos/core#definition> "The title of a publication."@en .
 
 
-###  http://spatialai.org/onner/v1.0#publicationVenue
+###  http://purl.org/spatialai/onner/v1/onner-full#publicationVenue
 onner:publicationVenue rdf:type owl:DatatypeProperty ;
                        rdfs:domain onner:ScholarlyPublication ;
                        rdfs:range xsd:string ;
@@ -710,7 +710,7 @@ onner:publicationVenue rdf:type owl:DatatypeProperty ;
                        <http://www.w3.org/2004/02/skos/core#definition> "The venue of a publication."@en .
 
 
-###  http://spatialai.org/onner/v1.0#schemaName
+###  http://purl.org/spatialai/onner/v1/onner-full#schemaName
 onner:schemaName rdf:type owl:DatatypeProperty ;
                  rdfs:domain onner:LabelingSchema ;
                  rdfs:range xsd:string ;
@@ -718,7 +718,7 @@ onner:schemaName rdf:type owl:DatatypeProperty ;
                  <http://www.w3.org/2004/02/skos/core#definition> "The corresponding text for a schema name."@en .
 
 
-###  http://spatialai.org/onner/v1.0#sectionNumber
+###  http://purl.org/spatialai/onner/v1/onner-full#sectionNumber
 onner:sectionNumber rdf:type owl:DatatypeProperty ;
                     rdfs:domain onner:Section ;
                     rdfs:range xsd:string ;
@@ -726,7 +726,7 @@ onner:sectionNumber rdf:type owl:DatatypeProperty ;
                     <http://www.w3.org/2004/02/skos/core#definition> "The position of a section whithin a publication."@en .
 
 
-###  http://spatialai.org/onner/v1.0#sectionTitle
+###  http://purl.org/spatialai/onner/v1/onner-full#sectionTitle
 onner:sectionTitle rdf:type owl:DatatypeProperty ;
                    rdfs:domain onner:Section ;
                    rdfs:range xsd:string ;
@@ -734,7 +734,7 @@ onner:sectionTitle rdf:type owl:DatatypeProperty ;
                    <http://www.w3.org/2004/02/skos/core#definition> "A header of a section."@en .
 
 
-###  http://spatialai.org/onner/v1.0#statusAssignmentDate
+###  http://purl.org/spatialai/onner/v1/onner-full#statusAssignmentDate
 onner:statusAssignmentDate rdf:type owl:DatatypeProperty ;
                            rdfs:domain onner:LabeledTermStatus ;
                            rdfs:range xsd:dateTime ;
@@ -742,7 +742,7 @@ onner:statusAssignmentDate rdf:type owl:DatatypeProperty ;
                            <http://www.w3.org/2004/02/skos/core#definition> "The specific date and time when a particular status is officially assigned to a labeled term (also known as a named entity)."@en .
 
 
-###  http://spatialai.org/onner/v1.0#systemVersion
+###  http://purl.org/spatialai/onner/v1/onner-full#systemVersion
 onner:systemVersion rdf:type owl:DatatypeProperty ;
                     rdfs:domain onner:NER_System ;
                     rdfs:range xsd:string ;
@@ -750,7 +750,7 @@ onner:systemVersion rdf:type owl:DatatypeProperty ;
                     <http://www.w3.org/2004/02/skos/core#definition> "The version number of the NER system used for named entity recognition."@en .
 
 
-###  http://spatialai.org/onner/v1.0#tableNumber
+###  http://purl.org/spatialai/onner/v1/onner-full#tableNumber
 onner:tableNumber rdf:type owl:DatatypeProperty ;
                   rdfs:domain onner:Table ;
                   rdfs:range xsd:nonNegativeInteger ;
@@ -965,7 +965,7 @@ fabio:Expression rdf:type owl:Class ;
                  <http://www.w3.org/2004/02/skos/core#definition> "A subclass of FRBR expression, restricted to expressions of fabio:Works. For your latest research paper, the preprint submitted to the publisher, and the final published version to which the publisher assigned a unique digital object identifier, are both expressions of the same work."@en .
 
 
-###  http://spatialai.org/onner/v1.0#Abstract
+###  http://purl.org/spatialai/onner/v1/onner-full#Abstract
 onner:Abstract rdf:type owl:Class ;
                rdfs:subClassOf <http://purl.obolibrary.org/obo#IAO_0000315> ,
                                doco:Abstract ,
@@ -974,7 +974,7 @@ onner:Abstract rdf:type owl:Class ;
                <http://www.w3.org/2004/02/skos/core#definition> "A brief overview of a scholarly publication typically positioned at the beginning of a document, diverging from the usual flow of the document's text."@en .
 
 
-###  http://spatialai.org/onner/v1.0#AtomicLabeledTerm
+###  http://purl.org/spatialai/onner/v1/onner-full#AtomicLabeledTerm
 onner:AtomicLabeledTerm rdf:type owl:Class ;
                         owl:equivalentClass [ owl:intersectionOf ( onner:LabeledTerm
                                                                    [ rdf:type owl:Restriction ;
@@ -991,7 +991,7 @@ onner:AtomicLabeledTerm rdf:type owl:Class ;
                         <http://www.w3.org/2004/02/skos/core#example> "The term \"modulation\" could be identified and labeled as a \"process\" within the cellulose domain."@en .
 
 
-###  http://spatialai.org/onner/v1.0#BibliographicEntry
+###  http://purl.org/spatialai/onner/v1/onner-full#BibliographicEntry
 onner:BibliographicEntry rdf:type owl:Class ;
                          rdfs:subClassOf biro:BibliographicRecord ,
                                          onner:DocumentPart ,
@@ -1003,7 +1003,7 @@ onner:BibliographicEntry rdf:type owl:Class ;
                          <http://www.w3.org/2004/02/skos/core#definition> "A detailed information of the source of a cited work that helps to locate the original content on the web."@en .
 
 
-###  http://spatialai.org/onner/v1.0#Bibliography
+###  http://purl.org/spatialai/onner/v1/onner-full#Bibliography
 onner:Bibliography rdf:type owl:Class ;
                    rdfs:subClassOf biro:BibliographicCollection ,
                                    onner:DocumentPart ,
@@ -1015,14 +1015,14 @@ onner:Bibliography rdf:type owl:Class ;
                    <http://www.w3.org/2004/02/skos/core#definition> "A collection of bibliographic references typically appears at the end of a document"@en .
 
 
-###  http://spatialai.org/onner/v1.0#CandidateStatus
+###  http://purl.org/spatialai/onner/v1/onner-full#CandidateStatus
 onner:CandidateStatus rdf:type owl:Class ;
                       rdfs:subClassOf onner:LabeledTermStatus ;
                       rdfs:label "Candidate Status"@en ;
                       <http://www.w3.org/2004/02/skos/core#definition> "A status indicating that the corresponding term has not yet been reviewed by domain experts to determine its inclusion in the domain ontology."@en .
 
 
-###  http://spatialai.org/onner/v1.0#Caption
+###  http://purl.org/spatialai/onner/v1/onner-full#Caption
 onner:Caption rdf:type owl:Class ;
               rdfs:subClassOf deo:Caption ,
                               onner:TextFragment ,
@@ -1038,7 +1038,7 @@ onner:Caption rdf:type owl:Class ;
               <http://www.w3.org/2004/02/skos/core#definition> "A caption distinguishes itself from a paragraph by being a component of a floating document part, such as a table or figure, where it provides a description of the respective element."@en .
 
 
-###  http://spatialai.org/onner/v1.0#CompoundLabeledTerm
+###  http://purl.org/spatialai/onner/v1/onner-full#CompoundLabeledTerm
 onner:CompoundLabeledTerm rdf:type owl:Class ;
                           owl:equivalentClass [ owl:intersectionOf ( onner:LabeledTerm
                                                                      [ rdf:type owl:Restriction ;
@@ -1054,14 +1054,14 @@ onner:CompoundLabeledTerm rdf:type owl:Class ;
                           <http://www.w3.org/2004/02/skos/core#example> "The term \"nanoparticle shape\" (classified as \"material\") could be seen as a nested named entity consisting of \"nanoparticle\" (classified as \"structure\") and \"shape\" (classified as \"property\"), both of which are individual named entities."@en .
 
 
-###  http://spatialai.org/onner/v1.0#ConfirmedStatus
+###  http://purl.org/spatialai/onner/v1/onner-full#ConfirmedStatus
 onner:ConfirmedStatus rdf:type owl:Class ;
                       rdfs:subClassOf onner:LabeledTermStatus ;
                       rdfs:label "Confirmed Status"@en ;
                       <http://www.w3.org/2004/02/skos/core#definition> "A status indicating that the corresponding term has been reviewed by domain experts and determined its inclusion in the domain ontology."@en .
 
 
-###  http://spatialai.org/onner/v1.0#DocumentPart
+###  http://purl.org/spatialai/onner/v1/onner-full#DocumentPart
 onner:DocumentPart rdf:type owl:Class ;
                    rdfs:subClassOf <http://purl.obolibrary.org/obo#IAO_0000314> ,
                                    [ rdf:type owl:Restriction ;
@@ -1072,14 +1072,14 @@ onner:DocumentPart rdf:type owl:Class ;
                    <http://www.w3.org/2004/02/skos/core#definition> "Structural components of scholarly publications that assist in locating named entities."@en .
 
 
-###  http://spatialai.org/onner/v1.0#EndOfDocument
+###  http://purl.org/spatialai/onner/v1/onner-full#EndOfDocument
 onner:EndOfDocument rdf:type owl:Class ;
                     rdfs:subClassOf onner:OrderedDocumentPart ;
                     rdfs:label "End of Document"@en ;
                     <http://www.w3.org/2004/02/skos/core#definition> "A marker that denotes the explicit conclusion of the main text."@en .
 
 
-###  http://spatialai.org/onner/v1.0#Figure
+###  http://purl.org/spatialai/onner/v1/onner-full#Figure
 onner:Figure rdf:type owl:Class ;
              rdfs:subClassOf doco:Figure ,
                              onner:FloatingDocumentPart ;
@@ -1087,7 +1087,7 @@ onner:Figure rdf:type owl:Class ;
              <http://www.w3.org/2004/02/skos/core#definition> "A floating document element that has the flexibility to be positioned anywhere within a publication."@en .
 
 
-###  http://spatialai.org/onner/v1.0#FloatingDocumentPart
+###  http://purl.org/spatialai/onner/v1/onner-full#FloatingDocumentPart
 onner:FloatingDocumentPart rdf:type owl:Class ;
                            rdfs:subClassOf onner:DocumentPart ;
                            owl:disjointUnionOf ( onner:Figure
@@ -1098,7 +1098,7 @@ onner:FloatingDocumentPart rdf:type owl:Class ;
                            <http://www.w3.org/2004/02/skos/core#definition> "A document part that does not rely on the sequential order of appearing within a publication for semantic significance."@en .
 
 
-###  http://spatialai.org/onner/v1.0#Formula
+###  http://purl.org/spatialai/onner/v1/onner-full#Formula
 onner:Formula rdf:type owl:Class ;
               rdfs:subClassOf doco:Formula ,
                               onner:TextFragment ,
@@ -1115,7 +1115,7 @@ onner:Formula rdf:type owl:Class ;
               <http://www.w3.org/2004/02/skos/core#example> "The chemical formula of sodium hydroxide and sodium chloride are NaOH and NaCl respectively."@en .
 
 
-###  http://spatialai.org/onner/v1.0#Keywords
+###  http://purl.org/spatialai/onner/v1/onner-full#Keywords
 onner:Keywords rdf:type owl:Class ;
                owl:equivalentClass [ owl:intersectionOf ( onner:TextFragment
                                                           [ rdf:type owl:Restriction ;
@@ -1138,7 +1138,7 @@ onner:Keywords rdf:type owl:Class ;
                <http://www.w3.org/2004/02/skos/core#definition> "A special fragment of text that typically appears with the abstract and may contain one or more labeled terms."@en .
 
 
-###  http://spatialai.org/onner/v1.0#Label
+###  http://purl.org/spatialai/onner/v1/onner-full#Label
 onner:Label rdf:type owl:Class ;
             rdfs:subClassOf <http://purl.obolibrary.org/obo#IAO_0000030> ,
                             [ rdf:type owl:Restriction ;
@@ -1150,7 +1150,7 @@ onner:Label rdf:type owl:Class ;
             <http://www.w3.org/2004/02/skos/core#example> "Within the cellulose domain, the term \"nanoparticle shape\" is classified with the label \"Property\"."@en .
 
 
-###  http://spatialai.org/onner/v1.0#LabeledTerm
+###  http://purl.org/spatialai/onner/v1/onner-full#LabeledTerm
 onner:LabeledTerm rdf:type owl:Class ;
                   owl:equivalentClass [ owl:intersectionOf ( onner:TextFragment
                                                              [ rdf:type owl:Restriction ;
@@ -1176,14 +1176,14 @@ onner:LabeledTerm rdf:type owl:Class ;
                   <http://www.w3.org/2004/02/skos/core#definition> "A word or group of words within a scholarly publication that has been identified and classified as a named entity."@en .
 
 
-###  http://spatialai.org/onner/v1.0#LabeledTermStatus
+###  http://purl.org/spatialai/onner/v1/onner-full#LabeledTermStatus
 onner:LabeledTermStatus rdf:type owl:Class ;
                         rdfs:subClassOf <http://purl.obolibrary.org/obo#BFO_0000145> ;
                         rdfs:comment "A status is associated with each term in the ontology to signify its current state within the system."@en ;
                         rdfs:label "Labeled Term Status"@en .
 
 
-###  http://spatialai.org/onner/v1.0#LabelingSchema
+###  http://purl.org/spatialai/onner/v1/onner-full#LabelingSchema
 onner:LabelingSchema rdf:type owl:Class ;
                      rdfs:subClassOf <http://purl.obolibrary.org/obo#IAO_0000030> ;
                      rdfs:label "Labeling Schema"@en ;
@@ -1191,28 +1191,28 @@ onner:LabelingSchema rdf:type owl:Class ;
                      <http://www.w3.org/2004/02/skos/core#example> "The \"Material,\" \"Property,\" and \"Process\" labels are part of the CelloGraph schema, designed specifically for the cellulose domain."@en .
 
 
-###  http://spatialai.org/onner/v1.0#Listing
+###  http://purl.org/spatialai/onner/v1/onner-full#Listing
 onner:Listing rdf:type owl:Class ;
               rdfs:subClassOf onner:FloatingDocumentPart ;
               rdfs:label "Listing"@en ;
               <http://www.w3.org/2004/02/skos/core#definition> "A floating document element that has the flexibility to be positioned anywhere within a publication."@en .
 
 
-###  http://spatialai.org/onner/v1.0#NER_LabelerRole
+###  http://purl.org/spatialai/onner/v1/onner-full#NER_LabelerRole
 onner:NER_LabelerRole rdf:type owl:Class ;
                       rdfs:subClassOf <http://purl.obolibrary.org/obo#IAO_0021031> ;
                       rdfs:label "NER Labeler Role"@en ;
                       <http://www.w3.org/2004/02/skos/core#definition> "An essential role to identify and classify named entities within text."@en .
 
 
-###  http://spatialai.org/onner/v1.0#NER_System
+###  http://purl.org/spatialai/onner/v1/onner-full#NER_System
 onner:NER_System rdf:type owl:Class ;
                  rdfs:subClassOf <http://purl.obolibrary.org/obo#RO_0002577> ;
                  rdfs:label "NER System"@en ;
                  <http://www.w3.org/2004/02/skos/core#definition> "A system that automates the process of identifying and categorizing named entities within text."@en .
 
 
-###  http://spatialai.org/onner/v1.0#OrderedDocumentPart
+###  http://purl.org/spatialai/onner/v1/onner-full#OrderedDocumentPart
 onner:OrderedDocumentPart rdf:type owl:Class ;
                           rdfs:subClassOf onner:DocumentPart ;
                           owl:disjointUnionOf ( onner:Paragraph
@@ -1222,14 +1222,14 @@ onner:OrderedDocumentPart rdf:type owl:Class ;
                           <http://www.w3.org/2004/02/skos/core#definition> "A document part that relies on the sequential order of appearing within a publication for semantic significance."@en .
 
 
-###  http://spatialai.org/onner/v1.0#Organization
+###  http://purl.org/spatialai/onner/v1/onner-full#Organization
 onner:Organization rdf:type owl:Class ;
                    rdfs:subClassOf <http://purl.obolibrary.org/obo#OBI_0000245> ;
                    rdfs:label "Organization"@en ;
                    <http://www.w3.org/2004/02/skos/core#definition> "A structured entity formed by a group of individuals or legal entities with a common purpose."@en .
 
 
-###  http://spatialai.org/onner/v1.0#Paragraph
+###  http://purl.org/spatialai/onner/v1/onner-full#Paragraph
 onner:Paragraph rdf:type owl:Class ;
                 rdfs:subClassOf doco:Paragraph ,
                                 onner:OrderedDocumentPart ,
@@ -1247,28 +1247,28 @@ onner:Paragraph rdf:type owl:Class ;
                 <http://www.w3.org/2004/02/skos/core#definition> "A piece of text, often comprising one or more sentences, that can be found both within and outside of a section and its beginning indicates the start of a new line in the text."@en .
 
 
-###  http://spatialai.org/onner/v1.0#Person
+###  http://purl.org/spatialai/onner/v1/onner-full#Person
 onner:Person rdf:type owl:Class ;
              rdfs:subClassOf <http://purl.obolibrary.org/obo#NCBITaxon_9606> ;
              rdfs:label "Person"@en ;
              <http://www.w3.org/2004/02/skos/core#definition> "An individual human being."@en .
 
 
-###  http://spatialai.org/onner/v1.0#PublicationAuthorRole
+###  http://purl.org/spatialai/onner/v1/onner-full#PublicationAuthorRole
 onner:PublicationAuthorRole rdf:type owl:Class ;
                             rdfs:subClassOf <http://purl.obolibrary.org/obo#IAO_0000442> ;
                             rdfs:label "Publication Author Role"@en ;
                             <http://www.w3.org/2004/02/skos/core#definition> "An essential role to act as an author."@en .
 
 
-###  http://spatialai.org/onner/v1.0#RejectedStatus
+###  http://purl.org/spatialai/onner/v1/onner-full#RejectedStatus
 onner:RejectedStatus rdf:type owl:Class ;
                      rdfs:subClassOf onner:LabeledTermStatus ;
                      rdfs:label "Rejected Status"@en ;
                      <http://www.w3.org/2004/02/skos/core#definition> "A status indicating that the corresponding term has been reviewed by domain experts and deemed ineligible for inclusion in the domain ontology."@en .
 
 
-###  http://spatialai.org/onner/v1.0#ScholarlyPublication
+###  http://purl.org/spatialai/onner/v1/onner-full#ScholarlyPublication
 onner:ScholarlyPublication rdf:type owl:Class ;
                            rdfs:subClassOf <http://purl.obolibrary.org/obo#IAO_0000310> ,
                                            fabio:Expression ,
@@ -1284,7 +1284,7 @@ onner:ScholarlyPublication rdf:type owl:Class ;
                            <http://www.w3.org/2004/02/skos/core#definition> "A unique document format that showcases original research or academic discoveries."@en .
 
 
-###  http://spatialai.org/onner/v1.0#Section
+###  http://purl.org/spatialai/onner/v1/onner-full#Section
 onner:Section rdf:type owl:Class ;
               rdfs:subClassOf doco:Section ,
                               onner:OrderedDocumentPart ;
@@ -1292,14 +1292,14 @@ onner:Section rdf:type owl:Class ;
               <http://www.w3.org/2004/02/skos/core#definition> "A primary element for organizing the main text within publications, capable of being nested and accommodating various other document parts like paragraphs and formulas."@en .
 
 
-###  http://spatialai.org/onner/v1.0#SuggestedStatus
+###  http://purl.org/spatialai/onner/v1/onner-full#SuggestedStatus
 onner:SuggestedStatus rdf:type owl:Class ;
                       rdfs:subClassOf onner:LabeledTermStatus ;
                       rdfs:label "Suggested Status"@en ;
                       <http://www.w3.org/2004/02/skos/core#definition> "A status indicating that the corresponding term has been reviewed by domain experts and proposed either a different label or a revised span, particularly if the term comprises multiple words."@en .
 
 
-###  http://spatialai.org/onner/v1.0#Table
+###  http://purl.org/spatialai/onner/v1/onner-full#Table
 onner:Table rdf:type owl:Class ;
             rdfs:subClassOf doco:Table ,
                             onner:FloatingDocumentPart ;
@@ -1307,7 +1307,7 @@ onner:Table rdf:type owl:Class ;
             <http://www.w3.org/2004/02/skos/core#definition> "A floating document element that has the flexibility to be positioned anywhere within a publication."@en .
 
 
-###  http://spatialai.org/onner/v1.0#TextFragment
+###  http://purl.org/spatialai/onner/v1/onner-full#TextFragment
 onner:TextFragment rdf:type owl:Class ;
                    rdfs:subClassOf doco:TextChunk ,
                                    onner:DocumentPart ;
