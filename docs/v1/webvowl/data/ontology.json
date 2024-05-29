@@ -1,0 +1,4238 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://purl.org/spar/doco", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://purl.org/spar/deo", "http://purl.obolibrary.org/obo", "http://www.w3.org/2000/01/rdf-schema", "http://spatialai.org/onner/v1.0", "http://www.w3.org/2001/XMLSchema", "http://purl.org/spar/po", "http://purl.org/spar/fabio", "http://purl.org/spar/cito", "http://purl.org/spar/biro" ],
+    "title" : {
+      "en" : "Ontology for Named Entity Representation in Scholarly Publications (OnNER)"
+    },
+    "iri" : "http://spatialai.org/onner/v1.0#",
+    "version" : "1.0",
+    "author" : [ "Torsten Hahmann - http://orcid.org/0000-0002-5331-5052", "Umayer Reza - https://orcid.org/0000-0003-4013-3513", "Xuelian Zhang - https://orcid.org/0000-0002-0708-4070" ],
+    "description" : {
+      "en" : "OnNER is designed to capture and represent named entities — terms identified and labeled using named entity recognition (NER) methods — along with relevant semantic context, such as their location within a document, from scholarly publications. The ontology is aligned with Basic Formal Ontology (BFO) and Information Artifact Ontology (IAO), and it also incorporates relevant high-level concepts from Relation Ontology (RO), Ontology for Biomedical Investigations (OBI), and NCBI organismal classification (NCBITaxon)."
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "en",
+        "value" : "This work is distributed under a Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/).",
+        "type" : "label"
+      } ],
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "en",
+        "value" : "http://spatialai.org/onner/v1.0",
+        "type" : "label"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "Umayer Reza - https://orcid.org/0000-0003-4013-3513",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "Xuelian Zhang - https://orcid.org/0000-0002-0708-4070",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "Torsten Hahmann - http://orcid.org/0000-0002-5331-5052",
+        "type" : "label"
+      } ],
+      "subject" : [ {
+        "identifier" : "subject",
+        "language" : "undefined",
+        "value" : "Scholarly Publication",
+        "type" : "label"
+      }, {
+        "identifier" : "subject",
+        "language" : "undefined",
+        "value" : "Information Extraction",
+        "type" : "label"
+      }, {
+        "identifier" : "subject",
+        "language" : "undefined",
+        "value" : "Named Entity Representation",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2023-02-05",
+        "type" : "label"
+      } ],
+      "publisher" : [ {
+        "identifier" : "publisher",
+        "language" : "en",
+        "value" : "Spatial Knowledge and Artificial Intelligence (SKAI) Lab, University of Maine",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "en",
+        "value" : "1.0",
+        "type" : "label"
+      } ],
+      "issued" : [ {
+        "identifier" : "issued",
+        "language" : "undefined",
+        "value" : "2024-05-24",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "Ontology for Named Entity Representation in Scholarly Publications (OnNER)",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "11",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "owl:disjointUnionOf"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:disjointUnionOf"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "201",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "149",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "184",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "208",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "189",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "209",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "144",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "207",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "169",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "228",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "229",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "215",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "171",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "142",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "233",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "234",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "235",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "155",
+    "type" : "owl:Class"
+  }, {
+    "id" : "217",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "125",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "157",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:disjointUnionOf"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "203",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "140",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "232",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "23",
+    "type" : "owl:Thing"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://spatialai.org/onner/v1.0#AtomicLabeledTerm",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A named entity consisting of one or more words identified by a single classification label.",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "The term \"modulation\" could be identified and labeled as a \"process\" within the cellulose domain.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AtomicLabeledTerm",
+      "en" : "Atomic Labeled Term"
+    },
+    "intersection" : [ "12" ],
+    "attributes" : [ "intersection" ],
+    "id" : "11",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#PublicationAuthorRole",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "An essential role to act as an author.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PublicationAuthorRole",
+      "en" : "Publication Author Role"
+    },
+    "id" : "17",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#Person",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "An individual human being.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Person",
+      "en" : "Person"
+    },
+    "id" : "28",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://purl.org/spar/deo#Caption",
+    "baseIri" : "http://purl.org/spar/deo",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Text accompanying another item, such as a picture.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Caption",
+      "en" : "Caption"
+    },
+    "subClasses" : [ "31" ],
+    "attributes" : [ "external" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#EndOfDocument",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A marker that denotes the explicit conclusion of the main text.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "EndOfDocument",
+      "en" : "End of Document"
+    },
+    "id" : "59",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#OBI_0100026",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OBI_0100026",
+      "en" : "Organism"
+    },
+    "subClasses" : [ "29" ],
+    "attributes" : [ "external" ],
+    "id" : "66",
+    "superClasses" : [ "67" ]
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#Abstract",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A brief overview of a scholarly publication typically positioned at the beginning of a document, diverging from the usual flow of the document's text.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Abstract",
+      "en" : "Abstract"
+    },
+    "id" : "43",
+    "superClasses" : [ "73", "44", "74" ]
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#Organization",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A structured entity formed by a group of individuals or legal entities with a common purpose.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Organization",
+      "en" : "Organization"
+    },
+    "id" : "71",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "http://purl.org/spar/doco#TextChunk",
+    "baseIri" : "http://purl.org/spar/doco",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A piece of text defined by a start point and an end point.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "TextChunk",
+      "en" : "Text Chunk"
+    },
+    "subClasses" : [ "88" ],
+    "attributes" : [ "external" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#BFO_0000002",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BFO_0000002",
+      "en" : "Continuant"
+    },
+    "subClasses" : [ "93", "10", "94" ],
+    "attributes" : [ "external" ],
+    "id" : "91",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#BFO_0000003",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BFO_0000003",
+      "en" : "Occurrent"
+    },
+    "subClasses" : [ "96" ],
+    "attributes" : [ "external" ],
+    "id" : "95",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#BFO_0000001",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BFO_0000001",
+      "en" : "Entity"
+    },
+    "subClasses" : [ "91", "95" ],
+    "attributes" : [ "external" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#BFO_0000004",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BFO_0000004",
+      "en" : "Independent Continuant"
+    },
+    "subClasses" : [ "67" ],
+    "attributes" : [ "external" ],
+    "id" : "94",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#TextFragment",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A semantically meaningful pieces of text, such as keywords, paragraphs, and labeled terms (also known as named entities), within a publication.",
+        "type" : "label"
+      } ]
+    },
+    "disjointUnion" : [ "31", "100", "12", "101", "33" ],
+    "label" : {
+      "IRI-based" : "TextFragment",
+      "en" : "Text Fragment"
+    },
+    "subClasses" : [ "31", "100", "12", "101", "33" ],
+    "attributes" : [ "disjointUnion" ],
+    "id" : "88",
+    "superClasses" : [ "87", "73" ]
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#NER_System",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A system that automates the process of identifying and categorizing named entities within text.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NER_System",
+      "en" : "NER System"
+    },
+    "id" : "109",
+    "superClasses" : [ "110" ]
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#Keywords",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A special fragment of text that typically appears with the abstract and may contain one or more labeled terms.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Keywords",
+      "en" : "Keywords"
+    },
+    "intersection" : [ "88" ],
+    "attributes" : [ "intersection" ],
+    "id" : "101",
+    "superClasses" : [ "88" ]
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#Paragraph",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A piece of text, often comprising one or more sentences, that can be found both within and outside of a section and its beginning indicates the start of a new line in the text.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Paragraph",
+      "en" : "Paragraph"
+    },
+    "id" : "33",
+    "superClasses" : [ "60", "88", "34" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#IAO_0000314",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "An information content entity that is part of a document.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IAO_0000314",
+      "en" : "Document Part"
+    },
+    "subClasses" : [ "73", "74" ],
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#IAO_0000315",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A summary of the entire document that is substantially smaller than the document it summarizes. It is about the document it summarizes.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IAO_0000315",
+      "en" : "Abstract"
+    },
+    "subClasses" : [ "43" ],
+    "attributes" : [ "external" ],
+    "id" : "74",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#IAO_0000310",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A collection of information content entities intended to be understood together as a whole.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IAO_0000310",
+      "en" : "Document"
+    },
+    "subClasses" : [ "26" ],
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#Figure",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A floating document element that has the flexibility to be positioned anywhere within a publication.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Figure",
+      "en" : "Figure"
+    },
+    "id" : "54",
+    "superClasses" : [ "124", "48" ]
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#LabeledTermStatus",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LabeledTermStatus",
+      "en" : "Labeled Term Status"
+    },
+    "subClasses" : [ "125", "81", "78", "83" ],
+    "comment" : {
+      "en" : "A status is associated with each term in the ontology to signify its current state within the system."
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#CompoundLabeledTerm",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A named entity consisting of one or more words identified by a single classification label, with different parts of the named entity identified with distinct classification labels.",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "The term \"nanoparticle shape\" (classified as \"material\") could be seen as a nested named entity consisting of \"nanoparticle\" (classified as \"structure\") and \"shape\" (classified as \"property\"), both of which are individual named entities.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CompoundLabeledTerm",
+      "en" : "Compound Labeled Term"
+    },
+    "intersection" : [ "12" ],
+    "attributes" : [ "intersection" ],
+    "id" : "38",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#ConfirmedStatus",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A status indicating that the corresponding term has been reviewed by domain experts and determined its inclusion in the domain ontology.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ConfirmedStatus",
+      "en" : "Confirmed Status"
+    },
+    "id" : "78",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://purl.org/spar/biro#BibliographicCollection",
+    "baseIri" : "http://purl.org/spar/biro",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A collection of bibliographic records, each of which references a publication (or a work in preparation for publication). Examples of bibliographic collections include a collection of the bibliographic records of all the publications that a single individual has authored, or a collection of those bibliographic records to be included in a research paper, where they are expressed as a reference list.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BibliographicCollection",
+      "en" : "Bibliographic Collection"
+    },
+    "subClasses" : [ "85" ],
+    "attributes" : [ "external" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#LabeledTerm",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A word or group of words within a scholarly publication that has been identified and classified as a named entity.",
+        "type" : "label"
+      } ]
+    },
+    "disjointUnion" : [ "11", "38" ],
+    "label" : {
+      "IRI-based" : "LabeledTerm",
+      "en" : "Labeled Term"
+    },
+    "subClasses" : [ "11", "38" ],
+    "intersection" : [ "88" ],
+    "attributes" : [ "disjointUnion", "intersection" ],
+    "id" : "12",
+    "superClasses" : [ "88" ]
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#SuggestedStatus",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A status indicating that the corresponding term has been reviewed by domain experts and proposed either a different label or a revised span, particularly if the term comprises multiple words.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SuggestedStatus",
+      "en" : "Suggested Status"
+    },
+    "id" : "83",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://purl.org/spar/doco#Section",
+    "baseIri" : "http://purl.org/spar/doco",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A logical division of the text, usually numbered and/or titled, which may contain subsections.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Section",
+      "en" : "Section"
+    },
+    "subClasses" : [ "40" ],
+    "attributes" : [ "external" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#Table",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A floating document element that has the flexibility to be positioned anywhere within a publication.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Table",
+      "en" : "Table"
+    },
+    "id" : "52",
+    "superClasses" : [ "140", "48" ]
+  }, {
+    "iri" : "http://purl.org/spar/doco#Abstract",
+    "baseIri" : "http://purl.org/spar/doco",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A brief summary of a book, a research article, thesis, review, conference proceeding or any in-depth analysis of a particular subject or discipline, the purpose of which is to help the reader quickly ascertain the publication's purpose.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Abstract",
+      "en" : "Abstract"
+    },
+    "subClasses" : [ "43" ],
+    "attributes" : [ "external" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#ScholarlyPublication",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A unique document format that showcases original research or academic discoveries.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ScholarlyPublication",
+      "en" : "Scholarly Publication"
+    },
+    "id" : "26",
+    "superClasses" : [ "14", "56" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#NCBITaxon_9606",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NCBITaxon_9606",
+      "en" : "Homo Sapiens"
+    },
+    "subClasses" : [ "28" ],
+    "attributes" : [ "external" ],
+    "id" : "29",
+    "superClasses" : [ "66" ]
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#FloatingDocumentPart",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A document part that does not rely on the sequential order of appearing within a publication for semantic significance.",
+        "type" : "label"
+      } ]
+    },
+    "disjointUnion" : [ "47", "52", "54" ],
+    "label" : {
+      "IRI-based" : "FloatingDocumentPart",
+      "en" : "Floating Document Part"
+    },
+    "subClasses" : [ "47", "52", "54" ],
+    "attributes" : [ "disjointUnion" ],
+    "id" : "48",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#Listing",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A floating document element that has the flexibility to be positioned anywhere within a publication.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Listing",
+      "en" : "Listing"
+    },
+    "id" : "47",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://purl.org/spar/fabio#Expression",
+    "baseIri" : "http://purl.org/spar/fabio",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A subclass of FRBR expression, restricted to expressions of fabio:Works. For your latest research paper, the preprint submitted to the publisher, and the final published version to which the publisher assigned a unique digital object identifier, are both expressions of the same work.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Expression",
+      "en" : "Expression"
+    },
+    "subClasses" : [ "26" ],
+    "attributes" : [ "external" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#Section",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A primary element for organizing the main text within publications, capable of being nested and accommodating various other document parts like paragraphs and formulas.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Section",
+      "en" : "Section"
+    },
+    "id" : "40",
+    "superClasses" : [ "60", "41" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "109", "28" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "201"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "150",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "47", "52", "54" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "149"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#Label",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A concept assigned to a named entity to classify it within a particular context.",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "Within the cellulose domain, the term \"nanoparticle shape\" is classified with the label \"Property\".",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Label",
+      "en" : "Label"
+    },
+    "id" : "21",
+    "superClasses" : [ "9" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "73", "26" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "184"
+  }, {
+    "instances" : 0,
+    "union" : [ "73", "26" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "208"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#LabelingSchema",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A labeling schema consists of a unique set of labels customized for a particular domain or purpose.",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "The \"Material,\" \"Property,\" and \"Process\" labels are part of the CelloGraph schema, designed specifically for the cellulose domain.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "LabelingSchema",
+      "en" : "Labeling Schema"
+    },
+    "id" : "16",
+    "superClasses" : [ "9" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "109", "28" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "108"
+  }, {
+    "instances" : 0,
+    "union" : [ "109", "28" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "189"
+  }, {
+    "instances" : 0,
+    "union" : [ "109", "28" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "209"
+  }, {
+    "instances" : 0,
+    "union" : [ "73", "26" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "144"
+  }, {
+    "instances" : 0,
+    "union" : [ "73", "26" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "207"
+  }, {
+    "iri" : "http://purl.org/spar/doco#Paragraph",
+    "baseIri" : "http://purl.org/spar/doco",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A self-contained unit of discourse that deals with a particular point or idea. Paragraphs contains one or more sentences. The start of a paragraph is indicated by beginning on a new line, which may be indented or separated by a small vertical space by the preceding paragraph.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Paragraph",
+      "en" : "Paragraph"
+    },
+    "subClasses" : [ "33" ],
+    "attributes" : [ "external" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#IAO_0000442",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IAO_0000442",
+      "en" : "Author Role"
+    },
+    "subClasses" : [ "17" ],
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#RejectedStatus",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A status indicating that the corresponding term has been reviewed by domain experts and deemed ineligible for inclusion in the domain ontology.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RejectedStatus",
+      "en" : "Rejected Status"
+    },
+    "id" : "81",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#Formula",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A specialized piece of text representing mathematical expressions, chemical formulas, etc., and can appear within either a paragraph or a caption.",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "The chemical formula of sodium hydroxide and sodium chloride are NaOH and NaCl respectively.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Formula",
+      "en" : "Formula"
+    },
+    "id" : "100",
+    "superClasses" : [ "171", "88" ]
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#BibliographicEntry",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A detailed information of the source of a cited work that helps to locate the original content on the web.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BibliographicEntry",
+      "en" : "Bibliographic Entry"
+    },
+    "id" : "62",
+    "superClasses" : [ "73", "135" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "120",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "169",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "90",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "228",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "229",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#BFO_0000145",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BFO_0000145",
+      "en" : "Relational Quality"
+    },
+    "subClasses" : [ "1" ],
+    "attributes" : [ "external" ],
+    "id" : "2",
+    "superClasses" : [ "155" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#BFO_0000023",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A realizable entity the manifestation of which brings about some result or end that is not essential to a continuant in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant in some kinds of natural, social or institutional contexts.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000023",
+      "en" : "Role"
+    },
+    "subClasses" : [ "4", "7" ],
+    "attributes" : [ "external" ],
+    "id" : "5",
+    "superClasses" : [ "157" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#BFO_0000031",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BFO_0000031",
+      "en" : "Generically Dependent Continuant"
+    },
+    "subClasses" : [ "9" ],
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#IAO_0000030",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IAO_0000030",
+      "en" : "Information Content Entity"
+    },
+    "subClasses" : [ "14", "16", "19", "21" ],
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "215",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://purl.org/spar/doco#Formula",
+    "baseIri" : "http://purl.org/spar/doco",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A unit of information expressed in mathematical, chemical or logical symbols and language.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Formula",
+      "en" : "Formula"
+    },
+    "subClasses" : [ "100" ],
+    "attributes" : [ "external" ],
+    "id" : "171"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "69",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "142",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#NER_LabelerRole",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "An essential role to identify and classify named entities within text.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NER_LabelerRole",
+      "en" : "NER Labeler Role"
+    },
+    "id" : "107",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "65",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "233",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "234",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "235",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "50",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#BFO_0000019",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BFO_0000019",
+      "en" : "Quality"
+    },
+    "subClasses" : [ "2" ],
+    "attributes" : [ "external" ],
+    "id" : "155",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "217",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "72",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#CandidateStatus",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A status indicating that the corresponding term has not yet been reviewed by domain experts to determine its inclusion in the domain ontology.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CandidateStatus",
+      "en" : "Candidate Status"
+    },
+    "id" : "125",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#DocumentPart",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Structural components of scholarly publications that assist in locating named entities.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DocumentPart",
+      "en" : "Document Part"
+    },
+    "subClasses" : [ "85", "60", "48", "43", "62", "88" ],
+    "id" : "73",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#Caption",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A caption distinguishes itself from a paragraph by being a component of a floating document part, such as a table or figure, where it provides a description of the respective element.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Caption",
+      "en" : "Caption"
+    },
+    "id" : "31",
+    "superClasses" : [ "88", "30" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#OBI_0000245",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OBI_0000245",
+      "en" : "Organization"
+    },
+    "subClasses" : [ "71" ],
+    "attributes" : [ "external" ],
+    "id" : "79",
+    "superClasses" : [ "67" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#BFO_0000017",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BFO_0000017",
+      "en" : "Realizable Entity"
+    },
+    "subClasses" : [ "5" ],
+    "attributes" : [ "external" ],
+    "id" : "157",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#BFO_0000015",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BFO_0000015",
+      "en" : "Process"
+    },
+    "attributes" : [ "external" ],
+    "id" : "96",
+    "superClasses" : [ "95" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#BFO_0000020",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BFO_0000020",
+      "en" : "Specifically Dependent Continuant"
+    },
+    "subClasses" : [ "155", "157" ],
+    "attributes" : [ "external" ],
+    "id" : "93",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#OrderedDocumentPart",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A document part that relies on the sequential order of appearing within a publication for semantic significance.",
+        "type" : "label"
+      } ]
+    },
+    "disjointUnion" : [ "40", "33" ],
+    "label" : {
+      "IRI-based" : "OrderedDocumentPart",
+      "en" : "Ordered Document Part"
+    },
+    "subClasses" : [ "59", "40", "33" ],
+    "attributes" : [ "disjointUnion" ],
+    "id" : "60",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "http://purl.org/spar/biro#BibliographicRecord",
+    "baseIri" : "http://purl.org/spar/biro",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A record that uniquely describes a particular textual or data publication (or a work in preparation for publication). Each bibliographic record is a set of entities describing aspects of the referenced work, including, for example, but not restricted to: authors, title, journal, publication year, DOI, ISSN, publisher and copyright information, or, in the case of a data publication: creators, title, version, archive, publication year, DOI or other identifier). The FRBR expression of a bibliographic record is a bibliographic reference, which usually contains only a sub-set of these entities, ordered in a particular way that corresponds to the house style of the publication in which it occurs.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BibliographicRecord",
+      "en" : "Bibliographic Record"
+    },
+    "subClasses" : [ "62" ],
+    "attributes" : [ "external" ],
+    "id" : "135"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "122",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "76",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "239",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "240",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "27",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "206",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "203",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://purl.org/spar/doco#Figure",
+    "baseIri" : "http://purl.org/spar/doco",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A communication object comprising one or more graphics, drawings, images, or other visual representations.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Figure",
+      "en" : "Figure"
+    },
+    "subClasses" : [ "54" ],
+    "attributes" : [ "external" ],
+    "id" : "124"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#Bibliography",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A collection of bibliographic references typically appears at the end of a document",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Bibliography",
+      "en" : "Bibliography"
+    },
+    "id" : "85",
+    "superClasses" : [ "73", "86" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#IAO_0021031",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A role inhering in a human being or an organization or an aggregate of any of the aforementioned that is realized by the bearer being the agent in a document act.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IAO_0021031",
+      "en" : "Document Act Performer Role"
+    },
+    "subClasses" : [ "107" ],
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#RO_0002577",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RO_0002577",
+      "en" : "System"
+    },
+    "subClasses" : [ "109" ],
+    "attributes" : [ "external" ],
+    "id" : "110",
+    "superClasses" : [ "67" ]
+  }, {
+    "iri" : "http://purl.org/spar/doco#Table",
+    "baseIri" : "http://purl.org/spar/doco",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A set of data arranged in cells within rows and columns.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Table",
+      "en" : "Table"
+    },
+    "subClasses" : [ "52" ],
+    "attributes" : [ "external" ],
+    "id" : "140"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#BFO_0000040",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BFO_0000040",
+      "en" : "Material Entity"
+    },
+    "subClasses" : [ "66", "110", "79" ],
+    "attributes" : [ "external" ],
+    "id" : "67",
+    "superClasses" : [ "94" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "232",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "23",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "49",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "89",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "98",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "104",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "106",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "117",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "119",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "121",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "123",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "126",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "141",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "143",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "147",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "148",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "151",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "152",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "118",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "146",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "168",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "172",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "173",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "174",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "175",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "176",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "177",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "178",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "179",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "180",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "181",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "182",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "183",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "145",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "185",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "186",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "187",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "188",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "99",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "129",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "190",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "191",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "192",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "193",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "194",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "195",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "196",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "197",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "198",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "199",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "202",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "114",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "205",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "210",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "211",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "212",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "213",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "214",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "216",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "167",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "218",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "219",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "220",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "221",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "222",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "223",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "224",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "204",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "225",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "226",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "112",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "227",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "230",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "231",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "116",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "236",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "238",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "241",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "242",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "243",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "244",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "245",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "246",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "247",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "248",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "249",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "200",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "250",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "251",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "252",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "253",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "254",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "255",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "256",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "111",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "257",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "258",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "115",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "259",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "260",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "261",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "262",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "263",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "237",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "128",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "264",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "265",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "266",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "267",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "268",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "269",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "270",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "271",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "272",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "273",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "274",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "275",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "276",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "3"
+  }, {
+    "range" : "5",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "6"
+  }, {
+    "range" : "10",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "8"
+  }, {
+    "range" : "9",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "13"
+  }, {
+    "range" : "9",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "range" : "9",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "18"
+  }, {
+    "range" : "9",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#RO_0002234",
+    "inverse" : "24",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "RO_0002234",
+      "en" : "has output"
+    },
+    "domain" : "23",
+    "attributes" : [ "object", "external" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#RO_0002353",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "RO_0002353",
+      "en" : "output of"
+    },
+    "domain" : "23",
+    "attributes" : [ "object", "external" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#doi",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "27",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A unique identification of an online document.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "doi",
+      "en" : "doi"
+    },
+    "domain" : "26",
+    "attributes" : [ "datatype" ],
+    "id" : "25"
+  }, {
+    "range" : "34",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "range" : "4",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "12",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "range" : "12",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "range" : "41",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "44",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "range" : "29",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "range" : "48",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#offset",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "50",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The starting position of a labeled term (also known as a named entity) within a paragraph.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "offset",
+      "en" : "offset"
+    },
+    "domain" : "12",
+    "attributes" : [ "datatype" ],
+    "id" : "49"
+  }, {
+    "range" : "48",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "48",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "56",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#roleOfPublicationAuthor",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "28",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a role (e.g., a publication author role) that identifies a person as an author of a publication and a person.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "roleOfPublicationAuthor",
+      "en" : "role of publication author"
+    },
+    "superproperty" : [ "58" ],
+    "domain" : "17",
+    "attributes" : [ "asymmetric", "object", "irreflexive" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#scholarlyPublicationReferencedByBibliographicEntry",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "62",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a document (e.g., a scholarly publication) and a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "scholarlyPublicationReferencedByBibliographicEntry",
+      "en" : "scholarly publication referenced by bibliographic entry"
+    },
+    "superproperty" : [ "63" ],
+    "domain" : "26",
+    "attributes" : [ "object" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#personName",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "65",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A name by which a person is formally known and identified.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "personName",
+      "en" : "person name"
+    },
+    "domain" : "28",
+    "attributes" : [ "datatype" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#publicationVenue",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "69",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The venue of a publication.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "publicationVenue",
+      "en" : "publication venue"
+    },
+    "domain" : "26",
+    "attributes" : [ "datatype" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#organizationName",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "72",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A name by which an organization is formally known and identified.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "organizationName",
+      "en" : "organization name"
+    },
+    "domain" : "71",
+    "attributes" : [ "datatype" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#labeledTermText",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "76",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A text segment of a labeled term.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "labeledTermText",
+      "en" : "labeled term text"
+    },
+    "domain" : "12",
+    "attributes" : [ "datatype" ],
+    "id" : "75"
+  }, {
+    "range" : "1",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "77"
+  }, {
+    "range" : "1",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "80"
+  }, {
+    "range" : "1",
+    "domain" : "83",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "82"
+  }, {
+    "range" : "86",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#tableNumber",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "90",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A unique identification number of a table within a document.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "tableNumber",
+      "en" : "table number"
+    },
+    "domain" : "52",
+    "attributes" : [ "datatype" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#hasLabeledTermLabel",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "21",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a status of a labeled term (also known as a named entity) and a classification category (e.g., a label) of a labeled term.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasLabeledTermLabel",
+      "en" : "has labeled term label"
+    },
+    "domain" : "1",
+    "attributes" : [ "asymmetric", "object", "irreflexive" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://purl.org/spar/cito#isCitedBy",
+    "baseIri" : "http://purl.org/spar/cito",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "isCitedBy",
+      "en" : "is cited by"
+    },
+    "domain" : "23",
+    "subproperty" : [ "99" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://purl.org/spar/biro#references",
+    "baseIri" : "http://purl.org/spar/biro",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "references",
+      "en" : "references"
+    },
+    "domain" : "23",
+    "subproperty" : [ "103" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "102"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#containsBibliographicEntry",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "62",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a container entity (e.g., a bibliography) and a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "containsBibliographicEntry",
+      "en" : "contains bibliographic entry"
+    },
+    "superproperty" : [ "105" ],
+    "domain" : "85",
+    "attributes" : [ "object" ],
+    "id" : "104"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#roleOf_NER_Labeler",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "108",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a role (e.g., NER labeler role) that grants the privilege of NER labeling to a labeler and an NER labeler (e.g., a person or an NER system).",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "roleOf_NER_Labeler",
+      "en" : "role of NER labeler"
+    },
+    "superproperty" : [ "58" ],
+    "domain" : "107",
+    "attributes" : [ "asymmetric", "object", "irreflexive" ],
+    "id" : "106"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#referencedBy",
+    "inverse" : "103",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "referencedBy",
+      "en" : "referenced by"
+    },
+    "superproperty" : [ "111" ],
+    "domain" : "23",
+    "subproperty" : [ "112", "61" ],
+    "attributes" : [ "asymmetric", "object", "irreflexive" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#containedBy",
+    "inverse" : "114",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "containedBy",
+      "en" : "contained by"
+    },
+    "superproperty" : [ "115" ],
+    "domain" : "23",
+    "subproperty" : [ "116" ],
+    "attributes" : [ "object" ],
+    "id" : "113"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#hasLabeledTermStatus",
+    "inverse" : "118",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "1",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a labeled term (also known as a named entity) and a status of a labeled term.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasLabeledTermStatus",
+      "en" : "has labeled term status"
+    },
+    "domain" : "12",
+    "attributes" : [ "asymmetric", "object", "irreflexive" ],
+    "id" : "117"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#statusAssignmentDate",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "120",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The specific date and time when a particular status is officially assigned to a labeled term (also known as a named entity).",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "statusAssignmentDate",
+      "en" : "status assignment date"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#length",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "122",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The number of characters present in a labeled term.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "length",
+      "en" : "length"
+    },
+    "domain" : "12",
+    "attributes" : [ "datatype" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#hasAffiliation",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "71",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a person and an organization where a person is affiliated with.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasAffiliation",
+      "en" : "has affiliation"
+    },
+    "domain" : "28",
+    "attributes" : [ "asymmetric", "object", "irreflexive" ],
+    "id" : "123"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#RO_0000081",
+    "inverse" : "126",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "RO_0000081",
+      "en" : "role of"
+    },
+    "domain" : "23",
+    "subproperty" : [ "106", "57" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#textFragmentReferencesFloatingDocumentPart",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "48",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a text fragment (e.g., a paragraph, a caption, or a formula) and a floating document element (e.g., a figure, a table, or a listing).",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "textFragmentReferencesFloatingDocumentPart",
+      "en" : "text fragment references floating document part"
+    },
+    "superproperty" : [ "103" ],
+    "domain" : "88",
+    "attributes" : [ "object" ],
+    "id" : "127"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#RO_0000087",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "RO_0000087",
+      "en" : "has role"
+    },
+    "domain" : "23",
+    "subproperty" : [ "128", "129" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "126"
+  }, {
+    "range" : "67",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "130"
+  }, {
+    "range" : "67",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "131"
+  }, {
+    "range" : "67",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "132"
+  }, {
+    "range" : "60",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "133"
+  }, {
+    "range" : "135",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "134"
+  }, {
+    "range" : "124",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "136"
+  }, {
+    "range" : "7",
+    "domain" : "107",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "137"
+  }, {
+    "range" : "110",
+    "domain" : "109",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "138"
+  }, {
+    "range" : "140",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "139"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#positionInParentDocumentPart",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "142",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A unique number that refers to the hierarchical position of a document part within its parent document part.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "positionInParentDocumentPart",
+      "en" : "position in parent document part"
+    },
+    "domain" : "33",
+    "attributes" : [ "datatype" ],
+    "id" : "141"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#directlyContainsDocumentPart",
+    "inverse" : "145",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "73",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a container entity (e.g., a document or a scholarly publication) and a directly contained entity (e.g., a document part).",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "directlyContainsDocumentPart",
+      "en" : "directly contains document part"
+    },
+    "superproperty" : [ "105" ],
+    "domain" : "144",
+    "subproperty" : [ "146" ],
+    "attributes" : [ "object" ],
+    "id" : "143"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#publicationAuthoredBy",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "28",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a document (e.g., a scholarly publication) that a person has written and a person who holds a publication author role.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "publicationAuthoredBy",
+      "en" : "publication authored by"
+    },
+    "domain" : "26",
+    "attributes" : [ "object" ],
+    "id" : "147"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#captionText",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "150",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A text segment of a caption.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "captionText",
+      "en" : "caption text"
+    },
+    "domain" : "149",
+    "attributes" : [ "datatype" ],
+    "id" : "148"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#bibliographicEntryContainedBy",
+    "inverse" : "104",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "85",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web and a container entity (e.g., a bibliography).",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "bibliographicEntryContainedBy",
+      "en" : "bibliographic entry contained by"
+    },
+    "superproperty" : [ "116" ],
+    "domain" : "62",
+    "attributes" : [ "object" ],
+    "id" : "151"
+  }, {
+    "iri" : "http://purl.org/spar/cito#cites",
+    "inverse" : "98",
+    "baseIri" : "http://purl.org/spar/cito",
+    "range" : "23",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The citing entity cites the cited entity, either directly and explicitly (as in the reference list of a journal article), indirectly (e.g. by citing a more recent paper by the same group on the same topic), or implicitly (e.g. as in artistic quotations or parodies, or in cases of plagiarism).",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "cites",
+      "en" : "cites"
+    },
+    "domain" : "23",
+    "subproperty" : [ "153" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "152"
+  }, {
+    "range" : "93",
+    "domain" : "155",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "154"
+  }, {
+    "range" : "93",
+    "domain" : "157",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "156"
+  }, {
+    "range" : "60",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "158"
+  }, {
+    "range" : "60",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "159"
+  }, {
+    "range" : "73",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "160"
+  }, {
+    "range" : "73",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "161"
+  }, {
+    "range" : "73",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "162"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#statusOfLabeledTerm",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "12",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a status of a labeled term (also known as a named entity) and a labeled term.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "statusOfLabeledTerm",
+      "en" : "status of labeled term"
+    },
+    "domain" : "1",
+    "attributes" : [ "asymmetric", "object", "irreflexive" ],
+    "id" : "118"
+  }, {
+    "range" : "73",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "163"
+  }, {
+    "range" : "73",
+    "domain" : "88",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "164"
+  }, {
+    "range" : "79",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "165"
+  }, {
+    "range" : "157",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "166"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#directlyContainsLabeledTerm",
+    "inverse" : "167",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "12",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a container entity (e.g., a text fragment) and a directly contained labeled term (also known as a named entity).",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "directlyContainsLabeledTerm",
+      "en" : "directly contains labeled term"
+    },
+    "superproperty" : [ "143" ],
+    "domain" : "88",
+    "attributes" : [ "object" ],
+    "id" : "146"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#sectionTitle",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "169",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A header of a section.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "sectionTitle",
+      "en" : "section title"
+    },
+    "domain" : "40",
+    "attributes" : [ "datatype" ],
+    "id" : "168"
+  }, {
+    "range" : "171",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "170"
+  }, {
+    "range" : "155",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "172"
+  }, {
+    "range" : "73",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "173"
+  }, {
+    "range" : "26",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "174"
+  }, {
+    "range" : "16",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "175"
+  }, {
+    "range" : "26",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "176"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#documentPartContainedBy",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "26",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a contained entity (e.g., a document part), regardless of its direct or indirect containment and a container entity (e.g., a document or a scholarly publication).",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "documentPartContainedBy",
+      "en" : "document part contained by"
+    },
+    "superproperty" : [ "113" ],
+    "domain" : "73",
+    "subproperty" : [ "151", "145" ],
+    "attributes" : [ "object", "transitive", "someValues" ],
+    "id" : "177"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#cites",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "62",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a text fragment citing someone else's work and a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "cites",
+      "en" : "cites"
+    },
+    "superproperty" : [ "152" ],
+    "domain" : "31",
+    "attributes" : [ "asymmetric", "object", "allValues", "irreflexive" ],
+    "id" : "178"
+  }, {
+    "range" : "16",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "179"
+  }, {
+    "range" : "21",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "180"
+  }, {
+    "range" : "12",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "181"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#authorOfPublication",
+    "inverse" : "147",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "26",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a person who holds a publication author role and a document (e.g., a scholarly publication) that a person has written.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "authorOfPublication",
+      "en" : "author of publication"
+    },
+    "domain" : "28",
+    "attributes" : [ "object" ],
+    "id" : "182"
+  }, {
+    "range" : "33",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "183"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#documentPartDirectlyContainedBy",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "184",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a directly contained entity (e.g., a document part) and a container entity (e.g., a document or a scholarly publication).",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "documentPartDirectlyContainedBy",
+      "en" : "document part directly contained by"
+    },
+    "superproperty" : [ "116" ],
+    "domain" : "73",
+    "subproperty" : [ "167" ],
+    "attributes" : [ "object" ],
+    "id" : "145"
+  }, {
+    "range" : "33",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "185"
+  }, {
+    "range" : "33",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "186"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#fromLabelingSchema",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "16",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a classification category (e.g., a label) of a labeled term (also known as a named entity) and a domain-specific schema where a classification category belongs to (e.g., a labeling schema).",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "fromLabelingSchema",
+      "en" : "from labeling schema"
+    },
+    "domain" : "21",
+    "attributes" : [ "asymmetric", "object", "irreflexive" ],
+    "id" : "187"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#BFO_0000055",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "157",
+    "label" : {
+      "IRI-based" : "BFO_0000055",
+      "en" : "realizes"
+    },
+    "domain" : "96",
+    "attributes" : [ "object", "external" ],
+    "id" : "188"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#citedBy",
+    "inverse" : "153",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "88",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web and a text fragment citing someone else's work.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "citedBy",
+      "en" : "cited by"
+    },
+    "superproperty" : [ "98" ],
+    "domain" : "62",
+    "attributes" : [ "asymmetric", "object", "irreflexive" ],
+    "id" : "99"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#has_NER_LabelerRole",
+    "inverse" : "106",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "107",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between an NER labeler (e.g., a person or an NER system) and a role (e.g., NER labeler role) that grants the privilege of NER labeling to a labeler.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_NER_LabelerRole",
+      "en" : "has NER labeler role"
+    },
+    "superproperty" : [ "126" ],
+    "domain" : "189",
+    "attributes" : [ "object" ],
+    "id" : "129"
+  }, {
+    "range" : "101",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "190"
+  }, {
+    "range" : "33",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "191"
+  }, {
+    "range" : "12",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "192"
+  }, {
+    "range" : "100",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "193"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#textFragmentReferencesFloatingDocumentPart",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "48",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a text fragment (e.g., a paragraph, a caption, or a formula) and a floating document element (e.g., a figure, a table, or a listing).",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "textFragmentReferencesFloatingDocumentPart",
+      "en" : "text fragment references floating document part"
+    },
+    "superproperty" : [ "103" ],
+    "domain" : "31",
+    "attributes" : [ "object", "allValues" ],
+    "id" : "194"
+  }, {
+    "range" : "12",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "195"
+  }, {
+    "range" : "101",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "196"
+  }, {
+    "range" : "38",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "197"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#containsDocumentPart",
+    "inverse" : "116",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "62",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a container entity (e.g., a document or a scholarly publication) and a contained entity (e.g., a document part), regardless of its direct or indirect containment.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "containsDocumentPart",
+      "en" : "contains document part"
+    },
+    "superproperty" : [ "114" ],
+    "domain" : "85",
+    "subproperty" : [ "104", "143" ],
+    "attributes" : [ "object", "transitive", "allValues" ],
+    "id" : "198"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#references",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "references",
+      "en" : "references"
+    },
+    "superproperty" : [ "102" ],
+    "domain" : "62",
+    "subproperty" : [ "127", "200" ],
+    "attributes" : [ "asymmetric", "object", "irreflexive", "someValues" ],
+    "id" : "199"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#keyword",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "203",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A text segment of a keyword.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "keyword",
+      "en" : "keyword"
+    },
+    "domain" : "101",
+    "attributes" : [ "datatype" ],
+    "id" : "202"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#contains",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "contains",
+      "en" : "contains"
+    },
+    "superproperty" : [ "204" ],
+    "domain" : "23",
+    "subproperty" : [ "105" ],
+    "attributes" : [ "object" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#labelText",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "206",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A text segment of a label.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "labelText",
+      "en" : "label text"
+    },
+    "domain" : "21",
+    "attributes" : [ "datatype" ],
+    "id" : "205"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#containsDocumentPart",
+    "inverse" : "116",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "73",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a container entity (e.g., a document or a scholarly publication) and a contained entity (e.g., a document part), regardless of its direct or indirect containment.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "containsDocumentPart",
+      "en" : "contains document part"
+    },
+    "superproperty" : [ "114" ],
+    "domain" : "207",
+    "subproperty" : [ "104", "143" ],
+    "attributes" : [ "object", "transitive" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#hasCaption",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "31",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a floating document element (e.g., a figure, a table, or a listing) and a accompanying text fragment (e.g., a caption) which describes a floating document element.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasCaption",
+      "en" : "has caption"
+    },
+    "domain" : "48",
+    "attributes" : [ "asymmetric", "object", "irreflexive" ],
+    "id" : "210"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#directlyContainsDocumentPart",
+    "inverse" : "145",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "73",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a container entity (e.g., a document or a scholarly publication) and a directly contained entity (e.g., a document part).",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "directlyContainsDocumentPart",
+      "en" : "directly contains document part"
+    },
+    "superproperty" : [ "105" ],
+    "domain" : "26",
+    "subproperty" : [ "146" ],
+    "attributes" : [ "object", "allValues" ],
+    "id" : "211"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#containsDocumentPart",
+    "inverse" : "116",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "73",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a container entity (e.g., a document or a scholarly publication) and a contained entity (e.g., a document part), regardless of its direct or indirect containment.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "containsDocumentPart",
+      "en" : "contains document part"
+    },
+    "superproperty" : [ "114" ],
+    "domain" : "26",
+    "subproperty" : [ "104", "143" ],
+    "attributes" : [ "object", "transitive", "allValues" ],
+    "id" : "212"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#textFragmentReferencesFloatingDocumentPart",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "48",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a text fragment (e.g., a paragraph, a caption, or a formula) and a floating document element (e.g., a figure, a table, or a listing).",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "textFragmentReferencesFloatingDocumentPart",
+      "en" : "text fragment references floating document part"
+    },
+    "superproperty" : [ "103" ],
+    "domain" : "33",
+    "attributes" : [ "object", "allValues" ],
+    "id" : "213"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#schemaName",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "215",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The corresponding text for a schema name.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "schemaName",
+      "en" : "schema name"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype" ],
+    "id" : "214"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#paragraphText",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "217",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A text segment of a paragraph.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "paragraphText",
+      "en" : "paragraph text"
+    },
+    "domain" : "33",
+    "attributes" : [ "datatype" ],
+    "id" : "216"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#labeledTermDirectlyContainedBy",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "88",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a directly contained labeled term (also known as a named entity) and a container entity (e.g., a text fragment).",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "labeledTermDirectlyContainedBy",
+      "en" : "labeled term directly contained by"
+    },
+    "superproperty" : [ "145" ],
+    "domain" : "12",
+    "attributes" : [ "object" ],
+    "id" : "167"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#cites",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "62",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a text fragment citing someone else's work and a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "cites",
+      "en" : "cites"
+    },
+    "superproperty" : [ "152" ],
+    "domain" : "33",
+    "attributes" : [ "asymmetric", "object", "allValues", "irreflexive" ],
+    "id" : "218"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#textFragmentReferencesFloatingDocumentPart",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "48",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a text fragment (e.g., a paragraph, a caption, or a formula) and a floating document element (e.g., a figure, a table, or a listing).",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "textFragmentReferencesFloatingDocumentPart",
+      "en" : "text fragment references floating document part"
+    },
+    "superproperty" : [ "103" ],
+    "domain" : "100",
+    "attributes" : [ "object", "allValues" ],
+    "id" : "219"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#cites",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "62",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a text fragment citing someone else's work and a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "cites",
+      "en" : "cites"
+    },
+    "superproperty" : [ "152" ],
+    "domain" : "100",
+    "attributes" : [ "asymmetric", "object", "allValues", "irreflexive" ],
+    "id" : "220"
+  }, {
+    "range" : "40",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "221"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#fromLabelingSchema",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "16",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a classification category (e.g., a label) of a labeled term (also known as a named entity) and a domain-specific schema where a classification category belongs to (e.g., a labeling schema).",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "fromLabelingSchema",
+      "en" : "from labeling schema"
+    },
+    "domain" : "21",
+    "attributes" : [ "asymmetric", "object", "allValues", "irreflexive" ],
+    "id" : "222"
+  }, {
+    "range" : "47",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "223"
+  }, {
+    "range" : "26",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "224"
+  }, {
+    "iri" : "http://purl.org/spar/po#contains",
+    "inverse" : "115",
+    "baseIri" : "http://purl.org/spar/po",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "contains",
+      "en" : "contains"
+    },
+    "domain" : "23",
+    "subproperty" : [ "114" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "204"
+  }, {
+    "range" : "52",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "225"
+  }, {
+    "range" : "52",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "226"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#floatingDocumentPartReferencedByTextFragment",
+    "inverse" : "127",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "88",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a floating document element (e.g., a figure, a table, or a listing) and a text fragment (e.g., a paragraph, a caption, or a formula).",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "floatingDocumentPartReferencedByTextFragment",
+      "en" : "floating document part referenced by text fragment"
+    },
+    "superproperty" : [ "63" ],
+    "domain" : "48",
+    "attributes" : [ "object" ],
+    "id" : "112"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#nextDocumentPart",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "60",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship of one ordered document element (e.g., a section or a paragraph) with another ordered document element.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "nextDocumentPart",
+      "en" : "next document part"
+    },
+    "domain" : "60",
+    "attributes" : [ "asymmetric", "object", "irreflexive" ],
+    "id" : "227"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#systemVersion",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "228",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The version number of the NER system used for named entity recognition.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "systemVersion",
+      "en" : "system version"
+    },
+    "domain" : "109",
+    "attributes" : [ "datatype" ],
+    "id" : "230"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#systemBelongsTo",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "232",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a system (e.g., NER system) and its designated owner or operator.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "systemBelongsTo",
+      "en" : "system belongs to"
+    },
+    "domain" : "109",
+    "attributes" : [ "asymmetric", "object", "irreflexive" ],
+    "id" : "231"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#documentPartContainedBy",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "208",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a contained entity (e.g., a document part), regardless of its direct or indirect containment and a container entity (e.g., a document or a scholarly publication).",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "documentPartContainedBy",
+      "en" : "document part contained by"
+    },
+    "superproperty" : [ "113" ],
+    "domain" : "73",
+    "subproperty" : [ "151", "145" ],
+    "attributes" : [ "object", "transitive" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#assignerOfStatus",
+    "inverse" : "237",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "1",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between an entity (e.g., a person or an NER system) privileged with a NER labeler role and a status of a labeled term (also known as a named entity).",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "assignerOfStatus",
+      "en" : "assigner of status"
+    },
+    "domain" : "209",
+    "attributes" : [ "object" ],
+    "id" : "236"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#listingNumber",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "239",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A unique identification number of a listing within a document.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "listingNumber",
+      "en" : "listing number"
+    },
+    "domain" : "47",
+    "attributes" : [ "datatype" ],
+    "id" : "238"
+  }, {
+    "range" : "74",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "241"
+  }, {
+    "range" : "19",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "242"
+  }, {
+    "range" : "1",
+    "domain" : "125",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "243"
+  }, {
+    "range" : "14",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "244"
+  }, {
+    "range" : "88",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "245"
+  }, {
+    "range" : "19",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "246"
+  }, {
+    "range" : "88",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "247"
+  }, {
+    "range" : "59",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "248"
+  }, {
+    "range" : "48",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "249"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#bibliographicEntryReferencesScholarlyPublication",
+    "inverse" : "61",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "26",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web and a document (e.g., a scholarly publication).",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "bibliographicEntryReferencesScholarlyPublication",
+      "en" : "bibliographic entry references scholarly publication"
+    },
+    "superproperty" : [ "103" ],
+    "domain" : "62",
+    "attributes" : [ "object" ],
+    "id" : "200"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#publicationTitle",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "233",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The title of a publication.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "publicationTitle",
+      "en" : "publication title"
+    },
+    "domain" : "26",
+    "attributes" : [ "datatype" ],
+    "id" : "250"
+  }, {
+    "range" : "85",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "251"
+  }, {
+    "range" : "59",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "252"
+  }, {
+    "range" : "48",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "253"
+  }, {
+    "range" : "59",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "254"
+  }, {
+    "range" : "48",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "255"
+  }, {
+    "range" : "48",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "256"
+  }, {
+    "iri" : "http://purl.org/spar/biro#isReferencedBy",
+    "inverse" : "102",
+    "baseIri" : "http://purl.org/spar/biro",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "isReferencedBy",
+      "en" : "is referenced by"
+    },
+    "domain" : "23",
+    "subproperty" : [ "63" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "111"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo#BFO_0000054",
+    "inverse" : "188",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "BFO_0000054",
+      "en" : "realized in"
+    },
+    "domain" : "157",
+    "attributes" : [ "object", "external" ],
+    "id" : "257"
+  }, {
+    "range" : "62",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "258"
+  }, {
+    "iri" : "http://purl.org/spar/po#isContainedBy",
+    "baseIri" : "http://purl.org/spar/po",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "isContainedBy",
+      "en" : "is contained by"
+    },
+    "domain" : "23",
+    "subproperty" : [ "113" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "115"
+  }, {
+    "range" : "85",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "259"
+  }, {
+    "range" : "88",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "260"
+  }, {
+    "range" : "94",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "261"
+  }, {
+    "range" : "88",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "262"
+  }, {
+    "range" : "88",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "263"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#statusAssignedBy",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "201",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a status of a labeled term (also known as a named entity) and an entity (e.g., a person or an NER system) privileged with a NER labeler role.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "statusAssignedBy",
+      "en" : "status assigned by"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "237"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#hasPublicationAuthorRole",
+    "inverse" : "57",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "17",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a person and a role (e.g., a publication author role) that identifies a person as an author of a publication.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasPublicationAuthorRole",
+      "en" : "has publication author role"
+    },
+    "superproperty" : [ "126" ],
+    "domain" : "28",
+    "attributes" : [ "object" ],
+    "id" : "128"
+  }, {
+    "range" : "95",
+    "domain" : "96",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "264"
+  }, {
+    "range" : "91",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "265"
+  }, {
+    "range" : "92",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "266"
+  }, {
+    "range" : "92",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "267"
+  }, {
+    "range" : "91",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "268"
+  }, {
+    "range" : "91",
+    "domain" : "93",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "269"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#organizationAddress",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "235",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A place where an organization is physically located.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "organizationAddress",
+      "en" : "organization address"
+    },
+    "domain" : "71",
+    "attributes" : [ "datatype" ],
+    "id" : "270"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#figureNumber",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "240",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A unique identification number of a figure within a document.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "figureNumber",
+      "en" : "figure number"
+    },
+    "domain" : "54",
+    "attributes" : [ "datatype" ],
+    "id" : "271"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#sectionNumber",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "229",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The position of a section whithin a publication.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "sectionNumber",
+      "en" : "section number"
+    },
+    "domain" : "40",
+    "attributes" : [ "datatype" ],
+    "id" : "272"
+  }, {
+    "range" : "87",
+    "domain" : "88",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "273"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#cites",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "62",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The relationship between a text fragment citing someone else's work and a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "cites",
+      "en" : "cites"
+    },
+    "superproperty" : [ "152" ],
+    "domain" : "88",
+    "attributes" : [ "asymmetric", "object", "irreflexive" ],
+    "id" : "153"
+  }, {
+    "range" : "66",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "274"
+  }, {
+    "iri" : "http://spatialai.org/onner/v1.0#publicationDate",
+    "baseIri" : "http://spatialai.org/onner/v1.0",
+    "range" : "234",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A date when a publication was made publicly available or officially released to the audience.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "publicationDate",
+      "en" : "publication date"
+    },
+    "domain" : "26",
+    "attributes" : [ "datatype" ],
+    "id" : "275"
+  }, {
+    "range" : "30",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "276"
+  } ]
+}
