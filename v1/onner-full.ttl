@@ -906,10 +906,10 @@ biro:BibliographicCollection rdf:type owl:Class ;
                              rdfs:label "Bibliographic Collection"@en .
 
 
-###  http://purl.org/spar/biro#BibliographicRecord
-biro:BibliographicRecord rdf:type owl:Class ;
-                         rdfs:comment "A record that uniquely describes a particular textual or data publication (or a work in preparation for publication). Each bibliographic record is a set of entities describing aspects of the referenced work, including, for example, but not restricted to: authors, title, journal, publication year, DOI, ISSN, publisher and copyright information, or, in the case of a data publication: creators, title, version, archive, publication year, DOI or other identifier). The FRBR expression of a bibliographic record is a bibliographic reference, which usually contains only a sub-set of these entities, ordered in a particular way that corresponds to the house style of the publication in which it occurs."@en ;
-                         rdfs:label "Bibliographic Record"@en .
+###  http://purl.org/spar/biro#BibliographicReference
+biro:BibliographicReference rdf:type owl:Class ;
+							rdfs:comment "An expression of a bibliographic record in a specific format, that references a particular textual or data publication (or a work in preparation for publication). Each bibliographic reference is a list of items containing entities that describe aspects of the referenced work - for example authors, title, journal, publication year - selected from the bibliographic record. Note that because different journal styles may require omission of elements of the bibliographic record in references included in a paper's reference list (e.g. the title, the identifier, the names of the eighth and subsequent authors), and because errors can be introduced when an author creates a bibliographic reference, the bibliographic reference to a published work may not be a complete or fully accurate expression of the information contained within the authoritative bibliographic record for that work."@en ;
+							rdfs:label "Bibliographic Reference"@en .
 
 
 ###  http://purl.org/spar/deo#Caption
@@ -994,7 +994,7 @@ onner:AtomicLabeledTerm rdf:type owl:Class ;
 
 ###  http://purl.org/spatialai/onner/onner-full#BibliographicEntry
 onner:BibliographicEntry rdf:type owl:Class ;
-                         rdfs:subClassOf biro:BibliographicRecord ,
+                         rdfs:subClassOf biro:BibliographicReference ,
                                          onner:DocumentPart ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty onner:references ;
