@@ -1,17 +1,13 @@
 {
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
-    "languages" : [ "en", "undefined" ],
     "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://purl.obolibrary.org/obo", "http://purl.org/spatialai/onner/onner-full", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://purl.org/spar/po", "http://purl.org/spar/cito", "http://purl.org/spar/biro" ],
     "title" : {
-      "en" : "Ontology for Named Entity Representation in Scholarly Publications (OnNER)"
+      "en" : "OnNER: Ontology for Named Entity Representation in Scholarly Publications"
     },
     "iri" : "http://purl.org/spatialai/onner/onner-full#",
     "version" : "1.0",
-    "author" : [ "Torsten Hahmann - http://orcid.org/0000-0002-5331-5052", "Xuelian Zhang - https://orcid.org/0000-0002-0708-4070", "Umayer Reza - https://orcid.org/0000-0003-4013-3513" ],
-    "description" : {
-      "en" : "OnNER is designed to capture and represent named entities — terms identified and labeled using named entity recognition (NER) methods — along with relevant semantic context, such as their location within a document, from scholarly publications. The ontology is aligned with Basic Formal Ontology (BFO) and Information Artifact Ontology (IAO), and it also incorporates relevant high-level concepts from Relation Ontology (RO), Ontology for Biomedical Investigations (OBI), and NCBI organismal classification (NCBITaxon)."
-    },
+    "author" : [ "Umayer Reza", "Xuelian Zhang", "Torsten Hahmann" ],
     "other" : {
       "identifier" : [ {
         "identifier" : "identifier",
@@ -28,17 +24,17 @@
       "creator" : [ {
         "identifier" : "creator",
         "language" : "en",
-        "value" : "Xuelian Zhang - https://orcid.org/0000-0002-0708-4070",
+        "value" : "Umayer Reza",
         "type" : "label"
       }, {
         "identifier" : "creator",
         "language" : "en",
-        "value" : "Torsten Hahmann - http://orcid.org/0000-0002-5331-5052",
+        "value" : "Xuelian Zhang",
         "type" : "label"
       }, {
         "identifier" : "creator",
         "language" : "en",
-        "value" : "Umayer Reza - https://orcid.org/0000-0003-4013-3513",
+        "value" : "Torsten Hahmann",
         "type" : "label"
       } ],
       "subject" : [ {
