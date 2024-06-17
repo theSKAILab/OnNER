@@ -14,25 +14,32 @@
 @prefix fabio: <http://purl.org/spar/fabio#> .
 @prefix onner: <http://purl.org/spatialai/onner/onner-full#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
 @base <http://purl.org/spatialai/onner/onner-full#> .
 
-<http://purl.org/spatialai/onner/onner-full#> rdf:type owl:Ontology ;
-                                               owl:versionIRI <http://purl.org/spatialai/onner/v1/onner-full#> ;
-                                               dcterms:created "2023-02-05"^^xsd:date ;
-                                               dcterms:creator "Torsten Hahmann - http://orcid.org/0000-0002-5331-5052"@en ,
-                                                               "Umayer Reza - https://orcid.org/0000-0003-4013-3513"@en ,
-                                                               "Xuelian Zhang - https://orcid.org/0000-0002-0708-4070"@en ;
-                                               dcterms:description "OnNER is designed to capture and represent named entities — terms identified and labeled using named entity recognition (NER) methods — along with relevant semantic context, such as their location within a document, from scholarly publications. The ontology is aligned with Basic Formal Ontology (BFO) and Information Artifact Ontology (IAO), and it also incorporates relevant high-level concepts from Relation Ontology (RO), Ontology for Biomedical Investigations (OBI), and NCBI organismal classification (NCBITaxon)."@en ;
-                                               dcterms:identifier "http://purl.org/spatialai/onner/onner-full"@en ;
-                                               dcterms:issued "2024-05-24"^^xsd:date ;
-                                               dcterms:license "This work is distributed under a Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/)."@en ;
-                                               dcterms:modified "2024-05-30"^^xsd:date ;
-                                               dcterms:publisher "Spatial Knowledge and Artificial Intelligence (SKAI) Lab, University of Maine"@en ;
-                                               dcterms:subject "Information Extraction" ,
-                                                               "Named Entity Representation" ,
-                                                               "Scholarly Publication" ;
-                                               dcterms:title "Ontology for Named Entity Representation in Scholarly Publications (OnNER)"@en ;
-                                               owl:versionInfo "1.0"@en .
+<http://purl.org/spatialai/onner/onner-full> rdf:type owl:Ontology ;
+                                             owl:versionIRI <http://purl.org/spatialai/onner/v1/onner-full> ;
+                                             dcterms:created "2023-02-05"^^xsd:date ;
+                                             dcterms:creator "Torsten Hahmann - http://orcid.org/0000-0002-5331-5052"@en ,
+                                                             "Umayer Reza - https://orcid.org/0000-0003-4013-3513"@en ,
+                                                             "Xuelian Zhang - https://orcid.org/0000-0002-0708-4070"@en ;
+                                             dcterms:description "OnNER is designed to capture and represent named entities — terms identified and labeled using named entity recognition (NER) methods — along with relevant semantic context, such as their location within a document, from scholarly publications. The ontology is aligned with Basic Formal Ontology (BFO) and Information Artifact Ontology (IAO), and it also incorporates relevant high-level concepts from Relation Ontology (RO), Ontology for Biomedical Investigations (OBI), and NCBI organismal classification (NCBITaxon)."@en ;
+                                             dcterms:identifier <http://purl.org/spatialai/onner/onner-full> ;
+											 dcterms:bibliographicCitation "Umayer Reza, Xuelian Zhang, Torsten Hahmann. (2024). OnNER: An Ontology for Semantic Representation of Named Entities in Scholarly Publications."^^xsd:string ;
+                                             dcterms:issued "2024-05-24"^^xsd:date ;
+                                             dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+                                             dcterms:modified "2024-05-30"^^xsd:date ;
+                                             dcterms:publisher "Spatial Knowledge and Artificial Intelligence (SKAI) Lab, University of Maine"@en ;
+                                             dcterms:subject "Information Extraction" ,
+                                                             "Named Entity Representation" ,
+                                                             "Scholarly Publication" ;
+                                             dcterms:title "Ontology for Named Entity Representation in Scholarly Publications (OnNER)"@en ;
+                                             bibo:doi "DOI will be added here"^^xsd:string ;
+											 bibo:status "stable"^^xsd:string ;
+											 dcterms:source <http://example.com/source> ;
+											 foaf:logo <http://example.com/ontology_logo.png> ;
+											 owl:versionInfo "1.0"@en .
 
 #################################################################
 #    Annotation properties
