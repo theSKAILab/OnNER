@@ -7,43 +7,47 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix biro: <http://purl.org/spar/biro#> .
 @prefix cito: <http://purl.org/spar/cito#> .
 @prefix doco: <http://purl.org/spar/doco#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix fabio: <http://purl.org/spar/fabio#> .
 @prefix onner: <http://purl.org/spatialai/onner/onner-full#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
 @base <http://purl.org/spatialai/onner/onner-full#> .
 
 <http://purl.org/spatialai/onner/onner-full> rdf:type owl:Ontology ;
-                                             owl:versionIRI <http://purl.org/spatialai/onner/v1/onner-full> ;
-                                             dcterms:created "2023-02-05"^^xsd:date ;
-                                             dcterms:creator "Torsten Hahmann - http://orcid.org/0000-0002-5331-5052"@en ,
-                                                             "Umayer Reza - https://orcid.org/0000-0003-4013-3513"@en ,
-                                                             "Xuelian Zhang - https://orcid.org/0000-0002-0708-4070"@en ;
-                                             dcterms:description "OnNER is designed to capture and represent named entities — terms identified and labeled using named entity recognition (NER) methods — along with relevant semantic context, such as their location within a document, from scholarly publications. The ontology is aligned with Basic Formal Ontology (BFO) and Information Artifact Ontology (IAO), and it also incorporates relevant high-level concepts from Relation Ontology (RO), Ontology for Biomedical Investigations (OBI), and NCBI organismal classification (NCBITaxon)."@en ;
-                                             dcterms:identifier <http://purl.org/spatialai/onner/onner-full> ;
-											 dcterms:bibliographicCitation "Umayer Reza, Xuelian Zhang, Torsten Hahmann. (2024). OnNER: An Ontology for Semantic Representation of Named Entities in Scholarly Publications."^^xsd:string ;
-                                             dcterms:issued "2024-05-24"^^xsd:date ;
-                                             dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-                                             dcterms:modified "2024-05-30"^^xsd:date ;
-                                             dcterms:publisher "Spatial Knowledge and Artificial Intelligence (SKAI) Lab, University of Maine"@en ;
-                                             dcterms:subject "Information Extraction" ,
-                                                             "Named Entity Representation" ,
-                                                             "Scholarly Publication" ;
-                                             dcterms:title "Ontology for Named Entity Representation in Scholarly Publications (OnNER)"@en ;
-                                             bibo:doi "DOI will be added here"^^xsd:string ;
-											 bibo:status "stable"^^xsd:string ;
-											 dcterms:source <http://example.com/source> ;
-											 foaf:logo <http://example.com/ontology_logo.png> ;
-											 owl:versionInfo "1.0"@en .
+                                              owl:versionIRI <http://purl.org/spatialai/onner/v1/onner-full> ;
+                                              dcterms:bibliographicCitation "Umayer Reza, Xuelian Zhang, Torsten Hahmann. (2024). OnNER: An Ontology for Semantic Representation of Named Entities in Scholarly Publications." ;
+                                              dcterms:created "2023-02-05"^^xsd:date ;
+                                              dcterms:creator "Torsten Hahmann <http://orcid.org/0000-0002-5331-5052>"@en ,
+                                                              "Umayer Reza <https://orcid.org/0000-0003-4013-3513>"@en ,
+                                                              "Xuelian Zhang <https://orcid.org/0000-0002-0708-4070>"@en ;
+                                              dcterms:description "OnNER is designed to capture and represent named entities — terms identified and labeled using named entity recognition (NER) methods — along with relevant semantic context, such as their location within a document, from scholarly publications. The ontology is aligned with Basic Formal Ontology (BFO) and Information Artifact Ontology (IAO), and it also incorporates relevant high-level concepts from Relation Ontology (RO), Ontology for Biomedical Investigations (OBI), and NCBI organismal classification (NCBITaxon)."@en ;
+                                              dcterms:identifier <http://purl.org/spatialai/onner/onner-full> ;
+                                              dcterms:issued "2024-05-24"^^xsd:date ;
+                                              dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+                                              dcterms:modified "2024-05-30"^^xsd:date ;
+                                              dcterms:publisher "Spatial Knowledge and Artificial Intelligence (SKAI) Lab, University of Maine"@en ;
+                                              dcterms:source <http://example.com/source> ;
+                                              dcterms:subject "Information Extraction" ,
+                                                              "Named Entity Representation" ,
+                                                              "Scholarly Publication" ;
+                                              dcterms:title "OnNER: An Ontology for Semantic Representation of Named Entities in Scholarly Publications"@en ;
+                                              bibo:doi "Digital Object Identifier" ;
+                                              bibo:status "stable" ;
+                                              owl:versionInfo "1.0"@en ;
+                                              foaf:logo <http://example.com/ontology_logo.png> .
 
 #################################################################
 #    Annotation properties
 #################################################################
+
+###  http://purl.org/dc/terms/bibliographicCitation
+dcterms:bibliographicCitation rdf:type owl:AnnotationProperty .
+
 
 ###  http://purl.org/dc/terms/contributor
 dcterms:contributor rdf:type owl:AnnotationProperty .
@@ -97,6 +101,14 @@ dcterms:subject rdf:type owl:AnnotationProperty .
 dcterms:title rdf:type owl:AnnotationProperty .
 
 
+###  http://purl.org/ontology/bibo/doi
+bibo:doi rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/ontology/bibo/status
+bibo:status rdf:type owl:AnnotationProperty .
+
+
 ###  http://www.w3.org/2002/07/owl#minCardinality
 owl:minCardinality rdf:type owl:AnnotationProperty .
 
@@ -107,6 +119,10 @@ owl:minCardinality rdf:type owl:AnnotationProperty .
 
 ###  http://www.w3.org/2004/02/skos/core#example
 <http://www.w3.org/2004/02/skos/core#example> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/logo
+foaf:logo rdf:type owl:AnnotationProperty .
 
 
 #################################################################
@@ -134,6 +150,7 @@ xsd:date rdf:type rdfs:Datatype .
                                              owl:inverseOf <http://purl.obolibrary.org/obo#BFO_0000055> ;
                                              rdfs:domain <http://purl.obolibrary.org/obo#BFO_0000017> ;
                                              rdfs:range <http://purl.obolibrary.org/obo#BFO_0000015> ;
+                                             rdfs:comment "A relation between a realizable entity and a process, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process."@en ;
                                              rdfs:label "realized in"@en .
 
 
@@ -141,39 +158,46 @@ xsd:date rdf:type rdfs:Datatype .
 <http://purl.obolibrary.org/obo#BFO_0000055> rdf:type owl:ObjectProperty ;
                                              rdfs:domain <http://purl.obolibrary.org/obo#BFO_0000015> ;
                                              rdfs:range <http://purl.obolibrary.org/obo#BFO_0000017> ;
+                                             rdfs:comment "A relation between a process and a realizable entity, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process."@en ;
                                              rdfs:label "realizes"@en .
 
 
 ###  http://purl.obolibrary.org/obo#RO_0000081
 <http://purl.obolibrary.org/obo#RO_0000081> rdf:type owl:ObjectProperty ;
                                             owl:inverseOf <http://purl.obolibrary.org/obo#RO_0000087> ;
+                                            rdfs:comment "A relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence."@en ;
                                             rdfs:label "role of"@en .
 
 
 ###  http://purl.obolibrary.org/obo#RO_0000087
 <http://purl.obolibrary.org/obo#RO_0000087> rdf:type owl:ObjectProperty ;
+                                            rdfs:comment "A relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence"@en ;
                                             rdfs:label "has role"@en .
 
 
 ###  http://purl.obolibrary.org/obo#RO_0002234
 <http://purl.obolibrary.org/obo#RO_0002234> rdf:type owl:ObjectProperty ;
                                             owl:inverseOf <http://purl.obolibrary.org/obo#RO_0002353> ;
+                                            rdfs:comment "P has output C iff C is a participant in P, C is present at the end of P, and C is not present in the same state at the beginning of P."@en ;
                                             rdfs:label "has output"@en .
 
 
 ###  http://purl.obolibrary.org/obo#RO_0002353
 <http://purl.obolibrary.org/obo#RO_0002353> rdf:type owl:ObjectProperty ;
+                                            rdfs:comment "C is output of P iff C is a participant in P, C is present at the end of P, and C is not present in the same state at the beginning of P."@en ;
                                             rdfs:label "output of"@en .
 
 
 ###  http://purl.org/spar/biro#isReferencedBy
 biro:isReferencedBy rdf:type owl:ObjectProperty ;
                     owl:inverseOf biro:references ;
+                    rdfs:comment "The relation between a publication and the bibliographic record or bibliographic reference describing it."@en ;
                     rdfs:label "is referenced by"@en .
 
 
 ###  http://purl.org/spar/biro#references
 biro:references rdf:type owl:ObjectProperty ;
+                rdfs:comment "The relation between a bibliographic record or a bibliographic reference and the publication being referenced."@en ;
                 rdfs:label "references"@en .
 
 
@@ -186,17 +210,20 @@ cito:cites rdf:type owl:ObjectProperty ;
 
 ###  http://purl.org/spar/cito#isCitedBy
 cito:isCitedBy rdf:type owl:ObjectProperty ;
+               rdfs:comment "The cited entity (the subject of the RDF triple) is cited by the citing entity (the object of the triple)."@en ;
                rdfs:label "is cited by"@en .
 
 
 ###  http://purl.org/spar/po#contains
 po:contains rdf:type owl:ObjectProperty ;
             owl:inverseOf po:isContainedBy ;
+            rdfs:comment "A structured element contains another generic element."@en ;
             rdfs:label "contains"@en .
 
 
 ###  http://purl.org/spar/po#isContainedBy
 po:isContainedBy rdf:type owl:ObjectProperty ;
+                 rdfs:comment "An element that is contained by another structured element."@en ;
                  rdfs:label "is contained by"@en .
 
 
@@ -213,8 +240,9 @@ onner:assignerOfStatus rdf:type owl:ObjectProperty ;
                                                 <http://purl.obolibrary.org/obo#BFO_0000054>
                                                 <http://purl.obolibrary.org/obo#RO_0002234>
                                               ) ;
-                       rdfs:comment "The relationship between an entity (e.g., a person or an NER system) privileged with a NER labeler role and a status of a labeled term (also known as a named entity)."@en ;
-                       rdfs:label "assigner of status"@en .
+                       rdfs:comment "The relationship between a responsible agent (e.g., a person or an NER system) holding an NER labeler role and a status assigned by that agent to a labeled term (also known as a named entity)."@en ;
+                       rdfs:label "assigner of status"@en ;
+                       <http://www.w3.org/2004/02/skos/core#example> "[NER-Model-A] assigns [Status-A-1-1] to the labeled term [Hemicellulose]."@en .
 
 
 ###  http://purl.org/spatialai/onner/onner-full#authorOfPublication
@@ -226,7 +254,7 @@ onner:authorOfPublication rdf:type owl:ObjectProperty ;
                                                    <http://purl.obolibrary.org/obo#BFO_0000054>
                                                    <http://purl.obolibrary.org/obo#RO_0002234>
                                                  ) ;
-                          rdfs:comment "The relationship between a person who holds a publication author role and a document (e.g., a scholarly publication) that a person has written."@en ;
+                          rdfs:comment "The relationship between a person holding a publication author role and a document (e.g., a scholarly publication) that the person has written."@en ;
                           rdfs:label "author of publication"@en .
 
 
@@ -236,7 +264,7 @@ onner:bibliographicEntryContainedBy rdf:type owl:ObjectProperty ;
                                     owl:inverseOf onner:containsBibliographicEntry ;
                                     rdfs:domain onner:BibliographicEntry ;
                                     rdfs:range onner:Bibliography ;
-                                    rdfs:comment "The relationship between a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web and a container entity (e.g., a bibliography)."@en ;
+                                    rdfs:comment "The relationship of a bibliographic entry with a bibliography which contains that bibliographic entry."@en ;
                                     rdfs:label "bibliographic entry contained by"@en .
 
 
@@ -246,7 +274,7 @@ onner:bibliographicEntryReferencesScholarlyPublication rdf:type owl:ObjectProper
                                                        owl:inverseOf onner:scholarlyPublicationReferencedByBibliographicEntry ;
                                                        rdfs:domain onner:BibliographicEntry ;
                                                        rdfs:range onner:ScholarlyPublication ;
-                                                       rdfs:comment "The relationship between a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web and a document (e.g., a scholarly publication)."@en ;
+                                                       rdfs:comment "The relationship between a bibliographic entry which provides the location of a scholarly publication on the web and that scholarly publication itself."@en ;
                                                        rdfs:label "bibliographic entry references scholarly publication"@en .
 
 
@@ -258,7 +286,7 @@ onner:citedBy rdf:type owl:ObjectProperty ;
                        owl:IrreflexiveProperty ;
               rdfs:domain onner:BibliographicEntry ;
               rdfs:range onner:TextFragment ;
-              rdfs:comment "The relationship between a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web and a text fragment citing someone else's work."@en ;
+              rdfs:comment "The relationship between the detailed source information for locating a resource (e.g., a bibliographic reference) on the web and a text fragment citing that resource."@en ;
               rdfs:label "cited by"@en .
 
 
@@ -269,7 +297,7 @@ onner:cites rdf:type owl:ObjectProperty ;
                      owl:IrreflexiveProperty ;
             rdfs:domain onner:TextFragment ;
             rdfs:range onner:BibliographicEntry ;
-            rdfs:comment "The relationship between a text fragment citing someone else's work and a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web."@en ;
+            rdfs:comment "The relationship between a text fragment citing a resource and a detailed source information for locating the cited resource (e.g., a bibliographic reference) on the web."@en ;
             rdfs:label "cites"@en .
 
 
@@ -277,12 +305,14 @@ onner:cites rdf:type owl:ObjectProperty ;
 onner:containedBy rdf:type owl:ObjectProperty ;
                   rdfs:subPropertyOf po:isContainedBy ;
                   owl:inverseOf onner:contains ;
+                  rdfs:comment "The relationship of a content with the container of that content."@en ;
                   rdfs:label "contained by"@en .
 
 
 ###  http://purl.org/spatialai/onner/onner-full#contains
 onner:contains rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf po:contains ;
+               rdfs:comment "The relationship of a container with the content of that container."@en ;
                rdfs:label "contains"@en .
 
 
@@ -291,7 +321,7 @@ onner:containsBibliographicEntry rdf:type owl:ObjectProperty ;
                                  rdfs:subPropertyOf onner:containsDocumentPart ;
                                  rdfs:domain onner:Bibliography ;
                                  rdfs:range onner:BibliographicEntry ;
-                                 rdfs:comment "The relationship between a container entity (e.g., a bibliography) and a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web."@en ;
+                                 rdfs:comment "The relationship of a bibliography with a bibliographic entry which is contained by that bibliography."@en ;
                                  rdfs:label "contains bibliographic entry"@en .
 
 
@@ -306,7 +336,7 @@ onner:containsDocumentPart rdf:type owl:ObjectProperty ;
                                                      )
                                        ] ;
                            rdfs:range onner:DocumentPart ;
-                           rdfs:comment "The relationship between a container entity (e.g., a document or a scholarly publication) and a contained entity (e.g., a document part), regardless of its direct or indirect containment."@en ;
+                           rdfs:comment "The relationship of a document part or a scholarly publication with another document part that is contained by the former, regardless of direct or indirect containment."@en ;
                            rdfs:label "contains document part"@en .
 
 
@@ -320,7 +350,7 @@ onner:directlyContainsDocumentPart rdf:type owl:ObjectProperty ;
                                                              )
                                                ] ;
                                    rdfs:range onner:DocumentPart ;
-                                   rdfs:comment "The relationship between a container entity (e.g., a document or a scholarly publication) and a directly contained entity (e.g., a document part)."@en ;
+                                   rdfs:comment "The relationship of a document part or a scholarly publication with another document part that is contained by the former directly."@en ;
                                    rdfs:label "directly contains document part"@en .
 
 
@@ -330,7 +360,7 @@ onner:directlyContainsLabeledTerm rdf:type owl:ObjectProperty ;
                                   owl:inverseOf onner:labeledTermDirectlyContainedBy ;
                                   rdfs:domain onner:TextFragment ;
                                   rdfs:range onner:LabeledTerm ;
-                                  rdfs:comment "The relationship between a container entity (e.g., a text fragment) and a directly contained labeled term (also known as a named entity)."@en ;
+                                  rdfs:comment "The relationship of a text fragment with a labeled term which is contained by that text fragment directly."@en ;
                                   rdfs:label "directly contains labeled term"@en .
 
 
@@ -344,7 +374,7 @@ onner:documentPartContainedBy rdf:type owl:ObjectProperty ;
                                                          onner:ScholarlyPublication
                                                        )
                                          ] ;
-                              rdfs:comment "The relationship between a contained entity (e.g., a document part), regardless of its direct or indirect containment and a container entity (e.g., a document or a scholarly publication)."@en ;
+                              rdfs:comment "The relationship of a document part with another document part or a scholarly publication that contains the former, regardless of direct or indirect containment."@en ;
                               rdfs:label "document part contained by"@en .
 
 
@@ -357,7 +387,7 @@ onner:documentPartDirectlyContainedBy rdf:type owl:ObjectProperty ;
                                                                  onner:ScholarlyPublication
                                                                )
                                                  ] ;
-                                      rdfs:comment "The relationship between a directly contained entity (e.g., a document part) and a container entity (e.g., a document or a scholarly publication)."@en ;
+                                      rdfs:comment "The relationship of a document part with another document part or a scholarly publication that contains the former directly."@en ;
                                       rdfs:label "document part directly contained by"@en .
 
 
@@ -367,7 +397,7 @@ onner:floatingDocumentPartReferencedByTextFragment rdf:type owl:ObjectProperty ;
                                                    owl:inverseOf onner:textFragmentReferencesFloatingDocumentPart ;
                                                    rdfs:domain onner:FloatingDocumentPart ;
                                                    rdfs:range onner:TextFragment ;
-                                                   rdfs:comment "The relationship between a floating document element (e.g., a figure, a table, or a listing) and a text fragment (e.g., a paragraph, a caption, or a formula)."@en ;
+                                                   rdfs:comment "The relationship between a floating document element (e.g., a figure, a table, or a listing) referenced by a text fragment (e.g., a paragraph, a caption, or a formula) and that text fragment itself."@en ;
                                                    rdfs:label "floating document part referenced by text fragment"@en .
 
 
@@ -377,7 +407,7 @@ onner:fromLabelingSchema rdf:type owl:ObjectProperty ,
                                   owl:IrreflexiveProperty ;
                          rdfs:domain onner:Label ;
                          rdfs:range onner:LabelingSchema ;
-                         rdfs:comment "The relationship between a classification category (e.g., a label) of a labeled term (also known as a named entity) and a domain-specific schema where a classification category belongs to (e.g., a labeling schema)."@en ;
+                         rdfs:comment "The relationship between a label of a labeled term (also known as a named entity) and a labeling schema to which that label belongs."@en ;
                          rdfs:label "from labeling schema"@en .
 
 
@@ -387,7 +417,7 @@ onner:hasAffiliation rdf:type owl:ObjectProperty ,
                               owl:IrreflexiveProperty ;
                      rdfs:domain onner:Person ;
                      rdfs:range onner:Organization ;
-                     rdfs:comment "The relationship between a person and an organization where a person is affiliated with."@en ;
+                     rdfs:comment "The relationship between a person and an organization with which that person is affiliated."@en ;
                      rdfs:label "has affiliation"@en .
 
 
@@ -397,7 +427,7 @@ onner:hasCaption rdf:type owl:ObjectProperty ,
                           owl:IrreflexiveProperty ;
                  rdfs:domain onner:FloatingDocumentPart ;
                  rdfs:range onner:Caption ;
-                 rdfs:comment "The relationship between a floating document element (e.g., a figure, a table, or a listing) and a accompanying text fragment (e.g., a caption) which describes a floating document element."@en ;
+                 rdfs:comment "The relationship between a floating document element (e.g., a figure, a table, or a listing) and an accompanying text fragment (e.g., a caption) which describes that floating document element."@en ;
                  rdfs:label "has caption"@en .
 
 
@@ -407,7 +437,7 @@ onner:hasLabeledTermLabel rdf:type owl:ObjectProperty ,
                                    owl:IrreflexiveProperty ;
                           rdfs:domain onner:LabeledTermStatus ;
                           rdfs:range onner:Label ;
-                          rdfs:comment "The relationship between a status of a labeled term (also known as a named entity) and a classification category (e.g., a label) of a labeled term."@en ;
+                          rdfs:comment "The relationship between a status of a labeled term (also known as a named entity) and a label assigned to that labeled term."@en ;
                           rdfs:label "has labeled term label"@en .
 
 
@@ -418,7 +448,7 @@ onner:hasLabeledTermStatus rdf:type owl:ObjectProperty ;
                                     owl:IrreflexiveProperty ;
                            rdfs:domain onner:LabeledTerm ;
                            rdfs:range onner:LabeledTermStatus ;
-                           rdfs:comment "The relationship between a labeled term (also known as a named entity) and a status of a labeled term."@en ;
+                           rdfs:comment "The relationship between a labeled term (also known as a named entity) and a status assigned to that labeled term."@en ;
                            rdfs:label "has labeled term status"@en .
 
 
@@ -428,7 +458,7 @@ onner:hasPublicationAuthorRole rdf:type owl:ObjectProperty ;
                                owl:inverseOf onner:roleOfPublicationAuthor ;
                                rdfs:domain onner:Person ;
                                rdfs:range onner:PublicationAuthorRole ;
-                               rdfs:comment "The relationship between a person and a role (e.g., a publication author role) that identifies a person as an author of a publication."@en ;
+                               rdfs:comment "The relationship between a person and a role which distinguishes that person as an author of a particular publication."@en ;
                                rdfs:label "has publication author role"@en .
 
 
@@ -442,7 +472,7 @@ onner:has_NER_LabelerRole rdf:type owl:ObjectProperty ;
                                                     )
                                       ] ;
                           rdfs:range onner:NER_LabelerRole ;
-                          rdfs:comment "The relationship between an NER labeler (e.g., a person or an NER system) and a role (e.g., NER labeler role) that grants the privilege of NER labeling to a labeler."@en ;
+                          rdfs:comment "The relationship between an agent (e.g., a person or an NER system) and a role which grants the privilege of NER labeling to that agent."@en ;
                           rdfs:label "has NER labeler role"@en .
 
 
@@ -451,7 +481,7 @@ onner:labeledTermDirectlyContainedBy rdf:type owl:ObjectProperty ;
                                      rdfs:subPropertyOf onner:documentPartDirectlyContainedBy ;
                                      rdfs:domain onner:LabeledTerm ;
                                      rdfs:range onner:TextFragment ;
-                                     rdfs:comment "The relationship between a directly contained labeled term (also known as a named entity) and a container entity (e.g., a text fragment)."@en ;
+                                     rdfs:comment "The relationship of a labeled term with a text fragment which contains that labeled term directly."@en ;
                                      rdfs:label "labeled term directly contained by"@en .
 
 
@@ -461,7 +491,7 @@ onner:nextDocumentPart rdf:type owl:ObjectProperty ,
                                 owl:IrreflexiveProperty ;
                        rdfs:domain onner:OrderedDocumentPart ;
                        rdfs:range onner:OrderedDocumentPart ;
-                       rdfs:comment "The relationship of one ordered document element (e.g., a section or a paragraph) with another ordered document element."@en ;
+                       rdfs:comment "The relationship between an ordered document element (e.g., a section or a paragraph) and another ordered document element that immediately follows the first."@en ;
                        rdfs:label "next document part"@en .
 
 
@@ -473,7 +503,7 @@ onner:publicationAuthoredBy rdf:type owl:ObjectProperty ;
                                                      <http://purl.obolibrary.org/obo#BFO_0000055>
                                                      onner:roleOfPublicationAuthor
                                                    ) ;
-                            rdfs:comment "The relationship between a document (e.g., a scholarly publication) that a person has written and a person who holds a publication author role."@en ;
+                            rdfs:comment "The relationship between a document (e.g., a scholarly publication) and a person holding a publication author role who has written that document."@en ;
                             rdfs:label "publication authored by"@en .
 
 
@@ -483,6 +513,7 @@ onner:referencedBy rdf:type owl:ObjectProperty ;
                    owl:inverseOf onner:references ;
                    rdf:type owl:AsymmetricProperty ,
                             owl:IrreflexiveProperty ;
+                   rdfs:comment "The relationship between two document parts or between a document part and a scholarly publication, where one is referenced by the other."@en ;
                    rdfs:label "referenced by"@en .
 
 
@@ -491,6 +522,7 @@ onner:references rdf:type owl:ObjectProperty ;
                  rdfs:subPropertyOf biro:references ;
                  rdf:type owl:AsymmetricProperty ,
                           owl:IrreflexiveProperty ;
+                 rdfs:comment "The relationship between two document parts or between a document part and a scholarly publication, where one references the other."@en ;
                  rdfs:label "references"@en .
 
 
@@ -501,7 +533,7 @@ onner:roleOfPublicationAuthor rdf:type owl:ObjectProperty ;
                                        owl:IrreflexiveProperty ;
                               rdfs:domain onner:PublicationAuthorRole ;
                               rdfs:range onner:Person ;
-                              rdfs:comment "The relationship between a role (e.g., a publication author role) that identifies a person as an author of a publication and a person."@en ;
+                              rdfs:comment "The relationship between a role and a person who is distinguished as an author of a particular publication by that role."@en ;
                               rdfs:label "role of publication author"@en .
 
 
@@ -516,7 +548,7 @@ onner:roleOf_NER_Labeler rdf:type owl:ObjectProperty ;
                                                     onner:Person
                                                   )
                                     ] ;
-                         rdfs:comment "The relationship between a role (e.g., NER labeler role) that grants the privilege of NER labeling to a labeler and an NER labeler (e.g., a person or an NER system)."@en ;
+                         rdfs:comment "The relationship between a role and an agent (e.g., a person or an NER system) that is granted the privilege of NER labeling by that role."@en ;
                          rdfs:label "role of NER labeler"@en .
 
 
@@ -525,7 +557,7 @@ onner:scholarlyPublicationReferencedByBibliographicEntry rdf:type owl:ObjectProp
                                                          rdfs:subPropertyOf onner:referencedBy ;
                                                          rdfs:domain onner:ScholarlyPublication ;
                                                          rdfs:range onner:BibliographicEntry ;
-                                                         rdfs:comment "The relationship between a document (e.g., a scholarly publication) and a detailed source information (e.g., a bibliographic reference) that helps to locate the content of a cited work on the web."@en ;
+                                                         rdfs:comment "The relationship between a scholarly publication which is located on the web by a bibliographic entry and that bibliographic entry itself."@en ;
                                                          rdfs:label "scholarly publication referenced by bibliographic entry"@en .
 
 
@@ -541,8 +573,9 @@ onner:statusAssignedBy rdf:type owl:ObjectProperty ;
                                                 <http://purl.obolibrary.org/obo#BFO_0000055>
                                                 onner:roleOf_NER_Labeler
                                               ) ;
-                       rdfs:comment "The relationship between a status of a labeled term (also known as a named entity) and an entity (e.g., a person or an NER system) privileged with a NER labeler role."@en ;
-                       rdfs:label "status assigned by"@en .
+                       rdfs:comment "The relationship between a status assigned to a labeled term (also known as a named entity) and an agent (e.g., a person or an NER system) holding an NER labeler role responsible for assigning that status."@en ;
+                       rdfs:label "status assigned by"@en ;
+                       <http://www.w3.org/2004/02/skos/core#example> "[Status-A-1-1] is assigned to the labeled term [Hemicellulose] by [NER-Model-A]."@en .
 
 
 ###  http://purl.org/spatialai/onner/onner-full#statusOfLabeledTerm
@@ -551,7 +584,7 @@ onner:statusOfLabeledTerm rdf:type owl:ObjectProperty ,
                                    owl:IrreflexiveProperty ;
                           rdfs:domain onner:LabeledTermStatus ;
                           rdfs:range onner:LabeledTerm ;
-                          rdfs:comment "The relationship between a status of a labeled term (also known as a named entity) and a labeled term."@en ;
+                          rdfs:comment "The relationship between a status assigned to a labeled term (also known as a named entity) and that labeled term itself."@en ;
                           rdfs:label "status of labeled term"@en .
 
 
@@ -560,7 +593,7 @@ onner:systemBelongsTo rdf:type owl:ObjectProperty ,
                                owl:AsymmetricProperty ,
                                owl:IrreflexiveProperty ;
                       rdfs:domain onner:NER_System ;
-                      rdfs:comment "The relationship between a system (e.g., NER system) and its designated owner or operator."@en ;
+                      rdfs:comment "The relationship of an NER system with its designated owner or operator."@en ;
                       rdfs:label "system belongs to"@en .
 
 
@@ -569,7 +602,7 @@ onner:textFragmentReferencesFloatingDocumentPart rdf:type owl:ObjectProperty ;
                                                  rdfs:subPropertyOf onner:references ;
                                                  rdfs:domain onner:TextFragment ;
                                                  rdfs:range onner:FloatingDocumentPart ;
-                                                 rdfs:comment "The relationship between a text fragment (e.g., a paragraph, a caption, or a formula) and a floating document element (e.g., a figure, a table, or a listing)."@en ;
+                                                 rdfs:comment "The relationship between a text fragment (e.g., a paragraph, a caption, or a formula) referencing a floating document element (e.g., a figure, a table, or a listing) and that floating document element itself."@en ;
                                                  rdfs:label "text fragment references floating document part"@en .
 
 
@@ -586,7 +619,7 @@ onner:captionText rdf:type owl:DatatypeProperty ;
                                             )
                               ] ;
                   rdfs:range xsd:string ;
-                  rdfs:comment "A text segment of a caption."@en ;
+                  rdfs:comment "A text segment containing the description of a floating document element (e.g., a figure, a table, or a listing)."@en ;
                   rdfs:label "caption text"@en .
 
 
@@ -594,7 +627,7 @@ onner:captionText rdf:type owl:DatatypeProperty ;
 onner:doi rdf:type owl:DatatypeProperty ;
           rdfs:domain onner:ScholarlyPublication ;
           rdfs:range xsd:string ;
-          rdfs:comment "A unique identification of an online document."@en ;
+          rdfs:comment "A text segment containing a unique digital identifier assigned to a scholarly publication released online."@en ;
           rdfs:label "doi"@en .
 
 
@@ -602,7 +635,7 @@ onner:doi rdf:type owl:DatatypeProperty ;
 onner:figureNumber rdf:type owl:DatatypeProperty ;
                    rdfs:domain onner:Figure ;
                    rdfs:range xsd:nonNegativeInteger ;
-                   rdfs:comment "A unique identification number of a figure within a document."@en ;
+                   rdfs:comment "A unique figure number within a document."@en ;
                    rdfs:label "figure number"@en .
 
 
@@ -610,7 +643,7 @@ onner:figureNumber rdf:type owl:DatatypeProperty ;
 onner:keyword rdf:type owl:DatatypeProperty ;
               rdfs:domain onner:Keywords ;
               rdfs:range xsd:string ;
-              rdfs:comment "A text segment of a keyword."@en ;
+              rdfs:comment "A text segment containing a keyword mentioned in a scholarly publication."@en ;
               rdfs:label "keyword"@en .
 
 
@@ -618,7 +651,7 @@ onner:keyword rdf:type owl:DatatypeProperty ;
 onner:labelText rdf:type owl:DatatypeProperty ;
                 rdfs:domain onner:Label ;
                 rdfs:range xsd:string ;
-                rdfs:comment "A text segment of a label."@en ;
+                rdfs:comment "A text segment containing a label assigned to a labeled term (also known as a named entity)."@en ;
                 rdfs:label "label text"@en .
 
 
@@ -626,7 +659,7 @@ onner:labelText rdf:type owl:DatatypeProperty ;
 onner:labeledTermText rdf:type owl:DatatypeProperty ;
                       rdfs:domain onner:LabeledTerm ;
                       rdfs:range xsd:string ;
-                      rdfs:comment "A text segment of a labeled term."@en ;
+                      rdfs:comment "A text segment containing a labeled term (also known as a named entity) identified within a text fragment."@en ;
                       rdfs:label "labeled term text"@en .
 
 
@@ -634,7 +667,7 @@ onner:labeledTermText rdf:type owl:DatatypeProperty ;
 onner:length rdf:type owl:DatatypeProperty ;
              rdfs:domain onner:LabeledTerm ;
              rdfs:range xsd:nonNegativeInteger ;
-             rdfs:comment "The number of characters present in a labeled term."@en ;
+             rdfs:comment "The total number of characters in a labeled term (also known as a named entity)."@en ;
              rdfs:label "length"@en .
 
 
@@ -642,7 +675,7 @@ onner:length rdf:type owl:DatatypeProperty ;
 onner:listingNumber rdf:type owl:DatatypeProperty ;
                     rdfs:domain onner:Listing ;
                     rdfs:range xsd:nonNegativeInteger ;
-                    rdfs:comment "A unique identification number of a listing within a document."@en ;
+                    rdfs:comment "A unique listing number within a document."@en ;
                     rdfs:label "listing number"@en .
 
 
@@ -658,7 +691,7 @@ onner:offset rdf:type owl:DatatypeProperty ;
 onner:organizationAddress rdf:type owl:DatatypeProperty ;
                           rdfs:domain onner:Organization ;
                           rdfs:range xsd:string ;
-                          rdfs:comment "A place where an organization is physically located."@en ;
+                          rdfs:comment "A text segment containing an organization's address."@en ;
                           rdfs:label "organization address"@en .
 
 
@@ -666,7 +699,7 @@ onner:organizationAddress rdf:type owl:DatatypeProperty ;
 onner:organizationName rdf:type owl:DatatypeProperty ;
                        rdfs:domain onner:Organization ;
                        rdfs:range xsd:string ;
-                       rdfs:comment "A name by which an organization is formally known and identified."@en ;
+                       rdfs:comment "A text segment containing an organization's name."@en ;
                        rdfs:label "organization name"@en .
 
 
@@ -674,7 +707,7 @@ onner:organizationName rdf:type owl:DatatypeProperty ;
 onner:paragraphText rdf:type owl:DatatypeProperty ;
                     rdfs:domain onner:Paragraph ;
                     rdfs:range xsd:string ;
-                    rdfs:comment "A text segment of a paragraph."@en ;
+                    rdfs:comment "A text segment containing a paragraph."@en ;
                     rdfs:label "paragraph text"@en .
 
 
@@ -682,7 +715,7 @@ onner:paragraphText rdf:type owl:DatatypeProperty ;
 onner:personName rdf:type owl:DatatypeProperty ;
                  rdfs:domain onner:Person ;
                  rdfs:range xsd:string ;
-                 rdfs:comment "A name by which a person is formally known and identified."@en ;
+                 rdfs:comment "A text segment containing a person's name."@en ;
                  rdfs:label "person name"@en .
 
 
@@ -690,7 +723,7 @@ onner:personName rdf:type owl:DatatypeProperty ;
 onner:positionInParentDocumentPart rdf:type owl:DatatypeProperty ;
                                    rdfs:domain onner:Paragraph ;
                                    rdfs:range xsd:nonNegativeInteger ;
-                                   rdfs:comment "A unique number that refers to the hierarchical position of a document part within its parent document part."@en ;
+                                   rdfs:comment "A unique number indicating the hierarchical position of a document part within its parent document part."@en ;
                                    rdfs:label "position in parent document part"@en .
 
 
@@ -698,7 +731,7 @@ onner:positionInParentDocumentPart rdf:type owl:DatatypeProperty ;
 onner:publicationDate rdf:type owl:DatatypeProperty ;
                       rdfs:domain onner:ScholarlyPublication ;
                       rdfs:range xsd:dateTime ;
-                      rdfs:comment "A date when a publication was made publicly available or officially released to the audience."@en ;
+                      rdfs:comment "A date when a publication is made publicly available or officially released to the audience."@en ;
                       rdfs:label "publication date"@en .
 
 
@@ -706,7 +739,7 @@ onner:publicationDate rdf:type owl:DatatypeProperty ;
 onner:publicationTitle rdf:type owl:DatatypeProperty ;
                        rdfs:domain onner:ScholarlyPublication ;
                        rdfs:range xsd:string ;
-                       rdfs:comment "The title of a publication."@en ;
+                       rdfs:comment "A text segment containing the title of a scholarly publication."@en ;
                        rdfs:label "publication title"@en .
 
 
@@ -714,7 +747,7 @@ onner:publicationTitle rdf:type owl:DatatypeProperty ;
 onner:publicationVenue rdf:type owl:DatatypeProperty ;
                        rdfs:domain onner:ScholarlyPublication ;
                        rdfs:range xsd:string ;
-                       rdfs:comment "The venue of a publication."@en ;
+                       rdfs:comment "A text segment indicating the venue of the conference where a scholarly publication is presented."@en ;
                        rdfs:label "publication venue"@en .
 
 
@@ -722,7 +755,7 @@ onner:publicationVenue rdf:type owl:DatatypeProperty ;
 onner:schemaName rdf:type owl:DatatypeProperty ;
                  rdfs:domain onner:LabelingSchema ;
                  rdfs:range xsd:string ;
-                 rdfs:comment "The corresponding text for a schema name."@en ;
+                 rdfs:comment "A text segment containing a schema name."@en ;
                  rdfs:label "schema name"@en .
 
 
@@ -730,7 +763,7 @@ onner:schemaName rdf:type owl:DatatypeProperty ;
 onner:sectionNumber rdf:type owl:DatatypeProperty ;
                     rdfs:domain onner:Section ;
                     rdfs:range xsd:string ;
-                    rdfs:comment "The position of a section whithin a publication."@en ;
+                    rdfs:comment "A text segment containing a section number."@en ;
                     rdfs:label "section number"@en .
 
 
@@ -738,7 +771,7 @@ onner:sectionNumber rdf:type owl:DatatypeProperty ;
 onner:sectionTitle rdf:type owl:DatatypeProperty ;
                    rdfs:domain onner:Section ;
                    rdfs:range xsd:string ;
-                   rdfs:comment "A header of a section."@en ;
+                   rdfs:comment "A text segment containing a section title."@en ;
                    rdfs:label "section title"@en .
 
 
@@ -746,7 +779,7 @@ onner:sectionTitle rdf:type owl:DatatypeProperty ;
 onner:statusAssignmentDate rdf:type owl:DatatypeProperty ;
                            rdfs:domain onner:LabeledTermStatus ;
                            rdfs:range xsd:dateTime ;
-                           rdfs:comment "The specific date and time when a particular status is officially assigned to a labeled term (also known as a named entity)."@en ;
+                           rdfs:comment "A specific date and time at which a particular status is assigned to a labeled term (also known as a named entity)."@en ;
                            rdfs:label "status assignment date"@en .
 
 
@@ -754,7 +787,7 @@ onner:statusAssignmentDate rdf:type owl:DatatypeProperty ;
 onner:systemVersion rdf:type owl:DatatypeProperty ;
                     rdfs:domain onner:NER_System ;
                     rdfs:range xsd:string ;
-                    rdfs:comment "The version number of the NER system used for named entity recognition."@en ;
+                    rdfs:comment "A text segment containing the version number of an NER system."@en ;
                     rdfs:label "system version"@en .
 
 
@@ -762,7 +795,7 @@ onner:systemVersion rdf:type owl:DatatypeProperty ;
 onner:tableNumber rdf:type owl:DatatypeProperty ;
                   rdfs:domain onner:Table ;
                   rdfs:range xsd:nonNegativeInteger ;
-                  rdfs:comment "A unique identification number of a table within a document."@en ;
+                  rdfs:comment "A unique table number within a document."@en ;
                   rdfs:label "table number"@en .
 
 
@@ -915,8 +948,8 @@ biro:BibliographicCollection rdf:type owl:Class ;
 
 ###  http://purl.org/spar/biro#BibliographicReference
 biro:BibliographicReference rdf:type owl:Class ;
-							rdfs:comment "An expression of a bibliographic record in a specific format, that references a particular textual or data publication (or a work in preparation for publication). Each bibliographic reference is a list of items containing entities that describe aspects of the referenced work - for example authors, title, journal, publication year - selected from the bibliographic record. Note that because different journal styles may require omission of elements of the bibliographic record in references included in a paper's reference list (e.g. the title, the identifier, the names of the eighth and subsequent authors), and because errors can be introduced when an author creates a bibliographic reference, the bibliographic reference to a published work may not be a complete or fully accurate expression of the information contained within the authoritative bibliographic record for that work."@en ;
-							rdfs:label "Bibliographic Reference"@en .
+                            rdfs:comment "An expression of a bibliographic record in a specific format, that references a particular textual or data publication (or a work in preparation for publication). Each bibliographic reference is a list of items containing entities that describe aspects of the referenced work - for example authors, title, journal, publication year - selected from the bibliographic record. Note that because different journal styles may require omission of elements of the bibliographic record in references included in a paper's reference list (e.g. the title, the identifier, the names of the eighth and subsequent authors), and because errors can be introduced when an author creates a bibliographic reference, the bibliographic reference to a published work may not be a complete or fully accurate expression of the information contained within the authoritative bibliographic record for that work."@en ;
+                            rdfs:label "Bibliographic Reference"@en .
 
 
 ###  http://purl.org/spar/deo#Caption
