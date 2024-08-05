@@ -806,48 +806,56 @@ onner:tableNumber rdf:type owl:DatatypeProperty ;
 ###  http://purl.obolibrary.org/obo#BFO_0000001
 <http://purl.obolibrary.org/obo#BFO_0000001> rdf:type owl:Class ;
                                              rdfs:subClassOf owl:Thing ;
+                                             rdfs:comment "An entity is anything that exists or has existed or will exist."@en ;
                                              rdfs:label "Entity"@en .
 
 
 ###  http://purl.obolibrary.org/obo#BFO_0000002
 <http://purl.obolibrary.org/obo#BFO_0000002> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo#BFO_0000001> ;
+                                             rdfs:comment "A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity."@en ;
                                              rdfs:label "Continuant"@en .
 
 
 ###  http://purl.obolibrary.org/obo#BFO_0000003
 <http://purl.obolibrary.org/obo#BFO_0000003> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo#BFO_0000001> ;
+                                             rdfs:comment "An occurrent is an entity that unfolds itself in time or it is the instantaneous boundary of such an entity (for example a beginning or an ending) or it is a temporal or spatiotemporal region which such an entity occupies_temporal_region or occupies_spatiotemporal_region."@en ;
                                              rdfs:label "Occurrent"@en .
 
 
 ###  http://purl.obolibrary.org/obo#BFO_0000004
 <http://purl.obolibrary.org/obo#BFO_0000004> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo#BFO_0000002> ;
+                                             rdfs:comment "B is an independent continuant = Def. B is a continuant which is such that there is no C and no T such that B s-depends_on C at T."@en ;
                                              rdfs:label "Independent Continuant"@en .
 
 
 ###  http://purl.obolibrary.org/obo#BFO_0000015
 <http://purl.obolibrary.org/obo#BFO_0000015> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo#BFO_0000003> ;
+                                             rdfs:comment "P is a process = Def. P is an occurrent that has temporal proper parts and for some time T, P s-depends_on some material entity at T."@en ;
                                              rdfs:label "Process"@en .
 
 
 ###  http://purl.obolibrary.org/obo#BFO_0000017
 <http://purl.obolibrary.org/obo#BFO_0000017> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo#BFO_0000020> ;
+                                             rdfs:comment "To say that B is a realizable entity is to say that B is a specifically dependent continuant that inheres in some independent continuant which is not a spatial region and is of a type instances of which are realized in processes of a correlated type."@en ;
                                              rdfs:label "Realizable Entity"@en .
 
 
 ###  http://purl.obolibrary.org/obo#BFO_0000019
 <http://purl.obolibrary.org/obo#BFO_0000019> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo#BFO_0000020> ;
+                                             rdfs:comment "A quality is a specifically dependent continuant that, in contrast to roles and dispositions, does not require any further process in order to be realized."@en ;
                                              rdfs:label "Quality"@en .
 
 
 ###  http://purl.obolibrary.org/obo#BFO_0000020
 <http://purl.obolibrary.org/obo#BFO_0000020> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo#BFO_0000002> ;
+                                             rdfs:comment "B is a specifically dependent continuant = Def. B is a continuant & there is some independent continuant C which is not a spatial region and which is such that B s-depends_on C at every time T during the course of B’s existence."@en ;
                                              rdfs:label "Specifically Dependent Continuant"@en .
 
 
@@ -861,24 +869,28 @@ onner:tableNumber rdf:type owl:DatatypeProperty ;
 ###  http://purl.obolibrary.org/obo#BFO_0000031
 <http://purl.obolibrary.org/obo#BFO_0000031> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo#BFO_0000002> ;
+                                             rdfs:comment "B is a generically dependent continuant = Def. B is a continuant that g-depends_on one or more other entities."@en ;
                                              rdfs:label "Generically Dependent Continuant"@en .
 
 
 ###  http://purl.obolibrary.org/obo#BFO_0000040
 <http://purl.obolibrary.org/obo#BFO_0000040> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo#BFO_0000004> ;
+                                             rdfs:comment "A material entity is an independent continuant that has some portion of matter as proper or improper continuant part."@en ;
                                              rdfs:label "Material Entity"@en .
 
 
 ###  http://purl.obolibrary.org/obo#BFO_0000145
 <http://purl.obolibrary.org/obo#BFO_0000145> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo#BFO_0000019> ;
+                                             rdfs:comment "B is a relational quality = Def. for some independent continuants C, D and for some time T: B quality_of C at T & B quality_of D at T."@en ;
                                              rdfs:label "Relational Quality"@en .
 
 
 ###  http://purl.obolibrary.org/obo#IAO_0000030
 <http://purl.obolibrary.org/obo#IAO_0000030> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo#BFO_0000031> ;
+                                             rdfs:comment "A generically dependent continuant that is about some thing."@en ;
                                              rdfs:label "Information Content Entity"@en .
 
 
@@ -906,6 +918,7 @@ onner:tableNumber rdf:type owl:DatatypeProperty ;
 ###  http://purl.obolibrary.org/obo#IAO_0000442
 <http://purl.obolibrary.org/obo#IAO_0000442> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo#BFO_0000023> ;
+                                             rdfs:comment "A role inhering in a person or organization that is realized when the bearer participates in the work which is the basis of the document, in the writing of the document, and signs it with their name."@en ;
                                              rdfs:label "Author Role"@en .
 
 
@@ -919,24 +932,28 @@ onner:tableNumber rdf:type owl:DatatypeProperty ;
 ###  http://purl.obolibrary.org/obo#NCBITaxon_9606
 <http://purl.obolibrary.org/obo#NCBITaxon_9606> rdf:type owl:Class ;
                                                 rdfs:subClassOf <http://purl.obolibrary.org/obo#OBI_0100026> ;
+                                                rdfs:comment "A subclass from NCBI Taxonomy."@en ;
                                                 rdfs:label "Homo Sapiens"@en .
 
 
 ###  http://purl.obolibrary.org/obo#OBI_0000245
 <http://purl.obolibrary.org/obo#OBI_0000245> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo#BFO_0000040> ;
+                                             rdfs:comment "An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members."@en ;
                                              rdfs:label "Organization"@en .
 
 
 ###  http://purl.obolibrary.org/obo#OBI_0100026
 <http://purl.obolibrary.org/obo#OBI_0100026> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo#BFO_0000040> ;
+                                             rdfs:comment "A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs."@en ;
                                              rdfs:label "Organism"@en .
 
 
 ###  http://purl.obolibrary.org/obo#RO_0002577
 <http://purl.obolibrary.org/obo#RO_0002577> rdf:type owl:Class ;
                                             rdfs:subClassOf <http://purl.obolibrary.org/obo#BFO_0000040> ;
+                                            rdfs:comment "A material entity consisting of multiple components that are causally integrated."@en ;
                                             rdfs:label "System"@en .
 
 
@@ -1011,7 +1028,7 @@ onner:Abstract rdf:type owl:Class ;
                rdfs:subClassOf <http://purl.obolibrary.org/obo#IAO_0000315> ,
                                doco:Abstract ,
                                onner:DocumentPart ;
-               rdfs:comment "A brief overview of a scholarly publication typically positioned at the beginning of a document, diverging from the usual flow of the document's text."@en ;
+               rdfs:comment "An overview of a scholarly publication, usually placed at the beginning of the document and set apart from the main text."@en ;
                rdfs:label "Abstract"@en .
 
 
@@ -1027,7 +1044,7 @@ onner:AtomicLabeledTerm rdf:type owl:Class ;
                                             ] ;
                         rdfs:subClassOf onner:LabeledTerm ;
                         owl:disjointWith onner:CompoundLabeledTerm ;
-                        rdfs:comment "A named entity consisting of one or more words identified by a single classification label."@en ;
+                        rdfs:comment "An atomic labeled term is a straightforward annotation where a single, continuous span of text is identified as a labeled term. Note: A labeled term is also known as named entity."@en ;
                         rdfs:label "Atomic Labeled Term"@en ;
                         <http://www.w3.org/2004/02/skos/core#example> "The term \"modulation\" could be identified and labeled as a \"process\" within the cellulose domain."@en .
 
@@ -1040,7 +1057,7 @@ onner:BibliographicEntry rdf:type owl:Class ;
                                            owl:onProperty onner:references ;
                                            owl:someValuesFrom onner:ScholarlyPublication
                                          ] ;
-                         rdfs:comment "A detailed information of the source of a cited work that helps to locate the original content on the web."@en ;
+                         rdfs:comment "Detailed information about the source of a cited work that helps locate the original content on the web."@en ;
                          rdfs:label "Bibliographic Entry"@en .
 
 
@@ -1052,7 +1069,7 @@ onner:Bibliography rdf:type owl:Class ;
                                      owl:onProperty onner:containsDocumentPart ;
                                      owl:allValuesFrom onner:BibliographicEntry
                                    ] ;
-                   rdfs:comment "A collection of bibliographic references typically appears at the end of a document"@en ;
+                   rdfs:comment "A collection of bibliographic entries typically appearing at the end of a document."@en ;
                    rdfs:label "Bibliography"@en .
 
 
@@ -1075,7 +1092,7 @@ onner:Caption rdf:type owl:Class ;
                                 owl:onProperty onner:textFragmentReferencesFloatingDocumentPart ;
                                 owl:allValuesFrom onner:FloatingDocumentPart
                               ] ;
-              rdfs:comment "A caption distinguishes itself from a paragraph by being a component of a floating document part, such as a table or figure, where it provides a description of the respective element."@en ;
+              rdfs:comment "A caption differs from a paragraph as it is part of a floating document element, such as a table or figure, and provides a description of that element."@en ;
               rdfs:label "Caption"@en .
 
 
@@ -1090,9 +1107,9 @@ onner:CompoundLabeledTerm rdf:type owl:Class ;
                                                 rdf:type owl:Class
                                               ] ;
                           rdfs:subClassOf onner:LabeledTerm ;
-                          rdfs:comment "A named entity consisting of one or more words identified by a single classification label, with different parts of the named entity identified with distinct classification labels."@en ;
+                          rdfs:comment "A compoubd labed term is a more complex annotation where labed terms can be contained within other labed terms. Note: A labeled term is also known as named entity."@en ;
                           rdfs:label "Compound Labeled Term"@en ;
-                          <http://www.w3.org/2004/02/skos/core#example> "The term \"nanoparticle shape\" (classified as \"material\") could be seen as a nested named entity consisting of \"nanoparticle\" (classified as \"structure\") and \"shape\" (classified as \"property\"), both of which are individual named entities."@en .
+                          <http://www.w3.org/2004/02/skos/core#example> "The term \"nanoparticle shape\" (classified as \"property\") could be seen as a compound labeled term consisting of \"nanoparticle\" (classified as \"structure\") and \"shape\" (classified as \"property\"), both of which are individual labeled terms."@en .
 
 
 ###  http://purl.org/spatialai/onner/onner-full#ConfirmedStatus
@@ -1109,14 +1126,15 @@ onner:DocumentPart rdf:type owl:Class ;
                                      owl:onProperty onner:documentPartContainedBy ;
                                      owl:someValuesFrom onner:ScholarlyPublication
                                    ] ;
-                   rdfs:comment "Structural components of scholarly publications that assist in locating named entities."@en ;
-                   rdfs:label "Document Part"@en .
+                   rdfs:comment "Structural features of scholarly publications that support locating identified named entities."@en ;
+                   rdfs:label "Document Part"@en ;
+                   <http://www.w3.org/2004/02/skos/core#example> "Abstract, Floating Document Part, Ordered Document Part, Text Fragment, Bibliography, and Bibliographic Entry."@en .
 
 
 ###  http://purl.org/spatialai/onner/onner-full#EndOfDocument
 onner:EndOfDocument rdf:type owl:Class ;
                     rdfs:subClassOf onner:OrderedDocumentPart ;
-                    rdfs:comment "A marker that denotes the explicit conclusion of the main text."@en ;
+                    rdfs:comment "A marker indicating the definitive end of the main text."@en ;
                     rdfs:label "End of Document"@en .
 
 
@@ -1135,8 +1153,9 @@ onner:FloatingDocumentPart rdf:type owl:Class ;
                                                  onner:Listing
                                                  onner:Table
                                                ) ;
-                           rdfs:comment "A document part that does not rely on the sequential order of appearing within a publication for semantic significance."@en ;
-                           rdfs:label "Floating Document Part"@en .
+                           rdfs:comment "A document part whose order of appearance, if changed within a publication, does not alter the semantic alignment of the publication."@en ;
+                           rdfs:label "Floating Document Part"@en ;
+                           <http://www.w3.org/2004/02/skos/core#example> "Figure, Table, and Listing."@en .
 
 
 ###  http://purl.org/spatialai/onner/onner-full#Formula
@@ -1151,7 +1170,7 @@ onner:Formula rdf:type owl:Class ;
                                 owl:onProperty onner:textFragmentReferencesFloatingDocumentPart ;
                                 owl:allValuesFrom onner:FloatingDocumentPart
                               ] ;
-              rdfs:comment "A specialized piece of text representing mathematical expressions, chemical formulas, etc., and can appear within either a paragraph or a caption."@en ;
+              rdfs:comment "A specialized piece of text representing mathematical expressions, chemical formulas, and similar content that can appear within a paragraph or a caption."@en ;
               rdfs:label "Formula"@en ;
               <http://www.w3.org/2004/02/skos/core#example> "The chemical formula of sodium hydroxide and sodium chloride are NaOH and NaCl respectively."@en .
 
@@ -1175,7 +1194,7 @@ onner:Keywords rdf:type owl:Class ;
                                      rdf:type owl:Class
                                    ] ;
                rdfs:subClassOf onner:TextFragment ;
-               rdfs:comment "A special fragment of text that typically appears with the abstract and may contain one or more labeled terms."@en ;
+               rdfs:comment "A special text fragment that typically accompanies the abstract and may contain one or more labeled terms."@en ;
                rdfs:label "Keywords"@en .
 
 
@@ -1186,9 +1205,9 @@ onner:Label rdf:type owl:Class ;
                               owl:onProperty onner:fromLabelingSchema ;
                               owl:allValuesFrom onner:LabelingSchema
                             ] ;
-            rdfs:comment "A concept assigned to a named entity to classify it within a particular context."@en ;
+            rdfs:comment "A concept (also known as a label) assigned to a term (also known as a named entity) to classify it within a particular context."@en ;
             rdfs:label "Label"@en ;
-            <http://www.w3.org/2004/02/skos/core#example> "Within the cellulose domain, the term \"nanoparticle shape\" is classified with the label \"Property\"."@en .
+            <http://www.w3.org/2004/02/skos/core#example> "In the cellulose domain, the term \"nanoparticle shape\" is classified by a concept (also known as a label) called \"property\"."@en .
 
 
 ###  http://purl.org/spatialai/onner/onner-full#LabeledTerm
@@ -1213,15 +1232,17 @@ onner:LabeledTerm rdf:type owl:Class ;
                   owl:disjointUnionOf ( onner:AtomicLabeledTerm
                                         onner:CompoundLabeledTerm
                                       ) ;
-                  rdfs:comment "A word or group of words within a scholarly publication that has been identified and classified as a named entity."@en ;
-                  rdfs:label "Labeled Term"@en .
+                  rdfs:comment "A word or group of words in a scholarly publication identified and classified as a named entity."@en ;
+                  rdfs:label "Labeled Term"@en ;
+                  <http://www.w3.org/2004/02/skos/core#example> "The term \"nanoparticle shape\" is identified and labeled as a \"property\", and the term \"modulation\" is identified and labeled as a \"process\"."@en .
 
 
 ###  http://purl.org/spatialai/onner/onner-full#LabeledTermStatus
 onner:LabeledTermStatus rdf:type owl:Class ;
                         rdfs:subClassOf <http://purl.obolibrary.org/obo#BFO_0000145> ;
-                        rdfs:comment "A status is associated with each term in the ontology to signify its current state within the system."@en ;
-                        rdfs:label "Labeled Term Status"@en .
+                        rdfs:comment "Each term in the ontology is associated with a status to signify its current state within the system."@en ;
+                        rdfs:label "Labeled Term Status"@en ;
+                        <http://www.w3.org/2004/02/skos/core#example> "Statuses such as Candidate, Confirmed, Accepted, Suggested, and others as needed."@en .
 
 
 ###  http://purl.org/spatialai/onner/onner-full#LabelingSchema
@@ -1229,7 +1250,7 @@ onner:LabelingSchema rdf:type owl:Class ;
                      rdfs:subClassOf <http://purl.obolibrary.org/obo#IAO_0000030> ;
                      rdfs:comment "A labeling schema consists of a unique set of labels customized for a particular domain or purpose."@en ;
                      rdfs:label "Labeling Schema"@en ;
-                     <http://www.w3.org/2004/02/skos/core#example> "The \"Material,\" \"Property,\" and \"Process\" labels are part of the CelloGraph schema, designed specifically for the cellulose domain."@en .
+                     <http://www.w3.org/2004/02/skos/core#example> "The concepts (also known as labels) \"material\", \"property\", and \"process\" are part of the CelloGraph schema, designed specifically for the cellulose domain."@en .
 
 
 ###  http://purl.org/spatialai/onner/onner-full#Listing
@@ -1242,14 +1263,14 @@ onner:Listing rdf:type owl:Class ;
 ###  http://purl.org/spatialai/onner/onner-full#NER_LabelerRole
 onner:NER_LabelerRole rdf:type owl:Class ;
                       rdfs:subClassOf <http://purl.obolibrary.org/obo#IAO_0021031> ;
-                      rdfs:comment "An essential role to identify and classify named entities within text."@en ;
+                      rdfs:comment "An essential role required for a labeler to identify and classify named entities (also known as label terms) within text."@en ;
                       rdfs:label "NER Labeler Role"@en .
 
 
 ###  http://purl.org/spatialai/onner/onner-full#NER_System
 onner:NER_System rdf:type owl:Class ;
                  rdfs:subClassOf <http://purl.obolibrary.org/obo#RO_0002577> ;
-                 rdfs:comment "A system that automates the process of identifying and categorizing named entities within text."@en ;
+                 rdfs:comment "A system that automates the process of identifying and categorizing named entities (also known as labeled terms) within text."@en ;
                  rdfs:label "NER System"@en .
 
 
@@ -1259,8 +1280,9 @@ onner:OrderedDocumentPart rdf:type owl:Class ;
                           owl:disjointUnionOf ( onner:Paragraph
                                                 onner:Section
                                               ) ;
-                          rdfs:comment "A document part that relies on the sequential order of appearing within a publication for semantic significance."@en ;
-                          rdfs:label "Ordered Document Part"@en .
+                          rdfs:comment "A document part whose order of appearance, if changed within a publication, alters the semantic alignment of the publication."@en ;
+                          rdfs:label "Ordered Document Part"@en ;
+                          <http://www.w3.org/2004/02/skos/core#example> "Section and Paragraph."@en .
 
 
 ###  http://purl.org/spatialai/onner/onner-full#Organization
@@ -1284,7 +1306,7 @@ onner:Paragraph rdf:type owl:Class ;
                                   owl:allValuesFrom onner:FloatingDocumentPart
                                 ] ;
                 owl:disjointWith onner:Section ;
-                rdfs:comment "A piece of text, often comprising one or more sentences, that can be found both within and outside of a section and its beginning indicates the start of a new line in the text."@en ;
+                rdfs:comment "A text segment, often made up of one or more sentences, that can be placed inside or outside sections and starts on a new line."@en ;
                 rdfs:label "Paragraph"@en .
 
 
@@ -1298,7 +1320,7 @@ onner:Person rdf:type owl:Class ;
 ###  http://purl.org/spatialai/onner/onner-full#PublicationAuthorRole
 onner:PublicationAuthorRole rdf:type owl:Class ;
                             rdfs:subClassOf <http://purl.obolibrary.org/obo#IAO_0000442> ;
-                            rdfs:comment "An essential role to act as an author."@en ;
+                            rdfs:comment "An essential role in identifying a person as an author."@en ;
                             rdfs:label "Publication Author Role"@en .
 
 
@@ -1321,7 +1343,7 @@ onner:ScholarlyPublication rdf:type owl:Class ;
                                              owl:onProperty onner:directlyContainsDocumentPart ;
                                              owl:allValuesFrom onner:DocumentPart
                                            ] ;
-                           rdfs:comment "A unique document format that showcases original research or academic discoveries."@en ;
+                           rdfs:comment "An exclusive document format that presents original research or academic discoveries."@en ;
                            rdfs:label "Scholarly Publication"@en .
 
 
@@ -1329,7 +1351,7 @@ onner:ScholarlyPublication rdf:type owl:Class ;
 onner:Section rdf:type owl:Class ;
               rdfs:subClassOf doco:Section ,
                               onner:OrderedDocumentPart ;
-              rdfs:comment "A primary element for organizing the main text within publications, capable of being nested and accommodating various other document parts like paragraphs and formulas."@en ;
+              rdfs:comment "A key element for organizing the main text within publications, which can be nested and can contain various other parts such as paragraphs and formulas."@en ;
               rdfs:label "Section"@en .
 
 
@@ -1358,8 +1380,9 @@ onner:TextFragment rdf:type owl:Class ;
                                          onner:LabeledTerm
                                          onner:Paragraph
                                        ) ;
-                   rdfs:comment "A semantically meaningful pieces of text, such as keywords, paragraphs, and labeled terms (also known as named entities), within a publication."@en ;
-                   rdfs:label "Text Fragment"@en .
+                   rdfs:comment "A text segment within a publication that carries semantic meaning."@en ;
+                   rdfs:label "Text Fragment"@en ;
+                   <http://www.w3.org/2004/02/skos/core#example> "Paragraph, Caption, Formula, Keywords, and Labeled Term."@en .
 
 
 #################################################################
