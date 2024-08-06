@@ -282,8 +282,6 @@ onner:bibliographicEntryReferencesScholarlyPublication rdf:type owl:ObjectProper
 onner:citedBy rdf:type owl:ObjectProperty ;
               rdfs:subPropertyOf cito:isCitedBy ;
               owl:inverseOf onner:cites ;
-              rdf:type owl:AsymmetricProperty ,
-                       owl:IrreflexiveProperty ;
               rdfs:domain onner:BibliographicEntry ;
               rdfs:range onner:TextFragment ;
               rdfs:comment "The relationship between the detailed source information for locating a resource (e.g., a bibliographic reference) on the web and a text fragment citing that resource."@en ;
@@ -293,8 +291,6 @@ onner:citedBy rdf:type owl:ObjectProperty ;
 ###  http://purl.org/spatialai/onner/onner-full#cites
 onner:cites rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf cito:cites ;
-            rdf:type owl:AsymmetricProperty ,
-                     owl:IrreflexiveProperty ;
             rdfs:domain onner:TextFragment ;
             rdfs:range onner:BibliographicEntry ;
             rdfs:comment "The relationship between a text fragment citing a resource and a detailed source information for locating the cited resource (e.g., a bibliographic reference) on the web."@en ;
@@ -402,9 +398,7 @@ onner:floatingDocumentPartReferencedByTextFragment rdf:type owl:ObjectProperty ;
 
 
 ###  http://purl.org/spatialai/onner/onner-full#fromLabelingSchema
-onner:fromLabelingSchema rdf:type owl:ObjectProperty ,
-                                  owl:AsymmetricProperty ,
-                                  owl:IrreflexiveProperty ;
+onner:fromLabelingSchema rdf:type owl:ObjectProperty ;
                          rdfs:domain onner:Label ;
                          rdfs:range onner:LabelingSchema ;
                          rdfs:comment "The relationship between a label of a labeled term (also known as a named entity) and a labeling schema to which that label belongs."@en ;
@@ -412,9 +406,7 @@ onner:fromLabelingSchema rdf:type owl:ObjectProperty ,
 
 
 ###  http://purl.org/spatialai/onner/onner-full#hasAffiliation
-onner:hasAffiliation rdf:type owl:ObjectProperty ,
-                              owl:AsymmetricProperty ,
-                              owl:IrreflexiveProperty ;
+onner:hasAffiliation rdf:type owl:ObjectProperty ;
                      rdfs:domain onner:Person ;
                      rdfs:range onner:Organization ;
                      rdfs:comment "The relationship between a person and an organization with which that person is affiliated."@en ;
@@ -422,9 +414,7 @@ onner:hasAffiliation rdf:type owl:ObjectProperty ,
 
 
 ###  http://purl.org/spatialai/onner/onner-full#hasCaption
-onner:hasCaption rdf:type owl:ObjectProperty ,
-                          owl:AsymmetricProperty ,
-                          owl:IrreflexiveProperty ;
+onner:hasCaption rdf:type owl:ObjectProperty ;
                  rdfs:domain onner:FloatingDocumentPart ;
                  rdfs:range onner:Caption ;
                  rdfs:comment "The relationship between a floating document element (e.g., a figure, a table, or a listing) and an accompanying text fragment (e.g., a caption) which describes that floating document element."@en ;
@@ -432,9 +422,7 @@ onner:hasCaption rdf:type owl:ObjectProperty ,
 
 
 ###  http://purl.org/spatialai/onner/onner-full#hasLabeledTermLabel
-onner:hasLabeledTermLabel rdf:type owl:ObjectProperty ,
-                                   owl:AsymmetricProperty ,
-                                   owl:IrreflexiveProperty ;
+onner:hasLabeledTermLabel rdf:type owl:ObjectProperty ;
                           rdfs:domain onner:LabeledTermStatus ;
                           rdfs:range onner:Label ;
                           rdfs:comment "The relationship between a status of a labeled term (also known as a named entity) and a label assigned to that labeled term."@en ;
@@ -444,8 +432,6 @@ onner:hasLabeledTermLabel rdf:type owl:ObjectProperty ,
 ###  http://purl.org/spatialai/onner/onner-full#hasLabeledTermStatus
 onner:hasLabeledTermStatus rdf:type owl:ObjectProperty ;
                            owl:inverseOf onner:statusOfLabeledTerm ;
-                           rdf:type owl:AsymmetricProperty ,
-                                    owl:IrreflexiveProperty ;
                            rdfs:domain onner:LabeledTerm ;
                            rdfs:range onner:LabeledTermStatus ;
                            rdfs:comment "The relationship between a labeled term (also known as a named entity) and a status assigned to that labeled term."@en ;
@@ -487,8 +473,7 @@ onner:labeledTermDirectlyContainedBy rdf:type owl:ObjectProperty ;
 
 ###  http://purl.org/spatialai/onner/onner-full#nextDocumentPart
 onner:nextDocumentPart rdf:type owl:ObjectProperty ,
-                                owl:AsymmetricProperty ,
-                                owl:IrreflexiveProperty ;
+                                owl:AsymmetricProperty ;
                        rdfs:domain onner:OrderedDocumentPart ;
                        rdfs:range onner:OrderedDocumentPart ;
                        rdfs:comment "The relationship between an ordered document element (e.g., a section or a paragraph) and another ordered document element that immediately follows the first."@en ;
@@ -511,8 +496,6 @@ onner:publicationAuthoredBy rdf:type owl:ObjectProperty ;
 onner:referencedBy rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf biro:isReferencedBy ;
                    owl:inverseOf onner:references ;
-                   rdf:type owl:AsymmetricProperty ,
-                            owl:IrreflexiveProperty ;
                    rdfs:comment "The relationship between two document parts or between a document part and a scholarly publication, where one is referenced by the other."@en ;
                    rdfs:label "referenced by"@en .
 
@@ -520,8 +503,6 @@ onner:referencedBy rdf:type owl:ObjectProperty ;
 ###  http://purl.org/spatialai/onner/onner-full#references
 onner:references rdf:type owl:ObjectProperty ;
                  rdfs:subPropertyOf biro:references ;
-                 rdf:type owl:AsymmetricProperty ,
-                          owl:IrreflexiveProperty ;
                  rdfs:comment "The relationship between two document parts or between a document part and a scholarly publication, where one references the other."@en ;
                  rdfs:label "references"@en .
 
@@ -529,8 +510,6 @@ onner:references rdf:type owl:ObjectProperty ;
 ###  http://purl.org/spatialai/onner/onner-full#roleOfPublicationAuthor
 onner:roleOfPublicationAuthor rdf:type owl:ObjectProperty ;
                               rdfs:subPropertyOf <http://purl.obolibrary.org/obo#RO_0000081> ;
-                              rdf:type owl:AsymmetricProperty ,
-                                       owl:IrreflexiveProperty ;
                               rdfs:domain onner:PublicationAuthorRole ;
                               rdfs:range onner:Person ;
                               rdfs:comment "The relationship between a role and a person who is distinguished as an author of a particular publication by that role."@en ;
@@ -540,8 +519,6 @@ onner:roleOfPublicationAuthor rdf:type owl:ObjectProperty ;
 ###  http://purl.org/spatialai/onner/onner-full#roleOf_NER_Labeler
 onner:roleOf_NER_Labeler rdf:type owl:ObjectProperty ;
                          rdfs:subPropertyOf <http://purl.obolibrary.org/obo#RO_0000081> ;
-                         rdf:type owl:AsymmetricProperty ,
-                                  owl:IrreflexiveProperty ;
                          rdfs:domain onner:NER_LabelerRole ;
                          rdfs:range [ rdf:type owl:Class ;
                                       owl:unionOf ( onner:NER_System
@@ -579,9 +556,7 @@ onner:statusAssignedBy rdf:type owl:ObjectProperty ;
 
 
 ###  http://purl.org/spatialai/onner/onner-full#statusOfLabeledTerm
-onner:statusOfLabeledTerm rdf:type owl:ObjectProperty ,
-                                   owl:AsymmetricProperty ,
-                                   owl:IrreflexiveProperty ;
+onner:statusOfLabeledTerm rdf:type owl:ObjectProperty ;
                           rdfs:domain onner:LabeledTermStatus ;
                           rdfs:range onner:LabeledTerm ;
                           rdfs:comment "The relationship between a status assigned to a labeled term (also known as a named entity) and that labeled term itself."@en ;
@@ -589,9 +564,7 @@ onner:statusOfLabeledTerm rdf:type owl:ObjectProperty ,
 
 
 ###  http://purl.org/spatialai/onner/onner-full#systemBelongsTo
-onner:systemBelongsTo rdf:type owl:ObjectProperty ,
-                               owl:AsymmetricProperty ,
-                               owl:IrreflexiveProperty ;
+onner:systemBelongsTo rdf:type owl:ObjectProperty ;
                       rdfs:domain onner:NER_System ;
                       rdfs:comment "The relationship of an NER system with its designated owner or operator."@en ;
                       rdfs:label "system belongs to"@en .
