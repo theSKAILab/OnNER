@@ -5,26 +5,26 @@
 @prefix iao: <http://purl.obolibrary.org/obo/IAO_#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix bibo: <http://purl.org/ontology/bibo#> .
 @prefix biro: <http://purl.org/spar/biro#> .
 @prefix cito: <http://purl.org/spar/cito#> .
 @prefix doco: <http://purl.org/spar/doco#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix fabio: <http://purl.org/spar/fabio#> .
 @prefix onner: <http://purl.org/spatialai/onner/onner-full#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms#> .
 @base <http://purl.org/spatialai/onner/onner-full#> .
 
 <http://purl.org/spatialai/onner/onner-full> rdf:type owl:Ontology ;
                                               owl:versionIRI <http://purl.org/spatialai/onner/v1/onner-full> ;
                                               dcterms:bibliographicCitation "Umayer Reza, Xuelian Zhang, Torsten Hahmann. (2024). OnNER: An Ontology for Semantic Representation of Named Entities in Scholarly Publications." ;
                                               dcterms:created "2023-02-05"^^xsd:date ;
-                                              dcterms:creator "Torsten Hahmann <http://orcid.org/0000-0002-5331-5052>"@en ,
-                                                              "Umayer Reza <https://orcid.org/0000-0003-4013-3513>"@en ,
-                                                              "Xuelian Zhang <https://orcid.org/0000-0002-0708-4070>"@en ;
+                                              dcterms:creator "Umayer Reza <https://orcid.org/0000-0003-4013-3513>"@en ,
+                                                              "Xuelian Zhang <https://orcid.org/0000-0002-0708-4070>"@en ,
+															  "Torsten Hahmann <http://orcid.org/0000-0002-5331-5052>"@en ;
                                               dcterms:description "OnNER is designed to capture and represent named entities — terms identified and labeled using named entity recognition (NER) methods — along with relevant semantic context, such as their location within a document, from scholarly publications. The ontology is aligned with Basic Formal Ontology (BFO) and Information Artifact Ontology (IAO), and it also incorporates relevant high-level concepts from Relation Ontology (RO), Ontology for Biomedical Investigations (OBI), and NCBI organismal classification (NCBITaxon)."@en ;
                                               dcterms:identifier <http://purl.org/spatialai/onner/onner-full> ;
                                               dcterms:issued "2024-05-24"^^xsd:date ;
@@ -45,67 +45,67 @@
 #    Annotation properties
 #################################################################
 
-###  http://purl.org/dc/terms/bibliographicCitation
+###  http://purl.org/dc/terms#bibliographicCitation
 dcterms:bibliographicCitation rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/terms/contributor
+###  http://purl.org/dc/terms#contributor
 dcterms:contributor rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/terms/created
+###  http://purl.org/dc/terms#created
 dcterms:created rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/terms/creator
+###  http://purl.org/dc/terms#creator
 dcterms:creator rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/terms/description
+###  http://purl.org/dc/terms#description
 dcterms:description rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/terms/identifier
+###  http://purl.org/dc/terms#identifier
 dcterms:identifier rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/terms/issued
+###  http://purl.org/dc/terms#issued
 dcterms:issued rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/terms/license
+###  http://purl.org/dc/terms#license
 dcterms:license rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/terms/modified
+###  http://purl.org/dc/terms#modified
 dcterms:modified rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/terms/publisher
+###  http://purl.org/dc/terms#publisher
 dcterms:publisher rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/terms/rights
+###  http://purl.org/dc/terms#rights
 dcterms:rights rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/terms/source
+###  http://purl.org/dc/terms#source
 dcterms:source rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/terms/subject
+###  http://purl.org/dc/terms#subject
 dcterms:subject rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/terms/title
+###  http://purl.org/dc/terms#title
 dcterms:title rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/ontology/bibo/doi
+###  http://purl.org/ontology/bibo#doi
 bibo:doi rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/ontology/bibo/status
+###  http://purl.org/ontology/bibo#status
 bibo:status rdf:type owl:AnnotationProperty .
 
 
@@ -121,7 +121,7 @@ owl:minCardinality rdf:type owl:AnnotationProperty .
 <http://www.w3.org/2004/02/skos/core#example> rdf:type owl:AnnotationProperty .
 
 
-###  http://xmlns.com/foaf/0.1/logo
+###  http://xmlns.com/foaf/0.1#logo
 foaf:logo rdf:type owl:AnnotationProperty .
 
 
@@ -778,7 +778,6 @@ onner:tableNumber rdf:type owl:DatatypeProperty ;
 
 ###  http://purl.obolibrary.org/obo#BFO_0000001
 <http://purl.obolibrary.org/obo#BFO_0000001> rdf:type owl:Class ;
-                                             rdfs:subClassOf owl:Thing ;
                                              rdfs:comment "An entity is anything that exists or has existed or will exist."@en ;
                                              rdfs:label "Entity"@en .
 
@@ -1122,10 +1121,6 @@ onner:Figure rdf:type owl:Class ;
 ###  http://purl.org/spatialai/onner/onner-full#FloatingDocumentPart
 onner:FloatingDocumentPart rdf:type owl:Class ;
                            rdfs:subClassOf onner:DocumentPart ;
-                           owl:disjointUnionOf ( onner:Figure
-                                                 onner:Listing
-                                                 onner:Table
-                                               ) ;
                            rdfs:comment "A document part whose order of appearance, if changed within a publication, does not alter the semantic alignment of the publication."@en ;
                            rdfs:label "Floating Document Part"@en ;
                            <http://www.w3.org/2004/02/skos/core#example> "Figure, Table, and Listing."@en .
@@ -1202,9 +1197,6 @@ onner:LabeledTerm rdf:type owl:Class ;
                                         rdf:type owl:Class
                                       ] ;
                   rdfs:subClassOf onner:TextFragment ;
-                  owl:disjointUnionOf ( onner:AtomicLabeledTerm
-                                        onner:CompoundLabeledTerm
-                                      ) ;
                   rdfs:comment "A word or group of words in a scholarly publication identified and classified as a named entity."@en ;
                   rdfs:label "Labeled Term"@en ;
                   <http://www.w3.org/2004/02/skos/core#example> "The term \"nanoparticle shape\" is identified and labeled as a \"property\", and the term \"modulation\" is identified and labeled as a \"process\"."@en .
@@ -1250,9 +1242,6 @@ onner:NER_System rdf:type owl:Class ;
 ###  http://purl.org/spatialai/onner/onner-full#OrderedDocumentPart
 onner:OrderedDocumentPart rdf:type owl:Class ;
                           rdfs:subClassOf onner:DocumentPart ;
-                          owl:disjointUnionOf ( onner:Paragraph
-                                                onner:Section
-                                              ) ;
                           rdfs:comment "A document part whose order of appearance, if changed within a publication, alters the semantic alignment of the publication."@en ;
                           rdfs:label "Ordered Document Part"@en ;
                           <http://www.w3.org/2004/02/skos/core#example> "Section and Paragraph."@en .
@@ -1278,7 +1267,6 @@ onner:Paragraph rdf:type owl:Class ;
                                   owl:onProperty onner:textFragmentReferencesFloatingDocumentPart ;
                                   owl:allValuesFrom onner:FloatingDocumentPart
                                 ] ;
-                owl:disjointWith onner:Section ;
                 rdfs:comment "A text segment, often made up of one or more sentences, that can be placed inside or outside sections and starts on a new line."@en ;
                 rdfs:label "Paragraph"@en .
 
@@ -1347,12 +1335,6 @@ onner:Table rdf:type owl:Class ;
 onner:TextFragment rdf:type owl:Class ;
                    rdfs:subClassOf doco:TextChunk ,
                                    onner:DocumentPart ;
-                   owl:disjointUnionOf ( onner:Caption
-                                         onner:Formula
-                                         onner:Keywords
-                                         onner:LabeledTerm
-                                         onner:Paragraph
-                                       ) ;
                    rdfs:comment "A text segment within a publication that carries semantic meaning."@en ;
                    rdfs:label "Text Fragment"@en ;
                    <http://www.w3.org/2004/02/skos/core#example> "Paragraph, Caption, Formula, Keywords, and Labeled Term."@en .
@@ -1366,8 +1348,18 @@ onner:TextFragment rdf:type owl:Class ;
   owl:members ( onner:Abstract
                 onner:BibliographicEntry
                 onner:Bibliography
-                onner:EndOfDocument
                 onner:FloatingDocumentPart
+                onner:OrderedDocumentPart
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( onner:Abstract
+                onner:BibliographicEntry
+                onner:Bibliography
+                onner:FloatingDocumentPart
+                onner:TextFragment
               )
 ] .
 
@@ -1386,7 +1378,20 @@ onner:TextFragment rdf:type owl:Class ;
   owl:members ( onner:DocumentPart
                 onner:Label
                 onner:LabelingSchema
+                onner:NER_LabelerRole
+                onner:NER_System
+                onner:Organization
+                onner:Person
+                onner:PublicationAuthorRole
                 onner:ScholarlyPublication
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( onner:EndOfDocument
+                onner:Paragraph
+                onner:Section
               )
 ] .
 
