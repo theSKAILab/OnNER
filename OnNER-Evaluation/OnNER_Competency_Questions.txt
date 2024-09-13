@@ -1,5 +1,5 @@
 
-1. Which "chemicals" are mentioned in conjunction with "permeability"? In which publications and paragraphs?
+1. Which "chemicals" are mentioned in conjunction with the term "permeability"? In which publications and paragraphs?
 
 SELECT ?chemical ?paragraph ?publication WHERE {
     ?pubublicationId rdf:type onner:ScholarlyPublication ;
@@ -20,7 +20,7 @@ SELECT ?chemical ?paragraph ?publication WHERE {
 
 
 
-2. Which "chemicals" are mentioned in conjunction with "permeability" labeled as "property"? In which publications and paragraphs?
+2. Which "chemicals" are mentioned in conjunction with the "property" (label) "permeability"? In which publications and paragraphs?
 
 SELECT ?chemical ?paragraph ?publication WHERE {
     ?pubublicationId rdf:type onner:ScholarlyPublication ;
@@ -44,7 +44,7 @@ SELECT ?chemical ?paragraph ?publication WHERE {
 
 
 
-3. What are the most recent publications that mention at least three times one of "bacterial cellulose" or "BC nanofibers"?
+3. What are the most recent publications that mention "bacterial cellulose" or "BC nanofibers" at least three times?
 
 SELECT ?publication ?date ?doi WHERE {    
     ?pubublicationId rdf:type onner:ScholarlyPublication ;
@@ -66,7 +66,7 @@ HAVING (COUNT(?term) >= 3)
 
 
 
-4. Retrieve all paragraphs from publications since 2017 that include named entities labeled as "application" in conjunction with the property "tensile strength".
+4. Retrieve all paragraphs from publications since 2017 that include named entities labeled as "application" in conjunction with the "property" (label) "tensile strength".
 
 SELECT DISTINCT ?term ?paragraph ?publication WHERE {
     ?publicationId rdf:type onner:ScholarlyPublication ;
@@ -126,7 +126,7 @@ SELECT ?term ?latestLabel ?previousLabel WHERE {
 
 
 
-6. Which paragraphs within the publications feature both "nanoparticle shape" and "permeability" mentioned in the same paragraph?
+6. In which paragraphs appear both "nanoparticle shape" and "permeability" as entities?
 
 SELECT DISTINCT ?paragraph ?publication WHERE {
     ?publicationId rdf:type onner:ScholarlyPublication ;
@@ -143,7 +143,7 @@ SELECT DISTINCT ?paragraph ?publication WHERE {
 
 
 
-7. Give me a list of terms labeled as "property" from a particular publication (or all publications by a particular author) with their frequencies, starting with the highest frequency.
+7. Give me a list of the most frequent terms labeled as "property" from a particular publication (or all publications by a particular author).
 
 SELECT ?term (COUNT(?term) AS ?termCount) WHERE {
     ?publicationId rdf:type onner:ScholarlyPublication ;
@@ -181,7 +181,7 @@ SELECT ?term ?paragraph ?publication WHERE {
 
 
 
-9. Is the labeled term "cellulose" labeled anywhere as "property"?
+9. Is the term "cellulose" labeled anywhere as "property"?
 
 SELECT ?termId ?paragraph ?publication
 WHERE {
@@ -203,7 +203,7 @@ WHERE {
 
 
 
-10. Have any of the labeled terms been classified by NER system with two different classification labels?
+10. Which terms have been classified by some NER system using different classification labels?
 
 SELECT ?paragraph ?term ?label1 ?label2 WHERE {
     ?publicationId rdf:type onner:ScholarlyPublication ;
@@ -234,7 +234,7 @@ SELECT ?paragraph ?term ?label1 ?label2 WHERE {
 
 
 
-11. Provide five publications with the highest number of terms labeled as 'property' in paragraphs that mention 'cellulose', published in 2017 or later.
+11. Provide the five publications with the highest number of terms labeled as "property" in paragraphs that mention "cellulose", published in 2017 or later.
 
 SELECT ?publication ?paragraph WHERE {
     ?publicationId rdf:type onner:ScholarlyPublication ;
@@ -265,7 +265,7 @@ SELECT ?publication ?paragraph WHERE {
 } LIMIT 5
 
 
-12. Provide me the paragraphs where the term "tensile strength" labeled as "property" appears with the term "cellulose" in the same paragraph.
+12. Retrieve all paragraphs where the term "tensile strength" labeled as "property" appears with the term "cellulose" in the same paragraph.
 
 SELECT DISTINCT ?paragraph ?publication WHERE {
     ?publicationId rdf:type onner:ScholarlyPublication ;
@@ -287,7 +287,7 @@ SELECT DISTINCT ?paragraph ?publication WHERE {
 
 
 
-13. What are all the terms labeled as ‘material’ in the “results” section of the paper X.
+13. What are all the terms labeled as "material" in the "results" section of the paper X.
 
 14. What is the distribution ratio of confirmed, rejected, and suggested statuses for the labeled terms in paper X?
 
