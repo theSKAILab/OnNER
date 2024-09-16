@@ -19,7 +19,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid105",
+  "@id" : "_:genid109",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -31,7 +31,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid109",
+  "@id" : "_:genid113",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -383,7 +383,19 @@
     }, {
       "@id" : "http://purl.org/spatialai/onner/onner-full#Formula"
     }, {
-      "@id" : "http://purl.org/spatialai/onner/onner-full#Keywords"
+      "@id" : "http://purl.org/spatialai/onner/onner-full#Keyword"
+    }, {
+      "@id" : "http://purl.org/spatialai/onner/onner-full#Paragraph"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid94",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.org/spatialai/onner/onner-full#Caption"
+    }, {
+      "@id" : "http://purl.org/spatialai/onner/onner-full#Formula"
     }, {
       "@id" : "http://purl.org/spatialai/onner/onner-full#LabeledTerm"
     }, {
@@ -391,7 +403,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid95",
+  "@id" : "_:genid99",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -1086,7 +1098,7 @@
   } ],
   "http://purl.org/dc/terms#modified" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#date",
-    "@value" : "2024-05-30"
+    "@value" : "2024-09-16"
   } ],
   "http://purl.org/dc/terms#publisher" : [ {
     "@language" : "en",
@@ -1362,7 +1374,7 @@
     "@value" : "The chemical formula of sodium hydroxide and sodium chloride are NaOH and NaCl respectively."
   } ]
 }, {
-  "@id" : "http://purl.org/spatialai/onner/onner-full#Keywords",
+  "@id" : "http://purl.org/spatialai/onner/onner-full#Keyword",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1370,7 +1382,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "Keywords"
+    "@value" : "Keyword"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://purl.org/spatialai/onner/onner-full#TextFragment"
@@ -1681,7 +1693,7 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#example" : [ {
     "@language" : "en",
-    "@value" : "Paragraph, Caption, Formula, Keywords, and Labeled Term."
+    "@value" : "Paragraph, Caption, Formula, Keyword, and Labeled Term."
   } ]
 }, {
   "@id" : "http://purl.org/spatialai/onner/onner-full#assignerOfStatus",
@@ -2203,18 +2215,18 @@
     "@id" : "http://purl.org/spatialai/onner/onner-full#roleOf_NER_Labeler"
   } ]
 }, {
-  "@id" : "http://purl.org/spatialai/onner/onner-full#keyword",
+  "@id" : "http://purl.org/spatialai/onner/onner-full#keywordText",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A text segment containing a keyword mentioned in a scholarly publication."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://purl.org/spatialai/onner/onner-full#Keywords"
+    "@id" : "http://purl.org/spatialai/onner/onner-full#Keyword"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "keyword"
+    "@value" : "keyword text"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"

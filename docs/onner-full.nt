@@ -9,7 +9,7 @@
 <http://purl.org/spatialai/onner/onner-full> <http://purl.org/dc/terms#identifier> <http://purl.org/spatialai/onner/onner-full> .
 <http://purl.org/spatialai/onner/onner-full> <http://purl.org/dc/terms#issued> "2024-05-24"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://purl.org/spatialai/onner/onner-full> <http://purl.org/dc/terms#license> <https://creativecommons.org/licenses/by/4.0/> .
-<http://purl.org/spatialai/onner/onner-full> <http://purl.org/dc/terms#modified> "2024-05-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/spatialai/onner/onner-full> <http://purl.org/dc/terms#modified> "2024-09-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://purl.org/spatialai/onner/onner-full> <http://purl.org/dc/terms#publisher> "Spatial Knowledge and Artificial Intelligence (SKAI) Lab, University of Maine"@en .
 <http://purl.org/spatialai/onner/onner-full> <http://purl.org/dc/terms#source> <http://example.com/source> .
 <http://purl.org/spatialai/onner/onner-full> <http://purl.org/dc/terms#subject> "Information Extraction" .
@@ -601,12 +601,12 @@ _:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://purl.org/spatialai/onner/onner-full#figureNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "A unique figure number within a document."@en .
 <http://purl.org/spatialai/onner/onner-full#figureNumber> <http://www.w3.org/2000/01/rdf-schema#label> "figure number"@en .
 # 
-# http://purl.org/spatialai/onner/onner-full#keyword
-<http://purl.org/spatialai/onner/onner-full#keyword> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/spatialai/onner/onner-full#keyword> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spatialai/onner/onner-full#Keywords> .
-<http://purl.org/spatialai/onner/onner-full#keyword> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/spatialai/onner/onner-full#keyword> <http://www.w3.org/2000/01/rdf-schema#comment> "A text segment containing a keyword mentioned in a scholarly publication."@en .
-<http://purl.org/spatialai/onner/onner-full#keyword> <http://www.w3.org/2000/01/rdf-schema#label> "keyword"@en .
+# http://purl.org/spatialai/onner/onner-full#keywordText
+<http://purl.org/spatialai/onner/onner-full#keywordText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/spatialai/onner/onner-full#keywordText> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spatialai/onner/onner-full#Keyword> .
+<http://purl.org/spatialai/onner/onner-full#keywordText> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/spatialai/onner/onner-full#keywordText> <http://www.w3.org/2000/01/rdf-schema#comment> "A text segment containing a keyword mentioned in a scholarly publication."@en .
+<http://purl.org/spatialai/onner/onner-full#keywordText> <http://www.w3.org/2000/01/rdf-schema#label> "keyword text"@en .
 # 
 # http://purl.org/spatialai/onner/onner-full#labelText
 <http://purl.org/spatialai/onner/onner-full#labelText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -1079,9 +1079,9 @@ _:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://purl.org/spatialai/onner/onner-full#Formula> <http://www.w3.org/2000/01/rdf-schema#label> "Formula"@en .
 <http://purl.org/spatialai/onner/onner-full#Formula> <http://www.w3.org/2004/02/skos/core#example> "The chemical formula of sodium hydroxide and sodium chloride are NaOH and NaCl respectively."@en .
 # 
-# http://purl.org/spatialai/onner/onner-full#Keywords
-<http://purl.org/spatialai/onner/onner-full#Keywords> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/spatialai/onner/onner-full#Keywords> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid56 .
+# http://purl.org/spatialai/onner/onner-full#Keyword
+<http://purl.org/spatialai/onner/onner-full#Keyword> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spatialai/onner/onner-full#Keyword> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid56 .
 _:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 _:genid56 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid59 .
 _:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid57 .
@@ -1093,7 +1093,7 @@ _:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#TextFragment> .
 _:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-<http://purl.org/spatialai/onner/onner-full#Keywords> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid60 .
+<http://purl.org/spatialai/onner/onner-full#Keyword> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid60 .
 _:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 _:genid60 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid63 .
 _:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid61 .
@@ -1105,9 +1105,9 @@ _:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#TextFragment> .
 _:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-<http://purl.org/spatialai/onner/onner-full#Keywords> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spatialai/onner/onner-full#TextFragment> .
-<http://purl.org/spatialai/onner/onner-full#Keywords> <http://www.w3.org/2000/01/rdf-schema#comment> "A special text fragment that typically accompanies the abstract and may contain one or more labeled terms."@en .
-<http://purl.org/spatialai/onner/onner-full#Keywords> <http://www.w3.org/2000/01/rdf-schema#label> "Keywords"@en .
+<http://purl.org/spatialai/onner/onner-full#Keyword> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spatialai/onner/onner-full#TextFragment> .
+<http://purl.org/spatialai/onner/onner-full#Keyword> <http://www.w3.org/2000/01/rdf-schema#comment> "A special text fragment that typically accompanies the abstract and may contain one or more labeled terms."@en .
+<http://purl.org/spatialai/onner/onner-full#Keyword> <http://www.w3.org/2000/01/rdf-schema#label> "Keyword"@en .
 # 
 # http://purl.org/spatialai/onner/onner-full#Label
 <http://purl.org/spatialai/onner/onner-full#Label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1271,7 +1271,7 @@ _:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://purl.org/spatialai/onner/onner-full#TextFragment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spatialai/onner/onner-full#DocumentPart> .
 <http://purl.org/spatialai/onner/onner-full#TextFragment> <http://www.w3.org/2000/01/rdf-schema#comment> "A text segment within a publication that carries semantic meaning."@en .
 <http://purl.org/spatialai/onner/onner-full#TextFragment> <http://www.w3.org/2000/01/rdf-schema#label> "Text Fragment"@en .
-<http://purl.org/spatialai/onner/onner-full#TextFragment> <http://www.w3.org/2004/02/skos/core#example> "Paragraph, Caption, Formula, Keywords, and Labeled Term."@en .
+<http://purl.org/spatialai/onner/onner-full#TextFragment> <http://www.w3.org/2004/02/skos/core#example> "Paragraph, Caption, Formula, Keyword, and Labeled Term."@en .
 # 
 # 
 # 
@@ -1319,63 +1319,63 @@ _:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/sp
 _:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid89 <http://www.w3.org/2002/07/owl#members> _:genid94 .
-_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid93 .
+_:genid89 <http://www.w3.org/2002/07/owl#members> _:genid93 .
 _:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid92 .
 _:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid91 .
 _:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid90 .
 _:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Paragraph> .
 _:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#LabeledTerm> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Keyword> .
 _:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Keywords> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Formula> .
 _:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Formula> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Caption> .
 _:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Caption> .
-_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
-_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid95 <http://www.w3.org/2002/07/owl#members> _:genid104 .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid94 <http://www.w3.org/2002/07/owl#members> _:genid98 .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid97 .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid96 .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid95 .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Paragraph> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#LabeledTerm> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Formula> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Caption> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid99 <http://www.w3.org/2002/07/owl#members> _:genid108 .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid107 .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid106 .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid105 .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid104 .
 _:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid103 .
 _:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid102 .
 _:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101 .
 _:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid100 .
-_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid99 .
-_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid98 .
-_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid97 .
-_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid96 .
-_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#ScholarlyPublication> .
-_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#PublicationAuthorRole> .
-_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Person> .
-_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Organization> .
-_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#NER_System> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#ScholarlyPublication> .
 _:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#NER_LabelerRole> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#PublicationAuthorRole> .
 _:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#LabelingSchema> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Person> .
 _:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Label> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Organization> .
 _:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#DocumentPart> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#NER_System> .
 _:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-# 
-_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid105 <http://www.w3.org/2002/07/owl#members> _:genid108 .
-_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid107 .
-_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid106 .
-_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Section> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#NER_LabelerRole> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#LabelingSchema> .
 _:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Paragraph> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Label> .
 _:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#EndOfDocument> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#DocumentPart> .
 _:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -1383,11 +1383,23 @@ _:genid109 <http://www.w3.org/2002/07/owl#members> _:genid112 .
 _:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid111 .
 _:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid110 .
 _:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Table> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Section> .
 _:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Listing> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Paragraph> .
 _:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Figure> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#EndOfDocument> .
 _:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid113 <http://www.w3.org/2002/07/owl#members> _:genid116 .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid115 .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid114 .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Table> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Listing> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spatialai/onner/onner-full#Figure> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
