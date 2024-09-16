@@ -78,7 +78,7 @@
 			<dd>2023-02-05</dd>
 
 			<dt>Modified On:</dt>
-			<dd>2024-08-07</dd>
+			<dd>2024-09-16</dd>
 
 			<dt>Creators:</dt>
 			<dd>
@@ -144,7 +144,7 @@
 	
 	<!-- OVERVIEW -->
 	<div id="overview"><h2 id="overv" class="list">Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-		<span class="markdown">This ontology has the following classes and properties.</span>
+		<span class="markdown">This section provides a quick overview of the classes, object properties, and data properties used in the development of OnNER. It outlines the key classes and properties of the ontology. For detailed descriptions of these classes and properties, including their definitions and usage, please refer to Section 4.</span>
 		<h4>Classes</h4>
 		<ul xmlns:widoco="https://w3id.org/widoco/vocab#"
 			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -258,8 +258,8 @@
 			  <a href="#http://purl.obolibrary.org/obo#IAO_0000030" title="http://purl.obolibrary.org/obo#IAO_0000030">Information Content Entity</a>
 		   </li>
 		   <li>
-			  <a href="#Keywords"
-				 title="http://purl.org/spatialai/onner/onner-full#Keywords">Keywords</a>
+			  <a href="#Keyword"
+				 title="http://purl.org/spatialai/onner/onner-full#Keyword">Keyword</a>
 		   </li>
 		   <li>
 			  <a href="#Label"
@@ -567,8 +567,8 @@
 				 title="http://purl.org/spatialai/onner/onner-full#figureNumber">figure number</a>
 		   </li>
 		   <li>
-			  <a href="#keyword"
-				 title="http://purl.org/spatialai/onner/onner-full#keyword">keyword</a>
+			  <a href="#keywordText"
+				 title="http://purl.org/spatialai/onner/onner-full#keywordText">keyword text</a>
 		   </li>
 		   <li>
 			  <a href="#labelText"
@@ -660,7 +660,7 @@
 	
 	<!-- CROSSREF -->
 	<div id="crossref"><h2 id="crossreference" class="list">Cross-reference<span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-		This section provides details for each class and property defined by OnNER: Ontology for Named Entity Representation in Scholarly Publications.
+		This section provides detailed descriptions of the classes, object properties, and data properties defined within the OnNER ontology. Each entity is accompanied by clear definitions, with examples provided where relevant to facilitate understanding. These components are essential for modeling and representing named entities in scholarly publications.
 		<div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="classes">
 		 <h3 id="classes-headline" class="list">Classes</h3>
 		 <ul class="hlist">
@@ -695,7 +695,7 @@
 		  <li><a href="#http://purl.obolibrary.org/obo#NCBITaxon_9606" title="http://purl.obolibrary.org/obo#NCBITaxon_9606">Homo Sapiens</a></li>
 		  <li><a href="#http://purl.obolibrary.org/obo#BFO_0000004" title="http://purl.obolibrary.org/obo#BFO_0000004">Independent Continuant</a></li>
 		  <li><a href="#http://purl.obolibrary.org/obo#IAO_0000030" title="http://purl.obolibrary.org/obo#IAO_0000030">Information Content Entity</a></li>
-		  <li><a href="#Keywords" title="http://purl.org/spatialai/onner/onner-full#Keywords">Keywords</a></li>
+		  <li><a href="#Keyword" title="http://purl.org/spatialai/onner/onner-full#Keyword">Keyword</a></li>
 		  <li><a href="#Label" title="http://purl.org/spatialai/onner/onner-full#Label">Label</a></li>
 		  <li><a href="#LabeledTerm" title="http://purl.org/spatialai/onner/onner-full#LabeledTerm">Labeled Term</a></li>
 		  <li><a href="#LabeledTermStatus" title="http://purl.org/spatialai/onner/onner-full#LabeledTermStatus">Labeled Term Status</a></li>
@@ -992,7 +992,7 @@
 			is disjoint with
 		   </dt>
 		   <dd>
-			<a href="#Formula" title="http://purl.org/spatialai/onner/onner-full#Formula">Formula</a> <sup class="type-c" title="class">c</sup>, <a href="#Keywords" title="http://purl.org/spatialai/onner/onner-full#Keywords">Keywords</a> <sup class="type-c" title="class">c</sup>, <a href="#LabeledTerm" title="http://purl.org/spatialai/onner/onner-full#LabeledTerm">Labeled Term</a> <sup class="type-c" title="class">c</sup>, <a href="#Paragraph" title="http://purl.org/spatialai/onner/onner-full#Paragraph">Paragraph</a> <sup class="type-c" title="class">c</sup>
+			<a href="#Formula" title="http://purl.org/spatialai/onner/onner-full#Formula">Formula</a> <sup class="type-c" title="class">c</sup>, <a href="#Keyword" title="http://purl.org/spatialai/onner/onner-full#Keyword">Keyword</a> <sup class="type-c" title="class">c</sup>, <a href="#Paragraph" title="http://purl.org/spatialai/onner/onner-full#Paragraph">Paragraph</a> <sup class="type-c" title="class">c</sup>, <a href="#Formula" title="http://purl.org/spatialai/onner/onner-full#Formula">Formula</a> <sup class="type-c" title="class">c</sup>, <a href="#LabeledTerm" title="http://purl.org/spatialai/onner/onner-full#LabeledTerm">Labeled Term</a> <sup class="type-c" title="class">c</sup>, <a href="#Paragraph" title="http://purl.org/spatialai/onner/onner-full#Paragraph">Paragraph</a> <sup class="type-c" title="class">c</sup>
 		   </dd>
 		  </dl>
 		 </div>
@@ -1357,7 +1357,7 @@
 			is disjoint with
 		   </dt>
 		   <dd>
-			<a href="#Caption" title="http://purl.org/spatialai/onner/onner-full#Caption">Caption</a> <sup class="type-c" title="class">c</sup>, <a href="#Keywords" title="http://purl.org/spatialai/onner/onner-full#Keywords">Keywords</a> <sup class="type-c" title="class">c</sup>, <a href="#LabeledTerm" title="http://purl.org/spatialai/onner/onner-full#LabeledTerm">Labeled Term</a> <sup class="type-c" title="class">c</sup>, <a href="#Paragraph" title="http://purl.org/spatialai/onner/onner-full#Paragraph">Paragraph</a> <sup class="type-c" title="class">c</sup>
+			<a href="#Caption" title="http://purl.org/spatialai/onner/onner-full#Caption">Caption</a> <sup class="type-c" title="class">c</sup>, <a href="#Keyword" title="http://purl.org/spatialai/onner/onner-full#Keyword">Keyword</a> <sup class="type-c" title="class">c</sup>, <a href="#Paragraph" title="http://purl.org/spatialai/onner/onner-full#Paragraph">Paragraph</a> <sup class="type-c" title="class">c</sup>, <a href="#Caption" title="http://purl.org/spatialai/onner/onner-full#Caption">Caption</a> <sup class="type-c" title="class">c</sup>, <a href="#LabeledTerm" title="http://purl.org/spatialai/onner/onner-full#LabeledTerm">Labeled Term</a> <sup class="type-c" title="class">c</sup>, <a href="#Paragraph" title="http://purl.org/spatialai/onner/onner-full#Paragraph">Paragraph</a> <sup class="type-c" title="class">c</sup>
 		   </dd>
 		  </dl>
 		 </div>
@@ -1445,9 +1445,9 @@
 		   </dd>
 		  </dl>
 		 </div>
-		 <div class="entity" id="Keywords">
-		  <h3>Keywords<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
-		  <p><strong>IRI:</strong> http://purl.org/spatialai/onner/onner-full#Keywords</p>
+		 <div class="entity" id="Keyword">
+		  <h3>Keyword<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+		  <p><strong>IRI:</strong> http://purl.org/spatialai/onner/onner-full#Keyword</p>
 		  <div class="comment">
 		   <span class="markdown">A special text fragment that typically accompanies the abstract and may contain one or more labeled terms.</span>
 		  </div>
@@ -1471,13 +1471,13 @@
 			is in domain of
 		   </dt>
 		   <dd>
-			<a href="#keyword" title="http://purl.org/spatialai/onner/onner-full#keyword">keyword</a> <sup class="type-dp" title="data property">dp</sup>
+			<a href="#keywordText" title="http://purl.org/spatialai/onner/onner-full#keywordText">keyword text</a> <sup class="type-dp" title="data property">dp</sup>
 		   </dd>
 		   <dt>
 			is disjoint with
 		   </dt>
 		   <dd>
-			<a href="#Caption" title="http://purl.org/spatialai/onner/onner-full#Caption">Caption</a> <sup class="type-c" title="class">c</sup>, <a href="#Formula" title="http://purl.org/spatialai/onner/onner-full#Formula">Formula</a> <sup class="type-c" title="class">c</sup>, <a href="#LabeledTerm" title="http://purl.org/spatialai/onner/onner-full#LabeledTerm">Labeled Term</a> <sup class="type-c" title="class">c</sup>, <a href="#Paragraph" title="http://purl.org/spatialai/onner/onner-full#Paragraph">Paragraph</a> <sup class="type-c" title="class">c</sup>
+			<a href="#Caption" title="http://purl.org/spatialai/onner/onner-full#Caption">Caption</a> <sup class="type-c" title="class">c</sup>, <a href="#Formula" title="http://purl.org/spatialai/onner/onner-full#Formula">Formula</a> <sup class="type-c" title="class">c</sup>, <a href="#Paragraph" title="http://purl.org/spatialai/onner/onner-full#Paragraph">Paragraph</a> <sup class="type-c" title="class">c</sup>
 		   </dd>
 		  </dl>
 		 </div>
@@ -1574,7 +1574,7 @@
 			is disjoint with
 		   </dt>
 		   <dd>
-			<a href="#Caption" title="http://purl.org/spatialai/onner/onner-full#Caption">Caption</a> <sup class="type-c" title="class">c</sup>, <a href="#Formula" title="http://purl.org/spatialai/onner/onner-full#Formula">Formula</a> <sup class="type-c" title="class">c</sup>, <a href="#Keywords" title="http://purl.org/spatialai/onner/onner-full#Keywords">Keywords</a> <sup class="type-c" title="class">c</sup>, <a href="#Paragraph" title="http://purl.org/spatialai/onner/onner-full#Paragraph">Paragraph</a> <sup class="type-c" title="class">c</sup>
+			<a href="#Caption" title="http://purl.org/spatialai/onner/onner-full#Caption">Caption</a> <sup class="type-c" title="class">c</sup>, <a href="#Formula" title="http://purl.org/spatialai/onner/onner-full#Formula">Formula</a> <sup class="type-c" title="class">c</sup>, <a href="#Paragraph" title="http://purl.org/spatialai/onner/onner-full#Paragraph">Paragraph</a> <sup class="type-c" title="class">c</sup>
 		   </dd>
 		  </dl>
 		 </div>
@@ -1955,7 +1955,7 @@
 			is disjoint with
 		   </dt>
 		   <dd>
-			<a href="#Caption" title="http://purl.org/spatialai/onner/onner-full#Caption">Caption</a> <sup class="type-c" title="class">c</sup>, <a href="#Formula" title="http://purl.org/spatialai/onner/onner-full#Formula">Formula</a> <sup class="type-c" title="class">c</sup>, <a href="#Keywords" title="http://purl.org/spatialai/onner/onner-full#Keywords">Keywords</a> <sup class="type-c" title="class">c</sup>, <a href="#LabeledTerm" title="http://purl.org/spatialai/onner/onner-full#LabeledTerm">Labeled Term</a> <sup class="type-c" title="class">c</sup>, <a href="#EndOfDocument" title="http://purl.org/spatialai/onner/onner-full#EndOfDocument">End of Document</a> <sup class="type-c" title="class">c</sup>, <a href="#Section" title="http://purl.org/spatialai/onner/onner-full#Section">Section</a> <sup class="type-c" title="class">c</sup>
+			<a href="#Caption" title="http://purl.org/spatialai/onner/onner-full#Caption">Caption</a> <sup class="type-c" title="class">c</sup>, <a href="#Formula" title="http://purl.org/spatialai/onner/onner-full#Formula">Formula</a> <sup class="type-c" title="class">c</sup>, <a href="#Keyword" title="http://purl.org/spatialai/onner/onner-full#Keyword">Keyword</a> <sup class="type-c" title="class">c</sup>, <a href="#Caption" title="http://purl.org/spatialai/onner/onner-full#Caption">Caption</a> <sup class="type-c" title="class">c</sup>, <a href="#Formula" title="http://purl.org/spatialai/onner/onner-full#Formula">Formula</a> <sup class="type-c" title="class">c</sup>, <a href="#LabeledTerm" title="http://purl.org/spatialai/onner/onner-full#LabeledTerm">Labeled Term</a> <sup class="type-c" title="class">c</sup>, <a href="#EndOfDocument" title="http://purl.org/spatialai/onner/onner-full#EndOfDocument">End of Document</a> <sup class="type-c" title="class">c</sup>, <a href="#Section" title="http://purl.org/spatialai/onner/onner-full#Section">Section</a> <sup class="type-c" title="class">c</sup>
 		   </dd>
 		  </dl>
 		 </div>
@@ -2363,7 +2363,7 @@
 			Example
 		   </dt>
 		   <dd>
-			<pre>Paragraph, Caption, Formula, Keywords, and Labeled Term.</pre>
+			<pre>Paragraph, Caption, Formula, Keyword, and Labeled Term.</pre>
 		   </dd>
 		  </dl>
 		  <dl class="description">
@@ -2377,7 +2377,7 @@
 			has sub-classes
 		   </dt>
 		   <dd>
-			<a href="#Caption" title="http://purl.org/spatialai/onner/onner-full#Caption">Caption</a> <sup class="type-c" title="class">c</sup>, <a href="#Formula" title="http://purl.org/spatialai/onner/onner-full#Formula">Formula</a> <sup class="type-c" title="class">c</sup>, <a href="#Keywords" title="http://purl.org/spatialai/onner/onner-full#Keywords">Keywords</a> <sup class="type-c" title="class">c</sup>, <a href="#LabeledTerm" title="http://purl.org/spatialai/onner/onner-full#LabeledTerm">Labeled Term</a> <sup class="type-c" title="class">c</sup>, <a href="#Paragraph" title="http://purl.org/spatialai/onner/onner-full#Paragraph">Paragraph</a> <sup class="type-c" title="class">c</sup>
+			<a href="#Caption" title="http://purl.org/spatialai/onner/onner-full#Caption">Caption</a> <sup class="type-c" title="class">c</sup>, <a href="#Formula" title="http://purl.org/spatialai/onner/onner-full#Formula">Formula</a> <sup class="type-c" title="class">c</sup>, <a href="#Keyword" title="http://purl.org/spatialai/onner/onner-full#Keyword">Keyword</a> <sup class="type-c" title="class">c</sup>, <a href="#LabeledTerm" title="http://purl.org/spatialai/onner/onner-full#LabeledTerm">Labeled Term</a> <sup class="type-c" title="class">c</sup>, <a href="#Paragraph" title="http://purl.org/spatialai/onner/onner-full#Paragraph">Paragraph</a> <sup class="type-c" title="class">c</sup>
 		   </dd>
 		   <dt>
 			is in domain of
@@ -3850,7 +3850,7 @@
 		  <li><a href="#captionText" title="http://purl.org/spatialai/onner/onner-full#captionText">caption text</a></li>
 		  <li><a href="#doi" title="http://purl.org/spatialai/onner/onner-full#doi">doi</a></li>
 		  <li><a href="#figureNumber" title="http://purl.org/spatialai/onner/onner-full#figureNumber">figure number</a></li>
-		  <li><a href="#keyword" title="http://purl.org/spatialai/onner/onner-full#keyword">keyword</a></li>
+		  <li><a href="#keywordText" title="http://purl.org/spatialai/onner/onner-full#keywordText">keyword text</a></li>
 		  <li><a href="#labelText" title="http://purl.org/spatialai/onner/onner-full#labelText">label text</a></li>
 		  <li><a href="#labeledTermText" title="http://purl.org/spatialai/onner/onner-full#labeledTermText">labeled term text</a></li>
 		  <li><a href="#length" title="http://purl.org/spatialai/onner/onner-full#length">length</a></li>
@@ -3940,9 +3940,9 @@
 		   </dl>
 		  </div>
 		 </div>
-		 <div class="entity" id="keyword">
-		  <h3>keyword<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
-		  <p><strong>IRI:</strong> http://purl.org/spatialai/onner/onner-full#keyword</p>
+		 <div class="entity" id="keywordText">
+		  <h3>keyword text<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
+		  <p><strong>IRI:</strong> http://purl.org/spatialai/onner/onner-full#keywordText</p>
 		  <div class="comment">
 		   <span class="markdown">A text segment containing a keyword mentioned in a scholarly publication.</span>
 		  </div>
@@ -3952,7 +3952,7 @@
 			 has domain
 			</dt>
 			<dd>
-			 <a href="#Keywords" title="http://purl.org/spatialai/onner/onner-full#Keywords">Keywords</a> <sup class="type-c" title="class">c</sup>
+			 <a href="#Keyword" title="http://purl.org/spatialai/onner/onner-full#Keyword">Keyword</a> <sup class="type-c" title="class">c</sup>
 			</dd>
 			<dt>
 			 has range
