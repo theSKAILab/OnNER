@@ -612,12 +612,12 @@ onner:figureNumber rdf:type owl:DatatypeProperty ;
                    rdfs:label "figure number"@en .
 
 
-###  http://purl.org/spatialai/onner/onner-full#keyword
-onner:keyword rdf:type owl:DatatypeProperty ;
-              rdfs:domain onner:Keyword ;
-              rdfs:range xsd:string ;
-              rdfs:comment "A text segment containing a keyword mentioned in a scholarly publication."@en ;
-              rdfs:label "keyword"@en .
+###  http://purl.org/spatialai/onner/onner-full#keywordText
+onner:keywordText rdf:type owl:DatatypeProperty ;
+				  rdfs:domain onner:Keyword ;
+				  rdfs:range xsd:string ;
+				  rdfs:comment "A text segment containing a keyword mentioned in a scholarly publication."@en ;
+				  rdfs:label "keyword text"@en .
 
 
 ###  http://purl.org/spatialai/onner/onner-full#labelText
