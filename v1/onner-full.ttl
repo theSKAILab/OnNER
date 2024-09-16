@@ -29,7 +29,7 @@
                                               dcterms:identifier <http://purl.org/spatialai/onner/onner-full> ;
                                               dcterms:issued "2024-05-24"^^xsd:date ;
                                               dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-                                              dcterms:modified "2024-05-30"^^xsd:date ;
+                                              dcterms:modified "2024-09-16"^^xsd:date ;
                                               dcterms:publisher "Spatial Knowledge and Artificial Intelligence (SKAI) Lab, University of Maine"@en ;
                                               dcterms:source <http://example.com/source> ;
                                               dcterms:subject "Information Extraction" ,
@@ -614,7 +614,7 @@ onner:figureNumber rdf:type owl:DatatypeProperty ;
 
 ###  http://purl.org/spatialai/onner/onner-full#keyword
 onner:keyword rdf:type owl:DatatypeProperty ;
-              rdfs:domain onner:Keywords ;
+              rdfs:domain onner:Keyword ;
               rdfs:range xsd:string ;
               rdfs:comment "A text segment containing a keyword mentioned in a scholarly publication."@en ;
               rdfs:label "keyword"@en .
@@ -1143,27 +1143,27 @@ onner:Formula rdf:type owl:Class ;
               <http://www.w3.org/2004/02/skos/core#example> "The chemical formula of sodium hydroxide and sodium chloride are NaOH and NaCl respectively."@en .
 
 
-###  http://purl.org/spatialai/onner/onner-full#Keywords
-onner:Keywords rdf:type owl:Class ;
-               owl:equivalentClass [ owl:intersectionOf ( onner:TextFragment
-                                                          [ rdf:type owl:Restriction ;
-                                                            owl:onProperty onner:cites ;
-                                                            owl:maxCardinality "0"^^xsd:nonNegativeInteger
-                                                          ]
-                                                        ) ;
-                                     rdf:type owl:Class
-                                   ] ,
-                                   [ owl:intersectionOf ( onner:TextFragment
-                                                          [ rdf:type owl:Restriction ;
-                                                            owl:onProperty onner:textFragmentReferencesFloatingDocumentPart ;
-                                                            owl:maxCardinality "0"^^xsd:nonNegativeInteger
-                                                          ]
-                                                        ) ;
-                                     rdf:type owl:Class
-                                   ] ;
-               rdfs:subClassOf onner:TextFragment ;
-               rdfs:comment "A special text fragment that typically accompanies the abstract and may contain one or more labeled terms."@en ;
-               rdfs:label "Keywords"@en .
+###  http://purl.org/spatialai/onner/onner-full#Keyword
+onner:Keyword rdf:type owl:Class ;
+              owl:equivalentClass [ owl:intersectionOf ( onner:TextFragment
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty onner:cites ;
+                                                           owl:maxCardinality "0"^^xsd:nonNegativeInteger
+                                                         ]
+                                                       ) ;
+                                    rdf:type owl:Class
+                                  ] ,
+                                  [ owl:intersectionOf ( onner:TextFragment
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty onner:textFragmentReferencesFloatingDocumentPart ;
+                                                           owl:maxCardinality "0"^^xsd:nonNegativeInteger
+                                                         ]
+                                                       ) ;
+                                    rdf:type owl:Class
+                                  ] ;
+              rdfs:subClassOf onner:TextFragment ;
+              rdfs:comment "A special text fragment that typically accompanies the abstract and may contain one or more labeled terms."@en ;
+              rdfs:label "Keyword"@en .
 
 
 ###  http://purl.org/spatialai/onner/onner-full#Label
@@ -1337,7 +1337,7 @@ onner:TextFragment rdf:type owl:Class ;
                                    onner:DocumentPart ;
                    rdfs:comment "A text segment within a publication that carries semantic meaning."@en ;
                    rdfs:label "Text Fragment"@en ;
-                   <http://www.w3.org/2004/02/skos/core#example> "Paragraph, Caption, Formula, Keywords, and Labeled Term."@en .
+                   <http://www.w3.org/2004/02/skos/core#example> "Paragraph, Caption, Formula, Keyword, and Labeled Term."@en .
 
 
 #################################################################
@@ -1367,7 +1367,7 @@ onner:TextFragment rdf:type owl:Class ;
 [ rdf:type owl:AllDisjointClasses ;
   owl:members ( onner:Caption
                 onner:Formula
-                onner:Keywords
+                onner:Keyword
                 onner:LabeledTerm
                 onner:Paragraph
               )
