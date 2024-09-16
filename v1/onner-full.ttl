@@ -1368,6 +1368,14 @@ onner:TextFragment rdf:type owl:Class ;
   owl:members ( onner:Caption
                 onner:Formula
                 onner:Keyword
+                onner:Paragraph
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( onner:Caption
+                onner:Formula
                 onner:LabeledTerm
                 onner:Paragraph
               )
