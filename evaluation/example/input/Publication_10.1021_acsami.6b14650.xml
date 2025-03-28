@@ -1,0 +1,1692 @@
+<ns0:TEI xmlns:ns0="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:space="preserve" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+	<ns0:teiHeader xml:lang="en">
+		<ns0:fileDesc>
+			<ns0:titleStmt>
+				<ns0:title level="a" type="main">Macrofibers with High Mechanical Performance Based on Aligned Bacterial Cellulose Nanofibers</ns0:title>
+			</ns0:titleStmt>
+			<ns0:publicationStmt>
+				<ns0:publisher />
+				<ns0:availability status="unknown"><ns0:licence /></ns0:availability>
+				<ns0:date type="published" when="2017-01-03">January 3, 2017</ns0:date>
+			</ns0:publicationStmt>
+			<ns0:sourceDesc>
+				<ns0:biblStruct>
+					<ns0:analytic>
+						<ns0:author>
+							<ns0:persName><ns0:forename type="first">Jingjing</ns0:forename><ns0:surname>Yao</ns0:surname></ns0:persName>
+							<ns0:affiliation key="aff0">
+								<ns0:orgName type="department">College of Materials Science and Engineering</ns0:orgName>
+								<ns0:orgName type="laboratory">State Key Laboratory for Modification of Chemical Fibers and Polymer Materials</ns0:orgName>
+								<ns0:orgName type="institution">Donghua University</ns0:orgName>
+								<ns0:address>
+									<ns0:postCode>201620</ns0:postCode>
+									<ns0:settlement>Shanghai</ns0:settlement>
+									<ns0:country key="CN">P. R. China</ns0:country>
+								</ns0:address>
+							</ns0:affiliation>
+						</ns0:author>
+						<ns0:author>
+							<ns0:persName><ns0:forename type="first">Shiyan</ns0:forename><ns0:surname>Chen</ns0:surname></ns0:persName>
+							<ns0:affiliation key="aff0">
+								<ns0:orgName type="department">College of Materials Science and Engineering</ns0:orgName>
+								<ns0:orgName type="laboratory">State Key Laboratory for Modification of Chemical Fibers and Polymer Materials</ns0:orgName>
+								<ns0:orgName type="institution">Donghua University</ns0:orgName>
+								<ns0:address>
+									<ns0:postCode>201620</ns0:postCode>
+									<ns0:settlement>Shanghai</ns0:settlement>
+									<ns0:country key="CN">P. R. China</ns0:country>
+								</ns0:address>
+							</ns0:affiliation>
+							<ns0:affiliation key="aff2">
+								<ns0:orgName type="department">S Supporting Information</ns0:orgName>
+							</ns0:affiliation>
+						</ns0:author>
+						<ns0:author>
+							<ns0:persName><ns0:forename type="first">Ye</ns0:forename><ns0:surname>Chen</ns0:surname></ns0:persName>
+						</ns0:author>
+						<ns0:author>
+							<ns0:persName><ns0:forename type="first">Baoxiu</ns0:forename><ns0:surname>Wang</ns0:surname></ns0:persName>
+							<ns0:affiliation key="aff0">
+								<ns0:orgName type="department">College of Materials Science and Engineering</ns0:orgName>
+								<ns0:orgName type="laboratory">State Key Laboratory for Modification of Chemical Fibers and Polymer Materials</ns0:orgName>
+								<ns0:orgName type="institution">Donghua University</ns0:orgName>
+								<ns0:address>
+									<ns0:postCode>201620</ns0:postCode>
+									<ns0:settlement>Shanghai</ns0:settlement>
+									<ns0:country key="CN">P. R. China</ns0:country>
+								</ns0:address>
+							</ns0:affiliation>
+						</ns0:author>
+						<ns0:author>
+							<ns0:persName><ns0:forename type="first">Qibing</ns0:forename><ns0:surname>Pei</ns0:surname></ns0:persName>
+							<ns0:affiliation key="aff0">
+								<ns0:orgName type="department">College of Materials Science and Engineering</ns0:orgName>
+								<ns0:orgName type="laboratory">State Key Laboratory for Modification of Chemical Fibers and Polymer Materials</ns0:orgName>
+								<ns0:orgName type="institution">Donghua University</ns0:orgName>
+								<ns0:address>
+									<ns0:postCode>201620</ns0:postCode>
+									<ns0:settlement>Shanghai</ns0:settlement>
+									<ns0:country key="CN">P. R. China</ns0:country>
+								</ns0:address>
+							</ns0:affiliation>
+							<ns0:affiliation key="aff1">
+								<ns0:orgName type="department">Department of Materials Science and Engineering</ns0:orgName>
+								<ns0:orgName type="institution">University of California</ns0:orgName>
+								<ns0:address>
+									<ns0:postCode>90095</ns0:postCode>
+									<ns0:settlement>Los Angeles</ns0:settlement>
+									<ns0:region>California</ns0:region>
+									<ns0:country key="US">United States</ns0:country>
+								</ns0:address>
+							</ns0:affiliation>
+						</ns0:author>
+						<ns0:author>
+							<ns0:persName><ns0:forename type="first">Huaping</ns0:forename><ns0:surname>Wang</ns0:surname></ns0:persName>
+							<ns0:affiliation key="aff0">
+								<ns0:orgName type="department">College of Materials Science and Engineering</ns0:orgName>
+								<ns0:orgName type="laboratory">State Key Laboratory for Modification of Chemical Fibers and Polymer Materials</ns0:orgName>
+								<ns0:orgName type="institution">Donghua University</ns0:orgName>
+								<ns0:address>
+									<ns0:postCode>201620</ns0:postCode>
+									<ns0:settlement>Shanghai</ns0:settlement>
+									<ns0:country key="CN">P. R. China</ns0:country>
+								</ns0:address>
+							</ns0:affiliation>
+							<ns0:affiliation key="aff2">
+								<ns0:orgName type="department">S Supporting Information</ns0:orgName>
+							</ns0:affiliation>
+						</ns0:author>
+						<ns0:title level="a" type="main">Macrofibers with High Mechanical Performance Based on Aligned Bacterial Cellulose Nanofibers</ns0:title>
+					</ns0:analytic>
+					<ns0:monogr>
+						<ns0:imprint>
+							<ns0:date type="published" when="2017-01-03">January 3, 2017</ns0:date>
+						</ns0:imprint>
+					</ns0:monogr>
+					<ns0:idno type="DOI">10.1021/acsami.6b14650</ns0:idno>
+					<ns0:note type="submission">Received: November 15, 2016 Accepted: January 3, 2017</ns0:note>
+				</ns0:biblStruct>
+			</ns0:sourceDesc>
+		</ns0:fileDesc>
+		<ns0:encodingDesc>
+			<ns0:appInfo>
+				<ns0:application version="0.7.2-SNAPSHOT" ident="GROBID" when="2023-04-27T01:49+0000">
+					<ns0:desc>GROBID - A machine learning software for extracting information from scholarly documents</ns0:desc>
+					<ns0:ref target="https://github.com/kermitt2/grobid" />
+				</ns0:application>
+			</ns0:appInfo>
+		</ns0:encodingDesc>
+		<ns0:profileDesc>
+			<ns0:textClass>
+				<ns0:keywords>
+					<ns0:term>bacterial cellulose (BC) nanofibers</ns0:term>
+					<ns0:term>wet spinning</ns0:term>
+					<ns0:term>cross-linking</ns0:term>
+					<ns0:term>orientation</ns0:term>
+					<ns0:term>mechanical properties</ns0:term>
+				</ns0:keywords>
+			</ns0:textClass>
+			<ns0:abstract>
+<ns0:div><ns0:p>Bacterial cellulose (BC) nanofibers represent an emerging class of highly crystalline bionanofibers with high intrinsic mechanical properties. The remarkable nanofibers with oriented structure and strong interfibrillar interactions can realize highperformance materials. In this study, we demonstrated that macrofibers based on aligned BC nanofibers could be prepared by wet spinning and drawing procedures. The relationship between process conditions, structure, and mechanical properties of macrofibers were investigated. The obtained macrofibers exhibited Young's modulus of 16.4 GPa and tensile strength of 248.6 MPa under the optimum process conditions, in which nanofibers displayed a high degree of alignment. Furthermore, we enhanced the interfacial interactions between nanofibers and obtained better mechanical performance by multivalent ion cross-linking. After exchanging the monovalent Na + by Fe 3+ , the dried macrofiber reached Young's modulus of 22.9 GPa and tensile strength of 357.5 MPa. Particularly, the resulting macrofibers still maintained good mechanical properties with Young's modulus of 15.9 GPa and tensile strength of 262.2 MPa in the wet condition. This research provided a good method to fabricate macrofibers from BC nanofibers with good properties by continuous wet-spinning process. These macrofibers can be easily functionalized and have promising potential applications in smart textiles, biosensor, and structural reinforcement.</ns0:p></ns0:div>
+			</ns0:abstract>
+		</ns0:profileDesc>
+	</ns0:teiHeader>
+	<ns0:text xml:lang="en">
+		<ns0:body>
+<ns0:div><ns0:head n="1.">INTRODUCTION</ns0:head><ns0:p>Sustainable and high-performance alternatives based on renewable resources are intensely needed because of exhausted petroleum feedstock and environmental issues. <ns0:ref type="bibr" target="#b0"><super>1</super></ns0:ref> Cellulose is an almost inexhaustible polymer resource on earth and expected to meet the increasing demand for petroleum-replacing products. <ns0:ref type="bibr" target="#b1"><super>2</super></ns0:ref> Cellulose nanofibers (CNFs) form a remarkable emerging class of nature-derived nanomaterials due to its extraordinary mechanical properties. <ns0:ref type="bibr" target="#b2">3,</ns0:ref><ns0:ref type="bibr" target="#b3">4</ns0:ref> Crystalline cellulose has greater axial elastic modulus than Kevlar and is 2−3 times higher than that of glass fibers. <ns0:ref type="bibr"><super>5−7</super></ns0:ref> CNFs also have high aspect ratio, low density, and reactive surface of hydroxyl groups that facilitates chemical functionality. <ns0:ref type="bibr" target="#b5"><super>6</super></ns0:ref> In general, controllability of architecture for CNFs is significant in applications related to biosensor, electronics, optics, microengineering, and electrocatalysts. <ns0:ref type="bibr"><super>8−10</super></ns0:ref> In such cases, the additional benefit of improved mechanical characteristics with aligned CNFs might be realized. <ns0:ref type="bibr" target="#b8"><super>9</super></ns0:ref> However, one bottleneck in fully realizing the potential of these bionanofibers is to master water-borne processing and find ways to align these anisotropic bionanofibers inside a final material to maximize and control directional mechanical and functional properties. <ns0:ref type="bibr" target="#b10"><super>11</super></ns0:ref> Several techniques have been used in attempts to control the alignment of CNFs. Compared with magnetic <ns0:ref type="bibr"><super>12−15</super></ns0:ref> or electric <ns0:ref type="bibr" target="#b15">16,</ns0:ref><ns0:ref type="bibr" target="#b16">17</ns0:ref> field method, shear orientation is simple and has a greater potential for industrial-scale production. <ns0:ref type="bibr"><super>9,18−21</super></ns0:ref> Spinning is a promising and efficient way in practice for uniaxial orientation of nanofibers under shear force. The orientation of nanofibers would be fixed immediately because of a fast dehydration of nanofiber dispersion. <ns0:ref type="bibr" target="#b21"><super>22</super></ns0:ref> Nanofibers isolated from soft wood, <ns0:ref type="bibr" target="#b2">3,</ns0:ref><ns0:ref type="bibr" target="#b10">11,</ns0:ref><ns0:ref type="bibr" target="#b21">22</ns0:ref> tunicate, <ns0:ref type="bibr" target="#b21"><super>22</super></ns0:ref> chitin, <ns0:ref type="bibr" target="#b0">1,</ns0:ref><ns0:ref type="bibr" target="#b10">11</ns0:ref> and banana rachis pulp <ns0:ref type="bibr" target="#b22"><super>23</super></ns0:ref> have been spun into fibers, and their mechanical properties exceed those of typical, nonoriented nanopapers. Besides the orientation, the structure and the interaction among nanofibers may be the other factors affecting the mechanical properties of the macrofibers. Especially in high-moisture environment, hydrogen bonds are weakened; thus, the mechanical properties of water-bone macrofibers would decrease substantially. It is of great importance to systematically investigate the preparation of macrofibers with high mechanical properties.</ns0:p><ns0:p>Unlike plant cellulose, bacterial cellulose (BC) does not contain collateral biogenic compounds such as lignin, hemicelluloses, and pectin. It also has a unique mechanism in the synthesis of chain molecules followed by a subtly self-assembled process from subfibrils to fibrillar ribbons (50−80 nm), which are 200 times finer than cotton fibers. <ns0:ref type="bibr" target="#b23"><super>24</super></ns0:ref> Thus, BC do not need excess homogenizing and have less energy consumption for obtaining individual nanofibers due to intrinsic nanostructures. As a type of natural bio-nanomaterial, BC nanofibers show outstanding modulus. <ns0:ref type="bibr" target="#b24"><super>25</super></ns0:ref> The reported axial elastic modulus, E <sub>A</sub> = 78 ± 17 GPa and E <sub>A</sub> = 114 GPa, respectively, were measured by atomic force microscopy 3 pt bend and Raman. <ns0:ref type="bibr" target="#b5"><super>6</super></ns0:ref> Compared with nanofibrillated cellulose (NFC) and cellulose nanocrystals (CNC), BC nanofibers have large aspect ratio (30−50 nm wide, 6−10 nm height, 1−9 &#956;m in length) as well as high crystallinity (up to 84−89%). <ns0:ref type="bibr" target="#b5">6,</ns0:ref><ns0:ref type="bibr" target="#b25">26</ns0:ref> It is predicted that directional mechanical and functional properties of superior materials can be controlled and maximized by aligning these thin and long crystalline entities with proper structure by suitable processing conditions.</ns0:p><ns0:p>So far, the main interest in BC nanofibers focuses on generating strong nanopapers, nanocomposites, or robust foams and aerogels. <ns0:ref type="bibr"><super>27−29</super></ns0:ref> However, aligned BC nanofiberbased macrofibers have not been reported. This work reported the fabrication of macrofibers based on BC nanofibers by continuous wet-spinning process. The relationship between process conditions, structure, and mechanical properties of macrofibers were investigated. Two-dimensional (2D) X-ray diffraction and scanning electron microscopy were used to quantitatively measure the degree of orientation. The relationship between the structure and the mechanical properties of macrofibers were investigated. The resulting macrofibers with enhanced mechanical properties and stabilization in high humidity were achieved by multivalent ions cross-linking bridges between the oxygen-containing groups.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="2.">MATERIALS AND METHODS</ns0:head></ns0:div>
+<ns0:div><ns0:head n="2.1.">Materials.</ns0:head><ns0:p>Gluconacetobacter xylinus were incubated with basal medium (glucose 5 wt %, yeast extract 0.5 wt %, bacto-peptone 0.5 wt %, disodium phosphate 0.2 wt %, monopotassium phosphate 0.1 wt %, and citric acid 0.1 wt %) for 5 d in a static culture, adjusted to pH 5.0. Then BC membranes were boiled in 1 wt % NaOH for 60 min, to get rid of the remaining culture medium and microorganisms, and then repeatedly rinsed with pure water until the filtrate became neutral. <ns0:ref type="bibr" target="#b30"><super>30</super></ns0:ref> Finally, BC was fibrillated into slurry by high-shear homogenization at speed of 7000 rpm for 15 min and then stored at 4 °C before use.</ns0:p><ns0:p>2,2,6,6-Tetramethylpiperidine-1-oxyl (TEMPO; 98%) was purchased from Sigma-Aldrich. Sodium bromide, sodium hypochlorite solution, iron(III) sulfate hydrate, copper(II) sulfate pentahydrate, and other chemicals were purchased from Sinopharm Chemical Reagent (Shanghai, China). All chemicals were used directly without any further purification.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="2.2.">Preparation, Drawing, and Cross-Linking of the Macrofibers.</ns0:head><ns0:p>Our general strategy is sketched in Scheme 1. It started with the individualized nanofibers preparation, and then the nanofibers assembled into macrofibers by wet-spinning. The obtained macrofibers were mechanically drawn under relative humidity to allow for an alignment of BC nanofibers. The drawing macrofibers with maximized properties were subsequently subjected to cross-linking by multivalent ions. Thus, the enhancement of mechanical properties was achieved in high-humidity condition.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="2.2.1.">Preparation of TEMPO-Oxidized BC Nanofibers.</ns0:head><ns0:p>Individual nanofiber suspension was prepared by TEMPO oxidation according to Saito et al. <ns0:ref type="bibr"><super>31−33</super></ns0:ref> The BC slurry (1 g) was suspended in water (100 mL) containing TEMPO (0.016 g) and sodium bromide (0.1 g). The reaction was initiated by adding sodium hypochlorite at room temperature. The solution was kept at pH 10.3 by titration with 0.5 M sodium hydroxide for 1 h. At the end of the reaction, the oxidized cellulose was filtered and then washed with distilled water. The suspension was then concentrated to the desired concentrations (1.8%, 3.6%, and 5.4 wt %) using several steps of centrifugation. The carboxylate content of the TEMPO-oxidized cellulose was determined using an electric conductivity titration method. <ns0:ref type="bibr" target="#b34"><super>34</super></ns0:ref></ns0:p></ns0:div>
+<ns0:div><ns0:head n="2.2.2.">Wet-Spinning of BC Nanofibers.</ns0:head><ns0:p>The BC nanofiber suspensions were spun into an acetone coagulation bath from a syringe (internal diameter of the needle is 0.21 mm). Pump 11 ELITE (Harvard, USA) was used to control the spinning rate over the range of 0.7−18.9 m/min. Different sizes of syringes (1 and 5 mL) are needed to cooperate with pump speed (more details are given in Figure <ns0:ref type="figure" target="#fig_0">S1</ns0:ref> and video). The pumping load was insufficient for higher spinning rate of the BC nanofibers suspension because of its gel-like high viscosity. The spun fibers were reeled, and the take-up speed was ∼70% of the spinning rate. The obtained fibers were then dried at 50 °C. All prepared samples were coded and summarized in Table <ns0:ref type="table" target="#tab_0">1</ns0:ref>.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="2.2.3.">Wet Stretching.</ns0:head><ns0:p>A macrofiber (5.4 wt %, 18.9 m/min) with a length L <sub>0</sub> of 8 cm was clamped and immersed in water for 10 min for losing residual stress. Then the sample was immersed into 80 vol % acetone aqueous solution with a length L 1 . One minute later, the  sample was stretched so the macrofibers were subjected to a stretching routine, applying a strain velocity of 0.8 mm/min until the desired final length L <sub>2</sub> was reached. The stretching ratio (SR) was defined as SR = L <sub>2</sub> /L <sub>1</sub> − 1 (SR = 0.1, 0.2).</ns0:p></ns0:div>
+<ns0:div><ns0:head n="2.2.4.">Ionic Cross-Linking.</ns0:head><ns0:p>Infiltration of the macrofibers was performed by placing the fibers into a 0.1 M copper sulfate or 0.1 M iron sulfate solution (100 mL) for 24 h. Excess ions/salt were removed by washing in deionized water. Tension was applied to the individual macrofibers during infiltration and drying.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="2.3.">Characterization.</ns0:head><ns0:p>Morphologies of nanofibers were characterized using JEM-2100 transmission electron microscopy (TEM). Drops of dilute nanofibers suspensions (0.06 mg/mL) were deposited onto glow-discharged carbon-coated copper grid. The excess liquid was absorbed by a piece of filter paper, and a drop of 2% uranyl acetate negative stain was added before drying. The liquid in excess was blotted, and the remaining film of stain was allowed to dry. The specimens were observed at 100 kV. X-ray diffraction (XRD) patterns of nanofibers were obtained in a Rigaku D/max-2550PC X-ray diffractometer with the Cu Ka radiation at a scanning rate of 2 s −1 . Fourier transform infrared spectroscopy (FT-IR) was recorded on an FT-IR spectrometer (Nicolet 6700, Thermo Fisher) equipped with an attenuated total reflection (ATR) attachment. All the spectra were obtained with a resolution of 4 cm <super>−1</super> at 400−4000 cm −1 . The concentrations of Na, Cu, and Fe in macrofibers after cross-linking were measured by inductively coupled plasma-atomic emission spectroscopy (ICP-AES). Samples were dispensed in 40 mg aliquots in a 100 mL flask, with 5 mL of nitric acid added, diluted to volume, and mixed, and directly analyzed by ICP-AES. Morphologies of macrofibers were observed by an S-4800 field emission scanning electron microscope (FE-SEM). The samples were sputter-coated with a thin gold layer before observation. The spun fibers were fractured in liquid nitrogen to reveal the cross section for observation.</ns0:p><ns0:p>Tensile tests for macrofibers were performed in a fiber mechanical strength tester (XQ-2, China) with a strain rate of 20 mm/min at a gauge length of 2 cm. All samples were conditioned at the specified relative humidity (RH) at least 24 h. The length of specimen was 5 cm. Before the test, the cross section of macrofibers (Figure <ns0:ref type="figure" target="#fig_1">S2</ns0:ref>) were obtained by Hardy's thin cross-section device and observed by optical microscope (XSZ−360AP, China). The cross-sectional area of macrofibers was measured with software Image-J. Average crosssectional area was determined by measuring ∼30 macrofibers. Mechanical properties in the wet condition were tested after immersing fiber into water for 5 min. The tensile strength, initial modulus, and elongation were calculated as the average of at least 10 measurements.</ns0:p><ns0:p>Wide-angle X-ray diffraction (WAXD) experiments were performed at the beamline BL14B1 at the Shanghai Synchrotron Radiation Facility with a wavelength of 0.123 98 nm. The sample cell was placed in a sample holder perpendicular to the X-ray beam. The distance between the detector (Mar 345) and the sample was 420.3 mm. CeO <sub>2</sub> was used for calibration. A typical acquisition time was 500 s. The patterns were corrected for air scattering and background. The azimuthal intensity distribution profiles along the arc that refers to the (200) reflections of the cellulose I <sub>β</sub> crystals were used to quantify the orientation of the nanofibers along the fibers. This peak is determined to be within 2θ = 22.0−22.4°. Intensity distribution profiles in the azimuthal angle (ϕ) were used to calculate the orientation index (π) and the order parameter (S) according to the equations: <ns0:ref type="bibr" target="#b35">35,</ns0:ref><ns0:ref type="bibr" target="#b36">36</ns0:ref> </ns0:p><ns0:formula xml:id="formula_0">π = &#176;− &#176;180 fwhm 180 (1) = ⌀ &#8722; S 3 cos 1 2 2 c,z<ns0:label>(2)</ns0:label></ns0:formula><ns0:formula xml:id="formula_1">⌀ = &#8722; ⌀ cos 1 2 cos 2 c,z 2 200,z<ns0:label>(3)</ns0:label></ns0:formula><ns0:formula xml:id="formula_2">⌀ = &#8721; ⌀ &#8960; ⌀ &#8721; ⌀ &#8960; π &#960; I I cos ( ) sin cos ( ) sin 2 200,z 0 2 0 (<ns0:label>4</ns0:label></ns0:formula><ns0:formula xml:id="formula_3">)</ns0:formula><ns0:p>where fwhm is the full width of the half-maximum of the azimuthal profiles from the selected equatorial reflection, and I(ϕ) is the intensity distribution along the Debye−Scherrer ring. <ns0:ref type="bibr" target="#b19">20,</ns0:ref><ns0:ref type="bibr" target="#b37">37</ns0:ref></ns0:p></ns0:div>
+<ns0:div><ns0:head n="3.">RESULTS AND DISCUSSION</ns0:head></ns0:div>
+<ns0:div><ns0:head n="3.1.">TEMPO-Oxidized BC Nanofibers.</ns0:head><ns0:p>Figure <ns0:ref type="figure" target="#fig_0">1a</ns0:ref>,b shows the relationship between carboxylate content and the amount of NaClO or the oxidation time in the TEMPO/NaBr/NaClO system. As shown in Figure <ns0:ref type="figure" target="#fig_0">1a</ns0:ref>, the amount of carboxylate groups formed from the primary hydroxyl groups of cellulose increased with the amount of NaClO added in suspension, where oxidation time of 1 h was applied at room temperature and pH 10.5. The carboxylate groups were further formed up to ∼0.65 mmol/g and unchanged around 0.3 mmol/g when the addition of NaClO up to 3 mmol per gram of cellulose. Similarly, the amount of carboxylate increased very slowly after 1 h of oxidation time by addition of 3 mmol of NaClO in the cellulose slurry (Figure <ns0:ref type="figure" target="#fig_0">1b</ns0:ref>). Thus, carboxylate content in the water-insoluble fractions are difficult to exceed a certain level even by the excess NaClO addition or oxidation time. The maximum content of C6-oxidized groups of BC is similar to cotton, <ns0:ref type="bibr" target="#b34"><super>34</super></ns0:ref> and it is lower than that of wood cellulose with carboxylate content of 1−1.5 mmol/g. <ns0:ref type="bibr" target="#b31"><super>31</super></ns0:ref> That means the degree of oxidation for BC is lower than that of wood cellulose. However, high degree of oxidation shows poor thermal properties, <ns0:ref type="bibr" target="#b5"><super>6</super></ns0:ref> whereas more degree of oxidation is not necessary for dispersion of BC nanofibers because of their original nanoscale structure.</ns0:p><ns0:p>The changes of functional groups of the original BC and its oxidized counterparts were demonstrated by FTIR spectra. Figure <ns0:ref type="figure" target="#fig_0">1c</ns0:ref> shows that the peaks at 3410 and 1420 cm <super>−1</super> are assigned to stretching vibrations of hydroxyl groups and the symmetric bending of CH <sub>2</sub> , respectively. Original BC nanofibers have no absorption band from 1700 to 1900 cm −1 . After TEMPO oxidation occurred, an obvious band appeared at 1727 cm <super>−1</super> , which is due to the CO stretching vibration of the carboxylic acid group.</ns0:p><ns0:p>Figure <ns0:ref type="figure" target="#fig_0">1d</ns0:ref> illustrates XRD patterns of samples before and after the TEMPO-mediated oxidation. There are two main peaks at 14.9 and 22.6 (corresponding to lattice planes 11̅ 0 and 200, respectively) with one short and broad shoulder around 16.1 (lattice plane 110), which can be assigned to the diffraction of cellulose I. The original crystal structure of cellulose I has not changed after the oxidation. The crystallinity index of the oxidized BC is calculated to be 81.2% and 86.9% using amorphous subtraction method <ns0:ref type="bibr" target="#b38"><super>38</super></ns0:ref> and peak deconvolution method. <ns0:ref type="bibr" target="#b39"><super>39</super></ns0:ref> The two methods show a consistent trend that is slightly reduced than original BC by 3% and 7%, respectively. These results indicated that the carboxylate groups formed by TEMPO oxidation are selectively present on cellulose microfibril surfaces without changing internal cellulose crystallites.</ns0:p><ns0:p>Figure <ns0:ref type="figure" target="#fig_0">1e</ns0:ref>,f shows the TEM images of nanofibers prepared by the TEMPO-mediated oxidation of BC with carboxylate contents of 0.31 and 0.65 mmol/g. As shown in TEM images, the nanofibers clearly formed lateral aggregates with the low carboxylate content, while nanofibers with the carboxylate content of 0.65 mmol/g were mostly converted to individual fibrils because of a mutually repulsive force. According to the TEM, the width of individual nanofiber is 15−40 nm, and length is observed to be greater than 5 μm (Figure <ns0:ref type="figure" target="#fig_2">S3</ns0:ref>).</ns0:p></ns0:div>
+<ns0:div><ns0:head n="3.2.">Wet-Spinning of the Macrofiber Based on BC Nanofibers.</ns0:head><ns0:p>The spinning suspension was dehydrated immediately by acetone, leading the cellulose nanofibers to aggregate into fibrous structures. Then the macrofibers can be reeled immediately at a certain taking-up rate. So it is worth mentioning that this was a continuous process, which did not require a certain aging time in bath. It was different from the uncontinuous process to fabricate the macrofibers from NFC, which would require an aging time (5 min to ∼24 h) in coagulation bath. <ns0:ref type="bibr" target="#b2">3,</ns0:ref><ns0:ref type="bibr" target="#b10">11,</ns0:ref><ns0:ref type="bibr" target="#b41">40</ns0:ref></ns0:p><ns0:p>Herein, different spinning rates and concentrations were used to discuss the relationship between structures and mechanical properties of macrofibers. Initial screening experiments were performed to suggest that 18.9 m/min and 5.4 wt % were very high value. Pumping load was insufficient for higher spinning rate and concentration due to gel-like high viscosity of suspension. A certain minimum spinning rate (0.7 m/min) and concentration (1.8 wt %) of cellulose nanofibers was required to be able to spin continuous anisotropic structure.</ns0:p><ns0:p>The BC nanofibers are spun into fibers with diameters of 50−80 &#956;m. Morphologies of macrofibers were characterized by FE-SEM. The rapid coagulation during the initial preparation of the fibers in acetone can lead to some porosity in macrofibers. As shown in Figure <ns0:ref type="figure" target="#fig_1">2a</ns0:ref>−c, the spun fibers with 1.8, 3.6, and 5.4 wt % nanofibers suspension at 18.9 m/min show different structures. Less porosity and more compactibility is observed with high concentrations. This is because the macroscale structure originates from aggregation during the solvent exchange in the coagulation bath, happening from outside to inside. So nanofibers from high-concentration suspension would move less upon dehydration in the acetone coagulation bath due to higher viscosity.</ns0:p><ns0:p>To demonstrate the changes of arrangement of nanofibers, the surface structure of original BC and the macrofibers was compared. BC film shows randomly distributed nanobundles with reticulated network structure (Figure <ns0:ref type="figure" target="#fig_2">3a</ns0:ref>). However, BC nanofibers from finely dispersed suspension can be aligned by the concentric shear profile in the process of extrusion. As shown in Figure <ns0:ref type="figure" target="#fig_2">3d</ns0:ref>, nanofibrils in macrofibers with 18.9 m/min extrusion rate are better oriented and less network structure compared to lower rate (Figure <ns0:ref type="figure" target="#fig_2">3b,c</ns0:ref>). It is demonstrated that a qualitatively high alignment of BC nanofibrils can be obtained in macrofibers with high shear force.</ns0:p><ns0:p>To go beyond this qualitative understanding of the alignment procedure, BC nanofibers in the spun fibers were further analyzed by WAXD. As shown in Figure <ns0:ref type="figure" target="#fig_2">3e</ns0:ref>, the reflections corresponding to (200) and (11 ̅ 0) are present in the ring  pattern, indicating the random orientation of the nanofibers in BC film. However, the diffractogram in Figure <ns0:ref type="figure" target="#fig_2">3f</ns0:ref> shows a different diagram with arc pattern of (11 ̅ 0) and (200) reflections, suggesting an improved alignment of the crystallites along the longitudinal axis of the fiber. It has been reported that the distribution along the (200) arc in the 2D pattern was used to quantify the alignment of the nanofibers. <ns0:ref type="bibr" target="#b36"><super>36</super></ns0:ref> So we traced the orientation using the crystal (200) reflection arising from the nanofibers. Table <ns0:ref type="table" target="#tab_0">1</ns0:ref> displays the azimuthal intensity profiles of the mentioned reflections at different conditions. The degree of alignment was calculated using two methods: (i) the orientation index defined and (ii) the order parameter (more details in the Experimental Section). Both parameters π and S range from 0 to 1, with unity corresponding to perfect alignment, whereas zero corresponds to a random orientation of the nanofibers. <ns0:ref type="bibr" target="#b35"><super>35</super></ns0:ref> Two different methods show a consistent result that there is an increase in the orientation as the spinning rate increases at all concentrations. In addition, it is also seen that alignment of nanofibers increased with lower concentration suspension at the same extrusion rate.</ns0:p><ns0:p>During spinning of macrofibers based on BC nanofibers, the extensional flow field forces the nanofibers to align parallel to the longitudinal axis. However, as the nanofibers concentration increases, the nanofiber−nanofiber interaction competes with the external force, leading to lower alignment of nanofibers. It is believed that the increase of the spinning rate and lower concentration will provide a higher shear force and less entanglement, subsequently increasing the alignment of the nanofibers in the fiber axis direction.</ns0:p><ns0:p>It is worth noting that alignment of nanofibers is not the only important effect for mechanical performance. According to the data in Table <ns0:ref type="table" target="#tab_0">1</ns0:ref>, the macrofiber obtained with higher extrusion rate of nanofibers at the same concentration shows the increase of nanofibers alignment in longitudinal axis, which possesses higher tensile and elastic modulus. However, highly aligned fiber in low concentration does not show good mechanical performance. For example, at the same spinning rate of 18.9 m/ min, the macrofibers show decreased alignment and a significant improvement of strength and module when concentrations are increased from 1.8 to 5.4 wt %. This is because the higher concentrations may lead to increase of nanofiber−nanofiber contacting points and nanofiber interactions from the longitudinal axis of fiber, while low concentrations result in porosity or loose structure of the materials, which would considerably decrease the mechanical properties of the macrofibers. Porosity has a negative effect on mechanical properties of nanostructure materials in various studies. <ns0:ref type="bibr" target="#b10">11,</ns0:ref><ns0:ref type="bibr" target="#b42">41,</ns0:ref><ns0:ref type="bibr" target="#b43">42</ns0:ref> Lower porosity correlates with reduced specific surface area, which can be interpreted as decreased segment length between nanofiber−nanofiber bond sites. As a result, low concentrations with porous structure lead to lower modulus and decreased stress. The macrofiber in 5.4 wt % concentration with spinning rate of 18.9 m/min shows compact structure and good mechanical properties. It is predicted that such cohesive fibers can achieve higher values of tensile and elastic modulus upon more efficient alignment of the nanofibers. For such longer nanofibers (more than 5 μm), it is difficult to align them with higher speed due to persisting colloidal entanglement. The maximum alignment of nanofibers is expected by using additional post drawing.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="3.3.">Wet Stretching.</ns0:head><ns0:p>To maintain constant conditions during the stretching, we used a rate-controlled device to stretch the macrofibers according to Torres-Rendon et al. <ns0:ref type="bibr" target="#b10"><super>11</super></ns0:ref> This procedure allows the stretching ratio of up to 20%, SR = 0.2. Higher drawing ratio turned out to typically lead to fracture.</ns0:p><ns0:p>The improved alignment can be evidenced by SEM and polarizing microscope and quantified via WAXD (Figure <ns0:ref type="figure" target="#fig_3">4</ns0:ref> and Figure <ns0:ref type="figure" target="#fig_3">S4</ns0:ref>). The images of the macrofibers at different SR show that nanofibers in stretched macrofibers are better oriented in the longitudinal axis and less network structure of the layer than the unstressed samples. When stretching ratio of up to 20%, one can appreciate a quite high alignment of the nanofibers. Few flaws in nanofibers can be observed (Figure <ns0:ref type="figure" target="#fig_3">4c</ns0:ref>) for strongly stretching during preparation of considerably oriented nanomaterials.</ns0:p><ns0:p>To quantify the alignment WAXD was performed to monitor the changes of azimuthal intensity profiles of selected flection changing during drawing. Figure <ns0:ref type="figure" target="#fig_3">4g</ns0:ref>−i illustrates the azimuthal intensity profiles of the reflection (200) at different drawing ratio. The more defined reflexes and narrower fwhm at higher SR clearly confirm the increasing degrees of alignment. Table <ns0:ref type="table" target="#tab_1">2</ns0:ref> summarizes the orientation index and the order parameter values for undrawn and drawn samples. Two methods show consistent increase with a rising SR for the improved orientation of the nanofibers induced by drawing procedure in high humidity condition. The macrofiber with the highest drawing ratio of 0.2 displays a high degree of  alignment at ∼0.7, which demonstrates that it is an effective process to induce orientation of nanofibers in this kind of material by drawing method.</ns0:p><ns0:p>A direct comparison of the mechanical properties for macrofibers as a function of the draw ratio is also displayed in Table <ns0:ref type="table" target="#tab_1">2</ns0:ref>. It can be seen that the optimized macrofiber with highest drawing ratio in the coagulation bath has a tensile strength of 248.6 MPa with a 16.4 GPa Young's modulus at 3.8% ultimate elongation. The results presented in this paper are better than that for undrawn CNF fibers spun with higher concentrations reported by Hooshmand et al. <ns0:ref type="bibr" target="#b22"><super>23</super></ns0:ref> The values are lower than that of stretched wood TEMPO-oxidized CNF filaments reported by Torres-Rendon et al. <ns0:ref type="bibr" target="#b10"><super>11</super></ns0:ref> This might be because BC nanofibers with low elongation are not feasible to greater stretch, leading to lower orientation. Therefore, the lower orientation leads to decreased modulus.</ns0:p><ns0:p>However, this value of stiffness and strength is 4.4 GPa and 50 MPa greater than that of our previously unstretched fibers, which comes from the increasing alignment of the nanofibers by stretching. The influence of the alignment of crystallites on the stiffness and strength is a consequence of the anisotropic mechanical properties of such crystal structures (cellulose I) within the nanofibers. A gain of mechanical properties due to wet-stretching demonstrates that it is a more effective process to induce orientation of nanofibers in this kind of material. This is an important advantage, because we can also use much longer nanofibers, which are more difficult to align with higher extrusion speeds due to colloidal entanglements.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="3.4.">Ionic Cross-Linking.</ns0:head><ns0:p>The strength of the macrofibers is considerably susceptible to the slide and void between nanofibers. Especially in high moisture, weakening of the interfacial linkage between nanofibers may lead to an obvious decrease in mechanical properties. <ns0:ref type="bibr" target="#b44"><super>43</super></ns0:ref> Organic carboxylic sodium salt is a weak polyelectrolyte, so the internal cohesion should be improved by incorporation of ionic bonds. In the pursuit of high-performance nanostructure materials, previous reports and theoretical investigations proposed that multivalent ions offered cross-linking bridges between the oxygen-containing groups and thus achieved the enhancement of mechanical properties in high humidity. <ns0:ref type="bibr"><super>44−48</super></ns0:ref> We chose CuSO <sub>4</sub> and Fe <sub>2</sub> (SO <sub>4</sub> ) <sub>3</sub> as the bath solutions and immersed drawn fibers (SR = 0.2) into them for 24 h, respectively, followed by extensive washing. The obtained fibers show the typical colors of the metal ions; that is, the fibers immersed with CuSO <sub>4</sub> are blue, and those immersed with Fe <sub>2</sub> (SO <sub>4</sub> ) <sub>3</sub> are yellow. The composition was analyzed by elemental analysis via ICP-AES. The results show that the sodium content is reduced from 2.43 to 0.01 and 0.18 wt % for the Cu <super>2+</super> and Fe <super>3+</super> infiltrated fibers. Cu <super>2+</super> and Fe <super>3+</super> can be detected in fibers with 2.83 and 2.48 wt %, respectively. This indicates the majority of the Na <super>+</super> was exchanged by Cu <super>2+</super> or Fe <ns0:ref type="bibr">3+</ns0:ref> .</ns0:p><ns0:p>FTIR was used to monitor the change in structure upon cross-linking. As shown in Figure <ns0:ref type="figure" target="#fig_4">5a</ns0:ref>, obvious differences between the obtained macrofibers <super>(Na</super> + MF) and cross-linked macrofibers with <super>Cu</super> 2+ <super>(Cu</super> 2+ MF) and with <super>Fe</super> 3+ <super>(Fe</super> 3+ MF) with regard to the characteristics and position of the bands are observed. For <super>Na</super> + MF, the intensities of the bands at 1607 and 1427 <super>cm</super> −1 show asymmetrical stretching mode <sub>(υ</sub> asym ) and symmetrical stretching mode <sub>(υ</sub> sym ) for <super>COO</super> − , respectively. After exchanging with <super>Fe</super> 3+ and <super>Cu</super> 2+ ions, symmetrical stretching band narrows slightly, and the peak maximum stays nearly constant. However, asymmetrical stretching band significantly is weakened and broadened. In general, complex-ation between a carboxylate group and bivalent and trivalent transition metals can take place in various types such as bidentate chelating and bidentate bridging. It has been reported that the separation of the symmetric and asymmetric stretches of the carboxylate group can be used to identify the bonding <super>mechanism.</super> 49−51 Konradi et. <super>al</super> <ns0:ref type="bibr" target="#b51">51</ns0:ref> have confirmed that asymmetrical stretching of carbonyl group at 1558 <super>cm</super> −1 is chelating bidentate and at 1611 <super>cm</super> −1 is bridging bidentate for poly(methacrylic acid) (PMAA) and multivalent ions. In this paper, a visible band that covers full region from 1558 to 1611 <super>cm</super> −1 can be observed. This indicates that multiple coordination geometries and bonding mechanisms coexist in fibers with cross-linking. Moreover, a small shoulder can be observed at 1733 <super>cm</super> −1 , which illustrates little conversion takes place from <super>Na</super> + MF to its acid form during ion exchange. Therefore, all these changes confirmed that multivalent ions indeed offered cross-linking bridges between nanofibers.</ns0:p><ns0:p>As presented in Figure <ns0:ref type="figure" target="#fig_4">5b</ns0:ref>−d, <super>Fe</super> 3+ MF has Young's modulus of 22.9 GPa and tensile strength of 357.5 MPa at 2.3% ultimate elongation, while <super>Cu</super> 2+ MF show Young's modulus of 20.2 GPa and tensile strength of 317.0 MPa at 2.5% elongation. Compared with the fibers without cross-linking, <super>Fe</super> 3+ MF achieve 39.6% higher Young's modulus and 43.8% higher tensile strength. These improvements are attributed to crosslinking through the metal cations. Metal−carboxylate bonds are expected to form either on the surface of the same fibrils or between the fibrils (Figure <ns0:ref type="figure" target="#fig_4">5e</ns0:ref>). <super>Fe</super> 3+ showed the highest mechanical properties due to stronger intra-and interfibrillar interactions than divalent or monovalent cations. Trivalent cations may have higher tendency than divalent cations to cross-link between two nanofibers because of the greater electrostatic attraction and geometrical needs to interact with three surrounding carboxylate groups. <ns0:ref type="bibr" target="#b52">52,</ns0:ref><ns0:ref type="bibr" target="#b53">53</ns0:ref></ns0:p><ns0:p>Most importantly, stabilization against high-humidity conditions is achieved by cross-linking. As shown in Figure <ns0:ref type="figure" target="#fig_4">5f</ns0:ref>, the fiber without cross-linking shows an occurring plasticization for the competition of water with the hydrogen bonds formed among nanofibers, whereas the water uptake is significantly reduced in the observed time for two weeks both for <super>Cu</super> 2+ and Fe 3+ . Thus, exchange of the <super>Na</super> + counterion to the <super>Cu</super> 2+ and <super>Fe</super> 3+ counterions has a pronounced influence on the mechanical properties of the fibers and reduced the susceptibility to wet conditions. Fibers were tested by the fiber mechanical strength tester after being immersed into water 5 min. The result (Figure <ns0:ref type="figure" target="#fig_4">5b−d</ns0:ref>) shows Young's modulus of the fibers in the wet condition (moisture content of macrofiber is 85%) increases significantly from 2.8 GPa in <super>Na</super> + MF to 13.3 and 15.9 GPa for <super>Cu</super> 2+ MF or <super>Fe</super> 3+ MF, respectively. It is approximately fourfold tensile strength compared with that of <super>Na</super> + MF. Compared with the previous reports, <ns0:ref type="bibr" target="#b0">1,</ns0:ref><ns0:ref type="bibr" target="#b2">3,</ns0:ref><ns0:ref type="bibr" target="#b22">23</ns0:ref> the macrofibers based on BC nanofibers possess a relatively high modulus, especially in the wet condition. One reason for good performance is high degree of crystallinity, which contributes to greater axial elastic modulus. The most important of all may be attributed to the strong intra-and interfibrillar interactions through the multivalent metal cations.</ns0:p><ns0:p>Therefore, ionic cross-linking via ion exchange was proven to be a feasible method to improve the mechanical properties and stability of nanofibers, especially under highly humid conditions. The enhancement was achieved by enforcing the interactions among nanofibers. Importantly, this process helps to sustain the alignment of nanofibers, because the ionic crosslinking takes place under a mild condition, which allows much better control of molecular motion than heating or attempting a more random type of chemical cross-linking.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="4.">CONCLUSION</ns0:head><ns0:p>In conclusion, a continuous macrofiber fabrication process based on aligned BC nanofibers by wet spinning was demonstrated. WAXD confirmed that the orientation index of nanofibers was enhanced with increased spinning rate and decreased nanofiber concentrations. SEM showed the spun macrofiber with 5.4 wt % CNF concentration had a denser structure compared with lower concentrations. The dense structure and high orientation of nanofibers contributed to good mechanical properties. Higher orientation in cohesive fibers can be obtained by using additional post drawing to achieve higher values of tensile and elastic modulus. Fibers with highest drawing ratio of 0.2 display a high degree of alignment of ∼0.7. The strength increased from 198 (SR = 0) to 248.6 MPa (SR = 0.2), and the modulus increased from 12 (SR = 0) to 16.4 GPa (SR = 0.2). Furthermore, the decrease in mechanical properties of such water-borne fibers in high humidity can be prevented using ionic interactions among nanofibers by exchanging the monovalent <super>Na</super> + with <super>Cu</super> 2+ and Fe 3+ . It leads to a significantly improved mechanical performance both in dry and wet conditions.</ns0:p><ns0:p>Overall, the present procedure demonstrated a good method to assemble oriented BC nanofibers into macrofibers. This research would provide a platform to fabricate multifunctional macrofibers based on BC functional building blocks, which have promising potential applications in smart textiles, biosensor, structural reinforcement, and biotechnology.</ns0:p></ns0:div>
+<ns0:div><ns0:head><super>■</super> <super>ASSOCIATED</super> CONTENT</ns0:head></ns0:div>
+<ns0:div><ns0:head><super>*</super> S Supporting Information</ns0:head><ns0:p>The Supporting Information is available free of charge on the ACS Publications website at DOI: 10.1021/acsami.6b14650.</ns0:p><ns0:p>Schematic representation of custom-built spinning equipment for continuous wet-spinning, cross-section images of macrofibers with optical microscope, TEM images of TEMPO-oxidized BC nanofibers, optical micrograph of unstretched and stretched fibers between crossed polarizers (PDF) Continuous wet-spinning of macrofiber based on BC nanofibers (video) (AVI) </ns0:p><ns0:formula xml:id="formula_4"><super>■</super> <super>AUTHOR</super> INFORMATION</ns0:formula></ns0:div><ns0:figure xml:id="fig_0"><ns0:head>Figure 1 .</ns0:head><ns0:label>1</ns0:label><ns0:figDesc>Figure 1. TEMPO-oxidized BC nanofibers. (a) Carboxylate content of products prepared from BC by the TEMPO oxidation with various amounts of NaClO at room temperature and pH 10.5 for 1 h. (b) Carboxylate content of products prepared from BC by the TEMPO oxidation with 3.9 mmol NaClO at room temperature and pH 10.5 for various reaction times. (c) ATR-FTIR spectra of the original BC and its oxidized counterparts with 0.65 mmol/g carboxylate groups. (d) XRD patterns of the original BC and TEMPO oxidized BC with 0.65 mmol/g carboxylate groups. (e, f) TEM images of TEMPO-oxidized nanofibers with carboxylate contents of 0.31 (e) and 0.65 mmol/g (f).</ns0:figDesc><ns0:graphic url="image-3.png" coords="3,122.74,249.22,379.39,423.84" type="bitmap" /></ns0:figure>
+<ns0:figure xml:id="fig_1"><ns0:head>Figure 2 .</ns0:head><ns0:label>2</ns0:label><ns0:figDesc>Figure 2. Surface structure of sample 10 (a), sample 11 (b), and sample 12 (c, d). Cross section of sample 12 (e, f).</ns0:figDesc><ns0:graphic url="image-4.png" coords="5,89.97,69.17,444.93,208.63" type="bitmap" /></ns0:figure>
+<ns0:figure xml:id="fig_2"><ns0:head>Figure 3 .</ns0:head><ns0:label>3</ns0:label><ns0:figDesc>Figure 3. Alignment of the nanofibers from BC film and spun fibers. (a−d) SEM images of nanofibers from BC film (a), sample 3 (b), sample 6 (c), sample 12 (d). (e, f) WAXD images of BC film (e), sample 12 (f).</ns0:figDesc><ns0:graphic url="image-5.png" coords="5,154.43,309.20,316.06,163.90" type="bitmap" /></ns0:figure>
+<ns0:figure xml:id="fig_3"><ns0:head>Figure 4 .</ns0:head><ns0:label>4</ns0:label><ns0:figDesc>Figure 4. Structural characterization for drawing of macrofiber with 5.4 wt % concentration and spinning rate of 18.9 m/min. (a−f) Surface and cross section structure of spun fibers with SR = 0 (a, d), SR = 0.1(b, e), SR = 0.2(c, f). (g−i) Azimuthal intensity profiles and 2D detector images at the reflection (200) for macrofibers with SR = 0 (g), SR = 0.1 (h), and SR = 0.2 (i).</ns0:figDesc><ns0:graphic url="image-6.png" coords="6,89.97,69.17,444.93,319.64" type="bitmap" /></ns0:figure>
+<ns0:figure xml:id="fig_4"><ns0:head>Figure 5 .</ns0:head><ns0:label>5</ns0:label><ns0:figDesc>Figure 5. Improved mechanical properties by ionic cross-linking. (a) ATR-FTIR spectra of the fibers after counterion exchange. (b−d) Influence of multivalent ions cross-linking on the mechanical properties of macrofibers under dry and wet conditions. (e) Schematic representation of proposed BC nanofibers cross-linking with metal cations. (f) Contrast photos of Na + MF, Cu 2+ MF, and Fe 3+ MF for swelling experiments two weeks later.</ns0:figDesc><ns0:graphic url="image-7.png" coords="7,124.55,143.21,375.82,404.39" type="bitmap" /></ns0:figure>
+<ns0:figure><ns0:head /><ns0:label /><ns0:figDesc /><ns0:graphic url="image-2.png" coords="2,132.38,85.21,360.23,218.15" type="bitmap" /></ns0:figure>
+<ns0:figure type="table" xml:id="tab_0"><ns0:head>Table <sub>1</sub> .</ns0:head><ns0:label>1</ns0:label><ns0:figDesc>Mechanical Properties and Degree of Alignment for Macrofibers</ns0:figDesc><ns0:table><ns0:row><ns0:cell>sample code</ns0:cell><ns0:cell>concentration (wt %)</ns0:cell><ns0:cell>extrusion rate (m/min)</ns0:cell><ns0:cell>orientation index, π</ns0:cell><ns0:cell>order parameter, S</ns0:cell><ns0:cell>Young's modulus (GPa)</ns0:cell><ns0:cell>tensile strength (MPa)</ns0:cell><ns0:cell>strain at break (%)</ns0:cell></ns0:row><ns0:row><ns0:cell>1</ns0:cell><ns0:cell>1.8</ns0:cell><ns0:cell>0.7</ns0:cell><ns0:cell /><ns0:cell /><ns0:cell>1.4 ± 0.3</ns0:cell><ns0:cell>44.3 ± 7.3</ns0:cell><ns0:cell>5.2 ± 1.6</ns0:cell></ns0:row><ns0:row><ns0:cell>2</ns0:cell><ns0:cell>3.6</ns0:cell><ns0:cell>0.7</ns0:cell><ns0:cell /><ns0:cell /><ns0:cell>2.8 ± 0.6</ns0:cell><ns0:cell>59.4 ± 16.6</ns0:cell><ns0:cell>4.9 ± 1.3</ns0:cell></ns0:row><ns0:row><ns0:cell>3</ns0:cell><ns0:cell>5.4</ns0:cell><ns0:cell>0.7</ns0:cell><ns0:cell>0.62</ns0:cell><ns0:cell>0.49</ns0:cell><ns0:cell>4.2 ± 0.2</ns0:cell><ns0:cell>82.8 ± 16.7</ns0:cell><ns0:cell>4.4 ± 2.1</ns0:cell></ns0:row><ns0:row><ns0:cell>4</ns0:cell><ns0:cell>1.8</ns0:cell><ns0:cell>2.1</ns0:cell><ns0:cell /><ns0:cell /><ns0:cell>2.8 ± 0.6</ns0:cell><ns0:cell>84.2 ± 48</ns0:cell><ns0:cell>4.1 ± 0.5</ns0:cell></ns0:row><ns0:row><ns0:cell>5</ns0:cell><ns0:cell>3.6</ns0:cell><ns0:cell>2.1</ns0:cell><ns0:cell /><ns0:cell /><ns0:cell>3.8 ± 0.4</ns0:cell><ns0:cell>91.0 ± 41</ns0:cell><ns0:cell>4.3 ± 0.3</ns0:cell></ns0:row><ns0:row><ns0:cell>6</ns0:cell><ns0:cell>5.4</ns0:cell><ns0:cell>2.1</ns0:cell><ns0:cell>0.64</ns0:cell><ns0:cell>0.51</ns0:cell><ns0:cell>6.8 ± 2.1</ns0:cell><ns0:cell>82.8 ± 34</ns0:cell><ns0:cell>4.5 ± 1.7</ns0:cell></ns0:row><ns0:row><ns0:cell>7</ns0:cell><ns0:cell>1.8</ns0:cell><ns0:cell>6.3</ns0:cell><ns0:cell /><ns0:cell /><ns0:cell>3.1 ± 0.9</ns0:cell><ns0:cell>89.2 ± 35.5</ns0:cell><ns0:cell>4.2 ± 1.2</ns0:cell></ns0:row><ns0:row><ns0:cell>8</ns0:cell><ns0:cell>3.6</ns0:cell><ns0:cell>6.3</ns0:cell><ns0:cell /><ns0:cell /><ns0:cell>5.4 ± 1.2</ns0:cell><ns0:cell>141.9 ± 38</ns0:cell><ns0:cell>3.4 ± 2.0</ns0:cell></ns0:row><ns0:row><ns0:cell>9</ns0:cell><ns0:cell>5.4</ns0:cell><ns0:cell>6.3</ns0:cell><ns0:cell>0.66</ns0:cell><ns0:cell>0.56</ns0:cell><ns0:cell>7.2 ± 1.0</ns0:cell><ns0:cell>168.5 ± 47</ns0:cell><ns0:cell>3.7 ± 1.9</ns0:cell></ns0:row><ns0:row><ns0:cell>10</ns0:cell><ns0:cell>1.8</ns0:cell><ns0:cell>18.9</ns0:cell><ns0:cell>0.69</ns0:cell><ns0:cell>0.63</ns0:cell><ns0:cell>3.9 ± 0.2</ns0:cell><ns0:cell>115.4 ± 20</ns0:cell><ns0:cell>5.1 ± 1.3</ns0:cell></ns0:row><ns0:row><ns0:cell>11</ns0:cell><ns0:cell>3.6</ns0:cell><ns0:cell>18.9</ns0:cell><ns0:cell>0.69</ns0:cell><ns0:cell>0.59</ns0:cell><ns0:cell>8.9 ± 2.6</ns0:cell><ns0:cell>157.7 ± 10</ns0:cell><ns0:cell>4.3 ± 2.0</ns0:cell></ns0:row><ns0:row><ns0:cell>12</ns0:cell><ns0:cell>5.4</ns0:cell><ns0:cell>18.9</ns0:cell><ns0:cell>0.65</ns0:cell><ns0:cell>0.58</ns0:cell><ns0:cell>12.0 ± 2.3</ns0:cell><ns0:cell>198.0 ± 53</ns0:cell><ns0:cell>4.5 ± 1.6</ns0:cell></ns0:row></ns0:table></ns0:figure>
+<ns0:figure type="table" xml:id="tab_1"><ns0:head>Table 2 .</ns0:head><ns0:label>2</ns0:label><ns0:figDesc>Mechanical Properties and Degree of Alignment for Drawing of Macrofibers</ns0:figDesc><ns0:table><ns0:row><ns0:cell>sample code</ns0:cell><ns0:cell>orientation index, π</ns0:cell><ns0:cell>order parameter, S</ns0:cell><ns0:cell>Young's modulus (GPa)</ns0:cell><ns0:cell>tensile strength (MPa)</ns0:cell><ns0:cell>strain at break (%)</ns0:cell></ns0:row><ns0:row><ns0:cell>SR = 0</ns0:cell><ns0:cell>0.65</ns0:cell><ns0:cell>0.58</ns0:cell><ns0:cell>12.0 ± 2.3</ns0:cell><ns0:cell>198.0 ± 53.0</ns0:cell><ns0:cell>4.5 ± 1.6</ns0:cell></ns0:row><ns0:row><ns0:cell>SR = 0.1</ns0:cell><ns0:cell>0.69</ns0:cell><ns0:cell>0.62</ns0:cell><ns0:cell>13.1 ± 3.6</ns0:cell><ns0:cell>212.2 ± 39.0</ns0:cell><ns0:cell>4.2 ± 1.2</ns0:cell></ns0:row><ns0:row><ns0:cell>SR = 0.2</ns0:cell><ns0:cell>0.72</ns0:cell><ns0:cell>0.67</ns0:cell><ns0:cell>16.4 ± 2.7</ns0:cell><ns0:cell>248.6 ± 49.4</ns0:cell><ns0:cell>3.8 ± 1.5</ns0:cell></ns0:row></ns0:table></ns0:figure>
+<ns0:figure type="table" xml:id="tab_2"><ns0:head /><ns0:label /><ns0:figDesc>E-mail: chensy@dhu.edu.cn. Phone: 86-21-67792950. Fax: 86-21-67792958. *E-mail: wanghp@dhu.edu.cn.</ns0:figDesc><ns0:table><ns0:row><ns0:cell>Corresponding Authors</ns0:cell></ns0:row><ns0:row><ns0:cell>ORCID</ns0:cell></ns0:row><ns0:row><ns0:cell>Shiyan Chen: 0000-0002-4195-3014</ns0:cell></ns0:row><ns0:row><ns0:cell>Notes</ns0:cell></ns0:row></ns0:table><ns0:note>*</ns0:note></ns0:figure>
+		</ns0:body>
+		<ns0:back>
+
+			<ns0:div type="acknowledgement">
+<ns0:div><ns0:p>The authors declare no competing financial interest.</ns0:p></ns0:div>
+<ns0:div><ns0:head>■ ACKNOWLEDGMENTS</ns0:head><ns0:p>This work was supported by the National Natural Science Foundation of China (51273043 and 51573024), the Fundamental Research Funds for the Central Universities, and DHU Distinguished Young Professor Program.</ns0:p></ns0:div>
+<ns0:div><ns0:head>■ REFERENCES</ns0:head></ns0:div>
+			</ns0:div>
+
+			<ns0:div type="references">
+
+				<ns0:listBibl>
+
+<ns0:biblStruct xml:id="b0">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Tough and Catalytically Active Hybrid Biofibers Wet-Spun from Nanochitin Hydrogels</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">P</ns0:forename><ns0:surname>Das</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">T</ns0:forename><ns0:surname>Heuser</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Wolf</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">B</ns0:forename><ns0:surname>Zhu</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:forename type="middle">E</ns0:forename><ns0:surname>Demco</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Ifuku</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Walther</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Biomacromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">2012</ns0:biblScope>
+			<ns0:biblScope unit="issue">12</ns0:biblScope>
+			<ns0:biblScope unit="page" from="4205" to="4212" />
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b1">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Structural Studies of Electrospun Cellulose Nanofibers</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">C.-W</ns0:forename><ns0:surname>Kim</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D.-S</ns0:forename><ns0:surname>Kim</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S.-Y</ns0:forename><ns0:surname>Kang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Marquez</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Y</ns0:forename><ns0:forename type="middle">L</ns0:forename><ns0:surname>Joo</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Polymer</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">47</ns0:biblScope>
+			<ns0:biblScope unit="issue">14</ns0:biblScope>
+			<ns0:biblScope unit="page" from="5097" to="5107" />
+			<ns0:date type="published" when="2006">2006</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b2">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Multifunctional High-Performance Biofibers Based on Wet-Extrusion of Renewable Native Cellulose Nanofibrils</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Walther</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">V</ns0:forename><ns0:surname>Timonen</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">I</ns0:forename><ns0:surname>Díez</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Laukkanen</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">O</ns0:forename><ns0:surname>Ikkala</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Adv. Mater</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">23</ns0:biblScope>
+			<ns0:biblScope unit="issue">26</ns0:biblScope>
+			<ns0:biblScope unit="page" from="2924" to="2928" />
+			<ns0:date type="published" when="2011">2011</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b3">
+	<ns0:monogr>
+		<ns0:title level="m" type="main">Microfibrillated Cellulose and New Nanocomposite Materials: A Review. Cellulose</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">I</ns0:forename><ns0:surname>Siro</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:surname>Plackett</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:imprint>
+			<ns0:date type="published" when="2010">2010</ns0:date>
+			<ns0:biblScope unit="volume">17</ns0:biblScope>
+			<ns0:biblScope unit="page" from="459" to="494" />
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b4">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Development of the Metrology and Imaging of Cellulose Nanocrystals</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:forename type="middle">T</ns0:forename><ns0:surname>Postek</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Vladaŕ</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Dagata</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">N</ns0:forename><ns0:surname>Farkas</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">B</ns0:forename><ns0:surname>Ming</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">R</ns0:forename><ns0:surname>Wagner</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Raman</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">R</ns0:forename><ns0:forename type="middle">J</ns0:forename><ns0:surname>Moon</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">R</ns0:forename><ns0:surname>Sabo</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">T</ns0:forename><ns0:forename type="middle">H</ns0:forename><ns0:surname>Wegner</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Beecher</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Meas. Sci. Technol</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">22</ns0:biblScope>
+			<ns0:biblScope unit="issue">2</ns0:biblScope>
+			<ns0:biblScope unit="page" from="1" to="10" />
+			<ns0:date type="published" when="2011">2011</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b5">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Cellulose Nanomaterials Review: Structure, Properties and Nanocomposites</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">R</ns0:forename><ns0:forename type="middle">J</ns0:forename><ns0:surname>Moon</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Martini</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Nairn</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Simonsen</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Youngblood</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Chem. Soc. Rev</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">40</ns0:biblScope>
+			<ns0:biblScope unit="issue">7</ns0:biblScope>
+			<ns0:biblScope unit="page" from="3941" to="3994" />
+			<ns0:date type="published" when="2011">2011</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b6">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Atomic Force Microscopy Characterization of Cellulose Nanocrystals</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">R</ns0:forename><ns0:forename type="middle">R</ns0:forename><ns0:surname>Lahiji</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">X</ns0:forename><ns0:surname>Xu</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">R</ns0:forename><ns0:surname>Reifenberger</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Raman</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Rudie</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">R</ns0:forename><ns0:forename type="middle">J</ns0:forename><ns0:surname>Moon</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Langmuir</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">26</ns0:biblScope>
+			<ns0:biblScope unit="issue">6</ns0:biblScope>
+			<ns0:biblScope unit="page" from="4480" to="4488" />
+			<ns0:date type="published" when="2010">2010</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b7">
+	<ns0:analytic>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">C</ns0:forename><ns0:forename type="middle">M</ns0:forename><ns0:surname>Niemeyer</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:surname>Nanoparticles</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="m">Proteins, and Nucleic Acids: Biotechnology Meets Materials Science</ns0:title>
+				<ns0:imprint>
+			<ns0:date type="published" when="2001">2001</ns0:date>
+			<ns0:biblScope unit="volume">40</ns0:biblScope>
+			<ns0:biblScope unit="page" from="4128" to="4158" />
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b8">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Ultrathin Film Coatings of Aligned Cellulose Nanocrystals from a Convective-Shear Assembly System and Their Surface Mechanical Properties</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">I</ns0:forename><ns0:surname>Hoeger</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">O</ns0:forename><ns0:forename type="middle">J</ns0:forename><ns0:surname>Rojas</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:surname>Efimenko</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">O</ns0:forename><ns0:forename type="middle">D</ns0:forename><ns0:surname>Velev</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:forename type="middle">S</ns0:forename><ns0:surname>Kelley</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Soft Matter</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">7</ns0:biblScope>
+			<ns0:biblScope unit="issue">5</ns0:biblScope>
+			<ns0:biblScope unit="page" from="1957" to="1967" />
+			<ns0:date type="published" when="2011">2011</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b9">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Applications of Nanoparticles in Biology</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>De</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">P</ns0:forename><ns0:forename type="middle">S</ns0:forename><ns0:surname>Ghosh</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">V</ns0:forename><ns0:forename type="middle">M</ns0:forename><ns0:surname>Rotello</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Adv. Mater</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">20</ns0:biblScope>
+			<ns0:biblScope unit="issue">22</ns0:biblScope>
+			<ns0:biblScope unit="page" from="4225" to="4241" />
+			<ns0:date type="published" when="2008">2008</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b10">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Mechanical Performance of Macrofibers of Cellulose and Chitin Nanofibrils Aligned by Wet-Stretching: A Critical Comparison</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">G</ns0:forename><ns0:surname>Torres-Rendon</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">F</ns0:forename><ns0:forename type="middle">H</ns0:forename><ns0:surname>Schacher</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Ifuku</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Walther</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Biomacromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">15</ns0:biblScope>
+			<ns0:biblScope unit="issue">7</ns0:biblScope>
+			<ns0:biblScope unit="page" from="2709" to="2717" />
+			<ns0:date type="published" when="2014">2014</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b11">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Influence of Magnetic Field Alignment of Cellulose Whiskers on the Mechanics of All-Cellulose Nanocomposites</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">T</ns0:forename><ns0:surname>Pullawan</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:forename type="middle">N</ns0:forename><ns0:surname>Wilkinson</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:forename type="middle">J</ns0:forename><ns0:surname>Eichhorn</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Biomacromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">2012</ns0:biblScope>
+			<ns0:biblScope unit="issue">8</ns0:biblScope>
+			<ns0:biblScope unit="page" from="2528" to="2536" />
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b12">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Electromagnetically Controlled Biological Assembly of Aligned Bacterial Cellulose Nanofibers</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:forename type="middle">B</ns0:forename><ns0:surname>Sano</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:forename type="middle">D</ns0:forename><ns0:surname>Rojas</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">P</ns0:forename><ns0:surname>Gatenholm</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">R</ns0:forename><ns0:forename type="middle">V</ns0:forename><ns0:surname>Davalos</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Ann. Biomed. Eng</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="issue">8</ns0:biblScope>
+			<ns0:biblScope unit="page" from="2475" to="2484" />
+			<ns0:date type="published" when="2010">2010</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b13">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Orientation of Cellulose Microcrystals by Strong Magnetic Fields</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Sugiyama</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">H</ns0:forename><ns0:surname>Chanzy</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">G</ns0:forename><ns0:surname>Maret</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Macromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">25</ns0:biblScope>
+			<ns0:biblScope unit="issue">16</ns0:biblScope>
+			<ns0:biblScope unit="page" from="4232" to="4234" />
+			<ns0:date type="published" when="1992">1992</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b14">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Magnetic Alignment of the Chiral Nematic Phase of a Cellulose Microfibril Suspension</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">F</ns0:forename><ns0:surname>Kimura</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">T</ns0:forename><ns0:surname>Kimura</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Tamura</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Hirai</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Ikuno</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">F</ns0:forename><ns0:surname>Horii</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Langmuir</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">21</ns0:biblScope>
+			<ns0:biblScope unit="issue">5</ns0:biblScope>
+			<ns0:biblScope unit="page" from="2034" to="2037" />
+			<ns0:date type="published" when="2005">2005</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b15">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Orientation of Native Cellulose in an Electric Field</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:surname>Bordel</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J.-L</ns0:forename><ns0:surname>Putaux</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">L</ns0:forename><ns0:surname>Heux</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Langmuir</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">22</ns0:biblScope>
+			<ns0:biblScope unit="issue">11</ns0:biblScope>
+			<ns0:biblScope unit="page" from="4899" to="4901" />
+			<ns0:date type="published" when="2006">2006</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b16">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Cellulose in Never-Dried Gel Oriented by an Ac Electric Field</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">W</ns0:forename><ns0:surname>Gindl</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">G</ns0:forename><ns0:surname>Emsenhuber</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">G</ns0:forename><ns0:surname>Maier</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Keckes</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Biomacromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">10</ns0:biblScope>
+			<ns0:biblScope unit="issue">5</ns0:biblScope>
+			<ns0:biblScope unit="page" from="1315" to="1318" />
+			<ns0:date type="published" when="2009">2009</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b17">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Aligned Unidirectional Pla/Bacterial Cellulose Nanocomposite Fibre Reinforced Pdlla Composites</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">J</ns0:forename><ns0:surname>Blaker</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K.-Y</ns0:forename><ns0:surname>Lee</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Walters</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Drouet</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Bismarck</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">React. Funct. Polym</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">85</ns0:biblScope>
+			<ns0:biblScope unit="page" from="185" to="192" />
+			<ns0:date type="published" when="2014">2014</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b18">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Nanofiber Assembly by Rotary Jet-Spinning</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:forename type="middle">R</ns0:forename><ns0:surname>Badrossamay</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">H</ns0:forename><ns0:forename type="middle">A</ns0:forename><ns0:surname>Mcilwee</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">A</ns0:forename><ns0:surname>Goss</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:forename type="middle">K</ns0:forename><ns0:surname>Parker</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Nano Lett</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="issue">6</ns0:biblScope>
+			<ns0:biblScope unit="page" from="2257" to="2261" />
+			<ns0:date type="published" when="2010">2010</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b19">
+	<ns0:monogr>
+		<ns0:title level="m" type="main">Cellulose Microcrystal Film of High Uniaxial Orientation. Macromolecules 1997</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">N</ns0:forename><ns0:surname>Yoshiharu</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:surname>Shigenori</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">W</ns0:forename><ns0:surname>Masahisa</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">O</ns0:forename><ns0:surname>Takeshi</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">30</ns0:biblScope>
+			<ns0:biblScope unit="page" from="6395" to="6397" />
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b20">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Effects of Crystal Orientation on Cellulose Nanocrystals-Cellulose Acetate Nanocomposite Fibers Prepared by Dry Spinning</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Chen</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">G</ns0:forename><ns0:surname>Schueneman</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">R</ns0:forename><ns0:forename type="middle">B</ns0:forename><ns0:surname>Pipes</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Youngblood</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">R</ns0:forename><ns0:forename type="middle">J</ns0:forename><ns0:surname>Moon</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Biomacromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">15</ns0:biblScope>
+			<ns0:biblScope unit="issue">10</ns0:biblScope>
+			<ns0:biblScope unit="page" from="3827" to="3835" />
+			<ns0:date type="published" when="2014">2014</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b21">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Structure and Mechanical Properties of Wet-Spun Fibers Made from Natural Cellulose Nanofibers</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Iwamoto</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Isogai</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">T</ns0:forename><ns0:surname>Iwata</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Biomacromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">12</ns0:biblScope>
+			<ns0:biblScope unit="issue">3</ns0:biblScope>
+			<ns0:biblScope unit="page" from="831" to="836" />
+			<ns0:date type="published" when="2011">2011</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b22">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Dry-Spun Single-Filament Fibers Comprising Solely Cellulose Nanofibers from Bioresidue</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Hooshmand</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Y</ns0:forename><ns0:surname>Aitomaki</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">N</ns0:forename><ns0:surname>Norberg</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:forename type="middle">P</ns0:forename><ns0:surname>Mathew</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:surname>Oksman</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">ACS Appl. Mater. Interfaces</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">7</ns0:biblScope>
+			<ns0:biblScope unit="issue">23</ns0:biblScope>
+			<ns0:biblScope unit="page" from="13022" to="13028" />
+			<ns0:date type="published" when="2015">2015</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b23">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Multifunctional Bacterial Cellulose and Nanoparticle-Embedded Composites</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Vitta</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">V</ns0:forename><ns0:surname>Thiruvengadam</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Curr. Sci</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">2012</ns0:biblScope>
+			<ns0:biblScope unit="issue">10</ns0:biblScope>
+			<ns0:biblScope unit="page" from="1398" to="1405" />
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b24">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Recent Advances in Bacterial Cellulose</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Y</ns0:forename><ns0:surname>Huang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">C</ns0:forename><ns0:surname>Zhu</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Yang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Y</ns0:forename><ns0:surname>Nie</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">C</ns0:forename><ns0:surname>Chen</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:surname>Sun</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Cellulose</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">21</ns0:biblScope>
+			<ns0:biblScope unit="issue">1</ns0:biblScope>
+			<ns0:biblScope unit="page" from="1" to="30" />
+			<ns0:date type="published" when="2014">2014</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b25">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Creating Hierarchical Structures in Renewable Composites by Attaching Bacterial Cellulose onto Sisal Fibers</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Juntaro</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Pommet</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">G</ns0:forename><ns0:surname>Kalinka</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Mantalaris</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:forename type="middle">S</ns0:forename><ns0:surname>Shaffer</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Bismarck</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Adv. Mater</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">20</ns0:biblScope>
+			<ns0:biblScope unit="issue">16</ns0:biblScope>
+			<ns0:biblScope unit="page" from="3122" to="3126" />
+			<ns0:date type="published" when="2008">2008</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b26">
+	<ns0:analytic>
+		<ns0:title />
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">C</ns0:forename><ns0:surname>Chen</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">T</ns0:forename><ns0:surname>Zhang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Q</ns0:forename><ns0:surname>Zhang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">X</ns0:forename><ns0:surname>Chen</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">C</ns0:forename><ns0:surname>Zhu</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Y</ns0:forename><ns0:surname>Xu</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Yang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Liu</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:surname>Sun</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Biointerface by Cell Growth on Graphene Oxide Doped Bacterial Cellulose/Poly</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">3</ns0:biblScope>
+			<ns0:biblScope unit="page">4</ns0:biblScope>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b27">
+	<ns0:analytic>
+		<ns0:title />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Nanofibers. ACS Appl. Mater. Interfaces</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">8</ns0:biblScope>
+			<ns0:biblScope unit="issue">16</ns0:biblScope>
+			<ns0:biblScope unit="page" from="10183" to="10192" />
+			<ns0:date type="published" when="2016">2016</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b28">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Bacterial-Cellulose-Derived Carbon Nanofiber@ Mno2 and Nitrogen-Doped Carbon Nanofiber Electrode Materials: An Asymmetric Supercapacitor with High Energy and Power Density</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">L</ns0:forename><ns0:forename type="middle">F</ns0:forename><ns0:surname>Chen</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Z</ns0:forename><ns0:forename type="middle">H</ns0:forename><ns0:surname>Huang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">H</ns0:forename><ns0:forename type="middle">W</ns0:forename><ns0:surname>Liang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Q</ns0:forename><ns0:forename type="middle">F</ns0:forename><ns0:surname>Guan</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:forename type="middle">H</ns0:forename><ns0:surname>Yu</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Adv. Mater</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">25</ns0:biblScope>
+			<ns0:biblScope unit="issue">34</ns0:biblScope>
+			<ns0:biblScope unit="page" from="4746" to="4752" />
+			<ns0:date type="published" when="2013">2013</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b29">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Flexible, and Fire-Resistant Carbon Nanofiber Aerogels from Bacterial Cellulose</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Z</ns0:forename><ns0:forename type="middle">Y</ns0:forename><ns0:surname>Wu</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">C</ns0:forename><ns0:surname>Li</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">H</ns0:forename><ns0:forename type="middle">W</ns0:forename><ns0:surname>Liang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">F</ns0:forename><ns0:surname>Chen</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:forename type="middle">H</ns0:forename><ns0:surname>Yu</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:surname>Ultralight</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Angew. Chem</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="issue">10</ns0:biblScope>
+			<ns0:biblScope unit="page" from="2997" to="3001" />
+			<ns0:date type="published" when="2013">2013</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b30">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Color-Tunable Luminescent Cdte Quantum Dot Membranes Based on Bacterial Cellulose (BC) and Application in Ion Detection</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Y</ns0:forename><ns0:surname>Ge</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Chen</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Yang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">B</ns0:forename><ns0:surname>Wang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">H</ns0:forename><ns0:surname>Wang</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">RSC Adv</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">2015</ns0:biblScope>
+			<ns0:biblScope unit="issue">69</ns0:biblScope>
+			<ns0:biblScope unit="page" from="55756" to="55761" />
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b31">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Cellulose Nanofibers Prepared by Tempo-Mediated Oxidation of Native Cellulose</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">T</ns0:forename><ns0:surname>Saito</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Kimura</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Y</ns0:forename><ns0:surname>Nishiyama</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Isogai</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Biomacromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">8</ns0:biblScope>
+			<ns0:biblScope unit="issue">8</ns0:biblScope>
+			<ns0:biblScope unit="page" from="2485" to="2491" />
+			<ns0:date type="published" when="2007">2007</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b32">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Tempo-Oxidized Cellulose Nanofibers</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Isogai</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">T</ns0:forename><ns0:surname>Saito</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">H</ns0:forename><ns0:surname>Fukuzumi</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Nanoscale</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">2011</ns0:biblScope>
+			<ns0:biblScope unit="issue">1</ns0:biblScope>
+			<ns0:biblScope unit="page" from="71" to="85" />
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b33">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Entire Surface Oxidation of Various Cellulose Microfibrils by Tempo-Mediated Oxidation</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Y</ns0:forename><ns0:surname>Okita</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">T</ns0:forename><ns0:surname>Saito</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Isogai</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Biomacromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">2010</ns0:biblScope>
+			<ns0:biblScope unit="issue">6</ns0:biblScope>
+			<ns0:biblScope unit="page" from="1696" to="1700" />
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b34">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Tempo-Mediated Oxidation of Native Cellulose. The Effect of Oxidation Conditions on Chemical and Crystal Structures of the Water-Insoluble Fractions</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">T</ns0:forename><ns0:surname>Saito</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Isogai</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Biomacromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">5</ns0:biblScope>
+			<ns0:biblScope unit="issue">5</ns0:biblScope>
+			<ns0:date type="published" when="1983">2004. 1983−1989</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b35">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Aligned Bioinspired Cellulose Nanocrystal-Based Nanocomposites with Synergetic Mechanical Properties and Improved Hygromechanical Performance</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">B</ns0:forename><ns0:surname>Wang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">G</ns0:forename><ns0:surname>Torres-Rendon</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Yu</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Y</ns0:forename><ns0:surname>Zhang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Walther</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">ACS Appl. Mater. Interfaces</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">7</ns0:biblScope>
+			<ns0:biblScope unit="issue">8</ns0:biblScope>
+			<ns0:biblScope unit="page" from="4595" to="4607" />
+			<ns0:date type="published" when="2015">2015</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b36">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Wide-Angle X-Ray Diffraction of Cellulose Nanocrystal− Alginate Nanocomposite Fibers</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">E</ns0:forename><ns0:forename type="middle">E</ns0:forename><ns0:surname>Urenã-Benavides</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">C</ns0:forename><ns0:forename type="middle">L</ns0:forename><ns0:surname>Kitchens</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Macromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">44</ns0:biblScope>
+			<ns0:biblScope unit="issue">9</ns0:biblScope>
+			<ns0:biblScope unit="page" from="3478" to="3484" />
+			<ns0:date type="published" when="2011">2011</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b37">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Thermal Expansion of Self-Organized and Shear-Oriented Cellulose Nanocrystal Films</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">A</ns0:forename><ns0:surname>Diaz</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">X</ns0:forename><ns0:surname>Wu</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Martini</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">P</ns0:forename><ns0:surname>Youngblood</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">R</ns0:forename><ns0:forename type="middle">J</ns0:forename><ns0:surname>Moon</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Biomacromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">14</ns0:biblScope>
+			<ns0:biblScope unit="issue">8</ns0:biblScope>
+			<ns0:biblScope unit="page" from="2900" to="2908" />
+			<ns0:date type="published" when="2013">2013</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b38">
+	<ns0:monogr>
+		<ns0:title level="m" type="main">Facilely Green Synthesis of Silver Nanoparticles into Bacterial Cellulose</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Z</ns0:forename><ns0:surname>Li</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">L</ns0:forename><ns0:surname>Wang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Chen</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">C</ns0:forename><ns0:surname>Feng</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Chen</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">N</ns0:forename><ns0:surname>Yin</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Yang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">H</ns0:forename><ns0:surname>Wang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Y</ns0:forename><ns0:surname>Xu</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:imprint>
+			<ns0:date type="published" when="2015">2015</ns0:date>
+			<ns0:biblScope unit="volume">22</ns0:biblScope>
+			<ns0:biblScope unit="page" from="373" to="383" />
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b39">
+	<ns0:monogr>
+		<ns0:title />
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Park</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">O</ns0:forename><ns0:surname>Baker</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:forename type="middle">E</ns0:forename><ns0:surname>Himmel</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">P</ns0:forename><ns0:forename type="middle">A</ns0:forename><ns0:surname>Parilla</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:surname>Johnson</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:imprint />
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b40">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Cellulose Crystallinity Index: Measurement Techniques and Their Impact on Interpreting Cellulase Performance</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Biotechnol. Biofuels</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="page">10</ns0:biblScope>
+			<ns0:date type="published" when="2010">2010</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b41">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Hydrodynamic Alignment and Assembly of Nanofibrils Resulting in Strong Cellulose Filaments</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:forename type="middle">M O</ns0:forename><ns0:surname>Hakansson</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:forename type="middle">B</ns0:forename><ns0:surname>Fall</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">F</ns0:forename><ns0:surname>Lundell</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Yu</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">C</ns0:forename><ns0:surname>Krywka</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:forename type="middle">V</ns0:forename><ns0:surname>Roth</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">G</ns0:forename><ns0:surname>Santoro</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Kvick</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">L</ns0:forename><ns0:surname>Wittberg</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">L</ns0:forename><ns0:surname>Wagberg</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">L</ns0:forename><ns0:forename type="middle">D</ns0:forename><ns0:surname>Soederberg</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Nat. Commun</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">5</ns0:biblScope>
+			<ns0:biblScope unit="page" from="1" to="10" />
+			<ns0:date type="published" when="2014">2014</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b42">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Strong and Tough Cellulose Nanopaper with High Specific Surface Area and Porosity</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">H</ns0:forename><ns0:surname>Sehaqui</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Q</ns0:forename><ns0:surname>Zhou</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">O</ns0:forename><ns0:surname>Ikkala</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">L</ns0:forename><ns0:forename type="middle">A</ns0:forename><ns0:surname>Berglund</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Biomacromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">12</ns0:biblScope>
+			<ns0:biblScope unit="issue">10</ns0:biblScope>
+			<ns0:biblScope unit="page" from="3638" to="3644" />
+			<ns0:date type="published" when="2011">2011</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b43">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Stretchable and Strong Cellulose Nanopaper Structures Based on Polymer-Coated Nanofiber Networks: An Alternative to Nonwoven Porous Membranes from Electrospinning</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">H</ns0:forename><ns0:surname>Sehaqui</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Morimune</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">T</ns0:forename><ns0:surname>Nishino</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">L</ns0:forename><ns0:forename type="middle">A</ns0:forename><ns0:surname>Berglund</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Biomacromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">2012</ns0:biblScope>
+			<ns0:biblScope unit="issue">11</ns0:biblScope>
+			<ns0:biblScope unit="page" from="3661" to="3667" />
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b44">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Strength and Water Interactions of Cellulose I Filaments Wet-Spun from Cellulose Nanofibril Hydrogels</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:forename type="middle">J</ns0:forename><ns0:surname>Lundahl</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:forename type="middle">G</ns0:forename><ns0:surname>Cunha</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">E</ns0:forename><ns0:surname>Rojo</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">L</ns0:forename><ns0:surname>Rautkari</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">C</ns0:forename><ns0:surname>Arboleda</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">O</ns0:forename><ns0:forename type="middle">J</ns0:forename><ns0:surname>Rojas</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:forename type="middle">C</ns0:forename><ns0:surname>Papageorgiou</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:forename type="middle">S</ns0:forename><ns0:surname>Gordeyeva</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:forename type="middle">B</ns0:forename><ns0:surname>Fall</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Hall</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">B</ns0:forename><ns0:surname>Wicklein</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">L</ns0:forename><ns0:surname>Bergstrom</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">J. Colloid Interface Sci</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">6</ns0:biblScope>
+			<ns0:biblScope unit="issue">44</ns0:biblScope>
+			<ns0:biblScope unit="page" from="44" to="51" />
+			<ns0:date type="published" when="2016">2016. 2016</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+	<ns0:note>Sci. Rep</ns0:note>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b45">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Effect of Cross-Linking with Calcium Ions on the Physical Properties of Alginate Films</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">R</ns0:forename><ns0:surname>Russo</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Malinconico</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">G</ns0:forename><ns0:surname>Santagata</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Biomacromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">8</ns0:biblScope>
+			<ns0:biblScope unit="issue">10</ns0:biblScope>
+			<ns0:biblScope unit="page" from="3193" to="3197" />
+			<ns0:date type="published" when="2007">2007</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b46">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Strong and Tough Layered Nanocomposites with Buried Interfaces</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:surname>Chen</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">X</ns0:forename><ns0:surname>Tang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Y</ns0:forename><ns0:surname>Yue</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">H</ns0:forename><ns0:surname>Zhao</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">L</ns0:forename><ns0:surname>Guo</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">ACS Nano</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">10</ns0:biblScope>
+			<ns0:biblScope unit="issue">4</ns0:biblScope>
+			<ns0:biblScope unit="page" from="4816" to="4827" />
+			<ns0:date type="published" when="2016">2016</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b47">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Cellulose Nanofibril Hydrogel Tubes as Sacrificial Templates for Freestanding Tubular Cell Constructs</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">G</ns0:forename><ns0:surname>Torres-Rendon</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Kopf</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:surname>Gehlen</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Blaeser</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">H</ns0:forename><ns0:surname>Fischer</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">L</ns0:forename><ns0:forename type="middle">D</ns0:forename><ns0:surname>Laporte</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Walther</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Biomacromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">17</ns0:biblScope>
+			<ns0:biblScope unit="issue">3</ns0:biblScope>
+			<ns0:biblScope unit="page" from="905" to="913" />
+			<ns0:date type="published" when="2016">2016</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b48">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Ultrastrong Fibers Assembled from Giant Graphene Oxide Sheets</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Z</ns0:forename><ns0:surname>Xu</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">H</ns0:forename><ns0:surname>Sun</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">X</ns0:forename><ns0:surname>Zhao</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">C</ns0:forename><ns0:surname>Gao</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Adv. Mater</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">25</ns0:biblScope>
+			<ns0:biblScope unit="issue">2</ns0:biblScope>
+			<ns0:biblScope unit="page" from="188" to="193" />
+			<ns0:date type="published" when="2013">2013</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b49">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Stabilization of Fe-Pd Nanoparticles with Sodium Carboxymethyl Cellulose for Enhanced Transport and Dechlorination of Trichloroethylene in Soil and Groundwater</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">F</ns0:forename><ns0:surname>He</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:surname>Zhao</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Liu</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">C</ns0:forename><ns0:forename type="middle">B</ns0:forename><ns0:surname>Roberts</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Ind. Eng. Chem. Res</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">46</ns0:biblScope>
+			<ns0:biblScope unit="issue">1</ns0:biblScope>
+			<ns0:biblScope unit="page" from="29" to="34" />
+			<ns0:date type="published" when="2007">2007</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b50">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Interaction of Poly (Methacrylic Acid) Brushes with Metal Ions: Swelling Properties</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">R</ns0:forename><ns0:surname>Konradi</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Ruḧe</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Macromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">38</ns0:biblScope>
+			<ns0:biblScope unit="issue">10</ns0:biblScope>
+			<ns0:biblScope unit="page" from="4345" to="4354" />
+			<ns0:date type="published" when="2005">2005</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b51">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Interaction of Poly (Methacrylic Acid) Brushes with Metal Ions: An Infrared Investigation</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">R</ns0:forename><ns0:surname>Konradi</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Ruḧe</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Macromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">37</ns0:biblScope>
+			<ns0:biblScope unit="issue">18</ns0:biblScope>
+			<ns0:biblScope unit="page" from="6954" to="6961" />
+			<ns0:date type="published" when="2004">2004</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b52">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Cation-Induced Hydrogels of Cellulose Nanofibrils with Tunable Moduli</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">H</ns0:forename><ns0:surname>Dong</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">F</ns0:forename><ns0:surname>Snyder</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:forename type="middle">S</ns0:forename><ns0:surname>Williams</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">W</ns0:forename><ns0:surname>Andzelm</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Biomacromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">14</ns0:biblScope>
+			<ns0:biblScope unit="issue">9</ns0:biblScope>
+			<ns0:biblScope unit="page" from="3338" to="3345" />
+			<ns0:date type="published" when="2013">2013</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b53">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Characteristics of Tempo-Oxidized Cellulose Fibril-Based Hydrogels Induced by Cationic Ions and Their Properties</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">N</ns0:forename><ns0:surname>Masruchin</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">B.-D</ns0:forename><ns0:surname>Park</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">V</ns0:forename><ns0:surname>Causin</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">I</ns0:forename><ns0:forename type="middle">C</ns0:forename><ns0:surname>Um</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Cellulose</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">22</ns0:biblScope>
+			<ns0:biblScope unit="issue">3</ns0:biblScope>
+			<ns0:date type="published" when="1993">2015. 1993− 2010</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+				</ns0:listBibl>
+			</ns0:div>
+		</ns0:back>
+	</ns0:text>
+</ns0:TEI>

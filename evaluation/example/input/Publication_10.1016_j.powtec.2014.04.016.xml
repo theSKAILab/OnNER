@@ -1,0 +1,1142 @@
+<ns0:TEI xmlns:ns0="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:space="preserve" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+	<ns0:teiHeader xml:lang="en">
+		<ns0:fileDesc>
+			<ns0:titleStmt>
+				<ns0:title level="a" type="main">Effect of drying conditions on cellulose nanocrystal (CNC) agglomerate porosity and dispersibility in polymer nanocomposites</ns0:title>
+			</ns0:titleStmt>
+			<ns0:publicationStmt>
+				<ns0:publisher />
+				<ns0:availability status="unknown"><ns0:licence /></ns0:availability>
+				<ns0:date type="published" when="2014-04-15">15 April 2014</ns0:date>
+			</ns0:publicationStmt>
+			<ns0:sourceDesc>
+				<ns0:biblStruct>
+					<ns0:analytic>
+						<ns0:author>
+							<ns0:persName><ns0:forename type="first">V</ns0:forename><ns0:surname>Khoshkava</ns0:surname></ns0:persName>
+							<ns0:affiliation key="aff0">
+								<ns0:orgName type="department">Department of Chemical Engineering</ns0:orgName>
+								<ns0:orgName type="institution">McGill University</ns0:orgName>
+								<ns0:address>
+									<ns0:addrLine>3610 University Street</ns0:addrLine>
+									<ns0:postCode>H3A 2B2</ns0:postCode>
+									<ns0:settlement>Montreal</ns0:settlement>
+									<ns0:region>Quebec</ns0:region>
+									<ns0:country key="CA">Canada</ns0:country>
+								</ns0:address>
+							</ns0:affiliation>
+						</ns0:author>
+						<ns0:author role="corresp">
+							<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:forename type="middle">R</ns0:forename><ns0:surname>Kamal</ns0:surname></ns0:persName>
+							<ns0:email>musa.kamal@mcgill.ca</ns0:email>
+							<ns0:affiliation key="aff0">
+								<ns0:orgName type="department">Department of Chemical Engineering</ns0:orgName>
+								<ns0:orgName type="institution">McGill University</ns0:orgName>
+								<ns0:address>
+									<ns0:addrLine>3610 University Street</ns0:addrLine>
+									<ns0:postCode>H3A 2B2</ns0:postCode>
+									<ns0:settlement>Montreal</ns0:settlement>
+									<ns0:region>Quebec</ns0:region>
+									<ns0:country key="CA">Canada</ns0:country>
+								</ns0:address>
+							</ns0:affiliation>
+						</ns0:author>
+						<ns0:title level="a" type="main">Effect of drying conditions on cellulose nanocrystal (CNC) agglomerate porosity and dispersibility in polymer nanocomposites</ns0:title>
+					</ns0:analytic>
+					<ns0:monogr>
+						<ns0:imprint>
+							<ns0:date type="published" when="2014-04-15">15 April 2014</ns0:date>
+						</ns0:imprint>
+					</ns0:monogr>
+					<ns0:idno type="DOI">10.1016/j.powtec.2014.04.016</ns0:idno>
+					<ns0:note type="submission">Received 2 January 2014 Received in revised form 30 March 2014 Accepted 4 April 2014</ns0:note>
+				</ns0:biblStruct>
+			</ns0:sourceDesc>
+		</ns0:fileDesc>
+		<ns0:encodingDesc>
+			<ns0:appInfo>
+				<ns0:application version="0.7.2-SNAPSHOT" ident="GROBID" when="2023-04-13T17:44+0000">
+					<ns0:desc>GROBID - A machine learning software for extracting information from scholarly documents</ns0:desc>
+					<ns0:ref target="https://github.com/kermitt2/grobid" />
+				</ns0:application>
+			</ns0:appInfo>
+		</ns0:encodingDesc>
+		<ns0:profileDesc>
+			<ns0:textClass>
+				<ns0:keywords>Cellulose nanocrystal (CNC) Porous powder structure Melt dispersion Polymer nanocomposite</ns0:keywords>
+			</ns0:textClass>
+			<ns0:abstract>
+<ns0:div><ns0:p>The microstructure of CNC particles depends strongly on the drying method employed during manufacturing. The effect of different drying techniques, including spray drying, freeze drying, and spray freeze drying (SFD), on microstructure of cellulose nanocrystal (CNC) particles was studied. Conventional drying methods (i.e. spray and freeze drying) yielded packed and dense agglomerates of CNC. Capillary forces and ice crystal growth play key roles in CNC aggregation during spray and freeze drying, respectively. It was found that, in the absence of these forces, in the SFD technique, the dispersed state of CNC in water could be frozen in. Thus, SFD of CNC suspension resulted in a powder with porous structure. A filament-like agglomerate structure consisting of nanofibers was formed at low CNC concentrations (ca. b2 wt.%), while a spherical foam structure was obtained at higher CNC concentrations. Polypropylene (PP) nanocomposites containing spray dried CNC, freeze dried CNC, and spray freeze dried CNC (CNCSFD) were prepared via melt mixing in an internal batch mixer. Optical light and scanning electron microscopy coupled with rheological properties showed better dispersion of CNCSFD agglomerates. Moreover, PP samples containing CNCSFD showed significant increases in mechanical properties.</ns0:p></ns0:div>
+			</ns0:abstract>
+		</ns0:profileDesc>
+	</ns0:teiHeader>
+	<ns0:text xml:lang="en">
+		<ns0:body>
+<ns0:div><ns0:head n="1.">Introduction</ns0:head><ns0:p>Cellulose nanocrystals (CNCs) are obtained by strong acid hydrolysis or oxidation of cellulose crystals from cellulose microfibrils in forest products and/or other sources <ns0:ref type="bibr" target="#b0">[1,</ns0:ref><ns0:ref type="bibr" target="#b1">2]</ns0:ref>. CNC particles have been of growing interest because they are biocompatible and biodegradable and can be obtained from a variety of natural sources. Furthermore, the physical and mechanical properties of CNC make it a potential candidate for reinforcement of polymers <ns0:ref type="bibr" target="#b2">[3,</ns0:ref><ns0:ref type="bibr" target="#b3">4]</ns0:ref>.</ns0:p><ns0:p>CNC nanoparticles have high specific surface area and surface energy. Consequently, they aggregate and form larger particles during and/ or in the last step of the production process. After separation from other impurities and amorphous cellulose, CNC is obtained as an aqueous suspension. However, there are a variety of applications where CNC is needed in the powder form. Such applications include the preparation of polymeric nanocomposites in hydrophobic polymer matrices using melt processing. Moreover, transportation of CNC in the powder state reduces transportation costs. Therefore, a drying step is required to obtain dry CNC powder from the aqueous suspension. For CNC aqueous suspension, conventional drying methods such as spray and freeze drying have been employed <ns0:ref type="bibr" target="#b4">[5,</ns0:ref><ns0:ref type="bibr" target="#b5">6]</ns0:ref>. In the spray drying method, CNC suspension is atomized inside a drying chamber where hot air (higher than 100 °C) is used as the drying atmosphere which results in a powder with particle sizes in micron size range. Freeze drying or lyophilization is a drying process that occurs at low temperature by sublimation and is suitable for thermosensitive materials. Spray freeze drying (SFD) is a cryogenic atomization technique consisting of two main steps: (i) an aqueous solution is atomized directly/indirectly into a cryogenic liquid, such as liquid nitrogen, and (ii) freeze drying of the frozen suspension below the triple point of water. This technique has been used in the ceramic, food and pharmaceutical industries <ns0:ref type="bibr" target="#b6">[7]</ns0:ref><ns0:ref type="bibr" target="#b7">[8]</ns0:ref><ns0:ref type="bibr" target="#b8">[9]</ns0:ref><ns0:ref type="bibr" target="#b9">[10]</ns0:ref><ns0:ref type="bibr" target="#b10">[11]</ns0:ref><ns0:ref type="bibr" target="#b11">[12]</ns0:ref>. However, to our knowledge, it has not been used in conjunction with CNC.</ns0:p><ns0:p>Most attempts to prepare polymer/CNC nanocomposites via melt mixing were not successful to disperse CNC and therefore enhance mechanical properties of polymer <ns0:ref type="bibr" target="#b12">[13]</ns0:ref><ns0:ref type="bibr" target="#b13">[14]</ns0:ref><ns0:ref type="bibr" target="#b14">[15]</ns0:ref><ns0:ref type="bibr" target="#b15">[16]</ns0:ref>. Therefore, most polymer nanocomposite preparations with CNC have been limited to solution mixing <ns0:ref type="bibr" target="#b16">[17]</ns0:ref><ns0:ref type="bibr" target="#b17">[18]</ns0:ref><ns0:ref type="bibr" target="#b18">[19]</ns0:ref><ns0:ref type="bibr" target="#b19">[20]</ns0:ref>. One of the challenges in polymer nanocomposite field is nanoparticle dispersion evaluation in polymer matrices. This becomes a severe challenge for CNC as an organic nanoparticle dispersed in an organic medium such as polymer matrices. Thus, microscopy as a direct and conventional tool for dispersion is limited for polymer/CNC nanocomposites. On the other side, rheology as a sensitive tool to nanoparticle dispersion could be employed as a complementary technique.</ns0:p><ns0:p>In this work, the effect of spray freeze drying on the microstructure of CNC agglomerates is studied. The porous CNC micro-particles (agglomerates) obtained by SFD could be used in applications where porosity is of interest, such as polymer nanocomposites, drug delivery, scaffolds, and catalysts. In a previous study <ns0:ref type="bibr" target="#b20">[21]</ns0:ref>, we found that thermodynamic analysis of energy requirements is not sufficient to achieve good dispersion of CNC in polymer melts, because kinetics factors should be also taken into consideration. Therefore, the relation between CNC agglomerate structure and its dispersibility in polymer matrices is analyzed, with due consideration to particle strength and polymer diffusion standpoint. The morphological, rheological, and mechanical properties of polymer nanocomposites containing CNC agglomerates prepared with different drying techniques (SD, FD, and SFD) are also investigated.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="2.">Background</ns0:head></ns0:div>
+<ns0:div><ns0:head n="2.1.">Dispersion of nanoparticles</ns0:head><ns0:p>Inter-nanoparticle forces and interaction energy play an important role in the preparation of polymer nanocomposite systems. The magnitude of van der Waals interaction energy and forces between two isolated nanoparticles depends on the geometry of nanoparticles, as well as inter-particle distance. CNC can be considered as a cylindrical nanoparticle with 7 nm radius and 150 nm length <ns0:ref type="bibr" target="#b20">[21]</ns0:ref>. Table <ns0:ref type="table">1</ns0:ref> shows equations and estimates for inter-particle interaction energy and force between two cross and parallel CNC cylindrical particles. U <sub>i</sub> , F <sub>i</sub> , A <sub>H</sub> , R, L, and z are the van der Waal interaction energy between particles, inter-particle force, Hamaker constant, particle radius, cylinder length, and interparticle distance, respectively. A <sub>H</sub> , the Hamaker constant, is defined as <ns0:ref type="bibr" target="#b21">[22]</ns0:ref>:</ns0:p><ns0:formula xml:id="formula_0">A <sub>H</sub> ¼ 24&#960;D <sub>0</sub> <super>2</super> γ<ns0:label>ð1&#222;</ns0:label></ns0:formula><ns0:p>where D <sub>0</sub> and γ are the theoretical molecular distance between two particles in contact, known as "cutoff", 0.165 nm, and surface energy of CNC at 190 °C <ns0:ref type="bibr" target="#b20">[21]</ns0:ref>, respectively. The inter-particle van der Waals interaction energy and force between nanoparticles depend on the orientation of the individual nanoparticles. Inter-particle energy of two parallel and cross cylinders is comparable to or stronger than inter-molecular energy such as hydrogen bond energy (3.48 × 10 <super>−</super> <super>20</super> J) and C\C covalent bond energy (5.98 × 10 <super>-19</super> J) <ns0:ref type="bibr" target="#b22">[23]</ns0:ref>. It is also noteworthy that CNC nanoparticles can interact via hydrogen bonding. The number of hydroxyl groups per unit surface area (7.2 OH/nm <super>2</super> ) was calculated based on CNC unit cell. Also, the hydrogen bonding interaction energy associated with the hydroxyl groups on the CNC surface for two CNC nanoparticles in contact with parallel orientation (Table <ns0:ref type="table">1</ns0:ref>) is estimated to be 7.5 × 10 <super>−16</super> J <ns0:ref type="bibr" target="#b3">[4]</ns0:ref>. This interaction energy is almost two orders of magnitude higher than van der Waals colloidal energy. However, hydrogen bonding energy interactions are short range (less than 0.32 nm) compared to the longer range colloidal van der Waals energy (up to 100 nm). At very small inter-particle distance, hydrogen bond interaction is predominant, but at higher separation distance, the major interaction energy is due to colloidal van der Waals interactions. CNC surface modification (covalent and non-covalent methods) is employed to overcome hydrogen bonding interactions and thus to improve CNC dispersion in polymer matrices. Modifiers could also increase inter-particle distance between CNC nanoparticles. Thus, according to Table <ns0:ref type="table">1</ns0:ref>, van der Waals interactions become lower. Unlike interaction energy, the force required to separate nanoparticles depends on the path or method of separation <ns0:ref type="bibr" target="#b23">[24]</ns0:ref>. In the case of cylindrical shape nanoparticle (CNC in this work), the orientation of nanoparticles in the flow field determines ease or feasibility of separation.</ns0:p><ns0:p>CNC nanoparticles with parallel orientation can be separated in two ways: pulling and peeling (Fig. <ns0:ref type="figure" target="#fig_1">1</ns0:ref>). In the pulling mechanism, the separation route is perpendicular to the surface. In fact, contact area is constant but the equilibrium distance gradually increases. Therefore, the required hydrodynamic force to fully separate two parallel CNC particles is 115 nN (see Table <ns0:ref type="table">1</ns0:ref>). The pulling mechanism is very fast and rapid. It is known in dispersion literature as the breakup/rupture mechanism (discussed later). However, in the case of peeling, the applied force is spent on reducing contact area between the two parallel CNC nanoparticles. Thus, the force required to fully separate the CNC particles is much less than the pulling force:</ns0:p><ns0:formula xml:id="formula_1">F <sub>peeling</sub> ¼ U <sub>plate</sub> L ¼ 7:6 Â 10 <super>−12</super> N:<ns0:label>ð2&#222;</ns0:label></ns0:formula><ns0:p>It is important to note that separation of two CNC nanoparticles with parallel alignment by a pulling force is not achievable, because the break-up force for C\C covalent bond is around 2.5-13.4 nN <ns0:ref type="bibr" target="#b24">[25,</ns0:ref><ns0:ref type="bibr" target="#b25">26]</ns0:ref>. If this amount of force is provided by employing a very strong mixing element/accessory, polymer chain scission can occur during pulling. As a result, there is no guarantee that all agglomerated nanoparticles will separate during mixing, and some of them remain intact. However, not all CNC particles are in parallel orientation. Other alignments (such as cross) need less hydrodynamic pulling force to be separated (see Table <ns0:ref type="table">1</ns0:ref>).</ns0:p></ns0:div>
+<ns0:div><ns0:head n="2.2.">Dispersion of micro-particles</ns0:head><ns0:p>The above discussion dealt with the separation (dispersion) of two isolated nanoparticles. However, nanoparticles are usually in an aggregated or agglomerated structure. Dispersion or dispersive mixing of agglomerates in polymeric systems requires the reduction of the size of the agglomerates. The final size is determined by the competition Table <ns0:ref type="table">1</ns0:ref> Inter-particle interaction energy and force between two cross and parallel CNC cylindrical particles <ns0:ref type="bibr" target="#b20">[21,</ns0:ref><ns0:ref type="bibr" target="#b31">32]</ns0:ref>.  between hydrodynamic forces (F h ) and cohesive forces (F c ) <ns0:ref type="bibr" target="#b26">[27]</ns0:ref>. Rheological properties of the polymeric matrix and the design and operating conditions of mixing equipment or the flow field determine the hydrodynamic forces.</ns0:p><ns0:formula xml:id="formula_2">U <sub>parallel</sub> ¼ &#8722; <super>AH</super> <super>R</super> <super>0:5</super> <super>L</super> 24z <super>1:5</super> 1.23×10 <super>&#8722;17</super> 1.15×10 <super>&#8722;7</super> F <sub>parallel</sub> ¼ <super>AH</super> <super>R</super> <super>0:5</super> <super>L</super> 16z <super>2:5</super> Ucross ¼ &#8722; <super>AH</super> <super>R</super> 6z 1.1×10 <super>&#8722;18</super> 1.27×10 <super>&#8722;9</super> Fcross ¼ <super>AH</super> <super>R</super> 6z <super>2</super></ns0:formula><ns0:p>It is possible to estimate the cohesion strength of agglomerated nanoparticles from forces of attraction between two isolated nanoparticles in contact. Chemical composition, surface properties of filler, packing structure, and size of particle determine the strength of the agglomerated structure. The strength of an agglomerate, σ, can be estimated using Rumpf's equation <ns0:ref type="bibr" target="#b27">[28]</ns0:ref>:</ns0:p><ns0:formula xml:id="formula_3">σ &#188; 1−&#949; ð &#222; ε F a <super>2</super><ns0:label>ð3&#222;</ns0:label></ns0:formula><ns0:p>where ε and α are porosity and agglomerate radius, respectively. Replacing inter-nanoparticle force (parallel alignment, Table <ns0:ref type="table">1</ns0:ref>) in Eq. (3) yields:</ns0:p><ns0:formula xml:id="formula_4">σ &#188; 1−&#949; ð &#222; ε A <sub>H</sub> R <super>0:5</super> L 16a <super>2</super> z <super>2:5</super> :<ns0:label>ð4&#222;</ns0:label></ns0:formula><ns0:p>Considering low and high viscosity systems with viscosities in the range 1-10 k Pa•s, we found that the hydrodynamic stresses at a typical mixing shear rate of 100 s <super>−1</super> would be in the range of 0.1-1 MN/m 2 . Fig. <ns0:ref type="figure" target="#fig_2">2a</ns0:ref> shows agglomerate strength versus particle radius according to Eq. ( <ns0:ref type="formula" target="#formula_4">4</ns0:ref>) for CNC nanoparticles at 190 °C, where typical polymer-filler mixing usually takes place. It shows that agglomerate strength increases as agglomerate radius decreases. At the beginning of mixing process when particle size is large, hydrodynamic forces are higher than cohesion forces. Thus, particle de-aggregation takes place via the breakup mechanism <ns0:ref type="bibr" target="#b26">[27,</ns0:ref><ns0:ref type="bibr" target="#b28">29,</ns0:ref><ns0:ref type="bibr" target="#b29">30]</ns0:ref>. In other words, at the beginning of the mixing process, agglomerates are weak and they can be easily broken. However, particle strength becomes higher than hydrodynamic forces as particle size is reduced below a certain size. It has been suggested that the erosion mechanism becomes the dominant mechanism of particle size reduction at this point <ns0:ref type="bibr" target="#b26">[27,</ns0:ref><ns0:ref type="bibr" target="#b29">30,</ns0:ref><ns0:ref type="bibr" target="#b30">31]</ns0:ref>. The erosion mechanism is very slow, in comparison to the rapid breakup mechanism. Various approaches are used to facilitate breakup and erosion, such as increasing residence time, using different types of mixing elements, rotor speed, and feeding rate, in addition to using compatibilizer and masterbatch preparation <ns0:ref type="bibr" target="#b31">[32]</ns0:ref><ns0:ref type="bibr" target="#b32">[33]</ns0:ref><ns0:ref type="bibr" target="#b33">[34]</ns0:ref><ns0:ref type="bibr" target="#b34">[35]</ns0:ref><ns0:ref type="bibr" target="#b35">[36]</ns0:ref><ns0:ref type="bibr" target="#b36">[37]</ns0:ref><ns0:ref type="bibr" target="#b37">[38]</ns0:ref><ns0:ref type="bibr" target="#b38">[39]</ns0:ref>.</ns0:p><ns0:p>Fig. <ns0:ref type="figure" target="#fig_2">2b</ns0:ref> also shows agglomerate strength of CNC agglomerates versus porosity for different CNC agglomerate sizes at 190 °C, where typical melt mixing usually takes place. CNC nanoparticle with 7 nm radius, 150 nm length and 18.6 mJ/m <super>2</super> surface energy at 190 °C has been considered <ns0:ref type="bibr" target="#b20">[21]</ns0:ref>. It shows that the strength of agglomerate decreases when porosity increases. Furthermore, polymer infiltration is enhanced as porosity of the particle increases <ns0:ref type="bibr" target="#b39">[40]</ns0:ref>. Thus, agglomerate particle microstructure can play an important role in the facilitating dispersion.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="3.">Experimental</ns0:head></ns0:div>
+<ns0:div><ns0:head n="3.1.">Materials</ns0:head><ns0:p>Polypropylene (PP) (Pro-fax SR549M, LyondellBasell, USA) with 0.9 g/cm <super>3</super> room temperature density and 11 g/10 min MFI (2.16 kg load, at 220 °C) was used as matrix. Cellulose nanocrystal (CNC) white powder was supplied by FPInnovations (FPI), Canada. CNC was prepared using the conventional spray drying method <ns0:ref type="bibr" target="#b5">[6]</ns0:ref>. Henceforth, "as received" refers to spray dried CNC.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="3.2.">Drying of CNC</ns0:head><ns0:p>For a typical experiment, 0.5-6.5 g of CNC powder was dispersed in 100 mL of distilled water, using a shear mixer (IKA, ultra-turrax T25, Germany) at room temperature. The resultant CNC suspension was sonicated for 5 min in an ice bath with a tip sonicator (Qsonica Q700) at amplitude 2, in order to obtain individual CNC nanoparticles. For freeze drying, CNC aqueous suspension was poured in a glass vessel and placed in a refrigerator set at −50 &#176;C, overnight. Then, the frozen suspension  was freeze dried using freeze dryer equipment (Labconco 2.5 L). For spray freeze drying, an aqueous CNC suspension was sprayed into a container containing liquid nitrogen, equipped with a magnetic stirring bar, and then transferred to the freeze dryer equipment (Labconco 2.5 L). The frozen suspension was lyophilized at −52 &#176;C and 0.05 mbar for a period of time (24-72 h).</ns0:p></ns0:div>
+<ns0:div><ns0:head n="3.3.">Preparation of polymer/CNC nanocomposite</ns0:head><ns0:p>Melt compounding was conducted in an internal batch mixer (Rheocord 9000, Haake). The internal batch mixer operates with two blades (roller blades) in counter rotating configuration and total capacity of 60mL. Compounding was carried out at 190 °C and 60 rpm rotor speed for 10 min, under nitrogen atmosphere. CNC powder was prepared using different drying techniques. As received, freeze dried, and spray freeze dried CNC were fed into internal batch mixer after polymer granules were melted. Finally, the mixture was collected for further characterization after cooling to room temperature.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="3.4.">Characterization</ns0:head></ns0:div>
+<ns0:div><ns0:head n="3.4.1.">Morphological studies</ns0:head><ns0:p>The size and shape of the CNC nanoparticle agglomerates (as received) were examined using transmission electron microscopy (TEM) (Philips CM200, 200 kV). A drop, 5-10 μL, of aqueous CNC suspension (0.01 wt.%) was deposited on a carbon-coated copper grid. After evaporation of water, a drop of uranyl acetate water solution (2 wt.%) was deposited on the same grid in order to stain CNC particles.</ns0:p><ns0:p>Atomic force microscopy (AFM) was used to determine the shape and size of CNC nanoparticle agglomerates (as received). A drop, ca. 5 μL, of 0.1% w/v solution of poly-L-lysine was placed on a piece of freshly cleaved mica for 2 min, and then rinsed with water. Subsequently, the mica was  The surface topography of CNC powder obtained by different drying methods was examined, using field emission scanning electron microscopy (FE-SEM, Hitachi S-4700) operated at 2 kV. Prior to SEM observation, CNC powders were coated with gold-palladium vapor deposition for a period of 30 s.</ns0:p><ns0:p>The cryo-fractured surface of PP samples was coated with gold vapor and observed under SEM (JSM-7400F, JEOL, Japan) to evaluate the distribution of CNC in the PP matrix.</ns0:p><ns0:p>Morphology of CNC powder and polymer nanocomposite samples was directly observed by an upright polarized light microscopy (PLM), BX50 (Olympus, Japan), where a light source passes through a polarizer, compensator of 530 nm, sample and then a cross analyzer. The compensator is inserted between polarizer and analyzer to make better contrast. Polymer/CNC samples were molded with a Carver hot press (Wabash, IN, USA) to make a thin film with 10-15 μm thickness.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="3.4.2.">Rheological measurements</ns0:head><ns0:p>All rheological measurements were made using a stress-controlled rheometer (Physica MCR 500, Anton Paar, Graz, Austria) with parallel plate geometry (plate diameter of 25 mm) at 190 °C under nitrogen atmosphere. Disk-shape samples were positioned in the parallel plate fixture and left for 10 min to minimize any residual stress resulting from sample preparation. The gap was set at 1 mm by gradually squeezing the sample. Rheological properties of these samples were determined in small amplitude oscillatory shear (SAOS) mode. Both neat PP and PP/CNC nanocomposites were found to be stable for a period of over 2 h. Hence, thermal degradation was assumed to be negligible during the rheological measurements. The linear viscoelastic region was first determined using strain sweep from 0.01 to 1000% at a constant frequency of 1 rad/s. The linear viscoelastic region was determined by a 5% reduction in the elastic modulus, G′, of the sample.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="3.4.3.">Mechanical properties</ns0:head><ns0:p>Mechanical testing of the nanocomposites was performed on compression molded samples. Dumbbell-shaped specimens (gage length × width × thickness = 15 × 5 &#215; 0.5 mm <super>3</super> ) were cut from molded sheets using a Tensilekut I-series sample milling machine (Maryville, TN, USA) for tensile testing according to ASTM D 882-9. The tensile tests were conducted with an MTS Universal Tensile Testing machine (Eden Prairie, MN, USA). A crosshead speed of 5 mm/min was used for all tests. The average values of 5 experiments are reported.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="3.4.4.">BET surface area analysis</ns0:head><ns0:p>The specific surface area and porosity of CNC particles prepared by different drying techniques were measured from N <sub>2</sub> adsorption/desorption using a Micromeritics TriStar at 77 K and pressures down to 10 <super>−5</super> Torr. Prior to the analysis, the adsorbed moisture on the fine powder surface was eliminated by preheating the powders at 100 °C for 4 h.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="4.">Results and discussion</ns0:head></ns0:div>
+<ns0:div><ns0:head n="4.1.">Spray dried CNC</ns0:head><ns0:p>Figs. <ns0:ref type="figure" target="#fig_11">3 and 4</ns0:ref> show TEM and AFM micrographs of CNC nanoparticles (as received). The average length (171 ± 79.7 nm) and thickness (15.1 ± 5 nm) of re-dispersed CNC nanoparticles were determined from image analysis of TEM images over 150 particles. AFM images were used to estimate the 3D shape and dimensions (length, width, and height) of CNC nanoparticles. A typical example of size analysis for three CNC nanoparticles is presented in Fig. <ns0:ref type="figure" target="#fig_4">4</ns0:ref>. The width or thickness <ns0:ref type="bibr">(28-33 nm)</ns0:ref>, horizontal distance between two cross points, and diameter (4-6 nm), corresponding maximum height between mica substrate and nanoparticle, of CNC nanoparticles are shown along the abscissa and ordinate, respectively. The difference between CNC thickness values obtained from TEM (ca. 15 nm) and AFM (ca. 30 nm) is due to the size of AFM tip (ca. 10 nm) known as tip-convolution <ns0:ref type="bibr" target="#b40">[41]</ns0:ref>.</ns0:p><ns0:p>SEM and crossed light microscopy images of CNC particles (as received) are displayed in Fig. <ns0:ref type="figure" target="#fig_5">5</ns0:ref>. The shape of CNC particles is not a round sphere, due to shrinkage during the spray drying procedure. Similar agglomerate characteristics for spray dried CNC have been reported <ns0:ref type="bibr" target="#b4">[5,</ns0:ref><ns0:ref type="bibr" target="#b5">6]</ns0:ref>. A broad range of CNC particle sizes (ca. 5-30 μm) is observed in Fig. <ns0:ref type="figure" target="#fig_5">5</ns0:ref>. The structural characteristics of spray dried CNC particles are controlled by four forces: capillary, van der Waals, hydrogen bonding, and electrostatic repulsion forces. The first three forces cause CNC nanoparticles to collide, while electrostatic repulsion caused by the negative charge on CNC surface balances over aggregation. Therefore, fast aggregation cannot occur and nanoparticles have enough time to reach the best orientation, for energy minimization before collision. In other words, a random collision cannot take place, which results in a compact and dense powder. The product of the spray drying technique is a powder consisting of compact particles due to capillary, van der Waals and hydrogen forces attracting nanoparticles during drying. The powder particle size becomes smaller than the initial drop size due to evaporation and the capillary effect involved in spray drying technique. The diffusion of a hydrophobic polymer melt into packed spray dried CNC particles (agglomerates) is very difficult. Thus, it allows relatively small contact area between the polymer and CNC. This would require large hydrodynamic forces to cause breakdown of particles to a size or structure that would allow larger surface contact.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="4.2.">Freeze dried CNC</ns0:head><ns0:p>Fig. <ns0:ref type="figure">6</ns0:ref> displays SEM and PLM images of CNC aqueous suspension (3 wt.%) which was first frozen in a refrigerator at − 50 °C and then freeze dried. Large (N100 μm) flake/sheet structure of CNC was formed by slow cooling (in the refrigerator). Unlike the spray drying technique, ice crystal growth is the main reason of CNC aggregation in the freeze drying technique. Indeed, ice crystal nucleation and growth take place throughout the bulk of the sample, and water crystallization occurs slowly. Therefore, CNC nanoparticles are pushed away from the ice crystal region. As a result, CNC nanoparticles collide and agglomerate. As in the case of the spray drying technique, freeze drying of aqueous suspensions produced dense particles.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="4.3.">Spray freeze dried CNC (CNCSFD)</ns0:head><ns0:p>Fig. <ns0:ref type="figure">7</ns0:ref> shows SEM images of spray freeze dried CNC from aqueous suspension at two different concentrations: 0.5 and 1 wt.%. Henceforth, they are referred to as CNCSFD0.5 and CNCSFD1, respectively. As illustrated, at low concentrations (ca. b 2 wt.%), a porous agglomerated CNCs in a filament-like structure,(consisting of interconnected nanofibers) of CNC was created (Fig. <ns0:ref type="figure">7a-b</ns0:ref>) Hereafter in this manuscript referred to as "filament-like agglomerates. In this concentration regime, there was no structural integrity due to the low number density of CNC nanoparticles inside the drops. In other words, there were not enough nanoparticles to preserve the spherical shape of drops after the atomizer. Fibers in CNCSFD0.5 were connected and have a high aspect ratio (if applicable), in comparison with CNC individual nanoparticles (Figs. <ns0:ref type="figure" target="#fig_11">3 and 4</ns0:ref>). The fibers in CNCSFD0.5 had thickness in the range of ca. 10-30 nm (minimum and maximum). The length cannot be readily estimated as the fibers were connected, but it appears to be in micron scale. Similar structure was observed in CNCSFD1 particles (Fig. <ns0:ref type="figure">7c-d</ns0:ref>). The thickness of fibers was in the range of ca. 20-65 nm range (minimum and maximum). It is higher than that in CNCSFD0.5, due to a higher CNC number density in CNCSFD1. Thus, there are more chances for CNC aggregation before or during freezing. The driving force for nanoparticle assembly is not capillary forces anymore. Similar to freeze drying, the main driving force for CNC aggregation is ice crystal growth (solidification) which causes the dispersed phase to collide and agglomerate. The size of crystals and the growth rate depend on the cooling rate. However, in comparison with freeze drying, much less aggregation is expected to occur due to high rapid cooling rate.</ns0:p><ns0:p>More aggregation is expected at a higher CNC concentration during SFD, due to higher collisions and aggregation. Unlike CNCSFD0.5 and  CNCSFD1, spherical foam-structure particles were formed in the case of spray freeze dried CNC from aqueous suspension at concentrations 2 (CNCSFD2) and 6 wt.% (CNCSFD6), as depicted in Figs. <ns0:ref type="figure">8 and 9</ns0:ref>. Unlike spray dried CNC, there was no sign of shrinkage, and particles have a spherical appearance. Pores were left by sublimation of ice crystal during freeze drying. It is important to point out that the word "pore" is applicable for CNCSFD2 and CNCSFD6 particles, contrary to CNCSFD0.5 and CNCSFD1. Pore structure, shape and size seemed to be influenced by CNC concentration. Pore sizes were less than 350 nm in the case of CNCSFD2 (Fig. <ns0:ref type="figure">8a-b</ns0:ref>), and some particles were broken up either during spraying or sample preparation for SEM characterization. A typical example is shown in Fig. <ns0:ref type="figure">8c-d</ns0:ref>. The particle had probably been split. The interior structure indicates that the particle is made of lamellae/sheets which originate from the center and contain pores with less than 350 nm pore size.</ns0:p><ns0:p>Lamella/sheets consist of almost 100% crystal unit structure (i.e. CNC). At high concentration (6 wt.%), pores were larger (Fig. <ns0:ref type="figure">9a-b</ns0:ref>). The SEM image of a broken CNCSFD6 particle is shown in Fig. <ns0:ref type="figure">9c-d</ns0:ref>. Lamella/ sheet structure can be seen in this particle, too. However, the internal structure seems somewhat different from CNCSFD2 in which sheets looked wavier. Fig. <ns0:ref type="figure" target="#fig_8">10</ns0:ref> displays crossed polarized light microscopy of CNCSFD2 and CNCSFD6 particles. Like polymer spherulites, a distinct Maltese cross pattern is observed, indicating an ordered internal structure. It is noteworthy that spray dried CNC particles appeared as yellow spherical objects without a birefringent property Fig. <ns0:ref type="figure" target="#fig_5">5</ns0:ref>.</ns0:p><ns0:p>The BET technique allows the estimation of pore size and surface area by measuring the specific amount of adsorption/desorption of nitrogen gas. As mentioned earlier, depending on CNC concentration in the SFD method, different structures were formed. The interpretation and comparison of BET data of these structures are difficult. Fig. <ns0:ref type="figure" target="#fig_9">11</ns0:ref> shows BET results for spray dried CNC (as received), freeze dried CNC, CNCSFD0.5, CNCSFD2, and CNCSFD6. For CNCSFD0.5 and CNCSFD1 with a filament-like agglomerate structure (see Fig. <ns0:ref type="figure">7</ns0:ref> definition of pore geometry is quite challenging. Pores usually have geometry such as regular or irregular cylindrical, cavities, cracks, and rugged areas connected to the surface of the material. In effect, in the BET technique, nitrogen gas is adsorbed on pore walls and starts to cover the pores. The specific area is estimated based on the amount of adsorbed gas. This could explain the low value of BET surface area (less than 1 m <super>2</super> /g) for freeze and spray dried CNC, because nitrogen gas adsorption, if any, can occur just on the external surface area of micron size particles, shown in Figs. <ns0:ref type="figure" target="#fig_5">5 and 6</ns0:ref>. Likewise, in CNCSFD0.5, nanoscale fibers (Fig. <ns0:ref type="figure">7</ns0:ref>) can act as substrate for gas adsorption and a higher value of BET surface area (20 m <super>2</super> /g) was obtained, due to more accessible area for gas adsorption. Unlike CNCSFD0.5 particles, the word "pore" is more meaningful for CNCSFD2 and CNCSFD6 particles, since there are internal surfaces connected to external surface of the particles. It is not logical to compare BET results of these structures with that in CNCSFD0.5, in which there was no internal structure. CNCSFD2 had a higher value of BET surface area (ca. 42 m <super>2</super> /g) than that of CNCSFD6 (ca. 35 m <super>2</super> /g). It could be due to the smaller pore size in CNCSFD2 which resulted in a higher BET surface area. It should be noted that BET can detect micropores (less than 2 nm) and mesopores (between 2 and 500 nm). Hence, macropores (higher than 500 nm) should not be considered in this technique. The space between lamellae (which is in the micron size) in Figs. <ns0:ref type="figure">8 and 9</ns0:ref> can act as micro-channels for adsorption, which is not taken into account in the BET method.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="4.4.">PP/CNC nanocomposite</ns0:head></ns0:div>
+<ns0:div><ns0:head n="4.4.1.">Morphological studies by microscopy</ns0:head><ns0:p>Fig. <ns0:ref type="figure" target="#fig_2">12a-c</ns0:ref> shows PLM results of spray dried (as received), freeze dried and spray freeze dried CNC, respectively. Fig. <ns0:ref type="figure" target="#fig_2">12d-f</ns0:ref> shows PLM images of unfilled PP (Fig. <ns0:ref type="figure" target="#fig_2">12d</ns0:ref>), PPCNCSD-5 (Fig. <ns0:ref type="figure" target="#fig_2">12e</ns0:ref>), PPCNCFD-5 Fig. <ns0:ref type="figure" target="#fig_2">12f</ns0:ref>, and PPCNCSFD2-5 (Fig. <ns0:ref type="figure" target="#fig_2">12g</ns0:ref>), respectively. In light of the observations in Fig. <ns0:ref type="figure" target="#fig_2">12a-c</ns0:ref>, it can be concluded that platelet and shiny yellow objects in Fig. <ns0:ref type="figure" target="#fig_2">12e</ns0:ref>-f are spray dried and freeze dried CNC agglomerates, correspondingly. It seems that CNC agglomerate size remains almost intact (the same as origin size) with no size reduction as a result of melt mixing with the PP matrix. The PLM result for PPCNCSFD2-5 is shown in Fig. <ns0:ref type="figure" target="#fig_2">12g</ns0:ref> at the same processing conditions. Unlike Fig. <ns0:ref type="figure" target="#fig_2">12e</ns0:ref> and Fig. <ns0:ref type="figure" target="#fig_2">12f</ns0:ref>, there is no trace of large particle at this scale of observation. This explains that it is much easier to de-agglomerate or disperse the highly porous spray freeze dried CNC agglomerates than that of the compact agglomerates obtained by conventional spray drying or freeze drying techniques.</ns0:p><ns0:p>Fig. <ns0:ref type="figure" target="#fig_3">13</ns0:ref> shows SEM images of neat PP, PP containing 5 wt.% spray dried (PPCNCSD-5) and freeze dried CNC (PPCNCFD-5). The presence of CNC agglomerates in Fig. <ns0:ref type="figure" target="#fig_3">13b</ns0:ref> (spherical shape spray dried CNC) and Fig. <ns0:ref type="figure" target="#fig_3">13c</ns0:ref> (lamella/sheet like freeze dried CNC) is an indication of unsuccessful de-aggregation of the conventional drying methods (spray and freeze drying) of CNC suspensions. There is no sign of significant polymer infiltration in spray and freeze dried agglomerates, since they are compact and dense. For instance, NCCSD appeared as a different color (whitish) than the polymer matrix (grayish) in SEM images indicating the absence of significant polymer melt infiltration. On the other hand,  in PP containing 5 wt.% of CNCSFD2 (PPCNCSFD2-5), there was no trace of CNCSFD2 agglomerates in PP, signifying the high efficiency of deaggregation of spray freeze dried CNC, Fig. <ns0:ref type="figure" target="#fig_3">13d</ns0:ref>. Fig. <ns0:ref type="figure" target="#fig_12">14</ns0:ref> shows SEM image of PP containing CNCSFD2 at 2 minute mixing time. Polymer melt infiltration into the porous structure of CNCSFD2 agglomerates can be seen in Fig. <ns0:ref type="figure" target="#fig_12">14</ns0:ref>. In other words, PP melt infiltration time is short and occurs at the beginning of mixing. Then, CNC agglomerates are dispersed and distributed in the PP melt to reach the morphology seen in Fig. <ns0:ref type="figure" target="#fig_3">13d</ns0:ref>. The morphological results confirm the hypothesis of improved dispersion of porous CNC microstructure discussed in the Background section.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="4.4.2.">Rheological properties</ns0:head><ns0:p>The results of complex viscosity and storage modulus versus angular frequency are shown in Fig. <ns0:ref type="figure" target="#fig_13">15</ns0:ref>. PP showed a Newtonian behavior at low frequencies. Adding 5 wt.% of spray dried CNC and freeze dried CNC into PP melt did not change complex viscosity and it was almost superimposed with PP curve. On the other hand, complex viscosity was increased considerably followed by a shear thinning behavior by addition of CNCSFD2 agglomerates into PP melt. Fig. <ns0:ref type="figure" target="#fig_13">15</ns0:ref> also presents results of storage modulus of SAOS tests. Similarly, there was no difference between storage moduli of PP, PPCNCFD-5, and PPCNCSD-5. However, low frequency storage modulus was significantly increased by addition of 5 wt.% CNCSFD2 in PP (PCNCSFD2-5). The slope of storage modulus decreased significantly and a plateau at low frequencies was obtained for PP sample containing 5 wt.% CNCSFD2.</ns0:p><ns0:p>The rheological behavior of PPCNCSFD2-5 is similar to other polymer nanocomposites containing well dispersed anisotropy nanoparticles exhibiting a significant low frequency viscosity upturn and a plateau in storage modulus <ns0:ref type="bibr" target="#b41">[42,</ns0:ref><ns0:ref type="bibr" target="#b42">43]</ns0:ref>. This is attributed to the presence of a network formation of nanoparticles within polymer matrix.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="4.4.3.">Tensile properties</ns0:head><ns0:p>Tensile properties were measured to determine the impact of CNC microstructure on the tensile strength, elongation at break and modulus of the PP/CNC nanocomposites. Fig. <ns0:ref type="figure" target="#fig_14">16</ns0:ref> shows the results for the tensile strength, tensile modulus and elongation at break. There was not any difference between tensile modulus of neat PP and PPCNCSD-5. The PPCNCSFD2-5 samples showed an increase in strength of greater than 20% compared to the pure PP or the PPCNCSD-5. The modulus of samples incorporating PCNCSFD1-5 43% higher than the modulus of PP. Adding spray dried CNC agglomerates directly to the PP did not show any enhancement of the PP modulus. Since a higher stiffness is desirable in many applications, the increase in modulus due to incorporation of spray freeze dried CNC agglomerates is promising and can be advantageous. As expected, the elongation at break is lowered with the addition of the reinforcement. Addition of large amount of nanofiller could reduce the viscous response or plastic deformability of a polymer matrix, while enhancing the elastic response. Consequently it induces brittleness character to the polymer matrix. Moreover, the presence of inevitable agglomerate solid particulates could intensify the brittleness due to stress concentration. The sample that was reinforced with spray dried CNC did not show a large decrease. However, samples containing CNCSFD2 had a very low elongation at break, as expected.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="5.">Conclusion</ns0:head><ns0:p>Separation of CNC nanoparticles into individual nanoparticles is quite challenging, particularly for CNC nanoparticles in parallel orientation, because the required separation force is higher than the C\C bond force. Thus, polymer chain scission and degradation can take place before particle separation. CNC microstructure depends highly on employed drying techniques. Spray and freeze drying yield a dense structure. The former produces smaller particles with spherical shape, while larger particles with flake structure are produced by the latter. On the other hand, spray freeze drying is a better technique to control structure of CNC particles in the resulting powder. The shape and internal structure of CNCSFD particles depend on CNC aqueous concentration prior to spray freeze drying. In the low concentration regime (b 2 wt.%) a filament-like agglomerate morphology, including interconnected nano-scale fibers, is obtained. At higher concentrations, foam-like spherical particles are formed.</ns0:p><ns0:p>Agglomerate strength and polymer melt infiltration time are both reduced as porosity increases. According to this study, spray freeze dried CNC has higher potential for realizing a good degree of dispersion within polymer matrices in the production of nanocomposites and other nano-structured products. Experimental results confirm better dispersion of spray freeze dried CNC in PP than those prepared by spray and freeze dried techniques. Low frequency complex viscosity and storage modulus of PP were significantly increased by addition of CNCSFD. Moreover, adding CNCSFD with filament-like agglomerate structure increased 20% tensile strength and 43% tensile modulus of PP.</ns0:p></ns0:div><ns0:figure xml:id="fig_1"><ns0:head>Fig. 1 .</ns0:head><ns0:label>1</ns0:label><ns0:figDesc>Fig. 1. (top) Pulling and (bottom) peeling mechanism of separating nanoparticles.</ns0:figDesc><ns0:graphic url="image-6.png" coords="2,322.36,507.63,227.34,218.44" type="bitmap" /></ns0:figure>
+<ns0:figure xml:id="fig_2"><ns0:head>Fig. 2 .</ns0:head><ns0:label>2</ns0:label><ns0:figDesc>Fig. 2. Agglomerate strength a) versus particle radius and b) porosity.</ns0:figDesc><ns0:graphic url="image-7.png" coords="3,82.43,53.18,421.91,162.99" type="bitmap" /></ns0:figure>
+<ns0:figure xml:id="fig_3"><ns0:head>Fig. 3 .</ns0:head><ns0:label><super>3</super></ns0:label><ns0:figDesc>Fig. 3. TEM image of CNC nanoparticles (as received).</ns0:figDesc><ns0:graphic url="image-8.png" coords="3,341.52,560.64,171.56,165.43" type="bitmap" /></ns0:figure>
+<ns0:figure xml:id="fig_4"><ns0:head>Fig. 4 .</ns0:head><ns0:label>4</ns0:label><ns0:figDesc>Fig. 4. AFM topography a) height, b) phase and c) a typical example of size measurements for three labeled CNC (as received).</ns0:figDesc><ns0:graphic url="image-9.png" coords="4,133.68,53.18,336.64,316.74" type="bitmap" /></ns0:figure>
+<ns0:figure xml:id="fig_5"><ns0:head>Fig. 5 .</ns0:head><ns0:label>5</ns0:label><ns0:figDesc>Fig. 5. SEM image (left) and crossed light microscopy (right) of spray dried CNC</ns0:figDesc><ns0:graphic url="image-10.png" coords="4,131.41,596.58,341.35,129.49" type="bitmap" /></ns0:figure>
+<ns0:figure xml:id="fig_6"><ns0:head>Fig. 6 .Fig. 7 .</ns0:head><ns0:label>67</ns0:label><ns0:figDesc>Fig. 6. SEM image (left) and PLM image (right) of freeze dried CNC</ns0:figDesc><ns0:graphic url="image-11.png" coords="5,122.63,53.18,341.35,125.86" type="bitmap" /></ns0:figure>
+<ns0:figure xml:id="fig_7"><ns0:head>Fig. 8 .Fig. 9 .</ns0:head><ns0:label>89</ns0:label><ns0:figDesc>Fig. 8. SEM image of CNCSFD2 (left) and its interior structure (right) at low (a and c) and high (b and d) magnifications.</ns0:figDesc><ns0:graphic url="image-13.png" coords="6,131.41,53.18,341.35,246.95" type="bitmap" /></ns0:figure>
+<ns0:figure xml:id="fig_8"><ns0:head>Fig. 10 .</ns0:head><ns0:label>10</ns0:label><ns0:figDesc>Fig. 10. Polarized light microscopy image of CNCSFD2 (left) and CNCSFD6 (right).</ns0:figDesc><ns0:graphic url="image-15.png" coords="7,122.63,53.18,341.35,145.76" type="bitmap" /></ns0:figure>
+<ns0:figure xml:id="fig_9"><ns0:head>Fig. 11 .</ns0:head><ns0:label>11</ns0:label><ns0:figDesc>Fig. 11. BET specific surface area on CNC dried with techniques.</ns0:figDesc><ns0:graphic url="image-16.png" coords="7,48.47,535.69,221.56,190.38" type="bitmap" /></ns0:figure>
+<ns0:figure xml:id="fig_10"><ns0:head>Fig. 12 .Fig. 13 .</ns0:head><ns0:label>1213</ns0:label><ns0:figDesc>Fig. 12. PLM images of a) CNCSD, b) CNCFD, c) CNCSFD2, d) PP, e) PPCNCFD-5, f) PPCNCSD2-5, and g) PPCNCSFD2-5.</ns0:figDesc><ns0:graphic url="image-17.png" coords="8,60.78,53.18,482.70,186.52" type="bitmap" /></ns0:figure>
+<ns0:figure xml:id="fig_11"><ns0:head>4. 4 .</ns0:head><ns0:label>4</ns0:label><ns0:figDesc>PP/CNC nanocomposite 4.4.1. Morphological studies by microscopy</ns0:figDesc></ns0:figure>
+<ns0:figure xml:id="fig_12"><ns0:head>Fig. 14 .</ns0:head><ns0:label>14</ns0:label><ns0:figDesc>Fig. 14. SEM images of PP melt infiltration into CNCSFD2 agglomerates after 1 min of mixing.</ns0:figDesc><ns0:graphic url="image-19.png" coords="9,67.18,53.18,184.14,390.16" type="bitmap" /></ns0:figure>
+<ns0:figure xml:id="fig_13"><ns0:head>Fig. 15 .</ns0:head><ns0:label>15</ns0:label><ns0:figDesc>Fig. 15. (top) Complex viscosity and (bottom) storage modulus versus angular frequency for PP, PPCNCSD-5, PPCNCFD-5, and PPCNCSFD2-5.</ns0:figDesc><ns0:graphic url="image-20.png" coords="9,315.50,359.72,223.72,357.79" type="bitmap" /></ns0:figure>
+<ns0:figure xml:id="fig_14"><ns0:head>Fig. 16 .</ns0:head><ns0:label>16</ns0:label><ns0:figDesc>Fig. 16. a) Tensile strength, b) tensile modulus and c) elongation at break for PP, PPCNCSD-5, and PPCNCSFD2-5.</ns0:figDesc><ns0:graphic url="image-21.png" coords="10,108.00,53.18,388.13,325.42" type="bitmap" /></ns0:figure>
+			<ns0:note place="foot">V. Khoshkava, M.R. Kamal / Powder Technology 261 (2014) 288-298</ns0:note>
+		</ns0:body>
+		<ns0:back>
+
+			<ns0:div type="acknowledgement">
+<ns0:div><ns0:head>Acknowledgment</ns0:head><ns0:p>The authors would like to acknowledge financial support from the Natural Sciences and Engineering Research Council of Canada (NSERC), McGill University, and NIPMMP Strategic Network and FPInnovations for supplying the CNC for this project. The authors would like to thank Ms. Mohini Ramkaran for AFM images from the Center for Self-Assembled Chemical Structures and the Facility for Electron Microscopy Research (FEMR) at McGill University for the use of AFM and electron microscopy facilities. The authors would also like to thank Dr. P. Woodadams for the rheometry facility.</ns0:p></ns0:div>
+			</ns0:div>
+
+			<ns0:div type="references">
+
+				<ns0:listBibl>
+
+<ns0:biblStruct xml:id="b0">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Aqueous colloidal solutions of cellulose micelles</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">B</ns0:forename><ns0:forename type="middle">G</ns0:forename><ns0:surname>Ranby</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Acta Chem. Scand</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">3</ns0:biblScope>
+			<ns0:biblScope unit="page" from="649" to="650" />
+			<ns0:date type="published" when="1949">1949</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b1">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">The microstructure of cellulose</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">B</ns0:forename><ns0:forename type="middle">G</ns0:forename><ns0:surname>Ranby</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">E</ns0:forename><ns0:surname>Ribi</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Experientia</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">6</ns0:biblScope>
+			<ns0:biblScope unit="page" from="12" to="14" />
+			<ns0:date type="published" when="1950">1950</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b2">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Polymer nanocomposites reinforced by cellulose whiskers</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">V</ns0:forename><ns0:surname>Favier</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">H</ns0:forename><ns0:surname>Chanzy</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">Y</ns0:forename><ns0:surname>Cavaille</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Macromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">28</ns0:biblScope>
+			<ns0:biblScope unit="page" from="6365" to="63677" />
+			<ns0:date type="published" when="1995">1995</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b3">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Mechanical percolation in cellulose whisker nanocomposites</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">V</ns0:forename><ns0:surname>Favier</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">G</ns0:forename><ns0:forename type="middle">R</ns0:forename><ns0:surname>Canova</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:forename type="middle">C</ns0:forename><ns0:surname>Shrivastava</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">Y</ns0:forename><ns0:surname>Cavaille</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Polym. Eng. Sci</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">37</ns0:biblScope>
+			<ns0:biblScope unit="page" from="1732" to="1739" />
+			<ns0:date type="published" when="1997">1997</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b4">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Drying cellulose nanofibrils: in search of a suitable method</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Y</ns0:forename><ns0:surname>Peng</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:surname>Gardner</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Y</ns0:forename><ns0:surname>Han</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Cellulose</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">19</ns0:biblScope>
+			<ns0:biblScope unit="page" from="91" to="102" />
+			<ns0:date type="published" when="2012">2012</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b5">
+	<ns0:analytic>
+		<ns0:title />
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Beck</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Bouchard</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">R</ns0:forename><ns0:surname>Berry</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Biomacromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">13</ns0:biblScope>
+			<ns0:biblScope unit="page" from="1486" to="1494" />
+			<ns0:date type="published" when="2012">2012</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+	<ns0:note>Dispersibility in water of dried nanocrystalline cellulose</ns0:note>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b6">
+	<ns0:monogr>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">O</ns0:forename><ns0:surname>Lyckfeldt</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:surname>Käck</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:surname>Rundgren</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:title level="m">27th Annual Cocoa Beach Conference on Advanced Ceramics and Composites: B: Ceramic Engineering and Science Proceedings</ns0:title>
+				<ns0:editor>
+			<ns0:persName><ns0:forename type="first">W</ns0:forename><ns0:forename type="middle">M</ns0:forename><ns0:surname>Kriven</ns0:surname></ns0:persName>
+		</ns0:editor>
+		<ns0:editor>
+			<ns0:persName><ns0:forename type="first">H</ns0:forename><ns0:surname>Lin</ns0:surname></ns0:persName>
+		</ns0:editor>
+		<ns0:meeting><ns0:address><ns0:addrLine>Wiley, Florida</ns0:addrLine></ns0:address></ns0:meeting>
+		<ns0:imprint>
+			<ns0:date type="published" when="2008">2008</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b7">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Spray-freeze-drying production of thermally sensitive polymeric nanoparticle aggregates for inhaled drug delivery: effect of freeze-drying adjuvants</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">W</ns0:forename><ns0:forename type="middle">S</ns0:forename><ns0:surname>Cheow</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:forename type="middle">L</ns0:forename><ns0:surname>Ng</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:surname>Kho</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:surname>Hadinoto</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Int. J. Pharm</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">404</ns0:biblScope>
+			<ns0:biblScope unit="page" from="289" to="300" />
+			<ns0:date type="published" when="2011">2011</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b8">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">BSA-FITC-loaded microcapsules for in vivo delivery</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">B</ns0:forename><ns0:forename type="middle">S</ns0:forename><ns0:surname>Kim</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">M</ns0:forename><ns0:surname>Oh</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:forename type="middle">S</ns0:forename><ns0:surname>Kim</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:forename type="middle">S</ns0:forename><ns0:surname>Seo</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">S</ns0:forename><ns0:surname>Cho</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">G</ns0:forename><ns0:surname>Khang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">H</ns0:forename><ns0:forename type="middle">B</ns0:forename><ns0:surname>Lee</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:surname>Park</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:forename type="middle">S</ns0:forename><ns0:surname>Kim</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Biomaterials</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">30</ns0:biblScope>
+			<ns0:biblScope unit="page" from="902" to="909" />
+			<ns0:date type="published" when="2009">2009</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b9">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Pulmonary delivery of an inulin-stabilized influenza subunit vaccine prepared by sprayfreeze drying induces systemic, mucosal humoral as well as cell-mediated immune responses in BALB/c mice</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">P</ns0:forename><ns0:surname>Amorij</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">V</ns0:forename><ns0:surname>Saluja</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:forename type="middle">H</ns0:forename><ns0:surname>Petersen</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">W</ns0:forename><ns0:surname>Hinrichs</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Huckriede</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">H</ns0:forename><ns0:forename type="middle">W</ns0:forename><ns0:surname>Frijlink</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Vaccine</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">25</ns0:biblScope>
+			<ns0:biblScope unit="page" from="8707" to="8717" />
+			<ns0:date type="published" when="2007">2007</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b10">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Protein inhalation powders: spray drying vs spray freeze drying</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Y</ns0:forename><ns0:forename type="middle">F</ns0:forename><ns0:surname>Maa</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">P</ns0:forename><ns0:surname>Nguyen</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">T</ns0:forename><ns0:surname>Sweeney</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:forename type="middle">J</ns0:forename><ns0:surname>Shire</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">C</ns0:forename><ns0:surname>Hsu</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Pharm. Res</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">16</ns0:biblScope>
+			<ns0:biblScope unit="page" from="249" to="254" />
+			<ns0:date type="published" when="1999">1999</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b11">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Powder formation by atmospheric spray-freeze-drying</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Z</ns0:forename><ns0:forename type="middle">L</ns0:forename><ns0:surname>Wang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">W</ns0:forename><ns0:forename type="middle">H</ns0:forename><ns0:surname>Finlay</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:forename type="middle">S</ns0:forename><ns0:surname>Peppler</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">L</ns0:forename><ns0:forename type="middle">G</ns0:forename><ns0:surname>Sweeney</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Powder Technol</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">170</ns0:biblScope>
+			<ns0:biblScope unit="page" from="45" to="52" />
+			<ns0:date type="published" when="2006">2006</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b12">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Cellulose whiskers versus microfibrils: influence of the nature of the nanoparticle and its surface functionalization on the thermal and mechanical properties of nanocomposites</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">G</ns0:forename><ns0:surname>Siqueira</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Bras</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Dufresne</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Biomacromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">10</ns0:biblScope>
+			<ns0:biblScope unit="page" from="425" to="432" />
+			<ns0:date type="published" when="2009">2009</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b13">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Manufacturing process of cellulose whiskers/polylactic acid nanocomposites</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:surname>Oksman</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:forename type="middle">P</ns0:forename><ns0:surname>Mathew</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:surname>Bondeson</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">I</ns0:forename><ns0:surname>Kvien</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Compos. Sci. Technol</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">6</ns0:biblScope>
+			<ns0:biblScope unit="page" from="2776" to="2784" />
+			<ns0:date type="published" when="2006">2006</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b14">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Study of the poly(3-hydroxybutyrate-co-3-hydroxyvalerate)/cellulose nanowhisker composites prepared by solution casting and melt processing</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">L</ns0:forename><ns0:surname>Jiang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">E</ns0:forename><ns0:surname>Morelius</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Zhang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Wolcott</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Holbery</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">J. Compos. Mater</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">42</ns0:biblScope>
+			<ns0:biblScope unit="page" from="2629" to="2645" />
+			<ns0:date type="published" when="2008">2008</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b15">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Dispersion and characteristics of surfactant modified cellulose whiskers nanocomposites</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:surname>Bondeson</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:surname>Oksman</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Compos. Interfaces</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">14</ns0:biblScope>
+			<ns0:biblScope unit="page" from="617" to="630" />
+			<ns0:date type="published" when="2007">2007</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b16">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Poly(vinyl alcohol)/cellulose nanocrystal barrier membranes</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:forename type="middle">A</ns0:forename><ns0:surname>Paralikar</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Simonsen</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Lombardi</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">J. Membr. Sci</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">32</ns0:biblScope>
+			<ns0:biblScope unit="page" from="248" to="258" />
+			<ns0:date type="published" when="2008">2008</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b17">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Cellulose whiskers reinforced polyvinyl alcohol copolymers nanocomposites</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Roohani</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Y</ns0:forename><ns0:surname>Habibi</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">N</ns0:forename><ns0:forename type="middle">M</ns0:forename><ns0:surname>Belgacem</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">G</ns0:forename><ns0:surname>Ebrahim</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:forename type="middle">N</ns0:forename><ns0:surname>Karimi</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Dufresne</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Eur. Polym. J</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">44</ns0:biblScope>
+			<ns0:biblScope unit="page" from="2489" to="2498" />
+			<ns0:date type="published" when="2008">2008</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b18">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Biobased nanocomposites prepared by in situ polymerization of furfuryl alcohol with cellulose whiskers or montmorillonite clay</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">L</ns0:forename><ns0:surname>Pranger</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">R</ns0:forename><ns0:surname>Tannenbaum</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Macromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">41</ns0:biblScope>
+			<ns0:biblScope unit="page" from="8682" to="8687" />
+			<ns0:date type="published" when="2008">2008</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b19">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">New nanocomposite materials: microcrystalline starch reinforced thermoplastic</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Dufresne</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">W</ns0:forename><ns0:surname>Helbert</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">Y</ns0:forename><ns0:surname>Cavaille</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Polym. Compos</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">18</ns0:biblScope>
+			<ns0:biblScope unit="page" from="198" to="210" />
+			<ns0:date type="published" when="1997">1997</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b20">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Effect of surface energy on dispersion and mechanical properties of polymer/nanocrystalline cellulose nanocomposites</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">V</ns0:forename><ns0:surname>Khoshkava</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:forename type="middle">R</ns0:forename><ns0:surname>Kamal</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Biomacromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">14</ns0:biblScope>
+			<ns0:biblScope unit="page" from="3155" to="3163" />
+			<ns0:date type="published" when="2013">2013</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b21">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">The London-van der Waals attraction between spherical particles</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">H</ns0:forename><ns0:forename type="middle">C</ns0:forename><ns0:surname>Hamaker</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Physica</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">4</ns0:biblScope>
+			<ns0:biblScope unit="page" from="1058" to="1072" />
+			<ns0:date type="published" when="1937">1937</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b22">
+	<ns0:monogr>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">N</ns0:forename><ns0:surname>Israelachvili</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:title level="m">Intermolecular and Surface Forces</ns0:title>
+				<ns0:meeting><ns0:address><ns0:addrLine>NewYork</ns0:addrLine></ns0:address></ns0:meeting>
+		<ns0:imprint>
+			<ns0:publisher>Academic Press</ns0:publisher>
+			<ns0:date type="published" when="1992">1992</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+	<ns0:note>2nd ed</ns0:note>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b23">
+	<ns0:monogr>
+		<ns0:title level="m" type="main">Van der Waals Forces, A Handbook for Biologists, Chemists, Engineers, and Physicists</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">V</ns0:forename><ns0:forename type="middle">A</ns0:forename><ns0:surname>Parsegian</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:imprint>
+			<ns0:date type="published" when="2006">2006</ns0:date>
+			<ns0:publisher>Cambridge University Press</ns0:publisher>
+			<ns0:pubPlace>New York</ns0:pubPlace>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b24">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">A technique for production of nanocrystalline cellulose with a narrow size distribution</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">W</ns0:forename><ns0:surname>Bai</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Holbery</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:surname>Li</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Cellulose</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">16</ns0:biblScope>
+			<ns0:biblScope unit="page" from="455" to="465" />
+			<ns0:date type="published" when="2009">2009</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b25">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Flow-induced chain fracture of isolated linear macromolecules in solution</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">A</ns0:forename><ns0:surname>Odell</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Keller</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">J. Polym. Sci., Part B: Polym. Phys</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">24</ns0:biblScope>
+			<ns0:biblScope unit="page" from="1889" to="1916" />
+			<ns0:date type="published" when="1986">1986</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b26">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Analysis of the kinetics of agglomerate erosion in simple shear flows</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Scurati</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:forename type="middle">L</ns0:forename><ns0:surname>Feke</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">I</ns0:forename><ns0:surname>Manas-Zloczower</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Chem. Eng. Sci</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">60</ns0:biblScope>
+			<ns0:biblScope unit="page" from="6564" to="6573" />
+			<ns0:date type="published" when="2005">2005</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b27">
+	<ns0:monogr>
+		<ns0:title level="m" type="main">The Strength of Granules and Agglomerates in Agglomeration</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">H</ns0:forename><ns0:surname>Rumpf</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:editor>E.W.A. Knepper</ns0:editor>
+		<ns0:imprint>
+			<ns0:date type="published" when="1962">1962</ns0:date>
+			<ns0:publisher>Wiley-Interscience</ns0:publisher>
+			<ns0:pubPlace>New York</ns0:pubPlace>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b28">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Dispersive mixing in internal mixers: a theoretical model based on agglomerate rupture</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">I</ns0:forename><ns0:surname>Manas-Zloczower</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Nir</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Z</ns0:forename><ns0:surname>Tadmor</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Rubber Chem. Technol</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">55</ns0:biblScope>
+			<ns0:biblScope unit="page" from="1250" to="1285" />
+			<ns0:date type="published" when="1982">1982</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b29">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Observation of carbon black agglomerate dispersion in simple shear flows</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:forename type="middle">P</ns0:forename><ns0:surname>Rwei</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">I</ns0:forename><ns0:surname>Manas-Zloczower</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:forename type="middle">L</ns0:forename><ns0:surname>Feke</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Polym. Eng. Sci</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">30</ns0:biblScope>
+			<ns0:biblScope unit="page" from="701" to="706" />
+			<ns0:date type="published" when="1990">1990</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b30">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Observation of carbon-black agglomerate dispersion in simple shear flows</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:forename type="middle">P</ns0:forename><ns0:surname>Rwei</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">I</ns0:forename><ns0:surname>Manas-Zloczower</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:forename type="middle">L</ns0:forename><ns0:surname>Feke</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Polym. Eng. Sci</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">30</ns0:biblScope>
+			<ns0:biblScope unit="page" from="701" to="706" />
+			<ns0:date type="published" when="1990">1990</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b31">
+	<ns0:monogr>
+		<ns0:title level="m" type="main">Mixing and Compounding of Polymers</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">I</ns0:forename><ns0:surname>Manas-Zloczower</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:imprint>
+			<ns0:date type="published" when="2009">2009</ns0:date>
+			<ns0:publisher>HanserGardner Publications</ns0:publisher>
+			<ns0:pubPlace>Ohaio</ns0:pubPlace>
+		</ns0:imprint>
+	</ns0:monogr>
+	<ns0:note>2nd ed</ns0:note>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b32">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Effect of melt processing conditions on the extent of exfoliation in organoclay-based nanocomposites</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">H</ns0:forename><ns0:forename type="middle">R</ns0:forename><ns0:surname>Dennis</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:forename type="middle">L</ns0:forename><ns0:surname>Hunter</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:surname>Chang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Kim</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">L</ns0:forename><ns0:surname>White</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">W</ns0:forename><ns0:surname>Cho</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:forename type="middle">R</ns0:forename><ns0:surname>Paul</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Polymer</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">42</ns0:biblScope>
+			<ns0:biblScope unit="page" from="9513" to="9522" />
+			<ns0:date type="published" when="2001">2001</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b33">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Melt processing of PA-66/clay, HDPE/clay and HDPE/ PA-66/clay nanocomposites</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Mehrabzadeh</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:forename type="middle">R</ns0:forename><ns0:surname>Kamal</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Polym. Eng. Sci</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">44</ns0:biblScope>
+			<ns0:biblScope unit="page" from="1152" to="1161" />
+			<ns0:date type="published" when="2004">2004</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b34">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">The interplay of thermodynamics and shear on the dispersion of polymer nanocomposite</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:surname>Wang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Liang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">R</ns0:forename><ns0:surname>Du</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Q</ns0:forename><ns0:surname>Zhang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Q</ns0:forename><ns0:surname>Fu</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Polymer</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">45</ns0:biblScope>
+			<ns0:biblScope unit="page" from="7953" to="7960" />
+			<ns0:date type="published" when="2004">2004</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b35">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Polymer-layered silicate nanocomposites preparation, properties and uses of a new class of materials</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Alexandre</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:surname>Ph</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:surname>Dubois</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Mater. Sci. Eng. R</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">28</ns0:biblScope>
+			<ns0:biblScope unit="page" from="1" to="63" />
+			<ns0:date type="published" when="2000">2000</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b36">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Melt processing effects on the structure and mechanical properties of PA-6/clay nanocomposites</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">N</ns0:forename><ns0:surname>Borse</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:forename type="middle">R</ns0:forename><ns0:surname>Kamal</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Polym. Eng. Sci</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">46</ns0:biblScope>
+			<ns0:biblScope unit="page" from="1094" to="1103" />
+			<ns0:date type="published" when="2006">2006</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b37">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Linear viscoelasticity and dynamics of suspensions and molten polymers filled with nanoparticles of different aspect ratios</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:surname>Ph</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:surname>Cassagnau</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Polymer</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">49</ns0:biblScope>
+			<ns0:biblScope unit="page" from="2183" to="2196" />
+			<ns0:date type="published" when="2008">2008</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b38">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Polypropylene-clay nanocomposites: effect of compatibilizing agents on clay dispersion</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:surname>Garcıa-L&#243;pez</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">O</ns0:forename><ns0:surname>Picazo</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">C</ns0:forename><ns0:surname>Merino</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">M</ns0:forename><ns0:surname>Pastora</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Eur. Polym. J</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">39</ns0:biblScope>
+			<ns0:biblScope unit="page" from="945" to="950" />
+			<ns0:date type="published" when="2003">2003</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b39">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">A molecular dynamics simulation of capillary imbibition</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">G</ns0:forename><ns0:surname>Martic</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">F</ns0:forename><ns0:surname>Gentner</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:surname>Seveno</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:surname>Coulon</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>De Coninck</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">T</ns0:forename><ns0:forename type="middle">D</ns0:forename><ns0:surname>Blake</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Langmuir</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">18</ns0:biblScope>
+			<ns0:biblScope unit="page" from="7971" to="7976" />
+			<ns0:date type="published" when="2002">2002</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b40">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Characterization of cellulose whiskers and their nanocomposites by atomic force and electron microscopy</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">I</ns0:forename><ns0:surname>Kvien</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">B</ns0:forename><ns0:forename type="middle">S</ns0:forename><ns0:surname>Tanem</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:surname>Oksman</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Biomacromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">6</ns0:biblScope>
+			<ns0:biblScope unit="page" from="3160" to="3165" />
+			<ns0:date type="published" when="2005">2005</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b41">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Influence of compatibilizer and processing conditions on the dispersion of nanoclay in a polypropylene matrix</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">W</ns0:forename><ns0:surname>Lertwimolnun</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">B</ns0:forename><ns0:surname>Vergnes</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Polymer</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">25</ns0:biblScope>
+			<ns0:biblScope unit="page" from="3462" to="3471" />
+			<ns0:date type="published" when="2005">2005</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b42">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Rheology of polypropylene/clay hybrid materials</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:forename type="middle">J</ns0:forename><ns0:surname>Solomon</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:forename type="middle">S</ns0:forename><ns0:surname>Almusallam</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:forename type="middle">F</ns0:forename><ns0:surname>Seefeldt</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Somwangthanaroj</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">P</ns0:forename><ns0:surname>Varadan</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Macromolecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">34</ns0:biblScope>
+			<ns0:biblScope unit="page" from="1864" to="1872" />
+			<ns0:date type="published" when="2001">2001</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+				</ns0:listBibl>
+			</ns0:div>
+		</ns0:back>
+	</ns0:text>
+</ns0:TEI>

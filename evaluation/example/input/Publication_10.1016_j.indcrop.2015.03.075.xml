@@ -1,0 +1,1324 @@
+<ns0:TEI xmlns:ns0="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:space="preserve" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+	<ns0:teiHeader xml:lang="en">
+		<ns0:fileDesc>
+			<ns0:titleStmt>
+				<ns0:title level="a" type="main">Surface-modified nano-cellulose as reinforcement in poly(lactic acid) to conform new composites</ns0:title>
+			</ns0:titleStmt>
+			<ns0:publicationStmt>
+				<ns0:publisher />
+				<ns0:availability status="unknown"><ns0:licence /></ns0:availability>
+				<ns0:date type="published" when="2015-04-08">8 April 2015</ns0:date>
+			</ns0:publicationStmt>
+			<ns0:sourceDesc>
+				<ns0:biblStruct>
+					<ns0:analytic>
+						<ns0:author>
+							<ns0:persName><ns0:forename type="first">Eduardo</ns0:forename><ns0:surname>Robles</ns0:surname></ns0:persName>
+							<ns0:affiliation key="aff0">
+								<ns0:orgName type="department">Chemical &amp; Environmental Engineering Department</ns0:orgName>
+								<ns0:orgName type="institution">University of the Basque Country UPV/EHU</ns0:orgName>
+								<ns0:address>
+									<ns0:addrLine>Plaza Europa 1</ns0:addrLine>
+									<ns0:postCode>20018</ns0:postCode>
+									<ns0:settlement>Donostia-San Sebastian</ns0:settlement>
+									<ns0:country key="ES">Spain</ns0:country>
+								</ns0:address>
+							</ns0:affiliation>
+						</ns0:author>
+						<ns0:author>
+							<ns0:persName><ns0:forename type="first">I</ns0:forename><ns0:surname>Ñaki Urruzola</ns0:surname></ns0:persName>
+							<ns0:affiliation key="aff0">
+								<ns0:orgName type="department">Chemical &amp; Environmental Engineering Department</ns0:orgName>
+								<ns0:orgName type="institution">University of the Basque Country UPV/EHU</ns0:orgName>
+								<ns0:address>
+									<ns0:addrLine>Plaza Europa 1</ns0:addrLine>
+									<ns0:postCode>20018</ns0:postCode>
+									<ns0:settlement>Donostia-San Sebastian</ns0:settlement>
+									<ns0:country key="ES">Spain</ns0:country>
+								</ns0:address>
+							</ns0:affiliation>
+						</ns0:author>
+						<ns0:author>
+							<ns0:persName><ns0:forename type="first">Jalel</ns0:forename><ns0:surname>Labidi</ns0:surname></ns0:persName>
+							<ns0:affiliation key="aff0">
+								<ns0:orgName type="department">Chemical &amp; Environmental Engineering Department</ns0:orgName>
+								<ns0:orgName type="institution">University of the Basque Country UPV/EHU</ns0:orgName>
+								<ns0:address>
+									<ns0:addrLine>Plaza Europa 1</ns0:addrLine>
+									<ns0:postCode>20018</ns0:postCode>
+									<ns0:settlement>Donostia-San Sebastian</ns0:settlement>
+									<ns0:country key="ES">Spain</ns0:country>
+								</ns0:address>
+							</ns0:affiliation>
+						</ns0:author>
+						<ns0:author role="corresp">
+							<ns0:persName><ns0:forename type="first">Luis</ns0:forename><ns0:surname>Serrano</ns0:surname></ns0:persName>
+							<ns0:email>luis.serrano@ehu.es</ns0:email>
+							<ns0:affiliation key="aff0">
+								<ns0:orgName type="department">Chemical &amp; Environmental Engineering Department</ns0:orgName>
+								<ns0:orgName type="institution">University of the Basque Country UPV/EHU</ns0:orgName>
+								<ns0:address>
+									<ns0:addrLine>Plaza Europa 1</ns0:addrLine>
+									<ns0:postCode>20018</ns0:postCode>
+									<ns0:settlement>Donostia-San Sebastian</ns0:settlement>
+									<ns0:country key="ES">Spain</ns0:country>
+								</ns0:address>
+							</ns0:affiliation>
+						</ns0:author>
+						<ns0:title level="a" type="main">Industrial Crops and Products</ns0:title>
+					</ns0:analytic>
+					<ns0:monogr>
+						<ns0:imprint>
+							<ns0:date type="published" when="2015-04-08">8 April 2015</ns0:date>
+						</ns0:imprint>
+					</ns0:monogr>
+					<ns0:idno type="DOI">10.1016/j.indcrop.2015.03.075</ns0:idno>
+					<ns0:note type="submission">Received 10 December 2014 Received in revised form 15 March 2015 Accepted 24 March 2015</ns0:note>
+				</ns0:biblStruct>
+			</ns0:sourceDesc>
+		</ns0:fileDesc>
+		<ns0:encodingDesc>
+			<ns0:appInfo>
+				<ns0:application version="0.7.2-SNAPSHOT" ident="GROBID" when="2023-04-27T01:49+0000">
+					<ns0:desc>GROBID - A machine learning software for extracting information from scholarly documents</ns0:desc>
+					<ns0:ref target="https://github.com/kermitt2/grobid" />
+				</ns0:application>
+			</ns0:appInfo>
+		</ns0:encodingDesc>
+		<ns0:profileDesc>
+			<ns0:textClass>
+				<ns0:keywords>Blue agave Cellulose PLA Nanofibers Composites Silanes Fatty acids</ns0:keywords>
+			</ns0:textClass>
+			<ns0:abstract>
+<ns0:div><ns0:p>This work was aimed to evaluate the performance of two different surface modifications on cellulose nano-particles obtained from blue agave bagasse. Cellulose nanofibers were obtained from traditional mechanical methods, and cellulose nanocrystals were obtained via sulfuric acid hydrolysis. After cellulose extraction and size reduction, different composites were elaborated using poly(lactic acid) as matrix varying fiber concentrations and using cellulosic particles of diverse size and surface modification (3aminopropyl triethoxysilane silanized cellulose nanofibers and dodecanoyl chloride esterified cellulose nanocrystals). Non-cellulosic elimination and the effect of surface modifications were analyzed with infrared analysis, showing characteristic intensities for cellulosic species and new peaks for each modification (characteristic ester peak ∼1740 cm −1 , and amino peak ∼1550 cm −1 ) cellulose nanofibers and nanocrystals were observed with atom-force microscopy; crystallinity of nano-scale cellulose before and after modifications was obtained with X-ray diffraction to analyze the performance of the modifications. Composites were tested with stress-strain standard methods showing better mechanical properties when surface modifications were performed and the amount of filler was 0.5 wt% reaching an increase in strain to fracture of more than 20%.</ns0:p></ns0:div>
+			</ns0:abstract>
+		</ns0:profileDesc>
+	</ns0:teiHeader>
+	<ns0:text xml:lang="en">
+		<ns0:body>
+<ns0:div><ns0:head n="1.">Introduction</ns0:head><ns0:p>Poly(lactic acid) or polylactide (PLA) is one of the most studied polymeric materials in the last two decades <ns0:ref type="bibr" target="#b43">(Yin et al., 1997;</ns0:ref><ns0:ref type="bibr" target="#b16">Garlotta 2002;</ns0:ref><ns0:ref type="bibr" target="#b21">Jamshidian et al., 2010)</ns0:ref>, even though until now, most of the PLA used in industry and scientific research has been obtained from petroleum, the feasibility of obtaining PLA from renewable resources makes it an interesting biopolymer for its study. Nevertheless, the slightly minor mechanical properties of PLA in respect to current used polymer mattresses <ns0:ref type="bibr" target="#b1">(Auras, 2003;</ns0:ref><ns0:ref type="bibr" target="#b38">Van den Oever et al., 2010)</ns0:ref>, brings up the need to develop composite materials with determined characteristics in order to modify the behavior of PLA toward certain circumstances or applications.</ns0:p><ns0:p>Recent works have highlighted the potential of lignocellulosic biomass as an alternative source of material for value added products, and biorefineries represent a suitable replace for conventional fossil refineries as the conversion of biomass into biofuels and biomaterials are becoming a more feasible alternative for traditional fuels and oil-derivate materials <ns0:ref type="bibr" target="#b39">(Wan and Li, 2011;</ns0:ref><ns0:ref type="bibr" target="#b0">Adsul et al., 2011)</ns0:ref>. Within the many possibilities of use that enclosures agricultural biomass, the obtention of bioplastics has increased attention from the scientific community, the possibility of reinforcing for biopolymers such as PLA to enhance its natural physical or chemical properties has boosted a wide series of researches. Among those who represent a most suitable option in elaborating biocomposites with this kind of plastics, are lignocellulosic materials, as they can be degraded or composted and present good behavior either as filler or as blend <ns0:ref type="bibr" target="#b28">(Oksman et al., 2003;</ns0:ref><ns0:ref type="bibr" target="#b24">Laxmeshwar et al., 2012;</ns0:ref><ns0:ref type="bibr" target="#b19">Gu and Catchmark, 2013;</ns0:ref><ns0:ref type="bibr" target="#b17">Gordobil et al., 2014)</ns0:ref>, the present study pretends to evaluate the performance of cellulose nanofibers and cellulose nanocrystals as fillers, either rough or after a surface modification with an hydrophobic additive.</ns0:p><ns0:p>One of the most used methods to obtain nanocrystalline particles is with sulfuric acid hydrolysis <ns0:ref type="bibr" target="#b2">(Bondeson et al., 2006;</ns0:ref><ns0:ref type="bibr" target="#b32">Rosa et al., 2010)</ns0:ref>. In this process, sulfation occurs via condensation-esterification on the surface of cellulose nanocrystals, which displays a high surface area with a high amount of hydroxyl groups available that can react with the H <sub>2</sub> SO <sub>4</sub> molecule with the aid of another H <sub>2</sub> SO <sub>4</sub> molecule as condensation agent, thus forming a stable and well dispersed aqueous colloidal suspension as the result of the negative charge of the sulfated surface <ns0:ref type="bibr" target="#b9">(Edelson and Hermans, 1963)</ns0:ref>, this polar condition causes agglomeration during drying and aggregation in non-polar matrices because of the formation of additional hydrogen bonds between amorphous parts of the nanoparticles, making desirable a surface modification to optimize the fiber dispersion inside a polymeric matrix <ns0:ref type="bibr" target="#b7">(Dufresne, 2010)</ns0:ref>.</ns0:p><ns0:p>Surface modification with silanes has been proved to be a good method to render nanocrystalline surface hydrophobicity, giving stability to the nanocrystals <ns0:ref type="bibr" target="#b18">(Goussé et al., 2004)</ns0:ref>. Silane chains can improve matrix-filler interactions either as suspension in organic solvents or added as bulk into the polymeric matrix <ns0:ref type="bibr" target="#b42">(Xu et al., 2012;</ns0:ref><ns0:ref type="bibr" target="#b31">Raquez et al., 2012)</ns0:ref> by serving as a coupling agent between the cellulosic filler and the polymeric matrix. On her behalf, esteric stabilization of cellulose nanocrystals with different fatty acids has shown good properties forming continuous composites with polymer matrices, as they show high degree of substitution when the esterification is performed both at the fiber surface and in the inner layers; resulting in a heterogeneous esterification, causing de-crystallization of cellulose which enhances hydrophobicity and bonds between the matrix and the cellulose fiber, in expense of thermal stability of the cellulose <ns0:ref type="bibr" target="#b13">(Freire et al., 2006)</ns0:ref>.</ns0:p><ns0:p>The objective of this work is to develop new composites using PLA as matrix, by adding as fillers modified cellulose nanofibers and nanocrystals obtained from agricultural waste of a highly fibrous plant (Agave tequilana) in order to give value added applications to an undervalued material. On the other hand, PLA properties require improvements to compete with other plastics, making important the exploration of new surface modifications in polymer reinforcements in order to increase mechanical and hydrophobic properties of PLA and to enhance the interaction between nano fillers and the matrix, avoiding the formation of dislocations in the interaction surface. Two different surface modifications on two cellulose nanoparticles (CNF and CNC) were evaluated to determine the improvements that these modifications provide to the cellulose surface, they were also compared to raw blue agave bagasse and to bleached pulp to analyze if working on nano-scale was relevant.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="2.">Experimental methods</ns0:head></ns0:div>
+<ns0:div><ns0:head n="2.1.">Materials</ns0:head><ns0:p>Blue agave (A. tequilana Weber var. azul) bagasse was provided by D.R., a local cropper from Amatitán, Jalisco, Mexico. The composition of the fibers was analyzed according to standard methods <ns0:ref type="bibr">(TAPPI T222 om-11, 2011;</ns0:ref><ns0:ref type="bibr">TAPPI T211 om-12, 2012;</ns0:ref><ns0:ref type="bibr" target="#b36">TAPPI T 204 cm-07, 2007;</ns0:ref><ns0:ref type="bibr">TAPPI T 207 cm-08, 2008;</ns0:ref><ns0:ref type="bibr" target="#b30">Pettersen, 1984)</ns0:ref>. Poly(lactic acid) was provided by Futerro <super>®</super> with extrusion grade, 3-aminopropyl triethoxysilane was provided by Alfa Aesar GmbH. Dodecanoyl chloride was supplied by Sigma-Aldrich; all other components were used at laboratory conditions and provided by Sigma-Aldrich.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="2.2.">Delignification</ns0:head><ns0:p>Blue agave bagasse was heated and stirred in a 1.8 M NaOH solution with a 1:20 w/v ratio at 120 • C during 90 min; this was repeated twice to ensure the elimination of most lignin and hemicelluloses. After delignification, pulp was filtered and washed with distilled water until neutral pH was reached. Bleaching was realized in two stages; the first consisted in plunging NaOH treated fibers in 0.2 M NaClO <sub>2</sub> solution with 1:30 w/v ratio at 75 • C for 2 h, and the second consisted in submerging the fibers in a 3 M H <sub>2</sub> O <sub>2</sub> solution with 1:10 ratio and pH 11 using magnesium sulfate (0.2 wt%) to protect the fibers and pentetic acid (0.5 wt%) as chelant. Bleached pulp was washed several times until neutral and then oven dried at 50 • C for 24 h <ns0:ref type="bibr" target="#b25">(Li et al., 2011)</ns0:ref>.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="2.3.">Cellulose nanofiber and nanocrystal obtention</ns0:head><ns0:p>To extract cellulose nanocrystals (CNC) from blue agave, acid hydrolysis was performed to the bleached blue agave pulp with stirring at 45 • C into a 10.2 M solution of H <sub>2</sub> SO <sub>4</sub> (1:20 w/v) during 120 min; after that, the resulting pulp was centrifuged four times at 8000 rpm for 10 min when the supernatant was turbid, the slurry was dialyzed to distilled water until neutral pH was stabilized. To avoid agglomerations, nanocrystal suspension was sonicated in a Elmasonic Elma S 70H sonication bath for 20 min at 25 • C using a plastic recipient (Garcia de <ns0:ref type="bibr" target="#b15">Rodriguez et al., 2006)</ns0:ref>. For the cellulose nanofibers (CNF), bleached pulp was first dispersed in a water solution with a 1:10 w/w ratio using an Heidolph Silent Crusher M at 15,000 rpm for 30 min, after that they were homogenized with a Niro Soavi NS1001L Panda laboratory homogenizer with 30 passes at ∼1000 bar <ns0:ref type="bibr" target="#b40">(Wang et al., 2007)</ns0:ref>.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="2.4.">Cellulose modification</ns0:head><ns0:p>Two different modifications were applied to the obtained nanoparticles, Fig. <ns0:ref type="figure" target="#fig_0">1</ns0:ref> shows a brief description of the followed procedures and visual aspect of the fibers after every step. In case of CNF they were modified with 3-aminopropyl triethoxysilane (ATS) water solution inside a beaker. ATS and water were added in a 1:10:250 w/v/v relation to cellulose fibers. Water-ATS solution pH was stabilized to 4 by dribbling acetic acid with constant stirring, once pH was stabilized at ∼4, CNF were added. The mixture was stirred at room temperature for 120 min, and following this, the slurry was vacuum filtered and cured inside an oven at 105 • C for 5 min to perform the reaction and washed two times with ethanol (96% purity) and one time with distilled water.</ns0:p><ns0:p>For the CNC, previous reported method by <ns0:ref type="bibr" target="#b13">Freire et al. (2006)</ns0:ref> was used with slight modifications. For this, one equivalent of Dodecanoyl Chloride (DDC) per gram of CNC was put inside a flask alongside 50 mL of toluene and 1 equivalent of pyridine as catalyst, then CNC were added and stirred with 400 rpm for 6 h at 110 • C using reflux. The slurry was centrifuged and then washed with toluene, acetone, and ethanol before setting it inside a soxhlet where the remains were extracted during 12 h using ethanol. After this, the modified CNC were oven dried at 50 • C for 24 h.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="2.5.">Composite preparation</ns0:head><ns0:p>Composites were prepared using a Haake Minilab twin-screw extruder with an L/D ratio of 24:1. According to the capacity of the machine, total mass of 6 g for each batch was fed at 45 • C and then mixed at 145 • C during 15 min at 80 rpm; batch was extruded at 170 • C for better extrusion <ns0:ref type="bibr" target="#b22">(Jandas et al., 2013)</ns0:ref>. Bulk filler was added dry and mixed with PLA with a share of 0.5, 1.0 and 2.0%. Table <ns0:ref type="table" target="#tab_0">1</ns0:ref> describes the fillers used to reinforce the PLA matrix.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="2.6.">Characterization tools and methods</ns0:head><ns0:p>Infrared spectra were recorded by attenuated-total reflectance infrared spectroscopy (ATR-IR), by direct transmittance, using a Specac Golden Gate <super>TM</super> MKII single-reflection with an ATR System (ATR top plate fixed to an optical beam condensing unit with ZnSe lens). The defined range was from 4000 to 800 cm <super>−1</super> and the resolution 4 cm −1 . For each sample 32 scans were recorded.</ns0:p><ns0:p>Atomic force microscopy images were obtained in a Dimension Icon <super>®</super> Atomic Force Microscope with a NanoScope V controller from Bruker equipped with a silicon TappingMode probe with a resonant frequency of 320 kHz and a 42 Nm <super>−1</super> constant. To obtain representative results, different regions of the samples were scanned. Scanning electron microscopy images were obtained with a Scanning electron microscope JEOL JSM-7000F with field emission cathode, with a lateral resolution of 1.2 nm at 20 kV.</ns0:p><ns0:p>X-Ray powder diffraction was measured to compare crystallinity. Patterns were collected with a Panalytical Phillips X'Pert PRO multipurpose diffractometer, with samples mounted on a zero background silicon wafer fixed in a generic sample holder, using monochromatic CuK˛radiation ( = 1.5418 Å) in a range from 5 to 50 2Â with step size of 0.026 and time per step of 80 s at room temperature.</ns0:p><ns0:p>The crystallinity index was calculated assuming a Gauss curve. Individual peaks were extracted via Peak Fit 4.12 software. Crystalline contributions to the main signal were determined with the intensity observed at the traditional crystalline peaks: 1 0 1, 1 0 −1, 0 0 2 and 0 4 0; while the amorphous contribution was obtained from the broad peak observed around 2Â&#8776;18 • <ns0:ref type="bibr" target="#b8">(He et al., 2008)</ns0:ref>. Voigt functions were chosen for the peak deconvolution and to determine the integrated area corresponding to the selected peaks, after this, apparent crystallinity was determined by dividing the area corresponding to the crystalline region by the total area including non-crystalline <ns0:ref type="bibr" target="#b33">(Scardi et al., 2011;</ns0:ref><ns0:ref type="bibr" target="#b35">Terinte et al., 2011)</ns0:ref>.</ns0:p><ns0:formula xml:id="formula_0">Cr × I = 100( A <sub>cr</sub> A <sub>tot</sub> )</ns0:formula><ns0:p>Crystallite size was estimated with the Scherrer equation using the peak corresponding to the 0 0 2 plane d <sub>002</sub> = Ä /(H <sub>002</sub> cosÂ).</ns0:p><ns0:p>With Ä being the Scherrer constant (0.86), the wavelength (1.5418 Å), H <sub>002</sub> corresponds to the full width at half maximum intensity and Â is half the Bragg angle at peak maximum given in radians <ns0:ref type="bibr" target="#b41">(Warren, 1969)</ns0:ref>.</ns0:p><ns0:p>Tensile tests of the composites were performed using MTS Insight 10 equipment provided with pneumatic clamps (Advantage Pneumatic Grips) and 250 N loading cell, with a speed of 5 mm min −1 . Samples were prepared 60 mm long, with an average width of 5 mm and thickness of 0.7-0.9 mm. The set distance between the clamps was 20 mm. The values quoted are the average of ten measurements.</ns0:p><ns0:p>The effect of modified CNC on the crystallization behavior of PLA was studied using differential scanning calorimetry (DSC). Experiment was realized in a N <sub>2</sub> atmosphere with a 4 stage cycle: (1) 5-10 mg samples were heated from 25 • to 250 • C at 5 • C min <super>−1</super> , (2) temperature was held for 3 min with constant temperature, (3) temperature was decreased to 25 • C at 5 • C min <super>−1</super> and (4) reheated from 25 • to 250 • C at 5 • C min −1 . Percentage of crystallinity (Xc) in the PLA-based composites was calculated by:</ns0:p><ns0:formula xml:id="formula_1">X <sub>c</sub> (%) = ( H <sub>m</sub> + H <sub>c)</sub> / ( H • <sub>m</sub> &#215; X <sub>PLA</sub> ) × 100</ns0:formula><ns0:p>where H <sub>m</sub> and H <sub>c</sub> are the enthalpies of fusion and crystallization of the composite, respectively, H o <sub>m</sub> is the enthalpy of fusion of a PLA crystal of infinite size (93 J g <super>−1</super> ), XPLA is the weight fraction of PLA <ns0:ref type="bibr" target="#b16">(Garlotta 2002;</ns0:ref><ns0:ref type="bibr" target="#b20">Han et al., 2012)</ns0:ref>. Contact angle of sessile drop was measured with a DataPhysics video-based measurement contact angle system OCA20 with a software controlled dosing volume weight-drop to determine changes in the hydrophilic character of after cellulose modifications. The results presented are the average of eight measurements.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="3.">Results and discussion</ns0:head></ns0:div>
+<ns0:div><ns0:head n="3.1.">Raw material characterization</ns0:head><ns0:p>Chemical composition of the agave bagasse used in this work was analyzed according to international standards and consists of 54.60 ± 1.7 cellulose, 16.2 ± 0.48 lignin, 13.95 ± 0.28 hemicelluloses 4.50 ± 0.07 ashes 8.35 ± 0.39 hot water extractives and 5.42 ± 0.23 ethanol-toluene extractives. The measurements were made from the bagasse as received from the distillery and the presented values are the mean result of six tests for each standard method. High content of cellulose can be observed, making it a desirable raw material for cellulose nano-particle extraction. The amount of lignin present in the raw material makes desirable a pulping process, being selected NaOH 1.8 M as the most suitable for this circumstance. PLA was received in the form of pellets with a 99 wt% content of l-poly-lactide and 250 ppm H <sub>2</sub> O, the specific gravity given by the supplier is 1.24.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="3.2.">Cellulose obtention and modification</ns0:head><ns0:p>After the elimination of non-cellulosic components of the agave bagasse, bleached pulp was analyzed with ATR-IR to determine the quality of the obtained cellulose, in Fig. <ns0:ref type="figure" target="#fig_1">2</ns0:ref>, it can be observed the ATR-IR spectra of cellulose from agave bagasse (a) showing peaks associated to high purity cellulose. Signals between 3600 and 3000 cm <super>−1</super> correspond to OH vibration in cellulose; the band between 3000 and 2600 cm <super>−1</super> corresponds to asymmetric and symmetric C H stretching vibration present in cellulose (1-2), moreover, the peaks present at ∼1430, ∼1162 and ∼1111 cm <super>−1</super> (a-5 to a-6) are assigned to CH <sub>2</sub> symmetric bending, asymmetric C O C bridge stretching, anhydroglucose ring asymmetric stretching, respectively, this is associated with the crystalline part of the cellulose, the peak at ∼893 cm <super>−1</super> is assigned to C H deformation of cellulose associated to the non-crystalline cellulose <ns0:ref type="bibr" target="#b4">(Carrillo et al., 2004;</ns0:ref><ns0:ref type="bibr" target="#b12">Fan et al., 2012)</ns0:ref>. In both silanized (b) cellulose nanofibers and esterified (c) cellulose nanocrystals, it can be observed the changes in the behavior of these bands because of the modification of the free hydroxyl present in the natural cellulose, that have reacted with the amino group in the case of ATS and the aliphatic acid chains in the case of DDC. Peaks at ∼2854 (c-1) and ∼2923 cm <super>−1</super> (c-2) correspond to the C H band, belonging to aliphatic acid chains, also a new peak can be observed at ∼1743 cm <super>−1</super> (c-3) corresponding to the 1750-1735 cm <super>−1</super> ester carbonyl band <ns0:ref type="bibr" target="#b13">(Freire et al., 2006)</ns0:ref>, this three peaks that occur in characteristic bands of DDC prove the successful esterification of the CNC. In the silanized CNF spectrum it can be observed a new peak at ∼1550 cm <super>−1</super> (b-4) that corresponds to the amino scissoring bending vibration, also in the 1300-1000 cm <super>−1</super> band (b-5 to b-6) there is an increase in the cellulose peaks because of the chemisorbed ATS related to the Si O Si bonding <ns0:ref type="bibr" target="#b26">(Liu and Zhang 2000)</ns0:ref>, therefore it can be assumed that a proper surface modification was performed on both CNC and CNF.</ns0:p><ns0:p>Blue agave pulp is composed of strong fibers with high content of cellulose and hemicelluloses. Fig. <ns0:ref type="figure" target="#fig_2">3</ns0:ref> shows SEM images of bagasse fibers as received from the supplier, defibrillation present in (a) can be due to the characteristic sugar extraction process to which blue agave bagasse is subjected during traditional industrial process as has been suggested by previous work <ns0:ref type="bibr" target="#b10">(Espino et al., 2014)</ns0:ref> Experiments with plants from the same family like sisal, <ns0:ref type="bibr" target="#b34">(Siqueira et al., 2011)</ns0:ref> have proven the necessity of an aggressive hydrolysis of the bleached pulp to break the amorphous regions of the cell wall.</ns0:p><ns0:p>Fig. <ns0:ref type="figure" target="#fig_3">4</ns0:ref> presents the atomic force microscopy of cellulose fibers after mechanical or chemical treatment. The action of sulfuric acid in the cellulose fibers allowed the isolation of cellulose nanocrystals (b) with an average width of 33 ± 13 nm and length 350 ± 153 nm with a very homogenized shape. In the case of cellulose nanofibers (a), the action of the high pressure homogenization allowed to tear microfibrillated cellulose into single nanofibers or groups of 2-3 nanofibers attached; in this case, shape is less constant as fibers are presented sometimes separated in one of their ends but still attached in the other, this because mechanical isolation methods do not eliminate amorphous cellulose that can still be left after the bleaching processes, anyhow the average length was 607 ± 85 nm and the average width 68 ± 22 nm. In both cases aspect ratio left a large amount of surface able to modify images (c) and (d) show silanized nanofibers and esterified nanocrystals, respectively, it can be clearly observed the surface modification and the formation of particle aggregates.</ns0:p><ns0:p>The diffraction patterns corresponding to BAST, BABP and both BANF and BANC, are presented in Fig. <ns0:ref type="figure" target="#fig_4">5</ns0:ref>. These patterns were obtained using symmetrical transmission mode. It can be seen that peaks associated with cellulose corresponding to 1 0 1, 1 0 −1, 0 0 2 and 0 4 0 crystalline planes are present in all the cases with different intensity and broadening caused by the amount of crystalline cellulose of each sample and the presence of different components. Broadened peaks are associated to the presence of non-crystalline particles in the powder sample, this can be observed in the BAST sample, in which peaks at 2Â = 14.9, 17.41 and 22.36 • present low intensity and broadened peaks, this can be related to either hemicelluloses or amorphous cellulose as it has been suggested in previous reports <ns0:ref type="bibr" target="#b29">(Park et al., 2010)</ns0:ref> that this fiber components give broadened peaks. On the other hand, BANC sample has sharper signals and the peaks at 2Â = 14. <ns0:ref type="bibr">52, 16.59, 22.57 and 34.88</ns0:ref> • and also has a clearer and smoother signal than the others presented.</ns0:p><ns0:p>In Table <ns0:ref type="table" target="#tab_1">2</ns0:ref>, the estimated crystallinity and apparent crystallite size are presented (left) peak deconvolution method with Voigt fitting curve can be useful for qualitative comparison of the behavior of cellulose during a series of treatments. It can be observed a considerable increase in crystallinity after the pulping and bleaching methods (between BAST and BABP) that happens when amorphous lignin and hemicelluloses are discarded from the original fibers, after mechanical homogenization there is no significant increase  in crystallinity as the chemical structure of the fiber is not attacked during this process, this can also be seen in the apparent crystallite size, as even after mechanical treatments the size of the crystallite is in the same range. BANC obtained after hydrolysis present the highest relative crystallinity (an increase of ∼10% respect to bleached cellulose) as the hydrolysis effectively eliminates amorphous cellulose from the fibers, leaving crystalline cellulose and in consequence, the range of crystallite size is decreased.</ns0:p><ns0:p>In case of modified cellulose, the surface modification performed in each sample generated a new amorphous region around the crystalline cellulose by hydrogen bonds with the hydroxyl groups present in the exterior chains of the molecular wall. XRD results concur with previous AT-IR analysis respecting the formation of a new surface in cellulose. In the case of BANS, it can be appreciated a slight increase in the crystallite size as a result of the addition of amino chains to the crystalline region; in Fig. <ns0:ref type="figure" target="#fig_5">6</ns0:ref>,  the peak deconvolution for the BANS (lower right) signal shows three new low-signal broad peaks at 2Â = 24.97, 30.25 and 37.67 • with an average H of 4.1 ± 0.56 • . For the BADC sample, the addition of large aliphatic chains generates a whole new region around the crystal particles; this can be concluded as the estimated crystallite size is 53% bigger than the original BANC sample. This new aliphatic chains in the crystalline surface diminish the crystallinity of the modified cellulose as the morphology is altered <ns0:ref type="bibr">(C ¸etin et al., 2009)</ns0:ref>. In Fig. <ns0:ref type="figure" target="#fig_4">5</ns0:ref> (upper right) the deconvoluted peaks for the BADC sample shows a new low-intensity peak at 2Â = 7.99 • that is in the range of the associated diffraction of aliphatic chains for a number of carbons higher than 7 <ns0:ref type="bibr" target="#b27">(Missoum et al., 2012)</ns0:ref>. There are also new peaks at 2Â = 25.26 and 28.44 • that broaden the base of the peaks corresponding to cellulose at the 0 0 2 plane. Surface modification increases the hydrophobicity of cellulose fibers; contact angle provides further information respecting the interaction between the surface of the CNC and CNF and the hydrophobic agent. Table <ns0:ref type="table" target="#tab_2">3</ns0:ref> presents the contact angles (Â <sub>w</sub> ) of cellulose after bleaching as well as modified CNC and CNF. When comparing Â <sub>w</sub> for BAST and BABP, it can be seen a decay on contact angle, this proves the typical hydrophilic character of cellulose. The increase in Â <sub>w</sub> is related to the topology of the surface, either because of the size of the particle avoid the surface roughness or because of the reaction of hydroxyl groups with non-polar particles, even though during surface modification not all hydroxyl groups may react, the possibility of water molecules to penetrate the substrate when dealing at nano-scale is reduced. It can be seen in the BADC sample that the hydrophobic character is increased (Â <sub>w</sub> &#8764;81.06 • ), while for unmodified bleached cellulose was ∼31.74 • . In case of the ATS modified cellulose, it can be observed a n increase in the surface hydrophobicity of ∼31.45 • more than unmodified cellulose, but still is less than in the case of BADC, this is related to the features associated with the components of the respective modification, as well as with the specific surface of the particle; nano-scale cellulose has more hydroxyl groups to react with, this groups have strong hydrogen bonding with the surface modification agent that generates a shield against water sorption <ns0:ref type="bibr" target="#b11">(Fadeev and McCarthy, 1999;</ns0:ref><ns0:ref type="bibr" target="#b6">Dankovich and Gray, 2011)</ns0:ref>.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="3.3.">Characterization of the composites</ns0:head><ns0:p>Fig. <ns0:ref type="figure" target="#fig_6">7</ns0:ref> shows the visual aspect of the different composites compared to a pellet made of powdered fibers from the different fillers. The color contribution is related to the addition of either silanes (yellow) or dodecanoyl chloride (brown). Fig. <ns0:ref type="figure" target="#fig_7">8</ns0:ref> shows SEM images of different composites with 2 wt% content of filler, stronger interactions can be seen between the matrix and esterified CNC, whilst in composites with silanized CNF the interaction is lower. In both unmodified cellulose particles, dislocations were observed in the surface contact between matrix and filler, thus confirming the strengthened bonds that ATS and DDC provide to cellulose nanoparticles.</ns0:p><ns0:p>Table <ns0:ref type="table" target="#tab_3">4</ns0:ref> presents the data corresponding to ultimate tensile strength and strain at break results for the different elaborated composites and Fig. <ns0:ref type="figure" target="#fig_8">9</ns0:ref> shows characteristic Tensile-Stress graphs for each composite. The addition of anisotropic material to the polymeric matrix influences the performance in uniaxial stress <ns0:ref type="bibr" target="#b1">(Auras et al., 2003;</ns0:ref><ns0:ref type="bibr" target="#b21">Jamshidian et al., 2010)</ns0:ref>. It can be observed a considerable decrease of the mechanical properties when adding cellulose without any surface modification in composites reinforced with bleached pulp, cellulose nanofibers and cellulose nanocrystals, in which ultimate tensile strength (UTS) presents a decrease from the 45.29 MPa that has the PLA without any filler; this is accentuated as the percent of filler is increased, reaching a drop of approximately 25% when the filler reaches 2% of the composite. In general, the behavior of composites under uniaxial   stress is similar to the obtained in previous publications, with an increase in the UTS and a decrease in the strain at fracture when cellulosic fillers are added <ns0:ref type="bibr" target="#b23">(Kowalczyk et al., 2011)</ns0:ref>. Qualitative analysis shows differences with previously reported works with another type of cellulose modifications in which tensile stress and modulus are higher but the strain at break is considerably lower <ns0:ref type="bibr" target="#b3">(Bondeson and Oksman, 2007)</ns0:ref> this kind of variations and the ones presented in this wok reflect the importance that the surface modification of cellulose has in the elaboration of composites. In case of BANF and BANC, both have similar UTS values and are higher than those of bleached pulp. On the other hand, PLA composites reinforced with modified nano-particles have better UTS than any other and are slightly better in the case of BADC. With regard to the strain at fracture, ductility of PLA is decreased when mixed with more crystalline material, this particularity can be observed with more clearness in the PLA-BANC composite in which the average maximum elongation is dropped by an average of 48% from the unfilled PLA, as the stronger bonds between the highly crystalline cellulose inhibit the elongation of the fiber. The addition of noncrystalline components to the surface of CNF and CNC enhances the interaction between the filler and the matrix, allowing a better displacement in the axial direction under tension, with strain being increased by ∼18% in the case of 0.5% BADC and ∼25% in the case of 0.5% BANS composites; this value gradually descends as the amount of filler represents a higher percent in the composite, as either 1% and 2% concentrations of BANS and BADC have lower values for maximum strain than PLA without fillers. The behavior of all composites shows a mechanical decay when the amount of filler is increased, this situation can be related with the morphology and the composition of the filler as amorphous parts of BABP, BANF and BAST; lignin content in BAST and coupling agents in BADC and BANC benefit the interactions between crystalline cellulose and PLA; but when the share of the filler inside the composite is increased, the anisotropy characteristic to organic fillers in polymeric matrices, gets a major role in the response of the composite to uniaxial stress, generating more dislocations inside the composite. Furthermore, higher amount of filler material can generate agglomerations that result in a deterioration of tensile stress transfer between matrix and filler, generating a more brittle structure <ns0:ref type="bibr" target="#b44">(Zhang et al., 2008)</ns0:ref>.</ns0:p><ns0:p>In Table <ns0:ref type="table" target="#tab_4">5</ns0:ref> glass transition temperature (T <sub>g</sub> ), melt temperature (T <sub>m</sub> ), crystallization temperature (T <sub>c</sub> ), enthalpy of melting (H <sub>m</sub> ), and enthalpy of crystallization (H <sub>c</sub> ) of the different composites are presented. Bulk PLA presents a T <sub>g</sub> of 63.22 • C and Tm 175.66 • C this results are similar to those reported in previous works <ns0:ref type="bibr" target="#b17">(Gordobil et al., 2014;</ns0:ref><ns0:ref type="bibr" target="#b14">Frone et al., 2013)</ns0:ref>. Changes in T <sub>g</sub> are not significant between different composites, in more crystalline reinforcements such as silanized nanofibers or cellulose nanocrystals it can be observed a slight variation in the T <sub>c</sub> (between 3 and 5 • C) this changes and the increase of the enthalpy of fusion show a good nucleation of the cellulose crystallites enhancing the chain flow of PLA around the crystals whilst the crystallinity and the melting temperature is not highly affected.</ns0:p></ns0:div>
+<ns0:div><ns0:head n="4.">Conclusions</ns0:head><ns0:p>Six different composites were elaborated using PLA as a matrix and blue agave bagasse as raw material. To study the relevance of composition and surface modification in natural fibers, different chemical and mechanical treatments were performed. The analysis of composites made with the same material throughout the complete process can help to determine the relevance and feasibility of the treatments and then decide if whether or not is worthy. Hydrophilic character of cellulose surface was modified with 3aminopropyl triethoxysilane in case of nanofibers and dodecanoyl chloride in case of nanocrystals. The behavior toward contact angle and tensile tests showed the potential of these modifications as suitable methods to enhance mechanical properties and hydrophobicity because of the formation of non-polar covalent bonding between free hydroxyl and coupling agents, also enhancing dispersion inside the matrix, this has an important potential in creating barrier materials to avoid contact with water. Exists an inversely proportional relation between the amount of filler and the uniaxial mechanical properties, this can be related to agglomerations and the anisotropy of the filler inside the matrix, also the addition of nano-scale particles enhanced the interaction between matrixfiller. Thermal properties showed a better crystallization of the PLA chains when reinforcements were added without affecting the final crystallinity of the polymer.</ns0:p></ns0:div><ns0:figure xml:id="fig_0"><ns0:head>Fig. 1 .</ns0:head><ns0:label>1</ns0:label><ns0:figDesc>Fig. 1. Schematic description of the modifications and visual aspect of the fibers.</ns0:figDesc><ns0:graphic url="image-4.png" coords="3,77.45,55.05,429.84,385.49" type="bitmap" /></ns0:figure>
+<ns0:figure xml:id="fig_1"><ns0:head>Fig. 2 .</ns0:head><ns0:label>2</ns0:label><ns0:figDesc>Fig. 2. AT-IR spectra of (a) bleached pulp, (b) silanized cellulose nanofibers and (c) esterified cellulose nanocrystals.</ns0:figDesc><ns0:graphic url="image-5.png" coords="4,45.51,55.47,246.00,206.06" type="bitmap" /></ns0:figure>
+<ns0:figure xml:id="fig_2"><ns0:head>Fig. 3 .</ns0:head><ns0:label>3</ns0:label><ns0:figDesc>Fig. 3. SEM images of blue agave bagasse fibers.</ns0:figDesc><ns0:graphic url="image-6.png" coords="5,100.45,55.34,384.24,151.20" type="bitmap" /></ns0:figure>
+<ns0:figure xml:id="fig_3"><ns0:head>Fig. 4 .</ns0:head><ns0:label>4</ns0:label><ns0:figDesc>Fig. 4. Atomic force microscopy images of (a) cellulose nanofibers (b) cellulose nanocrystals (c) silanized cellulose nanofibers and (d) esterified cellulose nanocrystals.</ns0:figDesc><ns0:graphic url="image-7.png" coords="5,100.45,239.32,384.24,384.05" type="bitmap" /></ns0:figure>
+<ns0:figure xml:id="fig_4"><ns0:head>Fig. 5 .</ns0:head><ns0:label>5</ns0:label><ns0:figDesc>Fig. 5. XRD diffractograms of blue agave bagasse, bleached pulp, cellulose nanofibers and cellulose nanocrystals.</ns0:figDesc><ns0:graphic url="image-8.png" coords="6,45.51,55.77,246.00,204.77" type="bitmap" /></ns0:figure>
+<ns0:figure xml:id="fig_5"><ns0:head>Fig. 6 .</ns0:head><ns0:label>6</ns0:label><ns0:figDesc>Fig.6. XRD diffractograms of cellulose nanofibers and nanocrystalline cellulose before and after their respective modifications. Smaller images show the peak deconvolution for modified cellulose nanofibers and nanocrystals.</ns0:figDesc><ns0:graphic url="image-9.png" coords="6,63.26,442.83,480.00,275.76" type="bitmap" /></ns0:figure>
+<ns0:figure xml:id="fig_6"><ns0:head>Fig. 7 .</ns0:head><ns0:label>7</ns0:label><ns0:figDesc>Fig. 7. Visual aspect of the different composites.</ns0:figDesc><ns0:graphic url="image-10.png" coords="7,304.19,55.48,246.00,205.06" type="bitmap" /></ns0:figure>
+<ns0:figure xml:id="fig_7"><ns0:head>Fig. 8 .</ns0:head><ns0:label>8</ns0:label><ns0:figDesc>Fig. 8. SEM images of PLA reinforced with: (a) 2% BANF, (b) <sub>2</sub> BANC, (c) 2 and (d) 2% BADC.</ns0:figDesc><ns0:graphic url="image-11.png" coords="7,88.45,397.54,408.00,329.62" type="bitmap" /></ns0:figure>
+<ns0:figure xml:id="fig_8"><ns0:head>Fig. 9 .</ns0:head><ns0:label>9</ns0:label><ns0:figDesc>Fig. 9. Characteristic stress-strain graphs for the different composites. (For interpretation of the references to color in this figure text, the reader is referred to the web version of this article.)</ns0:figDesc><ns0:graphic url="image-12.png" coords="8,51.26,55.90,504.00,296.64" type="bitmap" /></ns0:figure>
+<ns0:figure type="table" xml:id="tab_0"><ns0:head>Table 1</ns0:head><ns0:label>1</ns0:label><ns0:figDesc>Abbreviations used for the different reinforces used for the composites.</ns0:figDesc><ns0:table><ns0:row><ns0:cell>Bagasse pulp</ns0:cell><ns0:cell>BAST</ns0:cell><ns0:cell>Cellulose nanocrystals</ns0:cell><ns0:cell>BANC</ns0:cell></ns0:row><ns0:row><ns0:cell>Bleached pulp</ns0:cell><ns0:cell>BABP</ns0:cell><ns0:cell>Cellulose nanofibers + silane</ns0:cell><ns0:cell>BANS</ns0:cell></ns0:row><ns0:row><ns0:cell>Cellulose nanofibers</ns0:cell><ns0:cell>BANF</ns0:cell><ns0:cell>Cellulose nanocrystals + fatty acid</ns0:cell><ns0:cell>BADC</ns0:cell></ns0:row></ns0:table></ns0:figure>
+<ns0:figure type="table" xml:id="tab_1"><ns0:head>Table 2</ns0:head><ns0:label>2</ns0:label><ns0:figDesc>Apparent crystallinity and estimated crystallite size of the fibers through the different treatments and modifications.</ns0:figDesc><ns0:table><ns0:row><ns0:cell>Sample</ns0:cell><ns0:cell>% Cristallinity</ns0:cell><ns0:cell>Crystallite size (Å)</ns0:cell></ns0:row><ns0:row><ns0:cell>BAST</ns0:cell><ns0:cell>35.01</ns0:cell><ns0:cell>-</ns0:cell></ns0:row><ns0:row><ns0:cell>BABP</ns0:cell><ns0:cell>50.20</ns0:cell><ns0:cell>∼38</ns0:cell></ns0:row><ns0:row><ns0:cell>BANF</ns0:cell><ns0:cell>53.95</ns0:cell><ns0:cell>∼38</ns0:cell></ns0:row><ns0:row><ns0:cell>BANC</ns0:cell><ns0:cell>61.52</ns0:cell><ns0:cell>∼34</ns0:cell></ns0:row><ns0:row><ns0:cell>BANS</ns0:cell><ns0:cell>49.11</ns0:cell><ns0:cell>∼41</ns0:cell></ns0:row><ns0:row><ns0:cell>BADC</ns0:cell><ns0:cell>53.36</ns0:cell><ns0:cell>∼52</ns0:cell></ns0:row></ns0:table></ns0:figure>
+<ns0:figure type="table" xml:id="tab_2"><ns0:head>Table 3</ns0:head><ns0:label>3</ns0:label><ns0:figDesc>Contact angle of cellulose before and after modifications.</ns0:figDesc><ns0:table><ns0:row><ns0:cell>Sample</ns0:cell><ns0:cell>Âw (deg)</ns0:cell></ns0:row><ns0:row><ns0:cell>BAST</ns0:cell><ns0:cell>36.15 ± 1.41</ns0:cell></ns0:row><ns0:row><ns0:cell>BABP</ns0:cell><ns0:cell>31.74 ± 1.86</ns0:cell></ns0:row><ns0:row><ns0:cell>BANS</ns0:cell><ns0:cell>63.19 ± 1.23</ns0:cell></ns0:row><ns0:row><ns0:cell>BADC</ns0:cell><ns0:cell>81.06 ± 1.21</ns0:cell></ns0:row></ns0:table></ns0:figure>
+<ns0:figure type="table" xml:id="tab_3"><ns0:head>Table 4</ns0:head><ns0:label>4</ns0:label><ns0:figDesc>Ultimate tensile stress and strain at fracture of the different composites number in parenthesis is the standard deviation in percent.</ns0:figDesc><ns0:table><ns0:row><ns0:cell>Material</ns0:cell><ns0:cell>UTS (MPa)</ns0:cell><ns0:cell>Strain at break (%)</ns0:cell><ns0:cell>Tensile modulus (GPa)</ns0:cell></ns0:row><ns0:row><ns0:cell>PLA</ns0:cell><ns0:cell>45 (2.31)</ns0:cell><ns0:cell>11 (8.80)</ns0:cell><ns0:cell>2.69 (3.05)</ns0:cell></ns0:row><ns0:row><ns0:cell>0.5% BAST</ns0:cell><ns0:cell>39 (8.95)</ns0:cell><ns0:cell>10 (4.35)</ns0:cell><ns0:cell>2.47 (2.40)</ns0:cell></ns0:row><ns0:row><ns0:cell>1.0% BAST</ns0:cell><ns0:cell>36 (9.08)</ns0:cell><ns0:cell>9 (5.43)</ns0:cell><ns0:cell>2.83 (1.97)</ns0:cell></ns0:row><ns0:row><ns0:cell>2.0% BAST</ns0:cell><ns0:cell>33 (5.06)</ns0:cell><ns0:cell>8 (6.75)</ns0:cell><ns0:cell>2.99 (2.22)</ns0:cell></ns0:row><ns0:row><ns0:cell>0.5% BABP</ns0:cell><ns0:cell>41 (7.27)</ns0:cell><ns0:cell>9 (3.07)</ns0:cell><ns0:cell>3.19 (1.77)</ns0:cell></ns0:row><ns0:row><ns0:cell>1.0% BABP</ns0:cell><ns0:cell>37 (7.27)</ns0:cell><ns0:cell>8 (6.42)</ns0:cell><ns0:cell>1.20 (6.02)</ns0:cell></ns0:row><ns0:row><ns0:cell>2.0% BABP</ns0:cell><ns0:cell>31 (2.81)</ns0:cell><ns0:cell>6 (5.36)</ns0:cell><ns0:cell>4.04 (0.37)</ns0:cell></ns0:row><ns0:row><ns0:cell>0.5% BANF</ns0:cell><ns0:cell>42 (10.11)</ns0:cell><ns0:cell>9 (16.30)</ns0:cell><ns0:cell>1.39 (3.83)</ns0:cell></ns0:row><ns0:row><ns0:cell>1.0% BANF</ns0:cell><ns0:cell>36 (2.80)</ns0:cell><ns0:cell>8 (5.02)</ns0:cell><ns0:cell>2.82 (2.63)</ns0:cell></ns0:row><ns0:row><ns0:cell>2.0% BANF</ns0:cell><ns0:cell>35 (2.99)</ns0:cell><ns0:cell>8 (2.35)</ns0:cell><ns0:cell>2.95 (1.28)</ns0:cell></ns0:row><ns0:row><ns0:cell>0.5% BANS</ns0:cell><ns0:cell>43 (3.90)</ns0:cell><ns0:cell>14 (1.52)</ns0:cell><ns0:cell>1.87 (2.52)</ns0:cell></ns0:row><ns0:row><ns0:cell>1.0% BANS</ns0:cell><ns0:cell>39 (9.09)</ns0:cell><ns0:cell>11 (7.08)</ns0:cell><ns0:cell>2.06 (5.32)</ns0:cell></ns0:row><ns0:row><ns0:cell>2.0% BANS</ns0:cell><ns0:cell>34 (8.18)</ns0:cell><ns0:cell>8 (6.49)</ns0:cell><ns0:cell>2.85 (2.32)</ns0:cell></ns0:row><ns0:row><ns0:cell>0.5% BANC</ns0:cell><ns0:cell>42 (2.17)</ns0:cell><ns0:cell>9 (6.08)</ns0:cell><ns0:cell>2.81 (0.93)</ns0:cell></ns0:row><ns0:row><ns0:cell>1.0% BANC</ns0:cell><ns0:cell>37 (8.70)</ns0:cell><ns0:cell>8 (5.06)</ns0:cell><ns0:cell>3.48 (1.87)</ns0:cell></ns0:row><ns0:row><ns0:cell>2.0% BANC</ns0:cell><ns0:cell>36 (1.79)</ns0:cell><ns0:cell>6 (14.95)</ns0:cell><ns0:cell>2.04 (9.04)</ns0:cell></ns0:row><ns0:row><ns0:cell>0.5% BADC</ns0:cell><ns0:cell>43 (5.48)</ns0:cell><ns0:cell>13 (5.87)</ns0:cell><ns0:cell>1.93 (9.87)</ns0:cell></ns0:row><ns0:row><ns0:cell>1.0% BADC</ns0:cell><ns0:cell>42 (2.94)</ns0:cell><ns0:cell>10 (7.89)</ns0:cell><ns0:cell>2.82 (3.02)</ns0:cell></ns0:row><ns0:row><ns0:cell>2.0% BADC</ns0:cell><ns0:cell>37 (3.76)</ns0:cell><ns0:cell>9 (9.95)</ns0:cell><ns0:cell>2.26 (3.30)</ns0:cell></ns0:row></ns0:table></ns0:figure>
+<ns0:figure type="table" xml:id="tab_4"><ns0:head>Table 5</ns0:head><ns0:label>5</ns0:label><ns0:figDesc>Thermal properties of PLA and PLA with 0.5% of nano-fillers.</ns0:figDesc><ns0:table><ns0:row><ns0:cell /><ns0:cell>Tg ( • C)</ns0:cell><ns0:cell>Tc ( • C)</ns0:cell><ns0:cell>Tm ( • C)</ns0:cell><ns0:cell>Hm (J g −1 <super>)</super></ns0:cell><ns0:cell>Hc(J g −1 <super>)</super></ns0:cell><ns0:cell>Xc</ns0:cell></ns0:row><ns0:row><ns0:cell>PLA</ns0:cell><ns0:cell>63.22</ns0:cell><ns0:cell>97.54</ns0:cell><ns0:cell>175.66</ns0:cell><ns0:cell>70.76</ns0:cell><ns0:cell>34.29</ns0:cell><ns0:cell>39.32</ns0:cell></ns0:row><ns0:row><ns0:cell>NF 0.5%</ns0:cell><ns0:cell>62.05</ns0:cell><ns0:cell>92.06</ns0:cell><ns0:cell>174.45</ns0:cell><ns0:cell>67.89</ns0:cell><ns0:cell>37.57</ns0:cell><ns0:cell>32.55</ns0:cell></ns0:row><ns0:row><ns0:cell>NC 0.5%</ns0:cell><ns0:cell>62.35</ns0:cell><ns0:cell>94.51</ns0:cell><ns0:cell>175.69</ns0:cell><ns0:cell>68.13</ns0:cell><ns0:cell>33.59</ns0:cell><ns0:cell>37.08</ns0:cell></ns0:row><ns0:row><ns0:cell>NS 0.5%</ns0:cell><ns0:cell>63.02</ns0:cell><ns0:cell>92.78</ns0:cell><ns0:cell>176.14</ns0:cell><ns0:cell>70.62</ns0:cell><ns0:cell>33.97</ns0:cell><ns0:cell>39.35</ns0:cell></ns0:row><ns0:row><ns0:cell>DC 0.5%</ns0:cell><ns0:cell>62.46</ns0:cell><ns0:cell>96.97</ns0:cell><ns0:cell>175.75</ns0:cell><ns0:cell>69.54</ns0:cell><ns0:cell>33.19</ns0:cell><ns0:cell>39.03</ns0:cell></ns0:row></ns0:table></ns0:figure>
+		</ns0:body>
+		<ns0:back>
+
+			<ns0:div type="acknowledgement">
+<ns0:div><ns0:head>Acknowledgements</ns0:head><ns0:p>The authors would like to acknowledge the financial support of the Department of Education, Universities and Research of the Basque Government through project IT672-13 and the Mexican Council of Science and Technology (CONACyT) through scholarship No. 216,178. The authors thank for technical and human support provided by SGIker of UPV/EHU for XRD, AFM and SEM characterizations.</ns0:p></ns0:div>
+			</ns0:div>
+
+			<ns0:div type="references">
+
+				<ns0:listBibl>
+
+<ns0:biblStruct xml:id="b0">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Development of biocatalysts for production of commodity chemicals from lignocellulosic biomass</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:forename type="middle">G</ns0:forename><ns0:surname>Adsul</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:forename type="middle">S</ns0:forename><ns0:surname>Singhvi</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:forename type="middle">A</ns0:forename><ns0:surname>Gaikaiwari</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:forename type="middle">V</ns0:forename><ns0:surname>Gokhale</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1016/j.biortech.2011.01.002</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1016/j.biortech.2011.01.002" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Bioresour. Technol</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">102</ns0:biblScope>
+			<ns0:biblScope unit="page" from="4304" to="4312" />
+			<ns0:date type="published" when="2011">2011</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b1">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Mechanical, physical and barrier properties of poly(lactide) films</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">R</ns0:forename><ns0:surname>Auras</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">B</ns0:forename><ns0:surname>Harte</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Selke</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">R</ns0:forename><ns0:surname>Hernandez</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1016/j.biortech.2011.01.002</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1177/8756087903039702" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">J. Plast. Film Sheet</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">19</ns0:biblScope>
+			<ns0:biblScope unit="page" from="123" to="135" />
+			<ns0:date type="published" when="2003">2003</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b2">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Optimization of the isolation of nanocrystals from microcrystalline cellulose by acid hydrolysis</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:surname>Bondeson</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Aji</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:surname>Oksman</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1177/8756087903039702</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1007/s10570-006-9061-4" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Cellulose</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">13</ns0:biblScope>
+			<ns0:biblScope unit="page" from="171" to="180" />
+			<ns0:date type="published" when="2006">2006</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b3">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Polylactic acid/cellulose whisker nanocomposites modified by polyvinyl alcohol</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:surname>Bondeson</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:surname>Oksman</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1007/s10570-006-9061-4</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1016/j.compositesa.2007.08.001" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Compos. Part A: Appl. Sci. Manuf</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">38</ns0:biblScope>
+			<ns0:biblScope unit="page" from="2486" to="2492" />
+			<ns0:date type="published" when="2007">2007</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b4">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Structural FTIR analysis and thermal characterisation of lyocell and viscose-type fibres</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">F</ns0:forename><ns0:surname>Carrillo</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">X</ns0:forename><ns0:surname>Colom</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">J</ns0:forename><ns0:surname>Su Ñol</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Saurina</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1016/j.eurpolymj.2004.05.003</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1016/j.eurpolymj.2004.05.003" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Eur. Polym. J</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">40</ns0:biblScope>
+			<ns0:biblScope unit="page" from="2229" to="2234" />
+			<ns0:date type="published" when="2004">2004</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b5">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Acetylation of cellulose nanowhiskers with vinyl acetate under moderate conditions</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">N</ns0:forename><ns0:forename type="middle">S</ns0:forename><ns0:surname>C ¸etin</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">P</ns0:forename><ns0:surname>Tingaut</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">N</ns0:forename><ns0:forename type="middle">H</ns0:forename><ns0:surname>Özmen</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">N</ns0:forename><ns0:surname>Henry</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:surname>Harper</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Dadmun</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">G</ns0:forename><ns0:surname>Sèbe</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1016/j.eurpolymj.2004.05.003</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1002/mabi.200900073" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Macromol. Biosci</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">9</ns0:biblScope>
+			<ns0:biblScope unit="page" from="997" to="1003" />
+			<ns0:date type="published" when="2009">2009</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b6">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Contact angle measurements on smooth nanocrystalline cellulose (I) thin films</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">T</ns0:forename><ns0:forename type="middle">A</ns0:forename><ns0:surname>Dankovich</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:forename type="middle">G</ns0:forename><ns0:surname>Gray</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1002/mabi.200900073</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1163/016942410X525885" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">J. Adhes. Sci. Technol</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">25</ns0:biblScope>
+			<ns0:biblScope unit="page" from="699" to="708" />
+			<ns0:date type="published" when="2011">2011</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b7">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Processing of polymer nanocomposites reinforced with polysaccharide nanocrystals</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Dufresne</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1163/016942410X525885</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.3390/molecules15064111" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Molecules</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">15</ns0:biblScope>
+			<ns0:biblScope unit="page" from="4111" to="4128" />
+			<ns0:date type="published" when="2010">2010</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b8">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Preparation and crystalline analysis of high-grade bamboo dissolving pulp for cellulose acetate</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>He</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">C</ns0:forename><ns0:surname>Shizhong</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Wang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.3390/molecules15064111</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1002/app.27061" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">J. Appl. Polym. Sci</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">107</ns0:biblScope>
+			<ns0:biblScope unit="page" from="1029" to="1038" />
+			<ns0:date type="published" when="2008">2008</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b9">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Flow of gels of cellulose microcrystals. II. Effect of added electrolyte</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:forename type="middle">R</ns0:forename><ns0:surname>Edelson</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Hermans</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1002/app.27061</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1002/polc.5070020115" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">J. Polym. Sci. C</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">2</ns0:biblScope>
+			<ns0:biblScope unit="page" from="145" to="152" />
+			<ns0:date type="published" when="1963">1963</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b10">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Isolation and characterization of cellulose nanocrystals from industrial by-products of Agave tequilana and barley</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">E</ns0:forename><ns0:surname>Espino</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Cakir</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Domenek</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:forename type="middle">D</ns0:forename><ns0:surname>Román-Gutiérrez</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">N</ns0:forename><ns0:surname>Belgacem</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Bras</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1002/polc.5070020115</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1016/j.indcrop.2014.09.017" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Ind. Crops Prod</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">62</ns0:biblScope>
+			<ns0:biblScope unit="page" from="552" to="559" />
+			<ns0:date type="published" when="2014">2014</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b11">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Trialkylsilane monolayers covalently attached to silicon surfaces: wettability studies indicating that molecular topography contributes to contact angle hysteresis</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:forename type="middle">Y</ns0:forename><ns0:surname>Fadeev</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">T</ns0:forename><ns0:surname>Mccarthy</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1016/j.indcrop.2014.09.017</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1021/la981486o" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Langmuir</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">15</ns0:biblScope>
+			<ns0:biblScope unit="page" from="3759" to="3766" />
+			<ns0:date type="published" when="1999">1999</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b12">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Fourier transform infrared spectroscopy for natural fibers</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Fan</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:surname>Dai</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">B</ns0:forename><ns0:surname>Huang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1021/la981486o</ns0:idno>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="m">Fourier Transform -Materials Analysis</ns0:title>
+				<ns0:editor>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Salih</ns0:surname></ns0:persName>
+		</ns0:editor>
+		<ns0:imprint>
+			<ns0:publisher>InTech</ns0:publisher>
+			<ns0:date type="published" when="2012">2012</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b13">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Controlled heterogeneous modification of cellulose fibers with fatty acids: effect of reaction conditions on the extent of esterification and fiber properties</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">C</ns0:forename><ns0:forename type="middle">S R</ns0:forename><ns0:surname>Freire</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:forename type="middle">J D</ns0:forename><ns0:surname>Silvestre</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">C</ns0:forename><ns0:surname>Neto</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:forename type="middle">N</ns0:forename><ns0:surname>Belgacem</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Gandini</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1002/app.23454</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1002/app.23454" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">J. Appl. Polym. Sci</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">100</ns0:biblScope>
+			<ns0:biblScope unit="page" from="1093" to="1102" />
+			<ns0:date type="published" when="2006">2006</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b14">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Morphology and thermal properties of PLA-cellulose nanofiber composites</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:forename type="middle">N</ns0:forename><ns0:surname>Frone</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Berlioz</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">F</ns0:forename><ns0:surname>Chailan</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:forename type="middle">M</ns0:forename><ns0:surname>Panaitescu</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1002/app.23454</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1016/j.carbpol.2012.08.054" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Carbohydr. Polym</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">91</ns0:biblScope>
+			<ns0:biblScope unit="page" from="377" to="384" />
+			<ns0:date type="published" when="2013">2013</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b15">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Sisal cellulose whiskers reinforced polyvinyl acetate nanocomposites</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">N</ns0:forename><ns0:forename type="middle">L</ns0:forename><ns0:surname>Garcia De Rodriguez</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">W</ns0:forename><ns0:surname>Thielemans</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Dufresne</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1016/j.carbpol.2012.08.054</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1007/s10570-005-9039-7" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Cellulose</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">13</ns0:biblScope>
+			<ns0:biblScope unit="page" from="261" to="270" />
+			<ns0:date type="published" when="2006">2006</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b16">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">A literature review of poly(lactic acid)</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:surname>Garlotta</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1007/s10570-005-9039-7</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1023/A:1020200822435" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">J. Polym. Environ</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">9</ns0:biblScope>
+			<ns0:biblScope unit="issue">2</ns0:biblScope>
+			<ns0:biblScope unit="page" from="63" to="84" />
+			<ns0:date type="published" when="2002">2002</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b17">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Physicochemical properties of PLA lignin blends</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">O</ns0:forename><ns0:surname>Gordobil</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">I</ns0:forename><ns0:surname>Egü&#233;s</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">R</ns0:forename><ns0:surname>Llano-Ponte</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Labidi</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1023/A:1020200822435</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1016/j.polymdegradstab.2014.01.002" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Polym. Degrad. Stab</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">108</ns0:biblScope>
+			<ns0:biblScope unit="page" from="330" to="338" />
+			<ns0:date type="published" when="2014">2014</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b18">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Surface silylation of cellulose microfibrils: preparation and rheological properties</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">C</ns0:forename><ns0:surname>Goussé</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">H</ns0:forename><ns0:surname>Chanzy</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:forename type="middle">L</ns0:forename><ns0:surname>Cerrada</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">E</ns0:forename><ns0:surname>Fleury</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1016/j.polymdegradstab.2014.01.002</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1016/j.polymer.2003.12.028" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Polymer</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">45</ns0:biblScope>
+			<ns0:biblScope unit="page" from="1569" to="1575" />
+			<ns0:date type="published" when="2004">2004</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b19">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Polylactic acid composites incorporating casein functionalized cellulose nanocrystals</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Gu</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">M</ns0:forename><ns0:surname>Catchmark</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1016/j.polymer.2003.12.028</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1186/1754-1611-7-31" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">J. Biol. Eng</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">7</ns0:biblScope>
+			<ns0:biblScope unit="issue">31</ns0:biblScope>
+			<ns0:date type="published" when="2013">2013</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b20">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Understanding the reinforcing mechanisms in kenaf fiber/PLA and kenaf fiber/PP composites: a comparative study</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:forename type="middle">O</ns0:forename><ns0:surname>Han</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Karevan</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">I</ns0:forename><ns0:forename type="middle">N</ns0:forename><ns0:surname>Sim</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Bhuiyan Md</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Y</ns0:forename><ns0:forename type="middle">H</ns0:forename><ns0:surname>Jang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Ghaffar</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:surname>Kalaitzidou</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1186/1754-1611-7-31</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1155/2012/679252" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Int. J. Polym. Sci</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">679252</ns0:biblScope>
+			<ns0:date type="published" when="2012">2012. 2012</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b21">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Poly-lactic acid: production, applications, nanocomposites, and release studies</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Jamshidian</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">E</ns0:forename><ns0:forename type="middle">A</ns0:forename><ns0:surname>Tehrany</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Imran</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Jacquot</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Desobry</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1155/2012/679252</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1111/j.1541-4337.2010.00126.x" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Compr. Rev. Food Sci. Food Saf</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="page" from="9552" to="9571" />
+			<ns0:date type="published" when="2010">2010</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b22">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Surface treated banana fiber reinforced poly(lactic acid) nanocomposites for disposable applications</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">P</ns0:forename><ns0:forename type="middle">J</ns0:forename><ns0:surname>Jandas</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Mohanty</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:forename type="middle">K</ns0:forename><ns0:surname>Nayak</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1111/j.1541-4337.2010.00126.x</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1016/j.jclepro.2013.03.033" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">J. Clean. Prod</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">52</ns0:biblScope>
+			<ns0:biblScope unit="page" from="392" to="401" />
+			<ns0:date type="published" when="2013">2013</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b23">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Mechanical and thermal properties of PLA composites with cellulose nanofibers and standard size fibers</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Kowalczyk</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">E</ns0:forename><ns0:surname>Piorkowska</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">P</ns0:forename><ns0:surname>Kulpinski</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Pracella</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1016/j.jclepro.2013.03.033</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1016/j.compositesa.2011.07.003" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Compos. Part A: Appl. Sci. Manuf</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">42</ns0:biblScope>
+			<ns0:biblScope unit="page" from="1509" to="1514" />
+			<ns0:date type="published" when="2011">2011</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b24">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Preparation and properties of composite films from modified cellulose fibre-reinforced with PLA</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:forename type="middle">S</ns0:forename><ns0:surname>Laxmeshwar</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Viveka</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:forename type="middle">J</ns0:forename><ns0:surname>Madhu Kumar</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">G</ns0:forename><ns0:forename type="middle">K</ns0:forename><ns0:surname>Nagaraja</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1016/j.compositesa.2011.07.003</ns0:idno>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Der Pharm. Chem</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">4</ns0:biblScope>
+			<ns0:biblScope unit="page" from="159" to="168" />
+			<ns0:date type="published" when="2012">2012</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b25">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Hydrogen peroxide bleaching of hardwood kraft pulp with adsorbed birch xylan and its effect on paper properties</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">L</ns0:forename><ns0:surname>Li</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Lee</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">H</ns0:forename><ns0:forename type="middle">L</ns0:forename><ns0:surname>Lee</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">H</ns0:forename><ns0:forename type="middle">J</ns0:forename><ns0:surname>Youn</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Bioresource</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">6</ns0:biblScope>
+			<ns0:biblScope unit="page" from="721" to="736" />
+			<ns0:date type="published" when="2011">2011</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b26">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Silylation of cellulose with trichlorosilane and triethoxysilane in homogeneous LiCl/N,N-dimethylacetamide solution</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">H</ns0:forename><ns0:surname>Liu</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">L</ns0:forename><ns0:surname>Zhang</ns0:surname></ns0:persName>
+		</ns0:author>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Chinese J. Polym. Sci</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">18</ns0:biblScope>
+			<ns0:biblScope unit="page" from="161" to="198" />
+			<ns0:date type="published" when="2000">2000</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b27">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Organization of aliphatic chains grafted on nanofibrilated cellulose and influence on final properties</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:surname>Missoum</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Bras</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:forename type="middle">N</ns0:forename><ns0:surname>Belgacem</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1007/s10570-012-9780-7</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1007/s10570-012-9780-7" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Cellulose</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">19</ns0:biblScope>
+			<ns0:biblScope unit="page" from="1957" to="1973" />
+			<ns0:date type="published" when="2012">2012</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b28">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Natural fibres as reinforcement in polylactic acid (PLA) composites</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:surname>Oksman</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Skrifvars</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">F</ns0:forename><ns0:surname>Selin</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1007/s10570-012-9780-7</ns0:idno>
+		<ns0:idno>S0266-3538(03)103-9</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1016/" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Compos. Sci. Technol</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">63</ns0:biblScope>
+			<ns0:biblScope unit="page" from="1317" to="1324" />
+			<ns0:date type="published" when="2003">2003</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b29">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Cellulose crystallinity index: measurement techniques and their impact on interpreting cellulase performance</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Park</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">O</ns0:forename><ns0:surname>Baker</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:forename type="middle">E</ns0:forename><ns0:surname>Himmel</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">P</ns0:forename><ns0:forename type="middle">A</ns0:forename><ns0:surname>Parilla</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:forename type="middle">K</ns0:forename><ns0:surname>Johnson</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1016/S0266-3538(03)103-9</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1186/1754-6834-3-10" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Biotechnol. Biofuels</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">3</ns0:biblScope>
+			<ns0:date type="published" when="2010">2010</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b30">
+	<ns0:monogr>
+		<ns0:title level="m" type="main">The Chemistry of Solid Wood, 207. Advances in Chemistry Series</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">R</ns0:forename><ns0:forename type="middle">C</ns0:forename><ns0:surname>Pettersen</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1021/ba-1984-0207,ch002</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1021/ba-1984-0207,ch002" />
+		<ns0:editor>Rowell, R.</ns0:editor>
+		<ns0:imprint>
+			<ns0:date type="published" when="1984">1984</ns0:date>
+			<ns0:publisher>American Chemical Society</ns0:publisher>
+			<ns0:biblScope unit="page" from="70" to="72" />
+			<ns0:pubPlace>Washington, DC</ns0:pubPlace>
+		</ns0:imprint>
+	</ns0:monogr>
+	<ns0:note>The chemical composition of wood</ns0:note>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b31">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Surface modification of cellulose nanowhiskers and their use as nanoreinfocers into polylactide: a sustainably-integrated approach</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">M</ns0:forename><ns0:surname>Raquez</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Y</ns0:forename><ns0:surname>Murena</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:forename type="middle">L</ns0:forename><ns0:surname>Goffin</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Y</ns0:forename><ns0:surname>Habibi</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">B</ns0:forename><ns0:surname>Ruelle</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">F</ns0:forename><ns0:surname>Debuyl</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">P</ns0:forename><ns0:surname>Dubois</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1021/ba-1984-0207</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1016/j.compscitech.2011.11.017" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Compos. Sci. Technol</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">72</ns0:biblScope>
+			<ns0:biblScope unit="page" from="544" to="549" />
+			<ns0:date type="published" when="2012">2012</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b32">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Cellulose nanocrystals from coconut husk fibers: effect of preparation conditions on their thermal and morphological behavior</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:forename type="middle">F</ns0:forename><ns0:surname>Rosa</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">E</ns0:forename><ns0:forename type="middle">S</ns0:forename><ns0:surname>Medeiros</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:forename type="middle">A</ns0:forename><ns0:surname>Malmonge</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:forename type="middle">S</ns0:forename><ns0:surname>Gresorski</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:forename type="middle">F</ns0:forename><ns0:surname>Wood</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">L</ns0:forename><ns0:forename type="middle">H C</ns0:forename><ns0:surname>Mattoso</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">G</ns0:forename><ns0:surname>Glenn</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">W</ns0:forename><ns0:forename type="middle">J</ns0:forename><ns0:surname>Orts</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:forename type="middle">H</ns0:forename><ns0:surname>Imam</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1016/j.compscitech.2011.11.017</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1016/j.carbpol.2010.01.059" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Carbohydr. Polym</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">81</ns0:biblScope>
+			<ns0:biblScope unit="page" from="83" to="92" />
+			<ns0:date type="published" when="2010">2010</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b33">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">On the modeling of the powder pattern from a nanocrystalline material</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">P</ns0:forename><ns0:surname>Scardi</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Leoni</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:forename type="middle">R</ns0:forename><ns0:surname>Beyerlein</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1016/j.carbpol.2010.01.059</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1524/zkri.2011.1448" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Z. Kristallogr</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">226</ns0:biblScope>
+			<ns0:biblScope unit="page" from="924" to="933" />
+			<ns0:date type="published" when="2011">2011</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b34">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Mechanical properties of natural rubber nanocomposites reinforced with cellulosic nanoparticles obtained from combined mechanical shearing, and enzymatic and acid hydrolysis of sisal fibers</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">G</ns0:forename><ns0:surname>Siqueira</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:surname>Tapin-Lingua</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Bras</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:surname>Da Silva Perez</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">A</ns0:forename><ns0:surname>Dufresne</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1524/zkri.2011.1448</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1007/s10570-010-9463-1" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Cellulose</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">18</ns0:biblScope>
+			<ns0:biblScope unit="page" from="57" to="65" />
+			<ns0:date type="published" when="2011">2011</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b35">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Overview on native cellulose and microcrystalline cellulose I structure studied by X-ray diffraction (WAXD): comparison between measurement techniques</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">N</ns0:forename><ns0:surname>Terinte</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">R</ns0:forename><ns0:surname>Ibbett</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:forename type="middle">C</ns0:forename><ns0:surname>Schuster</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1007/s10570-010-9463-1</ns0:idno>
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="s">Lenzing Ber.</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">89</ns0:biblScope>
+			<ns0:biblScope unit="page" from="118" to="131" />
+			<ns0:date type="published" when="2011">2011</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b36">
+	<ns0:monogr>
+		<ns0:title level="m" type="main">Solvent extractives of wood and pulp. Standard by Technical Association of the Pulp and Paper Industry</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">T</ns0:forename><ns0:surname>Tappi</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:imprint>
+			<ns0:date type="published" when="2007">204 cm-07, 2007. 2008</ns0:date>
+			<ns0:biblScope unit="volume">207</ns0:biblScope>
+			<ns0:pubPlace>Atlanta, GA. TAPPI, T; Atlanta, GA</ns0:pubPlace>
+		</ns0:imprint>
+	</ns0:monogr>
+	<ns0:note>Water solubility of wood and pulp. Standard by Technical Association of the Pulp and Paper Industry</ns0:note>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b37">
+	<ns0:monogr>
+		<ns0:title level="m" type="main">Ash in Wood, Pulp, Paper and Paperboard: Combustion at 525 • . Standard by Technical Association of the Pulp and Paper Industry</ns0:title>
+		<ns0:idno>T211 om-12</ns0:idno>
+		<ns0:imprint>
+			<ns0:date type="published" when="2012">2012</ns0:date>
+			<ns0:pubPlace>Atlanta, GA</ns0:pubPlace>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b38">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Agrofibre reinforced poly(lactic acid) composites: effect of moisture on degradation and mechanical properties</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">G</ns0:forename><ns0:forename type="middle">A</ns0:forename><ns0:surname>Atlanta</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:forename type="middle">J A</ns0:forename><ns0:surname>Van Den Oever</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">B</ns0:forename><ns0:surname>Beck</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Müssig</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1016/j.compositesa.2010.07.011</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1016/j.compositesa.2010.07.011" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Compos. Part A: Appl. Sci. Manuf</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">41</ns0:biblScope>
+			<ns0:biblScope unit="page" from="1628" to="1635" />
+			<ns0:date type="published" when="2010">2011. 2010</ns0:date>
+		</ns0:imprint>
+		<ns0:respStmt>
+			<ns0:orgName>TAPPI</ns0:orgName>
+		</ns0:respStmt>
+	</ns0:monogr>
+	<ns0:note>Standard by Technical Association of the Pulp and Paper Industry</ns0:note>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b39">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Effectiveness of microbial pretreatment by Ceriporiopsis subvermispora on different biomass feedstocks</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">C</ns0:forename><ns0:surname>Wan</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Y</ns0:forename><ns0:surname>Li</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1016/j.compositesa.2010.07.011</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1016/j.biortech.2011.05.026" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Bioresour. Technol</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">102</ns0:biblScope>
+			<ns0:biblScope unit="page" from="7507" to="7512" />
+			<ns0:date type="published" when="2011">2011</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b40">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Study of structural morphology of hemp fiber from the micro to nanoscale</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">B</ns0:forename><ns0:surname>Wang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Sain</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:surname>Oksman</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1016/j.biortech.2011.05.026</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1007/s10443-006-9032-9" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Appl. Compos</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">14</ns0:biblScope>
+			<ns0:biblScope unit="page" from="89" to="103" />
+			<ns0:date type="published" when="2007">2007</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b41">
+	<ns0:monogr>
+		<ns0:title level="m" type="main">X-Ray Diffraction</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">B</ns0:forename><ns0:forename type="middle">E</ns0:forename><ns0:surname>Warren</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1007/s10443-006-9032-9</ns0:idno>
+		<ns0:imprint>
+			<ns0:date type="published" when="1969">1969</ns0:date>
+			<ns0:publisher>Addison-Wesley Pub., Co</ns0:publisher>
+			<ns0:biblScope unit="page">253</ns0:biblScope>
+			<ns0:pubPlace>Michigan</ns0:pubPlace>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b42">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Effects of partial replacement of silica with surface modified nanocrystalline cellulose on properties of natural rubber nanocomposites</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">S</ns0:forename><ns0:forename type="middle">H</ns0:forename><ns0:surname>Xu</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">J</ns0:forename><ns0:surname>Gu</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Y</ns0:forename><ns0:forename type="middle">F</ns0:forename><ns0:surname>Luo</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">D</ns0:forename><ns0:forename type="middle">M</ns0:forename><ns0:surname>Jia</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.3144/expresspolymlett.2012.3</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.3144/expresspolymlett.2012.3" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Express Polym. Lett</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">6</ns0:biblScope>
+			<ns0:biblScope unit="page" from="14" to="25" />
+			<ns0:date type="published" when="2012">2012</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b43">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Enhanced production of l(+)-lactic acid from corn starch in a culture of Rhizopus oryzae using an air-lift bioreactor</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">P</ns0:forename><ns0:surname>Yin</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">N</ns0:forename><ns0:surname>Nishina</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Y</ns0:forename><ns0:surname>Kosakai</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">K</ns0:forename><ns0:surname>Yahiro</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">Y</ns0:forename><ns0:surname>Pakr</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Okabe</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.3144/expresspolymlett.2012.3</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1016/S0922-338X(97)82063-6" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">J. Ferment. Bioeng</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">84</ns0:biblScope>
+			<ns0:biblScope unit="issue">3</ns0:biblScope>
+			<ns0:biblScope unit="page" from="249" to="253" />
+			<ns0:date type="published" when="1997">1997</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+<ns0:biblStruct xml:id="b44">
+	<ns0:analytic>
+		<ns0:title level="a" type="main">Mechanochemical preparation of surface-acetylated cellulose powder to enhance mechanical properties of cellulose-filler-reinforced NR vulcanizates</ns0:title>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">W</ns0:forename><ns0:surname>Zhang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">X</ns0:forename><ns0:surname>Zhang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">M</ns0:forename><ns0:surname>Liang</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:author>
+			<ns0:persName><ns0:forename type="first">C</ns0:forename><ns0:surname>Lu</ns0:surname></ns0:persName>
+		</ns0:author>
+		<ns0:idno type="DOI">10.1016/S0922-338X(97)82063-6</ns0:idno>
+		<ns0:ptr target="http://dx.doi.org/10.1016/j.compscitech.2008.05.005" />
+	</ns0:analytic>
+	<ns0:monogr>
+		<ns0:title level="j">Compos. Sci. Technol</ns0:title>
+		<ns0:imprint>
+			<ns0:biblScope unit="volume">68</ns0:biblScope>
+			<ns0:biblScope unit="page" from="2479" to="2484" />
+			<ns0:date type="published" when="2008">2008</ns0:date>
+		</ns0:imprint>
+	</ns0:monogr>
+</ns0:biblStruct>
+
+				</ns0:listBibl>
+			</ns0:div>
+		</ns0:back>
+	</ns0:text>
+</ns0:TEI>
