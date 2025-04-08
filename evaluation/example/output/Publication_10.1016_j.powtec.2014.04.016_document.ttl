@@ -1,0 +1,340 @@
+@prefix onner: <http://purl.org/spatialai/onner/onner-full#> .
+@prefix data: <http://purl.org/spatialai/onner/onner-full/data#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+data:Publication_10.1016_j.powtec.2014.04.016 rdf:type onner:ScholarlyPublication ;
+onner:publicationTitle 'Effect of drying conditions on cellulose nanocrystal (CNC) agglomerate porosity and dispersibility in polymer nanocomposites'^^xsd:string ;
+onner:publicationDate '2014-04-15'^^xsd:date ;
+onner:doi '10.1016/j.powtec.2014.04.016'^^xsd:string ;
+onner:directlyContainsDocumentPart data:10.1016_j.powtec.2014.04.016_A, data:10.1016_j.powtec.2014.04.016_1, data:10.1016_j.powtec.2014.04.016_2, data:10.1016_j.powtec.2014.04.016_3, data:10.1016_j.powtec.2014.04.016_4, data:10.1016_j.powtec.2014.04.016_5 .
+
+data:10.1016_j.powtec.2014.04.016_A rdf:type onner:Abstract ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_A-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.powtec.2014.04.016_A-1 .
+
+data:10.1016_j.powtec.2014.04.016_A-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_1 ;
+onner:paragraphText 'The microstructure of CNC particles depends strongly on the drying method employed during manufacturing. The effect of different drying techniques, including spray drying, freeze drying, and spray freeze drying (SFD), on microstructure of cellulose nanocrystal (CNC) particles was studied. Conventional drying methods (i.e. spray and freeze drying) yielded packed and dense agglomerates of CNC. Capillary forces and ice crystal growth play key roles in CNC aggregation during spray and freeze drying, respectively. It was found that, in the absence of these forces, in the SFD technique, the dispersed state of CNC in water could be frozen in. Thus, SFD of CNC suspension resulted in a powder with porous structure. A filament-like agglomerate structure consisting of nanofibers was formed at low CNC concentrations (ca. b2 wt.%), while a spherical foam structure was obtained at higher CNC concentrations. Polypropylene (PP) nanocomposites containing spray dried CNC, freeze dried CNC, and spray freeze dried CNC (CNCSFD) were prepared via melt mixing in an internal batch mixer. Optical light and scanning electron microscopy coupled with rheological properties showed better dispersion of CNCSFD agglomerates. Moreover, PP samples containing CNCSFD showed significant increases in mechanical properties.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_1 rdf:type onner:Section ;
+onner:sectionTitle 'Introduction'^^xsd:string ;
+onner:sectionNumber '1'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_1-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.powtec.2014.04.016_1-1, data:10.1016_j.powtec.2014.04.016_1-2, data:10.1016_j.powtec.2014.04.016_1-3, data:10.1016_j.powtec.2014.04.016_1-4 .
+
+data:10.1016_j.powtec.2014.04.016_1-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_1-2 ;
+onner:paragraphText 'Cellulose nanocrystals (CNCs) are obtained by strong acid hydrolysis or oxidation of cellulose crystals from cellulose microfibrils in forest products and/or other sources . CNC particles have been of growing interest because they are biocompatible and biodegradable and can be obtained from a variety of natural sources. Furthermore, the physical and mechanical properties of CNC make it a potential candidate for reinforcement of polymers .'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_1-2 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '2'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_1-3 ;
+onner:paragraphText 'CNC nanoparticles have high specific surface area and surface energy. Consequently, they aggregate and form larger particles during and/ or in the last step of the production process. After separation from other impurities and amorphous cellulose, CNC is obtained as an aqueous suspension. However, there are a variety of applications where CNC is needed in the powder form. Such applications include the preparation of polymeric nanocomposites in hydrophobic polymer matrices using melt processing. Moreover, transportation of CNC in the powder state reduces transportation costs. Therefore, a drying step is required to obtain dry CNC powder from the aqueous suspension. For CNC aqueous suspension, conventional drying methods such as spray and freeze drying have been employed . In the spray drying method, CNC suspension is atomized inside a drying chamber where hot air (higher than 100 °C) is used as the drying atmosphere which results in a powder with particle sizes in micron size range. Freeze drying or lyophilization is a drying process that occurs at low temperature by sublimation and is suitable for thermosensitive materials. Spray freeze drying (SFD) is a cryogenic atomization technique consisting of two main steps: (i) an aqueous solution is atomized directly/indirectly into a cryogenic liquid, such as liquid nitrogen, and (ii) freeze drying of the frozen suspension below the triple point of water. This technique has been used in the ceramic, food and pharmaceutical industries . However, to our knowledge, it has not been used in conjunction with CNC.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_1-3 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '3'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_1-4 ;
+onner:paragraphText 'Most attempts to prepare polymer/CNC nanocomposites via melt mixing were not successful to disperse CNC and therefore enhance mechanical properties of polymer . Therefore, most polymer nanocomposite preparations with CNC have been limited to solution mixing . One of the challenges in polymer nanocomposite field is nanoparticle dispersion evaluation in polymer matrices. This becomes a severe challenge for CNC as an organic nanoparticle dispersed in an organic medium such as polymer matrices. Thus, microscopy as a direct and conventional tool for dispersion is limited for polymer/CNC nanocomposites. On the other side, rheology as a sensitive tool to nanoparticle dispersion could be employed as a complementary technique.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_1-4 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '4'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_2 ;
+onner:paragraphText 'In this work, the effect of spray freeze drying on the microstructure of CNC agglomerates is studied. The porous CNC micro-particles (agglomerates) obtained by SFD could be used in applications where porosity is of interest, such as polymer nanocomposites, drug delivery, scaffolds, and catalysts. In a previous study , we found that thermodynamic analysis of energy requirements is not sufficient to achieve good dispersion of CNC in polymer melts, because kinetics factors should be also taken into consideration. Therefore, the relation between CNC agglomerate structure and its dispersibility in polymer matrices is analyzed, with due consideration to particle strength and polymer diffusion standpoint. The morphological, rheological, and mechanical properties of polymer nanocomposites containing CNC agglomerates prepared with different drying techniques (SD, FD, and SFD) are also investigated.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_2 rdf:type onner:Section ;
+onner:sectionTitle 'Background'^^xsd:string ;
+onner:sectionNumber '2'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_2.1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.powtec.2014.04.016_2.1, data:10.1016_j.powtec.2014.04.016_2.2 .
+
+data:10.1016_j.powtec.2014.04.016_2.1 rdf:type onner:Section ;
+onner:sectionTitle 'Dispersion of nanoparticles'^^xsd:string ;
+onner:sectionNumber '2.1'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_2.1-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.powtec.2014.04.016_2.1-1, data:10.1016_j.powtec.2014.04.016_2.1-2, data:10.1016_j.powtec.2014.04.016_2.1-3, data:10.1016_j.powtec.2014.04.016_2.1-4 .
+
+data:10.1016_j.powtec.2014.04.016_2.1-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_2.1-2 ;
+onner:paragraphText 'Inter-nanoparticle forces and interaction energy play an important role in the preparation of polymer nanocomposite systems. The magnitude of van der Waals interaction energy and forces between two isolated nanoparticles depends on the geometry of nanoparticles, as well as inter-particle distance. CNC can be considered as a cylindrical nanoparticle with 7 nm radius and 150 nm length . Table  shows equations and estimates for inter-particle interaction energy and force between two cross and parallel CNC cylindrical particles. U <sub>i</sub> , F <sub>i</sub> , A <sub>H</sub> , R, L, and z are the van der Waal interaction energy between particles, inter-particle force, Hamaker constant, particle radius, cylinder length, and interparticle distance, respectively. A <sub>H</sub> , the Hamaker constant, is defined as :'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_2.1-2 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '2'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_2.1-3 ;
+onner:paragraphText 'where D <sub>0</sub> and γ are the theoretical molecular distance between two particles in contact, known as "cutoff", 0.165 nm, and surface energy of CNC at 190 °C , respectively. The inter-particle van der Waals interaction energy and force between nanoparticles depend on the orientation of the individual nanoparticles. Inter-particle energy of two parallel and cross cylinders is comparable to or stronger than inter-molecular energy such as hydrogen bond energy (3.48 × 10 <super>−</super> <super>20</super> J) and C\C covalent bond energy (5.98 × 10 <super>-19</super> J) . It is also noteworthy that CNC nanoparticles can interact via hydrogen bonding. The number of hydroxyl groups per unit surface area (7.2 OH/nm <super>2</super> ) was calculated based on CNC unit cell. Also, the hydrogen bonding interaction energy associated with the hydroxyl groups on the CNC surface for two CNC nanoparticles in contact with parallel orientation (Table ) is estimated to be 7.5 × 10 <super>−16</super> J . This interaction energy is almost two orders of magnitude higher than van der Waals colloidal energy. However, hydrogen bonding energy interactions are short range (less than 0.32 nm) compared to the longer range colloidal van der Waals energy (up to 100 nm). At very small inter-particle distance, hydrogen bond interaction is predominant, but at higher separation distance, the major interaction energy is due to colloidal van der Waals interactions. CNC surface modification (covalent and non-covalent methods) is employed to overcome hydrogen bonding interactions and thus to improve CNC dispersion in polymer matrices. Modifiers could also increase inter-particle distance between CNC nanoparticles. Thus, according to Table , van der Waals interactions become lower. Unlike interaction energy, the force required to separate nanoparticles depends on the path or method of separation . In the case of cylindrical shape nanoparticle (CNC in this work), the orientation of nanoparticles in the flow field determines ease or feasibility of separation.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_2.1-3 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '3'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_2.1-4 ;
+onner:paragraphText 'CNC nanoparticles with parallel orientation can be separated in two ways: pulling and peeling (Fig. ). In the pulling mechanism, the separation route is perpendicular to the surface. In fact, contact area is constant but the equilibrium distance gradually increases. Therefore, the required hydrodynamic force to fully separate two parallel CNC particles is 115 nN (see Table ). The pulling mechanism is very fast and rapid. It is known in dispersion literature as the breakup/rupture mechanism (discussed later). However, in the case of peeling, the applied force is spent on reducing contact area between the two parallel CNC nanoparticles. Thus, the force required to fully separate the CNC particles is much less than the pulling force:'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_2.1-4 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '4'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_2.2 ;
+onner:paragraphText 'It is important to note that separation of two CNC nanoparticles with parallel alignment by a pulling force is not achievable, because the break-up force for C\C covalent bond is around 2.5-13.4 nN . If this amount of force is provided by employing a very strong mixing element/accessory, polymer chain scission can occur during pulling. As a result, there is no guarantee that all agglomerated nanoparticles will separate during mixing, and some of them remain intact. However, not all CNC particles are in parallel orientation. Other alignments (such as cross) need less hydrodynamic pulling force to be separated (see Table ).'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_2.2 rdf:type onner:Section ;
+onner:sectionTitle 'Dispersion of micro-particles'^^xsd:string ;
+onner:sectionNumber '2.2'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_2.2-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.powtec.2014.04.016_2.2-1, data:10.1016_j.powtec.2014.04.016_2.2-2, data:10.1016_j.powtec.2014.04.016_2.2-3, data:10.1016_j.powtec.2014.04.016_2.2-4, data:10.1016_j.powtec.2014.04.016_2.2-5 .
+
+data:10.1016_j.powtec.2014.04.016_2.2-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_2.2-2 ;
+onner:paragraphText 'The above discussion dealt with the separation (dispersion) of two isolated nanoparticles. However, nanoparticles are usually in an aggregated or agglomerated structure. Dispersion or dispersive mixing of agglomerates in polymeric systems requires the reduction of the size of the agglomerates. The final size is determined by the competition Table  Inter-particle interaction energy and force between two cross and parallel CNC cylindrical particles .  between hydrodynamic forces (F h ) and cohesive forces (F c ) . Rheological properties of the polymeric matrix and the design and operating conditions of mixing equipment or the flow field determine the hydrodynamic forces.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_2.2-2 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '2'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_2.2-3 ;
+onner:paragraphText 'It is possible to estimate the cohesion strength of agglomerated nanoparticles from forces of attraction between two isolated nanoparticles in contact. Chemical composition, surface properties of filler, packing structure, and size of particle determine the strength of the agglomerated structure. The strength of an agglomerate, σ, can be estimated using Rumpf\'s equation :'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_2.2-3 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '3'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_2.2-4 ;
+onner:paragraphText 'where ε and α are porosity and agglomerate radius, respectively. Replacing inter-nanoparticle force (parallel alignment, Table ) in Eq. (3) yields:'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_2.2-4 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '4'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_2.2-5 ;
+onner:paragraphText 'Considering low and high viscosity systems with viscosities in the range 1-10 k Pa•s, we found that the hydrodynamic stresses at a typical mixing shear rate of 100 s <super>−1</super> would be in the range of 0.1-1 MN/m 2 . Fig.  shows agglomerate strength versus particle radius according to Eq. ( ) for CNC nanoparticles at 190 °C, where typical polymer-filler mixing usually takes place. It shows that agglomerate strength increases as agglomerate radius decreases. At the beginning of mixing process when particle size is large, hydrodynamic forces are higher than cohesion forces. Thus, particle de-aggregation takes place via the breakup mechanism . In other words, at the beginning of the mixing process, agglomerates are weak and they can be easily broken. However, particle strength becomes higher than hydrodynamic forces as particle size is reduced below a certain size. It has been suggested that the erosion mechanism becomes the dominant mechanism of particle size reduction at this point . The erosion mechanism is very slow, in comparison to the rapid breakup mechanism. Various approaches are used to facilitate breakup and erosion, such as increasing residence time, using different types of mixing elements, rotor speed, and feeding rate, in addition to using compatibilizer and masterbatch preparation .'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_2.2-5 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '5'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_3 ;
+onner:paragraphText 'Fig.  also shows agglomerate strength of CNC agglomerates versus porosity for different CNC agglomerate sizes at 190 °C, where typical melt mixing usually takes place. CNC nanoparticle with 7 nm radius, 150 nm length and 18.6 mJ/m <super>2</super> surface energy at 190 °C has been considered . It shows that the strength of agglomerate decreases when porosity increases. Furthermore, polymer infiltration is enhanced as porosity of the particle increases . Thus, agglomerate particle microstructure can play an important role in the facilitating dispersion.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_3 rdf:type onner:Section ;
+onner:sectionTitle 'Experimental'^^xsd:string ;
+onner:sectionNumber '3'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_3.1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.powtec.2014.04.016_3.1, data:10.1016_j.powtec.2014.04.016_3.2, data:10.1016_j.powtec.2014.04.016_3.3, data:10.1016_j.powtec.2014.04.016_3.4 .
+
+data:10.1016_j.powtec.2014.04.016_3.1 rdf:type onner:Section ;
+onner:sectionTitle 'Materials'^^xsd:string ;
+onner:sectionNumber '3.1'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_3.1-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.powtec.2014.04.016_3.1-1 .
+
+data:10.1016_j.powtec.2014.04.016_3.1-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_3.2 ;
+onner:paragraphText 'Polypropylene (PP) (Pro-fax SR549M, LyondellBasell, USA) with 0.9 g/cm <super>3</super> room temperature density and 11 g/10 min MFI (2.16 kg load, at 220 °C) was used as matrix. Cellulose nanocrystal (CNC) white powder was supplied by FPInnovations (FPI), Canada. CNC was prepared using the conventional spray drying method . Henceforth, "as received" refers to spray dried CNC.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_3.2 rdf:type onner:Section ;
+onner:sectionTitle 'Drying of CNC'^^xsd:string ;
+onner:sectionNumber '3.2'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_3.2-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.powtec.2014.04.016_3.2-1 .
+
+data:10.1016_j.powtec.2014.04.016_3.2-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_3.3 ;
+onner:paragraphText 'For a typical experiment, 0.5-6.5 g of CNC powder was dispersed in 100 mL of distilled water, using a shear mixer (IKA, ultra-turrax T25, Germany) at room temperature. The resultant CNC suspension was sonicated for 5 min in an ice bath with a tip sonicator (Qsonica Q700) at amplitude 2, in order to obtain individual CNC nanoparticles. For freeze drying, CNC aqueous suspension was poured in a glass vessel and placed in a refrigerator set at −50 °C, overnight. Then, the frozen suspension  was freeze dried using freeze dryer equipment (Labconco 2.5 L). For spray freeze drying, an aqueous CNC suspension was sprayed into a container containing liquid nitrogen, equipped with a magnetic stirring bar, and then transferred to the freeze dryer equipment (Labconco 2.5 L). The frozen suspension was lyophilized at −52 °C and 0.05 mbar for a period of time (24-72 h).'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_3.3 rdf:type onner:Section ;
+onner:sectionTitle 'Preparation of polymer/CNC nanocomposite'^^xsd:string ;
+onner:sectionNumber '3.3'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_3.3-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.powtec.2014.04.016_3.3-1 .
+
+data:10.1016_j.powtec.2014.04.016_3.3-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_3.4 ;
+onner:paragraphText 'Melt compounding was conducted in an internal batch mixer (Rheocord 9000, Haake). The internal batch mixer operates with two blades (roller blades) in counter rotating configuration and total capacity of 60mL. Compounding was carried out at 190 °C and 60 rpm rotor speed for 10 min, under nitrogen atmosphere. CNC powder was prepared using different drying techniques. As received, freeze dried, and spray freeze dried CNC were fed into internal batch mixer after polymer granules were melted. Finally, the mixture was collected for further characterization after cooling to room temperature.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_3.4 rdf:type onner:Section ;
+onner:sectionTitle 'Characterization'^^xsd:string ;
+onner:sectionNumber '3.4'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_3.4.1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.powtec.2014.04.016_3.4.1, data:10.1016_j.powtec.2014.04.016_3.4.2, data:10.1016_j.powtec.2014.04.016_3.4.3, data:10.1016_j.powtec.2014.04.016_3.4.4 .
+
+data:10.1016_j.powtec.2014.04.016_3.4.1 rdf:type onner:Section ;
+onner:sectionTitle 'Morphological studies'^^xsd:string ;
+onner:sectionNumber '3.4.1'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_3.4.1-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.powtec.2014.04.016_3.4.1-1, data:10.1016_j.powtec.2014.04.016_3.4.1-2, data:10.1016_j.powtec.2014.04.016_3.4.1-3, data:10.1016_j.powtec.2014.04.016_3.4.1-4 .
+
+data:10.1016_j.powtec.2014.04.016_3.4.1-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_3.4.1-2 ;
+onner:paragraphText 'The size and shape of the CNC nanoparticle agglomerates (as received) were examined using transmission electron microscopy (TEM) (Philips CM200, 200 kV). A drop, 5-10 μL, of aqueous CNC suspension (0.01 wt.%) was deposited on a carbon-coated copper grid. After evaporation of water, a drop of uranyl acetate water solution (2 wt.%) was deposited on the same grid in order to stain CNC particles.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_3.4.1-2 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '2'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_3.4.1-3 ;
+onner:paragraphText 'Atomic force microscopy (AFM) was used to determine the shape and size of CNC nanoparticle agglomerates (as received). A drop, ca. 5 μL, of 0.1% w/v solution of poly-L-lysine was placed on a piece of freshly cleaved mica for 2 min, and then rinsed with water. Subsequently, the mica was  The surface topography of CNC powder obtained by different drying methods was examined, using field emission scanning electron microscopy (FE-SEM, Hitachi S-4700) operated at 2 kV. Prior to SEM observation, CNC powders were coated with gold-palladium vapor deposition for a period of 30 s.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_3.4.1-3 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '3'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_3.4.1-4 ;
+onner:paragraphText 'The cryo-fractured surface of PP samples was coated with gold vapor and observed under SEM (JSM-7400F, JEOL, Japan) to evaluate the distribution of CNC in the PP matrix.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_3.4.1-4 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '4'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_3.4.2 ;
+onner:paragraphText 'Morphology of CNC powder and polymer nanocomposite samples was directly observed by an upright polarized light microscopy (PLM), BX50 (Olympus, Japan), where a light source passes through a polarizer, compensator of 530 nm, sample and then a cross analyzer. The compensator is inserted between polarizer and analyzer to make better contrast. Polymer/CNC samples were molded with a Carver hot press (Wabash, IN, USA) to make a thin film with 10-15 μm thickness.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_3.4.2 rdf:type onner:Section ;
+onner:sectionTitle 'Rheological measurements'^^xsd:string ;
+onner:sectionNumber '3.4.2'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_3.4.2-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.powtec.2014.04.016_3.4.2-1 .
+
+data:10.1016_j.powtec.2014.04.016_3.4.2-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_3.4.3 ;
+onner:paragraphText 'All rheological measurements were made using a stress-controlled rheometer (Physica MCR 500, Anton Paar, Graz, Austria) with parallel plate geometry (plate diameter of 25 mm) at 190 °C under nitrogen atmosphere. Disk-shape samples were positioned in the parallel plate fixture and left for 10 min to minimize any residual stress resulting from sample preparation. The gap was set at 1 mm by gradually squeezing the sample. Rheological properties of these samples were determined in small amplitude oscillatory shear (SAOS) mode. Both neat PP and PP/CNC nanocomposites were found to be stable for a period of over 2 h. Hence, thermal degradation was assumed to be negligible during the rheological measurements. The linear viscoelastic region was first determined using strain sweep from 0.01 to 1000% at a constant frequency of 1 rad/s. The linear viscoelastic region was determined by a 5% reduction in the elastic modulus, G′, of the sample.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_3.4.3 rdf:type onner:Section ;
+onner:sectionTitle 'Mechanical properties'^^xsd:string ;
+onner:sectionNumber '3.4.3'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_3.4.3-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.powtec.2014.04.016_3.4.3-1 .
+
+data:10.1016_j.powtec.2014.04.016_3.4.3-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_3.4.4 ;
+onner:paragraphText 'Mechanical testing of the nanocomposites was performed on compression molded samples. Dumbbell-shaped specimens (gage length × width × thickness = 15 × 5 × 0.5 mm <super>3</super> ) were cut from molded sheets using a Tensilekut I-series sample milling machine (Maryville, TN, USA) for tensile testing according to ASTM D 882-9. The tensile tests were conducted with an MTS Universal Tensile Testing machine (Eden Prairie, MN, USA). A crosshead speed of 5 mm/min was used for all tests. The average values of 5 experiments are reported.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_3.4.4 rdf:type onner:Section ;
+onner:sectionTitle 'BET surface area analysis'^^xsd:string ;
+onner:sectionNumber '3.4.4'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_3.4.4-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.powtec.2014.04.016_3.4.4-1 .
+
+data:10.1016_j.powtec.2014.04.016_3.4.4-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_4 ;
+onner:paragraphText 'The specific surface area and porosity of CNC particles prepared by different drying techniques were measured from N <sub>2</sub> adsorption/desorption using a Micromeritics TriStar at 77 K and pressures down to 10 <super>−5</super> Torr. Prior to the analysis, the adsorbed moisture on the fine powder surface was eliminated by preheating the powders at 100 °C for 4 h.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_4 rdf:type onner:Section ;
+onner:sectionTitle 'Results and discussion'^^xsd:string ;
+onner:sectionNumber '4'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_4.1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.powtec.2014.04.016_4.1, data:10.1016_j.powtec.2014.04.016_4.2, data:10.1016_j.powtec.2014.04.016_4.3, data:10.1016_j.powtec.2014.04.016_4.4 .
+
+data:10.1016_j.powtec.2014.04.016_4.1 rdf:type onner:Section ;
+onner:sectionTitle 'Spray dried CNC'^^xsd:string ;
+onner:sectionNumber '4.1'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_4.1-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.powtec.2014.04.016_4.1-1, data:10.1016_j.powtec.2014.04.016_4.1-2 .
+
+data:10.1016_j.powtec.2014.04.016_4.1-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_4.1-2 ;
+onner:paragraphText 'Figs.  show TEM and AFM micrographs of CNC nanoparticles (as received). The average length (171 ± 79.7 nm) and thickness (15.1 ± 5 nm) of re-dispersed CNC nanoparticles were determined from image analysis of TEM images over 150 particles. AFM images were used to estimate the 3D shape and dimensions (length, width, and height) of CNC nanoparticles. A typical example of size analysis for three CNC nanoparticles is presented in Fig. . The width or thickness , horizontal distance between two cross points, and diameter (4-6 nm), corresponding maximum height between mica substrate and nanoparticle, of CNC nanoparticles are shown along the abscissa and ordinate, respectively. The difference between CNC thickness values obtained from TEM (ca. 15 nm) and AFM (ca. 30 nm) is due to the size of AFM tip (ca. 10 nm) known as tip-convolution .'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_4.1-2 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '2'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_4.2 ;
+onner:paragraphText 'SEM and crossed light microscopy images of CNC particles (as received) are displayed in Fig. . The shape of CNC particles is not a round sphere, due to shrinkage during the spray drying procedure. Similar agglomerate characteristics for spray dried CNC have been reported . A broad range of CNC particle sizes (ca. 5-30 μm) is observed in Fig. . The structural characteristics of spray dried CNC particles are controlled by four forces: capillary, van der Waals, hydrogen bonding, and electrostatic repulsion forces. The first three forces cause CNC nanoparticles to collide, while electrostatic repulsion caused by the negative charge on CNC surface balances over aggregation. Therefore, fast aggregation cannot occur and nanoparticles have enough time to reach the best orientation, for energy minimization before collision. In other words, a random collision cannot take place, which results in a compact and dense powder. The product of the spray drying technique is a powder consisting of compact particles due to capillary, van der Waals and hydrogen forces attracting nanoparticles during drying. The powder particle size becomes smaller than the initial drop size due to evaporation and the capillary effect involved in spray drying technique. The diffusion of a hydrophobic polymer melt into packed spray dried CNC particles (agglomerates) is very difficult. Thus, it allows relatively small contact area between the polymer and CNC. This would require large hydrodynamic forces to cause breakdown of particles to a size or structure that would allow larger surface contact.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_4.2 rdf:type onner:Section ;
+onner:sectionTitle 'Freeze dried CNC'^^xsd:string ;
+onner:sectionNumber '4.2'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_4.2-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.powtec.2014.04.016_4.2-1 .
+
+data:10.1016_j.powtec.2014.04.016_4.2-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_4.3 ;
+onner:paragraphText 'Fig.  displays SEM and PLM images of CNC aqueous suspension (3 wt.%) which was first frozen in a refrigerator at − 50 °C and then freeze dried. Large (N100 μm) flake/sheet structure of CNC was formed by slow cooling (in the refrigerator). Unlike the spray drying technique, ice crystal growth is the main reason of CNC aggregation in the freeze drying technique. Indeed, ice crystal nucleation and growth take place throughout the bulk of the sample, and water crystallization occurs slowly. Therefore, CNC nanoparticles are pushed away from the ice crystal region. As a result, CNC nanoparticles collide and agglomerate. As in the case of the spray drying technique, freeze drying of aqueous suspensions produced dense particles.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_4.3 rdf:type onner:Section ;
+onner:sectionTitle 'Spray freeze dried CNC (CNCSFD)'^^xsd:string ;
+onner:sectionNumber '4.3'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_4.3-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.powtec.2014.04.016_4.3-1, data:10.1016_j.powtec.2014.04.016_4.3-2, data:10.1016_j.powtec.2014.04.016_4.3-3, data:10.1016_j.powtec.2014.04.016_4.3-4 .
+
+data:10.1016_j.powtec.2014.04.016_4.3-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_4.3-2 ;
+onner:paragraphText 'Fig.  shows SEM images of spray freeze dried CNC from aqueous suspension at two different concentrations: 0.5 and 1 wt.%. Henceforth, they are referred to as CNCSFD0.5 and CNCSFD1, respectively. As illustrated, at low concentrations (ca. b 2 wt.%), a porous agglomerated CNCs in a filament-like structure,(consisting of interconnected nanofibers) of CNC was created (Fig. ) Hereafter in this manuscript referred to as "filament-like agglomerates. In this concentration regime, there was no structural integrity due to the low number density of CNC nanoparticles inside the drops. In other words, there were not enough nanoparticles to preserve the spherical shape of drops after the atomizer. Fibers in CNCSFD0.5 were connected and have a high aspect ratio (if applicable), in comparison with CNC individual nanoparticles (Figs. ). The fibers in CNCSFD0.5 had thickness in the range of ca. 10-30 nm (minimum and maximum). The length cannot be readily estimated as the fibers were connected, but it appears to be in micron scale. Similar structure was observed in CNCSFD1 particles (Fig. ). The thickness of fibers was in the range of ca. 20-65 nm range (minimum and maximum). It is higher than that in CNCSFD0.5, due to a higher CNC number density in CNCSFD1. Thus, there are more chances for CNC aggregation before or during freezing. The driving force for nanoparticle assembly is not capillary forces anymore. Similar to freeze drying, the main driving force for CNC aggregation is ice crystal growth (solidification) which causes the dispersed phase to collide and agglomerate. The size of crystals and the growth rate depend on the cooling rate. However, in comparison with freeze drying, much less aggregation is expected to occur due to high rapid cooling rate.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_4.3-2 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '2'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_4.3-3 ;
+onner:paragraphText 'More aggregation is expected at a higher CNC concentration during SFD, due to higher collisions and aggregation. Unlike CNCSFD0.5 and  CNCSFD1, spherical foam-structure particles were formed in the case of spray freeze dried CNC from aqueous suspension at concentrations 2 (CNCSFD2) and 6 wt.% (CNCSFD6), as depicted in Figs. . Unlike spray dried CNC, there was no sign of shrinkage, and particles have a spherical appearance. Pores were left by sublimation of ice crystal during freeze drying. It is important to point out that the word "pore" is applicable for CNCSFD2 and CNCSFD6 particles, contrary to CNCSFD0.5 and CNCSFD1. Pore structure, shape and size seemed to be influenced by CNC concentration. Pore sizes were less than 350 nm in the case of CNCSFD2 (Fig. ), and some particles were broken up either during spraying or sample preparation for SEM characterization. A typical example is shown in Fig. . The particle had probably been split. The interior structure indicates that the particle is made of lamellae/sheets which originate from the center and contain pores with less than 350 nm pore size.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_4.3-3 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '3'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_4.3-4 ;
+onner:paragraphText 'Lamella/sheets consist of almost 100% crystal unit structure (i.e. CNC). At high concentration (6 wt.%), pores were larger (Fig. ). The SEM image of a broken CNCSFD6 particle is shown in Fig. . Lamella/ sheet structure can be seen in this particle, too. However, the internal structure seems somewhat different from CNCSFD2 in which sheets looked wavier. Fig.  displays crossed polarized light microscopy of CNCSFD2 and CNCSFD6 particles. Like polymer spherulites, a distinct Maltese cross pattern is observed, indicating an ordered internal structure. It is noteworthy that spray dried CNC particles appeared as yellow spherical objects without a birefringent property Fig. .'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_4.3-4 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '4'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_4.4 ;
+onner:paragraphText 'The BET technique allows the estimation of pore size and surface area by measuring the specific amount of adsorption/desorption of nitrogen gas. As mentioned earlier, depending on CNC concentration in the SFD method, different structures were formed. The interpretation and comparison of BET data of these structures are difficult. Fig.  shows BET results for spray dried CNC (as received), freeze dried CNC, CNCSFD0.5, CNCSFD2, and CNCSFD6. For CNCSFD0.5 and CNCSFD1 with a filament-like agglomerate structure (see Fig.  definition of pore geometry is quite challenging. Pores usually have geometry such as regular or irregular cylindrical, cavities, cracks, and rugged areas connected to the surface of the material. In effect, in the BET technique, nitrogen gas is adsorbed on pore walls and starts to cover the pores. The specific area is estimated based on the amount of adsorbed gas. This could explain the low value of BET surface area (less than 1 m <super>2</super> /g) for freeze and spray dried CNC, because nitrogen gas adsorption, if any, can occur just on the external surface area of micron size particles, shown in Figs. . Likewise, in CNCSFD0.5, nanoscale fibers (Fig. ) can act as substrate for gas adsorption and a higher value of BET surface area (20 m <super>2</super> /g) was obtained, due to more accessible area for gas adsorption. Unlike CNCSFD0.5 particles, the word "pore" is more meaningful for CNCSFD2 and CNCSFD6 particles, since there are internal surfaces connected to external surface of the particles. It is not logical to compare BET results of these structures with that in CNCSFD0.5, in which there was no internal structure. CNCSFD2 had a higher value of BET surface area (ca. 42 m <super>2</super> /g) than that of CNCSFD6 (ca. 35 m <super>2</super> /g). It could be due to the smaller pore size in CNCSFD2 which resulted in a higher BET surface area. It should be noted that BET can detect micropores (less than 2 nm) and mesopores (between 2 and 500 nm). Hence, macropores (higher than 500 nm) should not be considered in this technique. The space between lamellae (which is in the micron size) in Figs.  can act as micro-channels for adsorption, which is not taken into account in the BET method.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_4.4 rdf:type onner:Section ;
+onner:sectionTitle 'PP/CNC nanocomposite'^^xsd:string ;
+onner:sectionNumber '4.4'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_4.4.1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.powtec.2014.04.016_4.4.1, data:10.1016_j.powtec.2014.04.016_4.4.2, data:10.1016_j.powtec.2014.04.016_4.4.3 .
+
+data:10.1016_j.powtec.2014.04.016_4.4.1 rdf:type onner:Section ;
+onner:sectionTitle 'Morphological studies by microscopy'^^xsd:string ;
+onner:sectionNumber '4.4.1'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_4.4.1-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.powtec.2014.04.016_4.4.1-1, data:10.1016_j.powtec.2014.04.016_4.4.1-2 .
+
+data:10.1016_j.powtec.2014.04.016_4.4.1-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_4.4.1-2 ;
+onner:paragraphText 'Fig.  shows PLM results of spray dried (as received), freeze dried and spray freeze dried CNC, respectively. Fig.  shows PLM images of unfilled PP (Fig. ), PPCNCSD-5 (Fig. ), PPCNCFD-5 Fig. , and PPCNCSFD2-5 (Fig. ), respectively. In light of the observations in Fig. , it can be concluded that platelet and shiny yellow objects in Fig. -f are spray dried and freeze dried CNC agglomerates, correspondingly. It seems that CNC agglomerate size remains almost intact (the same as origin size) with no size reduction as a result of melt mixing with the PP matrix. The PLM result for PPCNCSFD2-5 is shown in Fig.  at the same processing conditions. Unlike Fig.  and Fig. , there is no trace of large particle at this scale of observation. This explains that it is much easier to de-agglomerate or disperse the highly porous spray freeze dried CNC agglomerates than that of the compact agglomerates obtained by conventional spray drying or freeze drying techniques.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_4.4.1-2 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '2'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_4.4.2 ;
+onner:paragraphText 'Fig.  shows SEM images of neat PP, PP containing 5 wt.% spray dried (PPCNCSD-5) and freeze dried CNC (PPCNCFD-5). The presence of CNC agglomerates in Fig.  (spherical shape spray dried CNC) and Fig.  (lamella/sheet like freeze dried CNC) is an indication of unsuccessful de-aggregation of the conventional drying methods (spray and freeze drying) of CNC suspensions. There is no sign of significant polymer infiltration in spray and freeze dried agglomerates, since they are compact and dense. For instance, NCCSD appeared as a different color (whitish) than the polymer matrix (grayish) in SEM images indicating the absence of significant polymer melt infiltration. On the other hand,  in PP containing 5 wt.% of CNCSFD2 (PPCNCSFD2-5), there was no trace of CNCSFD2 agglomerates in PP, signifying the high efficiency of deaggregation of spray freeze dried CNC, Fig. . Fig.  shows SEM image of PP containing CNCSFD2 at 2 minute mixing time. Polymer melt infiltration into the porous structure of CNCSFD2 agglomerates can be seen in Fig. . In other words, PP melt infiltration time is short and occurs at the beginning of mixing. Then, CNC agglomerates are dispersed and distributed in the PP melt to reach the morphology seen in Fig. . The morphological results confirm the hypothesis of improved dispersion of porous CNC microstructure discussed in the Background section.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_4.4.2 rdf:type onner:Section ;
+onner:sectionTitle 'Rheological properties'^^xsd:string ;
+onner:sectionNumber '4.4.2'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_4.4.2-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.powtec.2014.04.016_4.4.2-1, data:10.1016_j.powtec.2014.04.016_4.4.2-2 .
+
+data:10.1016_j.powtec.2014.04.016_4.4.2-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_4.4.2-2 ;
+onner:paragraphText 'The results of complex viscosity and storage modulus versus angular frequency are shown in Fig. . PP showed a Newtonian behavior at low frequencies. Adding 5 wt.% of spray dried CNC and freeze dried CNC into PP melt did not change complex viscosity and it was almost superimposed with PP curve. On the other hand, complex viscosity was increased considerably followed by a shear thinning behavior by addition of CNCSFD2 agglomerates into PP melt. Fig.  also presents results of storage modulus of SAOS tests. Similarly, there was no difference between storage moduli of PP, PPCNCFD-5, and PPCNCSD-5. However, low frequency storage modulus was significantly increased by addition of 5 wt.% CNCSFD2 in PP (PCNCSFD2-5). The slope of storage modulus decreased significantly and a plateau at low frequencies was obtained for PP sample containing 5 wt.% CNCSFD2.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_4.4.2-2 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '2'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_4.4.3 ;
+onner:paragraphText 'The rheological behavior of PPCNCSFD2-5 is similar to other polymer nanocomposites containing well dispersed anisotropy nanoparticles exhibiting a significant low frequency viscosity upturn and a plateau in storage modulus . This is attributed to the presence of a network formation of nanoparticles within polymer matrix.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_4.4.3 rdf:type onner:Section ;
+onner:sectionTitle 'Tensile properties'^^xsd:string ;
+onner:sectionNumber '4.4.3'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_4.4.3-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.powtec.2014.04.016_4.4.3-1 .
+
+data:10.1016_j.powtec.2014.04.016_4.4.3-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_5 ;
+onner:paragraphText 'Tensile properties were measured to determine the impact of CNC microstructure on the tensile strength, elongation at break and modulus of the PP/CNC nanocomposites. Fig.  shows the results for the tensile strength, tensile modulus and elongation at break. There was not any difference between tensile modulus of neat PP and PPCNCSD-5. The PPCNCSFD2-5 samples showed an increase in strength of greater than 20% compared to the pure PP or the PPCNCSD-5. The modulus of samples incorporating PCNCSFD1-5 43% higher than the modulus of PP. Adding spray dried CNC agglomerates directly to the PP did not show any enhancement of the PP modulus. Since a higher stiffness is desirable in many applications, the increase in modulus due to incorporation of spray freeze dried CNC agglomerates is promising and can be advantageous. As expected, the elongation at break is lowered with the addition of the reinforcement. Addition of large amount of nanofiller could reduce the viscous response or plastic deformability of a polymer matrix, while enhancing the elastic response. Consequently it induces brittleness character to the polymer matrix. Moreover, the presence of inevitable agglomerate solid particulates could intensify the brittleness due to stress concentration. The sample that was reinforced with spray dried CNC did not show a large decrease. However, samples containing CNCSFD2 had a very low elongation at break, as expected.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_5 rdf:type onner:Section ;
+onner:sectionTitle 'Conclusion'^^xsd:string ;
+onner:sectionNumber '5'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_5-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.powtec.2014.04.016_5-1, data:10.1016_j.powtec.2014.04.016_5-2 .
+
+data:10.1016_j.powtec.2014.04.016_5-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_5-2 ;
+onner:paragraphText 'Separation of CNC nanoparticles into individual nanoparticles is quite challenging, particularly for CNC nanoparticles in parallel orientation, because the required separation force is higher than the C\C bond force. Thus, polymer chain scission and degradation can take place before particle separation. CNC microstructure depends highly on employed drying techniques. Spray and freeze drying yield a dense structure. The former produces smaller particles with spherical shape, while larger particles with flake structure are produced by the latter. On the other hand, spray freeze drying is a better technique to control structure of CNC particles in the resulting powder. The shape and internal structure of CNCSFD particles depend on CNC aqueous concentration prior to spray freeze drying. In the low concentration regime (b 2 wt.%) a filament-like agglomerate morphology, including interconnected nano-scale fibers, is obtained. At higher concentrations, foam-like spherical particles are formed.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_5-2 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '2'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.powtec.2014.04.016_EndOfDocument ;
+onner:paragraphText 'Agglomerate strength and polymer melt infiltration time are both reduced as porosity increases. According to this study, spray freeze dried CNC has higher potential for realizing a good degree of dispersion within polymer matrices in the production of nanocomposites and other nano-structured products. Experimental results confirm better dispersion of spray freeze dried CNC in PP than those prepared by spray and freeze dried techniques. Low frequency complex viscosity and storage modulus of PP were significantly increased by addition of CNCSFD. Moreover, adding CNCSFD with filament-like agglomerate structure increased 20% tensile strength and 43% tensile modulus of PP.'^^xsd:string .
+
+data:10.1016_j.powtec.2014.04.016_EndOfDocument rdf:type onner:EndOfDocument .

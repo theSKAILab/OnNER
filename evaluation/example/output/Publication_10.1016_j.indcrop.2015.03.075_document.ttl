@@ -1,0 +1,256 @@
+@prefix onner: <http://purl.org/spatialai/onner/onner-full#> .
+@prefix data: <http://purl.org/spatialai/onner/onner-full/data#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+data:Publication_10.1016_j.indcrop.2015.03.075 rdf:type onner:ScholarlyPublication ;
+onner:publicationTitle 'Surface-modified nano-cellulose as reinforcement in poly(lactic acid) to conform new composites'^^xsd:string ;
+onner:publicationDate '2015-04-08'^^xsd:date ;
+onner:doi '10.1016/j.indcrop.2015.03.075'^^xsd:string ;
+onner:directlyContainsDocumentPart data:10.1016_j.indcrop.2015.03.075_A, data:10.1016_j.indcrop.2015.03.075_1, data:10.1016_j.indcrop.2015.03.075_2, data:10.1016_j.indcrop.2015.03.075_3, data:10.1016_j.indcrop.2015.03.075_4 .
+
+data:10.1016_j.indcrop.2015.03.075_A rdf:type onner:Abstract ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_A-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.indcrop.2015.03.075_A-1 .
+
+data:10.1016_j.indcrop.2015.03.075_A-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_1 ;
+onner:paragraphText 'This work was aimed to evaluate the performance of two different surface modifications on cellulose nano-particles obtained from blue agave bagasse. Cellulose nanofibers were obtained from traditional mechanical methods, and cellulose nanocrystals were obtained via sulfuric acid hydrolysis. After cellulose extraction and size reduction, different composites were elaborated using poly(lactic acid) as matrix varying fiber concentrations and using cellulosic particles of diverse size and surface modification (3aminopropyl triethoxysilane silanized cellulose nanofibers and dodecanoyl chloride esterified cellulose nanocrystals). Non-cellulosic elimination and the effect of surface modifications were analyzed with infrared analysis, showing characteristic intensities for cellulosic species and new peaks for each modification (characteristic ester peak ∼1740 cm −1 , and amino peak ∼1550 cm −1 ) cellulose nanofibers and nanocrystals were observed with atom-force microscopy; crystallinity of nano-scale cellulose before and after modifications was obtained with X-ray diffraction to analyze the performance of the modifications. Composites were tested with stress-strain standard methods showing better mechanical properties when surface modifications were performed and the amount of filler was 0.5 wt% reaching an increase in strain to fracture of more than 20%.'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_1 rdf:type onner:Section ;
+onner:sectionTitle 'Introduction'^^xsd:string ;
+onner:sectionNumber '1'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_1-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.indcrop.2015.03.075_1-1, data:10.1016_j.indcrop.2015.03.075_1-2, data:10.1016_j.indcrop.2015.03.075_1-3, data:10.1016_j.indcrop.2015.03.075_1-4, data:10.1016_j.indcrop.2015.03.075_1-5 .
+
+data:10.1016_j.indcrop.2015.03.075_1-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_1-2 ;
+onner:paragraphText 'Poly(lactic acid) or polylactide (PLA) is one of the most studied polymeric materials in the last two decades , even though until now, most of the PLA used in industry and scientific research has been obtained from petroleum, the feasibility of obtaining PLA from renewable resources makes it an interesting biopolymer for its study. Nevertheless, the slightly minor mechanical properties of PLA in respect to current used polymer mattresses , brings up the need to develop composite materials with determined characteristics in order to modify the behavior of PLA toward certain circumstances or applications.'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_1-2 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '2'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_1-3 ;
+onner:paragraphText 'Recent works have highlighted the potential of lignocellulosic biomass as an alternative source of material for value added products, and biorefineries represent a suitable replace for conventional fossil refineries as the conversion of biomass into biofuels and biomaterials are becoming a more feasible alternative for traditional fuels and oil-derivate materials . Within the many possibilities of use that enclosures agricultural biomass, the obtention of bioplastics has increased attention from the scientific community, the possibility of reinforcing for biopolymers such as PLA to enhance its natural physical or chemical properties has boosted a wide series of researches. Among those who represent a most suitable option in elaborating biocomposites with this kind of plastics, are lignocellulosic materials, as they can be degraded or composted and present good behavior either as filler or as blend , the present study pretends to evaluate the performance of cellulose nanofibers and cellulose nanocrystals as fillers, either rough or after a surface modification with an hydrophobic additive.'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_1-3 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '3'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_1-4 ;
+onner:paragraphText 'One of the most used methods to obtain nanocrystalline particles is with sulfuric acid hydrolysis . In this process, sulfation occurs via condensation-esterification on the surface of cellulose nanocrystals, which displays a high surface area with a high amount of hydroxyl groups available that can react with the H <sub>2</sub> SO <sub>4</sub> molecule with the aid of another H <sub>2</sub> SO <sub>4</sub> molecule as condensation agent, thus forming a stable and well dispersed aqueous colloidal suspension as the result of the negative charge of the sulfated surface , this polar condition causes agglomeration during drying and aggregation in non-polar matrices because of the formation of additional hydrogen bonds between amorphous parts of the nanoparticles, making desirable a surface modification to optimize the fiber dispersion inside a polymeric matrix .'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_1-4 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '4'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_1-5 ;
+onner:paragraphText 'Surface modification with silanes has been proved to be a good method to render nanocrystalline surface hydrophobicity, giving stability to the nanocrystals . Silane chains can improve matrix-filler interactions either as suspension in organic solvents or added as bulk into the polymeric matrix  by serving as a coupling agent between the cellulosic filler and the polymeric matrix. On her behalf, esteric stabilization of cellulose nanocrystals with different fatty acids has shown good properties forming continuous composites with polymer matrices, as they show high degree of substitution when the esterification is performed both at the fiber surface and in the inner layers; resulting in a heterogeneous esterification, causing de-crystallization of cellulose which enhances hydrophobicity and bonds between the matrix and the cellulose fiber, in expense of thermal stability of the cellulose .'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_1-5 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '5'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_2 ;
+onner:paragraphText 'The objective of this work is to develop new composites using PLA as matrix, by adding as fillers modified cellulose nanofibers and nanocrystals obtained from agricultural waste of a highly fibrous plant (Agave tequilana) in order to give value added applications to an undervalued material. On the other hand, PLA properties require improvements to compete with other plastics, making important the exploration of new surface modifications in polymer reinforcements in order to increase mechanical and hydrophobic properties of PLA and to enhance the interaction between nano fillers and the matrix, avoiding the formation of dislocations in the interaction surface. Two different surface modifications on two cellulose nanoparticles (CNF and CNC) were evaluated to determine the improvements that these modifications provide to the cellulose surface, they were also compared to raw blue agave bagasse and to bleached pulp to analyze if working on nano-scale was relevant.'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_2 rdf:type onner:Section ;
+onner:sectionTitle 'Experimental methods'^^xsd:string ;
+onner:sectionNumber '2'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_2.1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.indcrop.2015.03.075_2.1, data:10.1016_j.indcrop.2015.03.075_2.2, data:10.1016_j.indcrop.2015.03.075_2.3, data:10.1016_j.indcrop.2015.03.075_2.4, data:10.1016_j.indcrop.2015.03.075_2.5, data:10.1016_j.indcrop.2015.03.075_2.6 .
+
+data:10.1016_j.indcrop.2015.03.075_2.1 rdf:type onner:Section ;
+onner:sectionTitle 'Materials'^^xsd:string ;
+onner:sectionNumber '2.1'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_2.1-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.indcrop.2015.03.075_2.1-1 .
+
+data:10.1016_j.indcrop.2015.03.075_2.1-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_2.2 ;
+onner:paragraphText 'Blue agave (A. tequilana Weber var. azul) bagasse was provided by D.R., a local cropper from Amatitán, Jalisco, Mexico. The composition of the fibers was analyzed according to standard methods . Poly(lactic acid) was provided by Futerro <super>®</super> with extrusion grade, 3-aminopropyl triethoxysilane was provided by Alfa Aesar GmbH. Dodecanoyl chloride was supplied by Sigma-Aldrich; all other components were used at laboratory conditions and provided by Sigma-Aldrich.'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_2.2 rdf:type onner:Section ;
+onner:sectionTitle 'Delignification'^^xsd:string ;
+onner:sectionNumber '2.2'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_2.2-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.indcrop.2015.03.075_2.2-1 .
+
+data:10.1016_j.indcrop.2015.03.075_2.2-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_2.3 ;
+onner:paragraphText 'Blue agave bagasse was heated and stirred in a 1.8 M NaOH solution with a 1:20 w/v ratio at 120 • C during 90 min; this was repeated twice to ensure the elimination of most lignin and hemicelluloses. After delignification, pulp was filtered and washed with distilled water until neutral pH was reached. Bleaching was realized in two stages; the first consisted in plunging NaOH treated fibers in 0.2 M NaClO <sub>2</sub> solution with 1:30 w/v ratio at 75 • C for 2 h, and the second consisted in submerging the fibers in a 3 M H <sub>2</sub> O <sub>2</sub> solution with 1:10 ratio and pH 11 using magnesium sulfate (0.2 wt%) to protect the fibers and pentetic acid (0.5 wt%) as chelant. Bleached pulp was washed several times until neutral and then oven dried at 50 • C for 24 h .'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_2.3 rdf:type onner:Section ;
+onner:sectionTitle 'Cellulose nanofiber and nanocrystal obtention'^^xsd:string ;
+onner:sectionNumber '2.3'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_2.3-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.indcrop.2015.03.075_2.3-1 .
+
+data:10.1016_j.indcrop.2015.03.075_2.3-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_2.4 ;
+onner:paragraphText 'To extract cellulose nanocrystals (CNC) from blue agave, acid hydrolysis was performed to the bleached blue agave pulp with stirring at 45 • C into a 10.2 M solution of H <sub>2</sub> SO <sub>4</sub> (1:20 w/v) during 120 min; after that, the resulting pulp was centrifuged four times at 8000 rpm for 10 min when the supernatant was turbid, the slurry was dialyzed to distilled water until neutral pH was stabilized. To avoid agglomerations, nanocrystal suspension was sonicated in a Elmasonic Elma S 70H sonication bath for 20 min at 25 • C using a plastic recipient (Garcia de . For the cellulose nanofibers (CNF), bleached pulp was first dispersed in a water solution with a 1:10 w/w ratio using an Heidolph Silent Crusher M at 15,000 rpm for 30 min, after that they were homogenized with a Niro Soavi NS1001L Panda laboratory homogenizer with 30 passes at ∼1000 bar .'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_2.4 rdf:type onner:Section ;
+onner:sectionTitle 'Cellulose modification'^^xsd:string ;
+onner:sectionNumber '2.4'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_2.4-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.indcrop.2015.03.075_2.4-1, data:10.1016_j.indcrop.2015.03.075_2.4-2 .
+
+data:10.1016_j.indcrop.2015.03.075_2.4-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_2.4-2 ;
+onner:paragraphText 'Two different modifications were applied to the obtained nanoparticles, Fig.  shows a brief description of the followed procedures and visual aspect of the fibers after every step. In case of CNF they were modified with 3-aminopropyl triethoxysilane (ATS) water solution inside a beaker. ATS and water were added in a 1:10:250 w/v/v relation to cellulose fibers. Water-ATS solution pH was stabilized to 4 by dribbling acetic acid with constant stirring, once pH was stabilized at ∼4, CNF were added. The mixture was stirred at room temperature for 120 min, and following this, the slurry was vacuum filtered and cured inside an oven at 105 • C for 5 min to perform the reaction and washed two times with ethanol (96% purity) and one time with distilled water.'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_2.4-2 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '2'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_2.5 ;
+onner:paragraphText 'For the CNC, previous reported method by  was used with slight modifications. For this, one equivalent of Dodecanoyl Chloride (DDC) per gram of CNC was put inside a flask alongside 50 mL of toluene and 1 equivalent of pyridine as catalyst, then CNC were added and stirred with 400 rpm for 6 h at 110 • C using reflux. The slurry was centrifuged and then washed with toluene, acetone, and ethanol before setting it inside a soxhlet where the remains were extracted during 12 h using ethanol. After this, the modified CNC were oven dried at 50 • C for 24 h.'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_2.5 rdf:type onner:Section ;
+onner:sectionTitle 'Composite preparation'^^xsd:string ;
+onner:sectionNumber '2.5'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_2.5-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.indcrop.2015.03.075_2.5-1 .
+
+data:10.1016_j.indcrop.2015.03.075_2.5-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_2.6 ;
+onner:paragraphText 'Composites were prepared using a Haake Minilab twin-screw extruder with an L/D ratio of 24:1. According to the capacity of the machine, total mass of 6 g for each batch was fed at 45 • C and then mixed at 145 • C during 15 min at 80 rpm; batch was extruded at 170 • C for better extrusion . Bulk filler was added dry and mixed with PLA with a share of 0.5, 1.0 and 2.0%. Table  describes the fillers used to reinforce the PLA matrix.'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_2.6 rdf:type onner:Section ;
+onner:sectionTitle 'Characterization tools and methods'^^xsd:string ;
+onner:sectionNumber '2.6'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_2.6-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.indcrop.2015.03.075_2.6-1, data:10.1016_j.indcrop.2015.03.075_2.6-2, data:10.1016_j.indcrop.2015.03.075_2.6-3, data:10.1016_j.indcrop.2015.03.075_2.6-4, data:10.1016_j.indcrop.2015.03.075_2.6-5, data:10.1016_j.indcrop.2015.03.075_2.6-6, data:10.1016_j.indcrop.2015.03.075_2.6-7, data:10.1016_j.indcrop.2015.03.075_2.6-8, data:10.1016_j.indcrop.2015.03.075_2.6-9 .
+
+data:10.1016_j.indcrop.2015.03.075_2.6-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_2.6-2 ;
+onner:paragraphText 'Infrared spectra were recorded by attenuated-total reflectance infrared spectroscopy (ATR-IR), by direct transmittance, using a Specac Golden Gate <super>TM</super> MKII single-reflection with an ATR System (ATR top plate fixed to an optical beam condensing unit with ZnSe lens). The defined range was from 4000 to 800 cm <super>−1</super> and the resolution 4 cm −1 . For each sample 32 scans were recorded.'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_2.6-2 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '2'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_2.6-3 ;
+onner:paragraphText 'Atomic force microscopy images were obtained in a Dimension Icon <super>®</super> Atomic Force Microscope with a NanoScope V controller from Bruker equipped with a silicon TappingMode probe with a resonant frequency of 320 kHz and a 42 Nm <super>−1</super> constant. To obtain representative results, different regions of the samples were scanned. Scanning electron microscopy images were obtained with a Scanning electron microscope JEOL JSM-7000F with field emission cathode, with a lateral resolution of 1.2 nm at 20 kV.'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_2.6-3 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '3'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_2.6-4 ;
+onner:paragraphText 'X-Ray powder diffraction was measured to compare crystallinity. Patterns were collected with a Panalytical Phillips X\'Pert PRO multipurpose diffractometer, with samples mounted on a zero background silicon wafer fixed in a generic sample holder, using monochromatic CuK˛radiation ( = 1.5418 Å) in a range from 5 to 50 2Â with step size of 0.026 and time per step of 80 s at room temperature.'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_2.6-4 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '4'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_2.6-5 ;
+onner:paragraphText 'The crystallinity index was calculated assuming a Gauss curve. Individual peaks were extracted via Peak Fit 4.12 software. Crystalline contributions to the main signal were determined with the intensity observed at the traditional crystalline peaks: 1 0 1, 1 0 −1, 0 0 2 and 0 4 0; while the amorphous contribution was obtained from the broad peak observed around 2Â≈18 • . Voigt functions were chosen for the peak deconvolution and to determine the integrated area corresponding to the selected peaks, after this, apparent crystallinity was determined by dividing the area corresponding to the crystalline region by the total area including non-crystalline .'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_2.6-5 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '5'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_2.6-6 ;
+onner:paragraphText 'Crystallite size was estimated with the Scherrer equation using the peak corresponding to the 0 0 2 plane d <sub>002</sub> = Ä /(H <sub>002</sub> cosÂ).'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_2.6-6 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '6'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_2.6-7 ;
+onner:paragraphText 'With Ä being the Scherrer constant (0.86), the wavelength (1.5418 Å), H <sub>002</sub> corresponds to the full width at half maximum intensity and Â is half the Bragg angle at peak maximum given in radians .'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_2.6-7 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '7'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_2.6-8 ;
+onner:paragraphText 'Tensile tests of the composites were performed using MTS Insight 10 equipment provided with pneumatic clamps (Advantage Pneumatic Grips) and 250 N loading cell, with a speed of 5 mm min −1 . Samples were prepared 60 mm long, with an average width of 5 mm and thickness of 0.7-0.9 mm. The set distance between the clamps was 20 mm. The values quoted are the average of ten measurements.'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_2.6-8 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '8'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_2.6-9 ;
+onner:paragraphText 'The effect of modified CNC on the crystallization behavior of PLA was studied using differential scanning calorimetry (DSC). Experiment was realized in a N <sub>2</sub> atmosphere with a 4 stage cycle: (1) 5-10 mg samples were heated from 25 • to 250 • C at 5 • C min <super>−1</super> , (2) temperature was held for 3 min with constant temperature, (3) temperature was decreased to 25 • C at 5 • C min <super>−1</super> and (4) reheated from 25 • to 250 • C at 5 • C min −1 . Percentage of crystallinity (Xc) in the PLA-based composites was calculated by:'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_2.6-9 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '9'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_3 ;
+onner:paragraphText 'where H <sub>m</sub> and H <sub>c</sub> are the enthalpies of fusion and crystallization of the composite, respectively, H o <sub>m</sub> is the enthalpy of fusion of a PLA crystal of infinite size (93 J g <super>−1</super> ), XPLA is the weight fraction of PLA . Contact angle of sessile drop was measured with a DataPhysics video-based measurement contact angle system OCA20 with a software controlled dosing volume weight-drop to determine changes in the hydrophilic character of after cellulose modifications. The results presented are the average of eight measurements.'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_3 rdf:type onner:Section ;
+onner:sectionTitle 'Results and discussion'^^xsd:string ;
+onner:sectionNumber '3'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_3.1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.indcrop.2015.03.075_3.1, data:10.1016_j.indcrop.2015.03.075_3.2, data:10.1016_j.indcrop.2015.03.075_3.3 .
+
+data:10.1016_j.indcrop.2015.03.075_3.1 rdf:type onner:Section ;
+onner:sectionTitle 'Raw material characterization'^^xsd:string ;
+onner:sectionNumber '3.1'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_3.1-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.indcrop.2015.03.075_3.1-1 .
+
+data:10.1016_j.indcrop.2015.03.075_3.1-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_3.2 ;
+onner:paragraphText 'Chemical composition of the agave bagasse used in this work was analyzed according to international standards and consists of 54.60 ± 1.7 cellulose, 16.2 ± 0.48 lignin, 13.95 ± 0.28 hemicelluloses 4.50 ± 0.07 ashes 8.35 ± 0.39 hot water extractives and 5.42 ± 0.23 ethanol-toluene extractives. The measurements were made from the bagasse as received from the distillery and the presented values are the mean result of six tests for each standard method. High content of cellulose can be observed, making it a desirable raw material for cellulose nano-particle extraction. The amount of lignin present in the raw material makes desirable a pulping process, being selected NaOH 1.8 M as the most suitable for this circumstance. PLA was received in the form of pellets with a 99 wt% content of l-poly-lactide and 250 ppm H <sub>2</sub> O, the specific gravity given by the supplier is 1.24.'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_3.2 rdf:type onner:Section ;
+onner:sectionTitle 'Cellulose obtention and modification'^^xsd:string ;
+onner:sectionNumber '3.2'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_3.2-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.indcrop.2015.03.075_3.2-1, data:10.1016_j.indcrop.2015.03.075_3.2-2, data:10.1016_j.indcrop.2015.03.075_3.2-3, data:10.1016_j.indcrop.2015.03.075_3.2-4, data:10.1016_j.indcrop.2015.03.075_3.2-5, data:10.1016_j.indcrop.2015.03.075_3.2-6 .
+
+data:10.1016_j.indcrop.2015.03.075_3.2-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_3.2-2 ;
+onner:paragraphText 'After the elimination of non-cellulosic components of the agave bagasse, bleached pulp was analyzed with ATR-IR to determine the quality of the obtained cellulose, in Fig. , it can be observed the ATR-IR spectra of cellulose from agave bagasse (a) showing peaks associated to high purity cellulose. Signals between 3600 and 3000 cm <super>−1</super> correspond to OH vibration in cellulose; the band between 3000 and 2600 cm <super>−1</super> corresponds to asymmetric and symmetric C H stretching vibration present in cellulose (1-2), moreover, the peaks present at ∼1430, ∼1162 and ∼1111 cm <super>−1</super> (a-5 to a-6) are assigned to CH <sub>2</sub> symmetric bending, asymmetric C O C bridge stretching, anhydroglucose ring asymmetric stretching, respectively, this is associated with the crystalline part of the cellulose, the peak at ∼893 cm <super>−1</super> is assigned to C H deformation of cellulose associated to the non-crystalline cellulose . In both silanized (b) cellulose nanofibers and esterified (c) cellulose nanocrystals, it can be observed the changes in the behavior of these bands because of the modification of the free hydroxyl present in the natural cellulose, that have reacted with the amino group in the case of ATS and the aliphatic acid chains in the case of DDC. Peaks at ∼2854 (c-1) and ∼2923 cm <super>−1</super> (c-2) correspond to the C H band, belonging to aliphatic acid chains, also a new peak can be observed at ∼1743 cm <super>−1</super> (c-3) corresponding to the 1750-1735 cm <super>−1</super> ester carbonyl band , this three peaks that occur in characteristic bands of DDC prove the successful esterification of the CNC. In the silanized CNF spectrum it can be observed a new peak at ∼1550 cm <super>−1</super> (b-4) that corresponds to the amino scissoring bending vibration, also in the 1300-1000 cm <super>−1</super> band (b-5 to b-6) there is an increase in the cellulose peaks because of the chemisorbed ATS related to the Si O Si bonding , therefore it can be assumed that a proper surface modification was performed on both CNC and CNF.'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_3.2-2 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '2'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_3.2-3 ;
+onner:paragraphText 'Blue agave pulp is composed of strong fibers with high content of cellulose and hemicelluloses. Fig.  shows SEM images of bagasse fibers as received from the supplier, defibrillation present in (a) can be due to the characteristic sugar extraction process to which blue agave bagasse is subjected during traditional industrial process as has been suggested by previous work  Experiments with plants from the same family like sisal,  have proven the necessity of an aggressive hydrolysis of the bleached pulp to break the amorphous regions of the cell wall.'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_3.2-3 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '3'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_3.2-4 ;
+onner:paragraphText 'Fig.  presents the atomic force microscopy of cellulose fibers after mechanical or chemical treatment. The action of sulfuric acid in the cellulose fibers allowed the isolation of cellulose nanocrystals (b) with an average width of 33 ± 13 nm and length 350 ± 153 nm with a very homogenized shape. In the case of cellulose nanofibers (a), the action of the high pressure homogenization allowed to tear microfibrillated cellulose into single nanofibers or groups of 2-3 nanofibers attached; in this case, shape is less constant as fibers are presented sometimes separated in one of their ends but still attached in the other, this because mechanical isolation methods do not eliminate amorphous cellulose that can still be left after the bleaching processes, anyhow the average length was 607 ± 85 nm and the average width 68 ± 22 nm. In both cases aspect ratio left a large amount of surface able to modify images (c) and (d) show silanized nanofibers and esterified nanocrystals, respectively, it can be clearly observed the surface modification and the formation of particle aggregates.'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_3.2-4 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '4'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_3.2-5 ;
+onner:paragraphText 'The diffraction patterns corresponding to BAST, BABP and both BANF and BANC, are presented in Fig. . These patterns were obtained using symmetrical transmission mode. It can be seen that peaks associated with cellulose corresponding to 1 0 1, 1 0 −1, 0 0 2 and 0 4 0 crystalline planes are present in all the cases with different intensity and broadening caused by the amount of crystalline cellulose of each sample and the presence of different components. Broadened peaks are associated to the presence of non-crystalline particles in the powder sample, this can be observed in the BAST sample, in which peaks at 2Â = 14.9, 17.41 and 22.36 • present low intensity and broadened peaks, this can be related to either hemicelluloses or amorphous cellulose as it has been suggested in previous reports  that this fiber components give broadened peaks. On the other hand, BANC sample has sharper signals and the peaks at 2Â = 14.  • and also has a clearer and smoother signal than the others presented.'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_3.2-5 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '5'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_3.2-6 ;
+onner:paragraphText 'In Table , the estimated crystallinity and apparent crystallite size are presented (left) peak deconvolution method with Voigt fitting curve can be useful for qualitative comparison of the behavior of cellulose during a series of treatments. It can be observed a considerable increase in crystallinity after the pulping and bleaching methods (between BAST and BABP) that happens when amorphous lignin and hemicelluloses are discarded from the original fibers, after mechanical homogenization there is no significant increase  in crystallinity as the chemical structure of the fiber is not attacked during this process, this can also be seen in the apparent crystallite size, as even after mechanical treatments the size of the crystallite is in the same range. BANC obtained after hydrolysis present the highest relative crystallinity (an increase of ∼10% respect to bleached cellulose) as the hydrolysis effectively eliminates amorphous cellulose from the fibers, leaving crystalline cellulose and in consequence, the range of crystallite size is decreased.'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_3.2-6 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '6'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_3.3 ;
+onner:paragraphText 'In case of modified cellulose, the surface modification performed in each sample generated a new amorphous region around the crystalline cellulose by hydrogen bonds with the hydroxyl groups present in the exterior chains of the molecular wall. XRD results concur with previous AT-IR analysis respecting the formation of a new surface in cellulose. In the case of BANS, it can be appreciated a slight increase in the crystallite size as a result of the addition of amino chains to the crystalline region; in Fig. ,  the peak deconvolution for the BANS (lower right) signal shows three new low-signal broad peaks at 2Â = 24.97, 30.25 and 37.67 • with an average H of 4.1 ± 0.56 • . For the BADC sample, the addition of large aliphatic chains generates a whole new region around the crystal particles; this can be concluded as the estimated crystallite size is 53% bigger than the original BANC sample. This new aliphatic chains in the crystalline surface diminish the crystallinity of the modified cellulose as the morphology is altered . In Fig.  (upper right) the deconvoluted peaks for the BADC sample shows a new low-intensity peak at 2Â = 7.99 • that is in the range of the associated diffraction of aliphatic chains for a number of carbons higher than 7 . There are also new peaks at 2Â = 25.26 and 28.44 • that broaden the base of the peaks corresponding to cellulose at the 0 0 2 plane. Surface modification increases the hydrophobicity of cellulose fibers; contact angle provides further information respecting the interaction between the surface of the CNC and CNF and the hydrophobic agent. Table  presents the contact angles (Â <sub>w</sub> ) of cellulose after bleaching as well as modified CNC and CNF. When comparing Â <sub>w</sub> for BAST and BABP, it can be seen a decay on contact angle, this proves the typical hydrophilic character of cellulose. The increase in Â <sub>w</sub> is related to the topology of the surface, either because of the size of the particle avoid the surface roughness or because of the reaction of hydroxyl groups with non-polar particles, even though during surface modification not all hydroxyl groups may react, the possibility of water molecules to penetrate the substrate when dealing at nano-scale is reduced. It can be seen in the BADC sample that the hydrophobic character is increased (Â <sub>w</sub> ∼81.06 • ), while for unmodified bleached cellulose was ∼31.74 • . In case of the ATS modified cellulose, it can be observed a n increase in the surface hydrophobicity of ∼31.45 • more than unmodified cellulose, but still is less than in the case of BADC, this is related to the features associated with the components of the respective modification, as well as with the specific surface of the particle; nano-scale cellulose has more hydroxyl groups to react with, this groups have strong hydrogen bonding with the surface modification agent that generates a shield against water sorption .'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_3.3 rdf:type onner:Section ;
+onner:sectionTitle 'Characterization of the composites'^^xsd:string ;
+onner:sectionNumber '3.3'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_3.3-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.indcrop.2015.03.075_3.3-1, data:10.1016_j.indcrop.2015.03.075_3.3-2, data:10.1016_j.indcrop.2015.03.075_3.3-3 .
+
+data:10.1016_j.indcrop.2015.03.075_3.3-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_3.3-2 ;
+onner:paragraphText 'Fig.  shows the visual aspect of the different composites compared to a pellet made of powdered fibers from the different fillers. The color contribution is related to the addition of either silanes (yellow) or dodecanoyl chloride (brown). Fig.  shows SEM images of different composites with 2 wt% content of filler, stronger interactions can be seen between the matrix and esterified CNC, whilst in composites with silanized CNF the interaction is lower. In both unmodified cellulose particles, dislocations were observed in the surface contact between matrix and filler, thus confirming the strengthened bonds that ATS and DDC provide to cellulose nanoparticles.'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_3.3-2 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '2'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_3.3-3 ;
+onner:paragraphText 'Table  presents the data corresponding to ultimate tensile strength and strain at break results for the different elaborated composites and Fig.  shows characteristic Tensile-Stress graphs for each composite. The addition of anisotropic material to the polymeric matrix influences the performance in uniaxial stress . It can be observed a considerable decrease of the mechanical properties when adding cellulose without any surface modification in composites reinforced with bleached pulp, cellulose nanofibers and cellulose nanocrystals, in which ultimate tensile strength (UTS) presents a decrease from the 45.29 MPa that has the PLA without any filler; this is accentuated as the percent of filler is increased, reaching a drop of approximately 25% when the filler reaches 2% of the composite. In general, the behavior of composites under uniaxial   stress is similar to the obtained in previous publications, with an increase in the UTS and a decrease in the strain at fracture when cellulosic fillers are added . Qualitative analysis shows differences with previously reported works with another type of cellulose modifications in which tensile stress and modulus are higher but the strain at break is considerably lower  this kind of variations and the ones presented in this wok reflect the importance that the surface modification of cellulose has in the elaboration of composites. In case of BANF and BANC, both have similar UTS values and are higher than those of bleached pulp. On the other hand, PLA composites reinforced with modified nano-particles have better UTS than any other and are slightly better in the case of BADC. With regard to the strain at fracture, ductility of PLA is decreased when mixed with more crystalline material, this particularity can be observed with more clearness in the PLA-BANC composite in which the average maximum elongation is dropped by an average of 48% from the unfilled PLA, as the stronger bonds between the highly crystalline cellulose inhibit the elongation of the fiber. The addition of noncrystalline components to the surface of CNF and CNC enhances the interaction between the filler and the matrix, allowing a better displacement in the axial direction under tension, with strain being increased by ∼18% in the case of 0.5% BADC and ∼25% in the case of 0.5% BANS composites; this value gradually descends as the amount of filler represents a higher percent in the composite, as either 1% and 2% concentrations of BANS and BADC have lower values for maximum strain than PLA without fillers. The behavior of all composites shows a mechanical decay when the amount of filler is increased, this situation can be related with the morphology and the composition of the filler as amorphous parts of BABP, BANF and BAST; lignin content in BAST and coupling agents in BADC and BANC benefit the interactions between crystalline cellulose and PLA; but when the share of the filler inside the composite is increased, the anisotropy characteristic to organic fillers in polymeric matrices, gets a major role in the response of the composite to uniaxial stress, generating more dislocations inside the composite. Furthermore, higher amount of filler material can generate agglomerations that result in a deterioration of tensile stress transfer between matrix and filler, generating a more brittle structure .'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_3.3-3 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '3'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_4 ;
+onner:paragraphText 'In Table  glass transition temperature (T <sub>g</sub> ), melt temperature (T <sub>m</sub> ), crystallization temperature (T <sub>c</sub> ), enthalpy of melting (H <sub>m</sub> ), and enthalpy of crystallization (H <sub>c</sub> ) of the different composites are presented. Bulk PLA presents a T <sub>g</sub> of 63.22 • C and Tm 175.66 • C this results are similar to those reported in previous works . Changes in T <sub>g</sub> are not significant between different composites, in more crystalline reinforcements such as silanized nanofibers or cellulose nanocrystals it can be observed a slight variation in the T <sub>c</sub> (between 3 and 5 • C) this changes and the increase of the enthalpy of fusion show a good nucleation of the cellulose crystallites enhancing the chain flow of PLA around the crystals whilst the crystallinity and the melting temperature is not highly affected.'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_4 rdf:type onner:Section ;
+onner:sectionTitle 'Conclusions'^^xsd:string ;
+onner:sectionNumber '4'^^xsd:string ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_4-1 ;
+onner:directlyContainsDocumentPart data:10.1016_j.indcrop.2015.03.075_4-1 .
+
+data:10.1016_j.indcrop.2015.03.075_4-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1016_j.indcrop.2015.03.075_EndOfDocument ;
+onner:paragraphText 'Six different composites were elaborated using PLA as a matrix and blue agave bagasse as raw material. To study the relevance of composition and surface modification in natural fibers, different chemical and mechanical treatments were performed. The analysis of composites made with the same material throughout the complete process can help to determine the relevance and feasibility of the treatments and then decide if whether or not is worthy. Hydrophilic character of cellulose surface was modified with 3aminopropyl triethoxysilane in case of nanofibers and dodecanoyl chloride in case of nanocrystals. The behavior toward contact angle and tensile tests showed the potential of these modifications as suitable methods to enhance mechanical properties and hydrophobicity because of the formation of non-polar covalent bonding between free hydroxyl and coupling agents, also enhancing dispersion inside the matrix, this has an important potential in creating barrier materials to avoid contact with water. Exists an inversely proportional relation between the amount of filler and the uniaxial mechanical properties, this can be related to agglomerations and the anisotropy of the filler inside the matrix, also the addition of nano-scale particles enhanced the interaction between matrixfiller. Thermal properties showed a better crystallization of the PLA chains when reinforcements were added without affecting the final crystallinity of the polymer.'^^xsd:string .
+
+data:10.1016_j.indcrop.2015.03.075_EndOfDocument rdf:type onner:EndOfDocument .

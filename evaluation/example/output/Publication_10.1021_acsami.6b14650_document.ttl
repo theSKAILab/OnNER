@@ -1,0 +1,298 @@
+@prefix onner: <http://purl.org/spatialai/onner/onner-full#> .
+@prefix data: <http://purl.org/spatialai/onner/onner-full/data#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+data:Publication_10.1021_acsami.6b14650 rdf:type onner:ScholarlyPublication ;
+onner:publicationTitle 'Macrofibers with High Mechanical Performance Based on Aligned Bacterial Cellulose Nanofibers'^^xsd:string ;
+onner:publicationDate '2017-01-03'^^xsd:date ;
+onner:doi '10.1021/acsami.6b14650'^^xsd:string ;
+onner:directlyContainsDocumentPart data:10.1021_acsami.6b14650_A, data:10.1021_acsami.6b14650_1, data:10.1021_acsami.6b14650_2, data:10.1021_acsami.6b14650_3, data:10.1021_acsami.6b14650_4 .
+
+data:10.1021_acsami.6b14650_A rdf:type onner:Abstract ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_A-1 ;
+onner:directlyContainsDocumentPart data:10.1021_acsami.6b14650_A-1 .
+
+data:10.1021_acsami.6b14650_A-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_1 ;
+onner:paragraphText 'Bacterial cellulose (BC) nanofibers represent an emerging class of highly crystalline bionanofibers with high intrinsic mechanical properties. The remarkable nanofibers with oriented structure and strong interfibrillar interactions can realize highperformance materials. In this study, we demonstrated that macrofibers based on aligned BC nanofibers could be prepared by wet spinning and drawing procedures. The relationship between process conditions, structure, and mechanical properties of macrofibers were investigated. The obtained macrofibers exhibited Young\'s modulus of 16.4 GPa and tensile strength of 248.6 MPa under the optimum process conditions, in which nanofibers displayed a high degree of alignment. Furthermore, we enhanced the interfacial interactions between nanofibers and obtained better mechanical performance by multivalent ion cross-linking. After exchanging the monovalent Na + by Fe 3+ , the dried macrofiber reached Young\'s modulus of 22.9 GPa and tensile strength of 357.5 MPa. Particularly, the resulting macrofibers still maintained good mechanical properties with Young\'s modulus of 15.9 GPa and tensile strength of 262.2 MPa in the wet condition. This research provided a good method to fabricate macrofibers from BC nanofibers with good properties by continuous wet-spinning process. These macrofibers can be easily functionalized and have promising potential applications in smart textiles, biosensor, and structural reinforcement.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_1 rdf:type onner:Section ;
+onner:sectionTitle 'INTRODUCTION'^^xsd:string ;
+onner:sectionNumber '1'^^xsd:string ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_1-1 ;
+onner:directlyContainsDocumentPart data:10.1021_acsami.6b14650_1-1, data:10.1021_acsami.6b14650_1-2, data:10.1021_acsami.6b14650_1-3 .
+
+data:10.1021_acsami.6b14650_1-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_1-2 ;
+onner:paragraphText 'Sustainable and high-performance alternatives based on renewable resources are intensely needed because of exhausted petroleum feedstock and environmental issues.  Cellulose is an almost inexhaustible polymer resource on earth and expected to meet the increasing demand for petroleum-replacing products.  Cellulose nanofibers (CNFs) form a remarkable emerging class of nature-derived nanomaterials due to its extraordinary mechanical properties.  Crystalline cellulose has greater axial elastic modulus than Kevlar and is 2−3 times higher than that of glass fibers.  CNFs also have high aspect ratio, low density, and reactive surface of hydroxyl groups that facilitates chemical functionality.  In general, controllability of architecture for CNFs is significant in applications related to biosensor, electronics, optics, microengineering, and electrocatalysts.  In such cases, the additional benefit of improved mechanical characteristics with aligned CNFs might be realized.  However, one bottleneck in fully realizing the potential of these bionanofibers is to master water-borne processing and find ways to align these anisotropic bionanofibers inside a final material to maximize and control directional mechanical and functional properties.  Several techniques have been used in attempts to control the alignment of CNFs. Compared with magnetic  or electric  field method, shear orientation is simple and has a greater potential for industrial-scale production.  Spinning is a promising and efficient way in practice for uniaxial orientation of nanofibers under shear force. The orientation of nanofibers would be fixed immediately because of a fast dehydration of nanofiber dispersion.  Nanofibers isolated from soft wood,  tunicate,  chitin,  and banana rachis pulp  have been spun into fibers, and their mechanical properties exceed those of typical, nonoriented nanopapers. Besides the orientation, the structure and the interaction among nanofibers may be the other factors affecting the mechanical properties of the macrofibers. Especially in high-moisture environment, hydrogen bonds are weakened; thus, the mechanical properties of water-bone macrofibers would decrease substantially. It is of great importance to systematically investigate the preparation of macrofibers with high mechanical properties.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_1-2 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '2'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_1-3 ;
+onner:paragraphText 'Unlike plant cellulose, bacterial cellulose (BC) does not contain collateral biogenic compounds such as lignin, hemicelluloses, and pectin. It also has a unique mechanism in the synthesis of chain molecules followed by a subtly self-assembled process from subfibrils to fibrillar ribbons (50−80 nm), which are 200 times finer than cotton fibers.  Thus, BC do not need excess homogenizing and have less energy consumption for obtaining individual nanofibers due to intrinsic nanostructures. As a type of natural bio-nanomaterial, BC nanofibers show outstanding modulus.  The reported axial elastic modulus, E <sub>A</sub> = 78 ± 17 GPa and E <sub>A</sub> = 114 GPa, respectively, were measured by atomic force microscopy 3 pt bend and Raman.  Compared with nanofibrillated cellulose (NFC) and cellulose nanocrystals (CNC), BC nanofibers have large aspect ratio (30−50 nm wide, 6−10 nm height, 1−9 μm in length) as well as high crystallinity (up to 84−89%).  It is predicted that directional mechanical and functional properties of superior materials can be controlled and maximized by aligning these thin and long crystalline entities with proper structure by suitable processing conditions.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_1-3 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '3'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_2 ;
+onner:paragraphText 'So far, the main interest in BC nanofibers focuses on generating strong nanopapers, nanocomposites, or robust foams and aerogels.  However, aligned BC nanofiberbased macrofibers have not been reported. This work reported the fabrication of macrofibers based on BC nanofibers by continuous wet-spinning process. The relationship between process conditions, structure, and mechanical properties of macrofibers were investigated. Two-dimensional (2D) X-ray diffraction and scanning electron microscopy were used to quantitatively measure the degree of orientation. The relationship between the structure and the mechanical properties of macrofibers were investigated. The resulting macrofibers with enhanced mechanical properties and stabilization in high humidity were achieved by multivalent ions cross-linking bridges between the oxygen-containing groups.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_2 rdf:type onner:Section ;
+onner:sectionTitle 'MATERIALS AND METHODS'^^xsd:string ;
+onner:sectionNumber '2'^^xsd:string ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_2.1 ;
+onner:directlyContainsDocumentPart data:10.1021_acsami.6b14650_2.1, data:10.1021_acsami.6b14650_2.2, data:10.1021_acsami.6b14650_2.3 .
+
+data:10.1021_acsami.6b14650_2.1 rdf:type onner:Section ;
+onner:sectionTitle 'Materials.'^^xsd:string ;
+onner:sectionNumber '2.1'^^xsd:string ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_2.1-1 ;
+onner:directlyContainsDocumentPart data:10.1021_acsami.6b14650_2.1-1, data:10.1021_acsami.6b14650_2.1-2 .
+
+data:10.1021_acsami.6b14650_2.1-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_2.1-2 ;
+onner:paragraphText 'Gluconacetobacter xylinus were incubated with basal medium (glucose 5 wt %, yeast extract 0.5 wt %, bacto-peptone 0.5 wt %, disodium phosphate 0.2 wt %, monopotassium phosphate 0.1 wt %, and citric acid 0.1 wt %) for 5 d in a static culture, adjusted to pH 5.0. Then BC membranes were boiled in 1 wt % NaOH for 60 min, to get rid of the remaining culture medium and microorganisms, and then repeatedly rinsed with pure water until the filtrate became neutral.  Finally, BC was fibrillated into slurry by high-shear homogenization at speed of 7000 rpm for 15 min and then stored at 4 °C before use.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_2.1-2 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '2'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_2.2 ;
+onner:paragraphText '2,2,6,6-Tetramethylpiperidine-1-oxyl (TEMPO; 98%) was purchased from Sigma-Aldrich. Sodium bromide, sodium hypochlorite solution, iron(III) sulfate hydrate, copper(II) sulfate pentahydrate, and other chemicals were purchased from Sinopharm Chemical Reagent (Shanghai, China). All chemicals were used directly without any further purification.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_2.2 rdf:type onner:Section ;
+onner:sectionTitle 'Preparation, Drawing, and Cross-Linking of the Macrofibers.'^^xsd:string ;
+onner:sectionNumber '2.2'^^xsd:string ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_2.2-1 ;
+onner:directlyContainsDocumentPart data:10.1021_acsami.6b14650_2.2-1, data:10.1021_acsami.6b14650_2.2.1, data:10.1021_acsami.6b14650_2.2.2, data:10.1021_acsami.6b14650_2.2.3, data:10.1021_acsami.6b14650_2.2.4 .
+
+data:10.1021_acsami.6b14650_2.2-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_2.2.1 ;
+onner:paragraphText 'Our general strategy is sketched in Scheme 1. It started with the individualized nanofibers preparation, and then the nanofibers assembled into macrofibers by wet-spinning. The obtained macrofibers were mechanically drawn under relative humidity to allow for an alignment of BC nanofibers. The drawing macrofibers with maximized properties were subsequently subjected to cross-linking by multivalent ions. Thus, the enhancement of mechanical properties was achieved in high-humidity condition.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_2.2.1 rdf:type onner:Section ;
+onner:sectionTitle 'Preparation of TEMPO-Oxidized BC Nanofibers.'^^xsd:string ;
+onner:sectionNumber '2.2.1'^^xsd:string ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_2.2.1-1 ;
+onner:directlyContainsDocumentPart data:10.1021_acsami.6b14650_2.2.1-1 .
+
+data:10.1021_acsami.6b14650_2.2.1-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_2.2.2 ;
+onner:paragraphText 'Individual nanofiber suspension was prepared by TEMPO oxidation according to Saito et al.  The BC slurry (1 g) was suspended in water (100 mL) containing TEMPO (0.016 g) and sodium bromide (0.1 g). The reaction was initiated by adding sodium hypochlorite at room temperature. The solution was kept at pH 10.3 by titration with 0.5 M sodium hydroxide for 1 h. At the end of the reaction, the oxidized cellulose was filtered and then washed with distilled water. The suspension was then concentrated to the desired concentrations (1.8%, 3.6%, and 5.4 wt %) using several steps of centrifugation. The carboxylate content of the TEMPO-oxidized cellulose was determined using an electric conductivity titration method. '^^xsd:string .
+
+data:10.1021_acsami.6b14650_2.2.2 rdf:type onner:Section ;
+onner:sectionTitle 'Wet-Spinning of BC Nanofibers.'^^xsd:string ;
+onner:sectionNumber '2.2.2'^^xsd:string ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_2.2.2-1 ;
+onner:directlyContainsDocumentPart data:10.1021_acsami.6b14650_2.2.2-1 .
+
+data:10.1021_acsami.6b14650_2.2.2-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_2.2.3 ;
+onner:paragraphText 'The BC nanofiber suspensions were spun into an acetone coagulation bath from a syringe (internal diameter of the needle is 0.21 mm). Pump 11 ELITE (Harvard, USA) was used to control the spinning rate over the range of 0.7−18.9 m/min. Different sizes of syringes (1 and 5 mL) are needed to cooperate with pump speed (more details are given in Figure  and video). The pumping load was insufficient for higher spinning rate of the BC nanofibers suspension because of its gel-like high viscosity. The spun fibers were reeled, and the take-up speed was ∼70% of the spinning rate. The obtained fibers were then dried at 50 °C. All prepared samples were coded and summarized in Table .'^^xsd:string .
+
+data:10.1021_acsami.6b14650_2.2.3 rdf:type onner:Section ;
+onner:sectionTitle 'Wet Stretching.'^^xsd:string ;
+onner:sectionNumber '2.2.3'^^xsd:string ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_2.2.3-1 ;
+onner:directlyContainsDocumentPart data:10.1021_acsami.6b14650_2.2.3-1 .
+
+data:10.1021_acsami.6b14650_2.2.3-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_2.2.4 ;
+onner:paragraphText 'A macrofiber (5.4 wt %, 18.9 m/min) with a length L <sub>0</sub> of 8 cm was clamped and immersed in water for 10 min for losing residual stress. Then the sample was immersed into 80 vol % acetone aqueous solution with a length L 1 . One minute later, the  sample was stretched so the macrofibers were subjected to a stretching routine, applying a strain velocity of 0.8 mm/min until the desired final length L <sub>2</sub> was reached. The stretching ratio (SR) was defined as SR = L <sub>2</sub> /L <sub>1</sub> − 1 (SR = 0.1, 0.2).'^^xsd:string .
+
+data:10.1021_acsami.6b14650_2.2.4 rdf:type onner:Section ;
+onner:sectionTitle 'Ionic Cross-Linking.'^^xsd:string ;
+onner:sectionNumber '2.2.4'^^xsd:string ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_2.2.4-1 ;
+onner:directlyContainsDocumentPart data:10.1021_acsami.6b14650_2.2.4-1 .
+
+data:10.1021_acsami.6b14650_2.2.4-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_2.3 ;
+onner:paragraphText 'Infiltration of the macrofibers was performed by placing the fibers into a 0.1 M copper sulfate or 0.1 M iron sulfate solution (100 mL) for 24 h. Excess ions/salt were removed by washing in deionized water. Tension was applied to the individual macrofibers during infiltration and drying.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_2.3 rdf:type onner:Section ;
+onner:sectionTitle 'Characterization.'^^xsd:string ;
+onner:sectionNumber '2.3'^^xsd:string ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_2.3-1 ;
+onner:directlyContainsDocumentPart data:10.1021_acsami.6b14650_2.3-1, data:10.1021_acsami.6b14650_2.3-2, data:10.1021_acsami.6b14650_2.3-3, data:10.1021_acsami.6b14650_2.3-4 .
+
+data:10.1021_acsami.6b14650_2.3-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_2.3-2 ;
+onner:paragraphText 'Morphologies of nanofibers were characterized using JEM-2100 transmission electron microscopy (TEM). Drops of dilute nanofibers suspensions (0.06 mg/mL) were deposited onto glow-discharged carbon-coated copper grid. The excess liquid was absorbed by a piece of filter paper, and a drop of 2% uranyl acetate negative stain was added before drying. The liquid in excess was blotted, and the remaining film of stain was allowed to dry. The specimens were observed at 100 kV. X-ray diffraction (XRD) patterns of nanofibers were obtained in a Rigaku D/max-2550PC X-ray diffractometer with the Cu Ka radiation at a scanning rate of 2 s −1 . Fourier transform infrared spectroscopy (FT-IR) was recorded on an FT-IR spectrometer (Nicolet 6700, Thermo Fisher) equipped with an attenuated total reflection (ATR) attachment. All the spectra were obtained with a resolution of 4 cm <super>−1</super> at 400−4000 cm −1 . The concentrations of Na, Cu, and Fe in macrofibers after cross-linking were measured by inductively coupled plasma-atomic emission spectroscopy (ICP-AES). Samples were dispensed in 40 mg aliquots in a 100 mL flask, with 5 mL of nitric acid added, diluted to volume, and mixed, and directly analyzed by ICP-AES. Morphologies of macrofibers were observed by an S-4800 field emission scanning electron microscope (FE-SEM). The samples were sputter-coated with a thin gold layer before observation. The spun fibers were fractured in liquid nitrogen to reveal the cross section for observation.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_2.3-2 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '2'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_2.3-3 ;
+onner:paragraphText 'Tensile tests for macrofibers were performed in a fiber mechanical strength tester (XQ-2, China) with a strain rate of 20 mm/min at a gauge length of 2 cm. All samples were conditioned at the specified relative humidity (RH) at least 24 h. The length of specimen was 5 cm. Before the test, the cross section of macrofibers (Figure ) were obtained by Hardy\'s thin cross-section device and observed by optical microscope (XSZ−360AP, China). The cross-sectional area of macrofibers was measured with software Image-J. Average crosssectional area was determined by measuring ∼30 macrofibers. Mechanical properties in the wet condition were tested after immersing fiber into water for 5 min. The tensile strength, initial modulus, and elongation were calculated as the average of at least 10 measurements.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_2.3-3 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '3'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_2.3-4 ;
+onner:paragraphText 'Wide-angle X-ray diffraction (WAXD) experiments were performed at the beamline BL14B1 at the Shanghai Synchrotron Radiation Facility with a wavelength of 0.123 98 nm. The sample cell was placed in a sample holder perpendicular to the X-ray beam. The distance between the detector (Mar 345) and the sample was 420.3 mm. CeO <sub>2</sub> was used for calibration. A typical acquisition time was 500 s. The patterns were corrected for air scattering and background. The azimuthal intensity distribution profiles along the arc that refers to the (200) reflections of the cellulose I <sub>β</sub> crystals were used to quantify the orientation of the nanofibers along the fibers. This peak is determined to be within 2θ = 22.0−22.4°. Intensity distribution profiles in the azimuthal angle (ϕ) were used to calculate the orientation index (π) and the order parameter (S) according to the equations:  '^^xsd:string .
+
+data:10.1021_acsami.6b14650_2.3-4 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '4'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3 ;
+onner:paragraphText 'where fwhm is the full width of the half-maximum of the azimuthal profiles from the selected equatorial reflection, and I(ϕ) is the intensity distribution along the Debye−Scherrer ring. '^^xsd:string .
+
+data:10.1021_acsami.6b14650_3 rdf:type onner:Section ;
+onner:sectionTitle 'RESULTS AND DISCUSSION'^^xsd:string ;
+onner:sectionNumber '3'^^xsd:string ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.1 ;
+onner:directlyContainsDocumentPart data:10.1021_acsami.6b14650_3.1, data:10.1021_acsami.6b14650_3.2, data:10.1021_acsami.6b14650_3.3, data:10.1021_acsami.6b14650_3.4 .
+
+data:10.1021_acsami.6b14650_3.1 rdf:type onner:Section ;
+onner:sectionTitle 'TEMPO-Oxidized BC Nanofibers.'^^xsd:string ;
+onner:sectionNumber '3.1'^^xsd:string ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.1-1 ;
+onner:directlyContainsDocumentPart data:10.1021_acsami.6b14650_3.1-1, data:10.1021_acsami.6b14650_3.1-2, data:10.1021_acsami.6b14650_3.1-3, data:10.1021_acsami.6b14650_3.1-4 .
+
+data:10.1021_acsami.6b14650_3.1-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.1-2 ;
+onner:paragraphText 'Figure ,b shows the relationship between carboxylate content and the amount of NaClO or the oxidation time in the TEMPO/NaBr/NaClO system. As shown in Figure , the amount of carboxylate groups formed from the primary hydroxyl groups of cellulose increased with the amount of NaClO added in suspension, where oxidation time of 1 h was applied at room temperature and pH 10.5. The carboxylate groups were further formed up to ∼0.65 mmol/g and unchanged around 0.3 mmol/g when the addition of NaClO up to 3 mmol per gram of cellulose. Similarly, the amount of carboxylate increased very slowly after 1 h of oxidation time by addition of 3 mmol of NaClO in the cellulose slurry (Figure ). Thus, carboxylate content in the water-insoluble fractions are difficult to exceed a certain level even by the excess NaClO addition or oxidation time. The maximum content of C6-oxidized groups of BC is similar to cotton,  and it is lower than that of wood cellulose with carboxylate content of 1−1.5 mmol/g.  That means the degree of oxidation for BC is lower than that of wood cellulose. However, high degree of oxidation shows poor thermal properties,  whereas more degree of oxidation is not necessary for dispersion of BC nanofibers because of their original nanoscale structure.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_3.1-2 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '2'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.1-3 ;
+onner:paragraphText 'The changes of functional groups of the original BC and its oxidized counterparts were demonstrated by FTIR spectra. Figure  shows that the peaks at 3410 and 1420 cm <super>−1</super> are assigned to stretching vibrations of hydroxyl groups and the symmetric bending of CH <sub>2</sub> , respectively. Original BC nanofibers have no absorption band from 1700 to 1900 cm −1 . After TEMPO oxidation occurred, an obvious band appeared at 1727 cm <super>−1</super> , which is due to the CO stretching vibration of the carboxylic acid group.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_3.1-3 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '3'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.1-4 ;
+onner:paragraphText 'Figure  illustrates XRD patterns of samples before and after the TEMPO-mediated oxidation. There are two main peaks at 14.9 and 22.6 (corresponding to lattice planes 11̅ 0 and 200, respectively) with one short and broad shoulder around 16.1 (lattice plane 110), which can be assigned to the diffraction of cellulose I. The original crystal structure of cellulose I has not changed after the oxidation. The crystallinity index of the oxidized BC is calculated to be 81.2% and 86.9% using amorphous subtraction method  and peak deconvolution method.  The two methods show a consistent trend that is slightly reduced than original BC by 3% and 7%, respectively. These results indicated that the carboxylate groups formed by TEMPO oxidation are selectively present on cellulose microfibril surfaces without changing internal cellulose crystallites.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_3.1-4 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '4'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.2 ;
+onner:paragraphText 'Figure ,f shows the TEM images of nanofibers prepared by the TEMPO-mediated oxidation of BC with carboxylate contents of 0.31 and 0.65 mmol/g. As shown in TEM images, the nanofibers clearly formed lateral aggregates with the low carboxylate content, while nanofibers with the carboxylate content of 0.65 mmol/g were mostly converted to individual fibrils because of a mutually repulsive force. According to the TEM, the width of individual nanofiber is 15−40 nm, and length is observed to be greater than 5 μm (Figure ).'^^xsd:string .
+
+data:10.1021_acsami.6b14650_3.2 rdf:type onner:Section ;
+onner:sectionTitle 'Wet-Spinning of the Macrofiber Based on BC Nanofibers.'^^xsd:string ;
+onner:sectionNumber '3.2'^^xsd:string ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.2-1 ;
+onner:directlyContainsDocumentPart data:10.1021_acsami.6b14650_3.2-1, data:10.1021_acsami.6b14650_3.2-2, data:10.1021_acsami.6b14650_3.2-3, data:10.1021_acsami.6b14650_3.2-4, data:10.1021_acsami.6b14650_3.2-5, data:10.1021_acsami.6b14650_3.2-6, data:10.1021_acsami.6b14650_3.2-7 .
+
+data:10.1021_acsami.6b14650_3.2-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.2-2 ;
+onner:paragraphText 'The spinning suspension was dehydrated immediately by acetone, leading the cellulose nanofibers to aggregate into fibrous structures. Then the macrofibers can be reeled immediately at a certain taking-up rate. So it is worth mentioning that this was a continuous process, which did not require a certain aging time in bath. It was different from the uncontinuous process to fabricate the macrofibers from NFC, which would require an aging time (5 min to ∼24 h) in coagulation bath. '^^xsd:string .
+
+data:10.1021_acsami.6b14650_3.2-2 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '2'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.2-3 ;
+onner:paragraphText 'Herein, different spinning rates and concentrations were used to discuss the relationship between structures and mechanical properties of macrofibers. Initial screening experiments were performed to suggest that 18.9 m/min and 5.4 wt % were very high value. Pumping load was insufficient for higher spinning rate and concentration due to gel-like high viscosity of suspension. A certain minimum spinning rate (0.7 m/min) and concentration (1.8 wt %) of cellulose nanofibers was required to be able to spin continuous anisotropic structure.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_3.2-3 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '3'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.2-4 ;
+onner:paragraphText 'The BC nanofibers are spun into fibers with diameters of 50−80 μm. Morphologies of macrofibers were characterized by FE-SEM. The rapid coagulation during the initial preparation of the fibers in acetone can lead to some porosity in macrofibers. As shown in Figure −c, the spun fibers with 1.8, 3.6, and 5.4 wt % nanofibers suspension at 18.9 m/min show different structures. Less porosity and more compactibility is observed with high concentrations. This is because the macroscale structure originates from aggregation during the solvent exchange in the coagulation bath, happening from outside to inside. So nanofibers from high-concentration suspension would move less upon dehydration in the acetone coagulation bath due to higher viscosity.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_3.2-4 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '4'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.2-5 ;
+onner:paragraphText 'To demonstrate the changes of arrangement of nanofibers, the surface structure of original BC and the macrofibers was compared. BC film shows randomly distributed nanobundles with reticulated network structure (Figure ). However, BC nanofibers from finely dispersed suspension can be aligned by the concentric shear profile in the process of extrusion. As shown in Figure , nanofibrils in macrofibers with 18.9 m/min extrusion rate are better oriented and less network structure compared to lower rate (Figure ). It is demonstrated that a qualitatively high alignment of BC nanofibrils can be obtained in macrofibers with high shear force.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_3.2-5 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '5'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.2-6 ;
+onner:paragraphText 'To go beyond this qualitative understanding of the alignment procedure, BC nanofibers in the spun fibers were further analyzed by WAXD. As shown in Figure , the reflections corresponding to (200) and (11 ̅ 0) are present in the ring  pattern, indicating the random orientation of the nanofibers in BC film. However, the diffractogram in Figure  shows a different diagram with arc pattern of (11 ̅ 0) and (200) reflections, suggesting an improved alignment of the crystallites along the longitudinal axis of the fiber. It has been reported that the distribution along the (200) arc in the 2D pattern was used to quantify the alignment of the nanofibers.  So we traced the orientation using the crystal (200) reflection arising from the nanofibers. Table  displays the azimuthal intensity profiles of the mentioned reflections at different conditions. The degree of alignment was calculated using two methods: (i) the orientation index defined and (ii) the order parameter (more details in the Experimental Section). Both parameters π and S range from 0 to 1, with unity corresponding to perfect alignment, whereas zero corresponds to a random orientation of the nanofibers.  Two different methods show a consistent result that there is an increase in the orientation as the spinning rate increases at all concentrations. In addition, it is also seen that alignment of nanofibers increased with lower concentration suspension at the same extrusion rate.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_3.2-6 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '6'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.2-7 ;
+onner:paragraphText 'During spinning of macrofibers based on BC nanofibers, the extensional flow field forces the nanofibers to align parallel to the longitudinal axis. However, as the nanofibers concentration increases, the nanofiber−nanofiber interaction competes with the external force, leading to lower alignment of nanofibers. It is believed that the increase of the spinning rate and lower concentration will provide a higher shear force and less entanglement, subsequently increasing the alignment of the nanofibers in the fiber axis direction.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_3.2-7 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '7'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.3 ;
+onner:paragraphText 'It is worth noting that alignment of nanofibers is not the only important effect for mechanical performance. According to the data in Table , the macrofiber obtained with higher extrusion rate of nanofibers at the same concentration shows the increase of nanofibers alignment in longitudinal axis, which possesses higher tensile and elastic modulus. However, highly aligned fiber in low concentration does not show good mechanical performance. For example, at the same spinning rate of 18.9 m/ min, the macrofibers show decreased alignment and a significant improvement of strength and module when concentrations are increased from 1.8 to 5.4 wt %. This is because the higher concentrations may lead to increase of nanofiber−nanofiber contacting points and nanofiber interactions from the longitudinal axis of fiber, while low concentrations result in porosity or loose structure of the materials, which would considerably decrease the mechanical properties of the macrofibers. Porosity has a negative effect on mechanical properties of nanostructure materials in various studies.  Lower porosity correlates with reduced specific surface area, which can be interpreted as decreased segment length between nanofiber−nanofiber bond sites. As a result, low concentrations with porous structure lead to lower modulus and decreased stress. The macrofiber in 5.4 wt % concentration with spinning rate of 18.9 m/min shows compact structure and good mechanical properties. It is predicted that such cohesive fibers can achieve higher values of tensile and elastic modulus upon more efficient alignment of the nanofibers. For such longer nanofibers (more than 5 μm), it is difficult to align them with higher speed due to persisting colloidal entanglement. The maximum alignment of nanofibers is expected by using additional post drawing.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_3.3 rdf:type onner:Section ;
+onner:sectionTitle 'Wet Stretching.'^^xsd:string ;
+onner:sectionNumber '3.3'^^xsd:string ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.3-1 ;
+onner:directlyContainsDocumentPart data:10.1021_acsami.6b14650_3.3-1, data:10.1021_acsami.6b14650_3.3-2, data:10.1021_acsami.6b14650_3.3-3, data:10.1021_acsami.6b14650_3.3-4, data:10.1021_acsami.6b14650_3.3-5 .
+
+data:10.1021_acsami.6b14650_3.3-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.3-2 ;
+onner:paragraphText 'To maintain constant conditions during the stretching, we used a rate-controlled device to stretch the macrofibers according to Torres-Rendon et al.  This procedure allows the stretching ratio of up to 20%, SR = 0.2. Higher drawing ratio turned out to typically lead to fracture.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_3.3-2 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '2'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.3-3 ;
+onner:paragraphText 'The improved alignment can be evidenced by SEM and polarizing microscope and quantified via WAXD (Figure  and Figure ). The images of the macrofibers at different SR show that nanofibers in stretched macrofibers are better oriented in the longitudinal axis and less network structure of the layer than the unstressed samples. When stretching ratio of up to 20%, one can appreciate a quite high alignment of the nanofibers. Few flaws in nanofibers can be observed (Figure ) for strongly stretching during preparation of considerably oriented nanomaterials.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_3.3-3 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '3'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.3-4 ;
+onner:paragraphText 'To quantify the alignment WAXD was performed to monitor the changes of azimuthal intensity profiles of selected flection changing during drawing. Figure −i illustrates the azimuthal intensity profiles of the reflection (200) at different drawing ratio. The more defined reflexes and narrower fwhm at higher SR clearly confirm the increasing degrees of alignment. Table  summarizes the orientation index and the order parameter values for undrawn and drawn samples. Two methods show consistent increase with a rising SR for the improved orientation of the nanofibers induced by drawing procedure in high humidity condition. The macrofiber with the highest drawing ratio of 0.2 displays a high degree of  alignment at ∼0.7, which demonstrates that it is an effective process to induce orientation of nanofibers in this kind of material by drawing method.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_3.3-4 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '4'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.3-5 ;
+onner:paragraphText 'A direct comparison of the mechanical properties for macrofibers as a function of the draw ratio is also displayed in Table . It can be seen that the optimized macrofiber with highest drawing ratio in the coagulation bath has a tensile strength of 248.6 MPa with a 16.4 GPa Young\'s modulus at 3.8% ultimate elongation. The results presented in this paper are better than that for undrawn CNF fibers spun with higher concentrations reported by Hooshmand et al.  The values are lower than that of stretched wood TEMPO-oxidized CNF filaments reported by Torres-Rendon et al.  This might be because BC nanofibers with low elongation are not feasible to greater stretch, leading to lower orientation. Therefore, the lower orientation leads to decreased modulus.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_3.3-5 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '5'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.4 ;
+onner:paragraphText 'However, this value of stiffness and strength is 4.4 GPa and 50 MPa greater than that of our previously unstretched fibers, which comes from the increasing alignment of the nanofibers by stretching. The influence of the alignment of crystallites on the stiffness and strength is a consequence of the anisotropic mechanical properties of such crystal structures (cellulose I) within the nanofibers. A gain of mechanical properties due to wet-stretching demonstrates that it is a more effective process to induce orientation of nanofibers in this kind of material. This is an important advantage, because we can also use much longer nanofibers, which are more difficult to align with higher extrusion speeds due to colloidal entanglements.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_3.4 rdf:type onner:Section ;
+onner:sectionTitle 'Ionic Cross-Linking.'^^xsd:string ;
+onner:sectionNumber '3.4'^^xsd:string ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.4-1 ;
+onner:directlyContainsDocumentPart data:10.1021_acsami.6b14650_3.4-1, data:10.1021_acsami.6b14650_3.4-2, data:10.1021_acsami.6b14650_3.4-3, data:10.1021_acsami.6b14650_3.4-4, data:10.1021_acsami.6b14650_3.4-5 .
+
+data:10.1021_acsami.6b14650_3.4-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.4-2 ;
+onner:paragraphText 'The strength of the macrofibers is considerably susceptible to the slide and void between nanofibers. Especially in high moisture, weakening of the interfacial linkage between nanofibers may lead to an obvious decrease in mechanical properties.  Organic carboxylic sodium salt is a weak polyelectrolyte, so the internal cohesion should be improved by incorporation of ionic bonds. In the pursuit of high-performance nanostructure materials, previous reports and theoretical investigations proposed that multivalent ions offered cross-linking bridges between the oxygen-containing groups and thus achieved the enhancement of mechanical properties in high humidity.  We chose CuSO <sub>4</sub> and Fe <sub>2</sub> (SO <sub>4</sub> ) <sub>3</sub> as the bath solutions and immersed drawn fibers (SR = 0.2) into them for 24 h, respectively, followed by extensive washing. The obtained fibers show the typical colors of the metal ions; that is, the fibers immersed with CuSO <sub>4</sub> are blue, and those immersed with Fe <sub>2</sub> (SO <sub>4</sub> ) <sub>3</sub> are yellow. The composition was analyzed by elemental analysis via ICP-AES. The results show that the sodium content is reduced from 2.43 to 0.01 and 0.18 wt % for the Cu <super>2+</super> and Fe <super>3+</super> infiltrated fibers. Cu <super>2+</super> and Fe <super>3+</super> can be detected in fibers with 2.83 and 2.48 wt %, respectively. This indicates the majority of the Na <super>+</super> was exchanged by Cu <super>2+</super> or Fe  .'^^xsd:string .
+
+data:10.1021_acsami.6b14650_3.4-2 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '2'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.4-3 ;
+onner:paragraphText 'FTIR was used to monitor the change in structure upon cross-linking. As shown in Figure , obvious differences between the obtained macrofibers <super>(Na</super> + MF) and cross-linked macrofibers with <super>Cu</super> 2+ <super>(Cu</super> 2+ MF) and with <super>Fe</super> 3+ <super>(Fe</super> 3+ MF) with regard to the characteristics and position of the bands are observed. For <super>Na</super> + MF, the intensities of the bands at 1607 and 1427 <super>cm</super> −1 show asymmetrical stretching mode <sub>(υ</sub> asym ) and symmetrical stretching mode <sub>(υ</sub> sym ) for <super>COO</super> − , respectively. After exchanging with <super>Fe</super> 3+ and <super>Cu</super> 2+ ions, symmetrical stretching band narrows slightly, and the peak maximum stays nearly constant. However, asymmetrical stretching band significantly is weakened and broadened. In general, complex-ation between a carboxylate group and bivalent and trivalent transition metals can take place in various types such as bidentate chelating and bidentate bridging. It has been reported that the separation of the symmetric and asymmetric stretches of the carboxylate group can be used to identify the bonding <super>mechanism.</super> 49−51 Konradi et. <super>al</super>  have confirmed that asymmetrical stretching of carbonyl group at 1558 <super>cm</super> −1 is chelating bidentate and at 1611 <super>cm</super> −1 is bridging bidentate for poly(methacrylic acid) (PMAA) and multivalent ions. In this paper, a visible band that covers full region from 1558 to 1611 <super>cm</super> −1 can be observed. This indicates that multiple coordination geometries and bonding mechanisms coexist in fibers with cross-linking. Moreover, a small shoulder can be observed at 1733 <super>cm</super> −1 , which illustrates little conversion takes place from <super>Na</super> + MF to its acid form during ion exchange. Therefore, all these changes confirmed that multivalent ions indeed offered cross-linking bridges between nanofibers.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_3.4-3 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '3'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.4-4 ;
+onner:paragraphText 'As presented in Figure −d, <super>Fe</super> 3+ MF has Young\'s modulus of 22.9 GPa and tensile strength of 357.5 MPa at 2.3% ultimate elongation, while <super>Cu</super> 2+ MF show Young\'s modulus of 20.2 GPa and tensile strength of 317.0 MPa at 2.5% elongation. Compared with the fibers without cross-linking, <super>Fe</super> 3+ MF achieve 39.6% higher Young\'s modulus and 43.8% higher tensile strength. These improvements are attributed to crosslinking through the metal cations. Metal−carboxylate bonds are expected to form either on the surface of the same fibrils or between the fibrils (Figure ). <super>Fe</super> 3+ showed the highest mechanical properties due to stronger intra-and interfibrillar interactions than divalent or monovalent cations. Trivalent cations may have higher tendency than divalent cations to cross-link between two nanofibers because of the greater electrostatic attraction and geometrical needs to interact with three surrounding carboxylate groups. '^^xsd:string .
+
+data:10.1021_acsami.6b14650_3.4-4 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '4'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_3.4-5 ;
+onner:paragraphText 'Most importantly, stabilization against high-humidity conditions is achieved by cross-linking. As shown in Figure , the fiber without cross-linking shows an occurring plasticization for the competition of water with the hydrogen bonds formed among nanofibers, whereas the water uptake is significantly reduced in the observed time for two weeks both for <super>Cu</super> 2+ and Fe 3+ . Thus, exchange of the <super>Na</super> + counterion to the <super>Cu</super> 2+ and <super>Fe</super> 3+ counterions has a pronounced influence on the mechanical properties of the fibers and reduced the susceptibility to wet conditions. Fibers were tested by the fiber mechanical strength tester after being immersed into water 5 min. The result (Figure ) shows Young\'s modulus of the fibers in the wet condition (moisture content of macrofiber is 85%) increases significantly from 2.8 GPa in <super>Na</super> + MF to 13.3 and 15.9 GPa for <super>Cu</super> 2+ MF or <super>Fe</super> 3+ MF, respectively. It is approximately fourfold tensile strength compared with that of <super>Na</super> + MF. Compared with the previous reports,  the macrofibers based on BC nanofibers possess a relatively high modulus, especially in the wet condition. One reason for good performance is high degree of crystallinity, which contributes to greater axial elastic modulus. The most important of all may be attributed to the strong intra-and interfibrillar interactions through the multivalent metal cations.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_3.4-5 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '5'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_4 ;
+onner:paragraphText 'Therefore, ionic cross-linking via ion exchange was proven to be a feasible method to improve the mechanical properties and stability of nanofibers, especially under highly humid conditions. The enhancement was achieved by enforcing the interactions among nanofibers. Importantly, this process helps to sustain the alignment of nanofibers, because the ionic crosslinking takes place under a mild condition, which allows much better control of molecular motion than heating or attempting a more random type of chemical cross-linking.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_4 rdf:type onner:Section ;
+onner:sectionTitle 'CONCLUSION'^^xsd:string ;
+onner:sectionNumber '4'^^xsd:string ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_4-1 ;
+onner:directlyContainsDocumentPart data:10.1021_acsami.6b14650_4-1, data:10.1021_acsami.6b14650_4-2 .
+
+data:10.1021_acsami.6b14650_4-1 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '1'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_4-2 ;
+onner:paragraphText 'In conclusion, a continuous macrofiber fabrication process based on aligned BC nanofibers by wet spinning was demonstrated. WAXD confirmed that the orientation index of nanofibers was enhanced with increased spinning rate and decreased nanofiber concentrations. SEM showed the spun macrofiber with 5.4 wt % CNF concentration had a denser structure compared with lower concentrations. The dense structure and high orientation of nanofibers contributed to good mechanical properties. Higher orientation in cohesive fibers can be obtained by using additional post drawing to achieve higher values of tensile and elastic modulus. Fibers with highest drawing ratio of 0.2 display a high degree of alignment of ∼0.7. The strength increased from 198 (SR = 0) to 248.6 MPa (SR = 0.2), and the modulus increased from 12 (SR = 0) to 16.4 GPa (SR = 0.2). Furthermore, the decrease in mechanical properties of such water-borne fibers in high humidity can be prevented using ionic interactions among nanofibers by exchanging the monovalent <super>Na</super> + with <super>Cu</super> 2+ and Fe 3+ . It leads to a significantly improved mechanical performance both in dry and wet conditions.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_4-2 rdf:type onner:Paragraph ;
+onner:positionInParentDocumentPart '2'^^xsd:nonNegativeInteger ;
+onner:nextDocumentPart data:10.1021_acsami.6b14650_EndOfDocument ;
+onner:paragraphText 'Overall, the present procedure demonstrated a good method to assemble oriented BC nanofibers into macrofibers. This research would provide a platform to fabricate multifunctional macrofibers based on BC functional building blocks, which have promising potential applications in smart textiles, biosensor, structural reinforcement, and biotechnology.'^^xsd:string .
+
+data:10.1021_acsami.6b14650_EndOfDocument rdf:type onner:EndOfDocument .
