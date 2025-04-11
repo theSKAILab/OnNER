@@ -11,8 +11,8 @@ This paper introduces the Ontology for Named Entity Representation (OnNER) to ad
 ***Cite***: Reza, U., Zhang, X., & Hahmann, T. (2024). OnNER: An Ontology for Semantic Representation of Named Entities in Scholarly Publications. In: Proceedings of the 14th International Conference on Formal Ontology in Information Systems (FOIS 2024), Twente, The Netherlands, July 2024. *Volume 394 of Frontiers in Artificial Intelligence and Applications*, IOS Press. https://doi.org/10.3233/faia241291
 
 ## Repository Description
-- [**docs**](https://github.com/theSKAILab/OnNER/tree/main/docs) &rarr; OnNER documentation is deployed from this directory
-	- [**images**](https://github.com/theSKAILab/OnNER/tree/main/docs/images) &rarr; Diagrams of OnNER
+
+- [**v1**](https://github.com/theSKAILab/OnNER/tree/main/v1) &rarr; The OnNER ontology (TBox) in Turtle format; for other formats (RDF/XML, N-Triples, JSON-LD), please refer to the [**OnNER documentation**](https://theskailab.github.io/OnNER/onner-full.html)
 - evaluation
 	- example
 		- [**input**](https://github.com/theSKAILab/OnNER/tree/main/evaluation/example/input) &rarr; Input files (in XML format) for the ABox generator
@@ -20,3 +20,8 @@ This paper introduces the Ontology for Named Entity Representation (OnNER) to ad
 	- source
 		- [**ABox**](https://github.com/theSKAILab/OnNER/tree/main/evaluation/source/ABox) &rarr; Source code for the ABox generator
 		- [**SciTex**](https://github.com/theSKAILab/OnNER/tree/main/evaluation/source/SciTex) &rarr; Source code for SciTex, which converts PDFs to XMLs
+	- [**OnNER-CQs-and-SPARQLs.md**](https://github.com/theSKAILab/OnNER/blob/main/evaluation/OnNER-CQs-and-SPARQLs.md) &rarr; Competency questions and corresponding SPARQL queries
+- [**docs**](https://github.com/theSKAILab/OnNER/tree/main/docs) &rarr; OnNER documentation is deployed from this directory
+	- [**images**](https://github.com/theSKAILab/OnNER/tree/main/docs/images) &rarr; Diagrams of OnNER
+
+> **Note**: The TBox (Terminological Box) defines the schema or structure—i.e., classes, properties, and their relationships. The ABox (Assertional Box) contains instance-level data—i.e., assertions about individuals based on the TBox definitions.
