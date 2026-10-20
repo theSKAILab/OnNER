@@ -1,4 +1,3 @@
-@prefix : <http://purl.org/spatialai/onner/onner-full#> .
 @prefix po: <http://purl.org/spar/po#> .
 @prefix bfo: <http://purl.obolibrary.org/obo/bfo.owl#> .
 @prefix deo: <http://purl.org/spar/deo#> .
